@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 6 November 2026, Asia/Ho_Chi_Minh.
-Active editor: Codex, preparing the initial Git commit and private GitHub upload. No other editor is assigned.
+Active editor: none; local preparation commit complete. Waiting for the user to create the empty private repository; Codex resumes the upload after that.
 
 ## Decisions
 
@@ -9,7 +9,7 @@ Only Build a Junior Astronaut Mission Trainer is selected. Concept, setting and 
 
 ## Current state
 
-Local branch `master`; the initial commit contains only AGENTS.md, PREPARATION.md and HANDOFF.md. Inspect Git for the actual commit/status. No remote configured yet. Target: private `justsomenewbie/space-apps-2026-preparation`; creation/upload pending. No competition code, dependencies, CLI installation, cloud provisioning or cleanup. Remote assistants need explicit Git handoffs.
+Local branch `master`; initial commit `d22da97` contains only AGENTS.md, PREPARATION.md and HANDOFF.md. Inspect Git for the latest commit/status. No remote configured yet. Target: private `justsomenewbie/space-apps-2026-preparation`; creation/upload pending (connector returned 404). No competition code, dependencies, CLI installation, cloud provisioning or cleanup. Remote assistants need explicit Git handoffs.
 
 ## Checks and limitations
 
