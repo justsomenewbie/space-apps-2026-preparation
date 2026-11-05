@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 6 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none; local preparation commit complete. Waiting for the user to create the empty private repository; Codex resumes the upload after that.
+Active editor: Codex, completing the private-repository handoff. Other assistants remain read-only until ownership is released.
 
 ## Decisions
 
@@ -9,7 +9,7 @@ Only Build a Junior Astronaut Mission Trainer is selected. Concept, setting and 
 
 ## Current state
 
-Local branch `master`; initial commit `d22da97` contains only AGENTS.md, PREPARATION.md and HANDOFF.md. Inspect Git for the latest commit/status. No remote configured yet. Target: private `justsomenewbie/space-apps-2026-preparation`; creation/upload pending (connector returned 404). No competition code, dependencies, CLI installation, cloud provisioning or cleanup. Remote assistants need explicit Git handoffs.
+Branch `main`, tracking `origin/main` at https://github.com/justsomenewbie/space-apps-2026-preparation. User created it; connector verified private visibility/ownership, and Git push succeeded. It contains only AGENTS.md, PREPARATION.md and HANDOFF.md. Inspect Git for the current commit/status. No competition code, dependencies, CLI installation, cloud provisioning or cleanup. Remote assistants need explicit Git handoffs.
 
 ## Checks and limitations
 
@@ -27,7 +27,7 @@ Registration/Hanoi timetable, mentor/minor arrangements, integration owner and d
 
 ## One next task
 
-After the user creates the empty private repository, verify its owner/visibility and upload only the three preparation files; connect this checkout to it. Then select only that repository in Codex Cloud. The screenshot selected an unrelated repository; no cloud setup has started. The controllable Chrome profile is signed out; native controls for the signed-in window failed. Do not enable paid resources.
+Configure a current Codex Cloud environment selecting only `justsomenewbie/space-apps-2026-preparation`. Read this pack, verify runtime/tool availability, and reproduce only the unrelated Appendix A exercise outside the repository; record command results. No custom competition work, paid resources or unnecessary dependencies. Cloud execution and environment publication remain unverified.
 
 ## Bounded startup prompt
 
