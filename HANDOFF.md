@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 6 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Codex completed the private GitHub upload and released ownership.
+Active editor: none. Codex recorded the cloud setup report and independently verified the saved configuration is runnable.
 
 ## Decisions
 
@@ -9,7 +9,7 @@ Only Build a Junior Astronaut Mission Trainer is selected. Concept, setting and 
 
 ## Current state
 
-Branch `main`, tracking `origin/main` at https://github.com/justsomenewbie/space-apps-2026-preparation. User created it; connector verified private visibility/ownership, and Git push succeeded. It contains only AGENTS.md, PREPARATION.md and HANDOFF.md. Inspect Git for the current commit/status. No competition code, dependencies, CLI installation, cloud provisioning or cleanup. Remote assistants need explicit Git handoffs.
+Branch `main`, tracking `origin/main` at https://github.com/justsomenewbie/space-apps-2026-preparation. User created it; connector verified private visibility/ownership, and Git push succeeded. It contains only AGENTS.md, PREPARATION.md and HANDOFF.md. Inspect Git for the current commit/status. No competition code, local dependencies, CLI installation or cleanup. A saved cloud preparation configuration is now available. Remote assistants need explicit Git handoffs.
 
 ## Checks and limitations
 
@@ -17,7 +17,7 @@ Nov 5: Codex's unrelated three-file browser exercise passed three assertions plu
 
 Nov 6: Antigravity app ran a bounded review with displayed Gemini 3.8 Flash High and Default permissions. Only HANDOFF.md changed; Codex independently verified the other files' hashes. Raw evidence is retained outside this repository.
 
-Codex account: Pro and available usage at the Nov 6 check; no saved environments returned. Official current Cloud guide: Pro 32 GiB disk/16 GiB RAM remotely, shared Codex usage, no browser/computer use. Actual cloud execution untested. Computer-use access to Codex's own app is blocked; Safari exposed the dialog but its controls lacked usable frames. User clicks are needed for setup.
+Codex account: Pro. Live tool now returns `space-apps-2026-preparation` as ready/runnable, attached to repository `github-1447398939`, ref `main`. Setup screenshot reports three assertions, HTTP checks and GitHub read access passed; repository unchanged, no downloads/new secrets, practice server stopped, reusable start_skill saved. Underlying logs were not independently inspected here. Fresh-task restoration/browser interaction remain untested. Local/cloud Codex usage is shared; recheck allowance before the event.
 
 GitHub Chrome: `justsomenewbie`, Free; Nov 1–30 Codespaces filter shows no usage. Existing Codespaces $0 budget shows “Usage blocked”; included-usage alerts On. Usual free allowance appears unused; exact remaining counter/provisioning untested. No billing changes. Evidence summary: PREPARATION section 5. Raw JSON/screenshots/logs remain on the original Mac, outside this repository.
 
@@ -27,7 +27,7 @@ Registration/Hanoi timetable, mentor/minor arrangements, integration owner and d
 
 ## One next task
 
-Configure a current Codex Cloud environment selecting only `justsomenewbie/space-apps-2026-preparation`. Read this pack, verify runtime/tool availability, and reproduce only the unrelated Appendix A exercise outside the repository; record command results. No custom competition work, paid resources or unnecessary dependencies. Cloud execution and environment publication remain unverified.
+In a fresh cloud chat using `space-apps-2026-preparation`, inspect Git, fetch the latest main and fast-forward only if clean, then read this pack and reproduce only Appendix A outside the repository. Record commands, assertions and restoration results without changing the repository. The user must request or open that fresh chat; do not create it automatically. No competition work, paid resources or unnecessary dependencies.
 
 ## Bounded startup prompt
 
