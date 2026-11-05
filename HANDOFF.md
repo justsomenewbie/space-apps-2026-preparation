@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 6 November 2026, Asia/Ho_Chi_Minh.
-Active editor: Codex, completing the private-repository handoff. Other assistants remain read-only until ownership is released.
+Active editor: none. Codex completed the private GitHub upload and released ownership.
 
 ## Decisions
 
@@ -17,7 +17,7 @@ Nov 5: Codex's unrelated three-file browser exercise passed three assertions plu
 
 Nov 6: Antigravity app ran a bounded review with displayed Gemini 3.8 Flash High and Default permissions. Only HANDOFF.md changed; Codex independently verified the other files' hashes. Raw evidence is retained outside this repository.
 
-Codex account: Pro and available usage at the Nov 6 check; no saved environments returned. Official current Cloud guide: Pro 32 GiB disk/16 GiB RAM remotely, shared Codex usage, no browser/computer use. Actual cloud execution untested. Computer-use access to Codex's own app is blocked; settings clicks require the user.
+Codex account: Pro and available usage at the Nov 6 check; no saved environments returned. Official current Cloud guide: Pro 32 GiB disk/16 GiB RAM remotely, shared Codex usage, no browser/computer use. Actual cloud execution untested. Computer-use access to Codex's own app is blocked; Safari exposed the dialog but its controls lacked usable frames. User clicks are needed for setup.
 
 GitHub Chrome: `justsomenewbie`, Free; Nov 1–30 Codespaces filter shows no usage. Existing Codespaces $0 budget shows “Usage blocked”; included-usage alerts On. Usual free allowance appears unused; exact remaining counter/provisioning untested. No billing changes. Evidence summary: PREPARATION section 5. Raw JSON/screenshots/logs remain on the original Mac, outside this repository.
 
