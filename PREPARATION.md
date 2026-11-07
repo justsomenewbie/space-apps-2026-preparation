@@ -1,6 +1,6 @@
 # NASA Space Apps preparation pack
 
-Status: preparation only. Updated 6 November 2026, Asia/Ho_Chi_Minh (UTC+07:00). Source verification dates remain explicit below.
+Status: preparation only. Updated 7 November 2026, Asia/Ho_Chi_Minh (UTC+07:00). Source verification dates remain explicit below.
 
 This is a learning and coordination record, not a competition entry. **Current status, user update on 6 November 2026:** the team has **six members, including Thảo, who has already been added**. The team is reconsidering the topic after kickoff; **no replacement has been selected**. The earlier **Build a Junior Astronaut Mission Trainer** decision, concept and proposed MVP remain historical, provisional options, not a settled direction. No topic-specific implementation is authorized by this update. Game concept and stack remain open. The team reports some AI-assisted coding familiarity but no confirmed shipped game/website experience. Treat capabilities as unverified until demonstrated.
 
@@ -12,7 +12,7 @@ This is a learning and coordination record, not a competition entry. **Current s
 
 ## Quick status: collaboration, storage and preparation
 
-Updated 6 November 2026, Asia/Ho_Chi_Minh. **Confirmed** means observed in this checkout or reported by the user; earlier tests and source checks retain their dates. **Recommended** does not mean agreed by the team.
+Updated 7 November 2026, Asia/Ho_Chi_Minh. **Confirmed** means observed in this checkout or reported by the user; earlier tests and source checks retain their dates. **Recommended** does not mean agreed by the team.
 
 ### Current direction and collaboration
 
@@ -22,10 +22,10 @@ Updated 6 November 2026, Asia/Ho_Chi_Minh. **Confirmed** means observed in this 
 
 ### Code, shared assets and storage
 
-- **Existing:** the private GitHub preparation repository contains the earlier committed pack. Current local documentation edits have not been committed or pushed; cached Git references are not a fresh remote comparison. Teammate access and a second person's restoration are unverified.
-- **Unselected:** the team's shared asset/document storage. Do not describe GitHub code storage, a cloud build workspace and an iCloud archive as one system or assume that choosing one configures the others. The user has not selected a shared asset service or approved team access here.
-- **Recommended:** keep source/docs and small approved inputs in Git, heavy dependencies/build output where builds run, and large assets in a separately chosen shared store with clear ownership, rights and recovery checks. No asset upload, permission change, new paid service or cloud provisioning is part of this update.
-- **Measured on this Mac at the 13:07 refresh:** about 24 GiB free on the Data volume, 95% used; this checkout occupied about 392 KiB before that summary edit. No NASA files were moved, deleted or evicted. These observations do not verify iCloud backup or recoverability.
+- **Verified Nov 7:** the latest three-document snapshot was committed and pushed as `3cb43575fd8448c2b16f1533e522d23d556c5177` to the existing private GitHub repository. A fresh remote clone matched all three files byte-for-byte and passed `git fsck --full`. Teammate access and a second person's restoration are still unverified; section 9 records the checks.
+- **Selected by the user Nov 7:** personal Google Drive, with a new private [NASA Space Apps 2026 Assets folder](https://drive.google.com/drive/folders/1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S). Owner-only upload/read and Trash/restore passed. No teammate has been invited. GitHub, the cloud build workspace and Drive remain distinct storage locations.
+- **Recommended:** keep source/docs and small approved inputs in Git, heavy dependencies/build output where builds run, and larger assets in the selected Drive folder. Only a harmless 184-byte test file was uploaded; no competition assets, teammate access, paid service or cloud provisioning were added.
+- **Measured Nov 7:** Mac Data volume reports about 18 GiB available, 96% used. The preparation checkout is tiny; this is not a reason to duplicate heavy assets locally. Personal Drive displayed 32.94 GB of 5 TB used. No Mac cleanup occurred and these observations do not verify iCloud recovery.
 
 ### Completed and verified
 
@@ -33,14 +33,14 @@ Updated 6 November 2026, Asia/Ho_Chi_Minh. **Confirmed** means observed in this 
 2. The existing pack records dated official-rule/science reading and a local unrelated practice exercise. This is preparation, not a competition build or a completed team rehearsal.
 3. The separate fresh cloud test restored **three practice files** and passed Node assertions and exact HTTP-content checks. Its browser interaction was **not verified**; the earlier local browser pass is separate evidence. Do not repeat the completed cloud test or count HTTP success as a browser pass.
 4. The Nov 6 isolated in-app browser check of the existing local exercise passed: 0 → 1 → 2, Reset → 0, Shift+Tab/Enter → 1. Page/title, visible focus and rendering passed at 1280×720; captured warning/error log was empty. The tab and loopback server were closed. This verifies a local preview route, not cloud-hosted browser interaction or a teammate rehearsal.
-5. A portable rehearsal ZIP exists outside Git: 4,191 bytes, six files, five matching manifest hashes; its three practice files exactly match Appendix A. Fresh extraction passed all three Node assertions, also independently reviewed. The result card remains blank. Section 8 compares shared-asset options using official documentation; no service was selected or shared.
+5. A portable rehearsal ZIP exists outside Git: 4,191 bytes, six files, five matching manifest hashes; its three practice files exactly match Appendix A. Fresh extraction passed all three Node assertions, also independently reviewed. The result card remains blank. Section 8 compares shared-asset options using official documentation. The later Nov 7 selection and owner-only storage test are recorded in section 9; teammate sharing is still pending.
 
 ### Remaining before implementation
 
 1. Record the team's final topic decision; then reassess scope. No topic-specific build while the topic is undecided or before the permitted start.
 2. Confirm responsibilities/integrator and have another teammate use the section 8 rehearsal bundle to reproduce the unrelated exercise and review one bounded change. Human participation is not yet verified.
 3. Verify preview for the eventual competition runtime once chosen. The local isolated route is demonstrated; cloud-hosted browser interaction remains untested, and another teammate must reproduce the practice/recovery flow.
-4. Choose shared asset storage/access using section 8, then test actual accounts and recovery. Separately verify durable source backup/restoration; local edits are not remotely backed up until an authorized upload is verified.
+4. Name the teammate Google accounts and contributor/viewer roles, then test their actual access and reproduction. Owner-only Drive recovery and GitHub source restoration passed in section 9; these do not prove teammate access.
 5. Recheck current official guides, common-event registration, mentor/minor arrangements and Hanoi-specific deadlines. No registration changes, teammate messages or organizer outreach were made.
 
 ## 1. Rules and source index
@@ -227,7 +227,7 @@ Codex's computer-use tool explicitly blocks controlling its own desktop app. The
 | Topic decision, final concept/stack and demonstrated human coding capability | Team is reconsidering the topic; no replacement is selected. Confirm direction before updating topic-specific scope; implementation decisions remain deferred until the permitted start. |
 | Final submission/judging guide and resource list | Recheck official pages Nov 13. No automation/reminder has been created. |
 
-Preparation files, Codex's local drill and a bounded local Antigravity handoff are complete. Full team/cloud readiness is not yet proven. The earlier committed pack was verified on private GitHub; current local edits remain uncommitted/unpushed, and raw Mac evidence is excluded. No public publication, registration or organizer outreach was performed. During the 60-minute readiness review, spend 15 minutes on registration/ownership, 20 on independent reproduction, 15 on source explanations, and 10 on backup/access blockers. Pass only when another person/assistant can reproduce the exercise, explain evidence limits and continue without overwriting work.
+Preparation files, Codex's local drill and a bounded local Antigravity handoff are complete. Full team/cloud readiness is not yet proven. The Nov 7 three-document snapshot was verified by fresh restoration from private GitHub (section 9); raw Mac evidence and the rehearsal ZIP remain outside Git. No public publication, registration or organizer outreach was performed. During the 60-minute readiness review, spend 15 minutes on registration/ownership, 20 on independent reproduction, 15 on source explanations, and 10 on backup/access blockers. Pass only when another person/assistant can reproduce the exercise, explain evidence limits and continue without overwriting work.
 
 ## 7. Readiness refresh and bounded event plan — Nov 6
 
@@ -309,6 +309,8 @@ Review gate: inspect the full working/staged diff and untracked files; run focus
 
 ## 8. Portable rehearsal and shared-asset decision — Nov 6
 
+Historical Nov 6 comparison and proposed checklist. Section 9 records the later personal-Drive selection and completed owner-only recovery test; named teammate access is still pending.
+
 ### Rehearsal bundle: ready locally, not distributed
 
 **V:** `/Users/nns/Documents/ChatGPT/nasa-preparation-deliverables/teammate-rehearsal-2026-11-06.zip` is outside this repository. It contains the exact Appendix A `index.html`, `increment.mjs` and `check.mjs`, plus a five-step `README.md`, blank `RESULT_CARD.md` and `SHA256SUMS` covering the other five files. The README estimates 20–30 minutes, requires existing Node/Python/browser tools, and explains checksums, serving on an assigned loopback port, keyboard checks, a deliberate one-line failure, restoration and server shutdown. No installation is required when those tools are already available; missing tools are recorded as a blocker.
@@ -340,6 +342,16 @@ After the team records the service/owner and exact recipients/rights, use one ne
 5. Owner revokes the test recipient's access and checks the service link again; a retained download is expected to remain. Record pass/fail/blocker and final sharing state. Leave any cleanup or renewed access for explicit instruction.
 
 **One next action, under two minutes:** record one line: `service + owner: ___; recipients + contributor/viewer rights: ___; rehearsal volunteer: ___`. These remain team decisions; no invitation, role assignment or message has been made.
+
+## 9. Verified source backup and private asset storage — Nov 7
+
+**GitHub backup, verified:** the user asked to finish the outstanding storage/backup. A bounded approval-reviewed remote check succeeded and found `main` at the unchanged local base `f91a95a2f599c20ee1c40b87b60954916d7897de`. Only the three previously modified preparation documents were committed as `3cb43575fd8448c2b16f1533e522d23d556c5177` and pushed normally to the existing private repository. No force push, history rewrite, collaborator change or new authentication credential occurred. A fresh shallow remote clone recovered exactly AGENTS.md, HANDOFF.md and PREPARATION.md; each byte matched the source snapshot and `git fsck --full` passed. Temporary recovery files were removed. This proves restoration with the owner's existing access, not a teammate's access or an independent provider backup. This status update records the completed test; inspect current Git status and remote before assuming later edits are backed up.
+
+**Drive decision and tests, verified:** the user accepted personal Google Drive. [NASA Space Apps 2026 Assets](https://drive.google.com/drive/folders/1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S) is a new child of the existing private ChatGPT folder, owned by the user's personal account. Both folder and test-file permission readbacks show only the owner and `shared: false`. The signed-in browser displayed **32.94 GB of 5 TB used** on Nov 7; no plan or billing change was made.
+
+A new [access-test-2026-11-07.txt](https://drive.google.com/file/d/1RLTg6i5M_dTfXlDVIFYlgcWfsJ-tCAGv/view?usp=drivesdk) contains only a harmless rehearsal marker, 184 bytes, SHA-256 `bcce986e1506331ac1aa7dc602db84ecd7019d4eb94c9cef70956e760a52c6df`. Upload and owner read passed. In Drive's browser UI, only this test file was moved to Trash and restored through Restore from trash; the UI confirmed restoration and the file reappeared in the original folder. A connector reread returned the exact original text and unchanged owner-only access. The user's separate, uninvited school account received HTTP 404 for the known file, consistent with private access. No access request was sent, and no permanent deletion or empty-Trash action occurred. The restored test file remains in the private folder.
+
+**Still untested:** teammate invitations, contributor/viewer behavior on their devices, teammate reproduction, signed-out browser access and teammate revocation. No recipient emails or rights have been specified, so no sharing was performed. The chosen service is now settled, while full team readiness is not. One next action: provide each teammate's Google-account email and whether they should contribute or view, plus one volunteer for the existing rehearsal.
 
 ## Appendix A — portable practice files
 
