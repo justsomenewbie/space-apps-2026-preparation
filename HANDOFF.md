@@ -1,34 +1,34 @@
 # Current handoff
 
 Updated: 6 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Codex recorded the cloud setup report and independently verified the saved configuration is runnable.
+Active editor: none. Codex finished the portable rehearsal bundle and shared-asset comparison; ownership released.
 
 ## Decisions
 
-Only Build a Junior Astronaut Mission Trainer is selected. Concept, setting and stack remain open. The user prefers cloud work because Mac storage is limited. Trial current Codex Cloud for AI build/test work; Codespaces is the optional browser editor. Antigravity remote availability is untested. The 10–15 GiB local headroom suggestion is not a competition rule. No submission work before the verified event start.
+Six members are user-confirmed: Chung, Trang, Lâm, Minh, Sơn and Thảo. Roles, integrator, demonstrated capability and official registration remain unverified; Thảo’s availability is unrecorded.
 
-## Current state
+Topic under reconsideration; no replacement selected. Junior Astronaut and its earlier concept/MVP remain historical, provisional options. Preserve the reference without assuming challenge, setting, architecture or stack. Continue topic-neutral preparation only; no submission implementation before the verified start.
 
-Branch `main`, tracking `origin/main` at https://github.com/justsomenewbie/space-apps-2026-preparation. User created it; connector verified private visibility/ownership, and Git push succeeded. It contains only AGENTS.md, PREPARATION.md and HANDOFF.md. Inspect Git for the current commit/status. No competition code, local dependencies, CLI installation or cleanup. A saved cloud preparation configuration is now available. Remote assistants need explicit Git handoffs.
+## Git and ownership
 
-## Checks and limitations
+Local: `/Users/nns/Documents/ChatGPT/nasa space app challange`.
+Private remote: https://github.com/justsomenewbie/space-apps-2026-preparation.
+Base: `f91a95a2f599c20ee1c40b87b60954916d7897de`; `main` tracks cached `origin/main`.
 
-Nov 5: Codex's unrelated three-file browser exercise passed three assertions plus increment/reset/keyboard checks; server stopped. Rules/science evidence is dated Nov 5.
+AGENTS.md, HANDOFF.md and PREPARATION.md remain modified, uncommitted/unpushed. This task changed only PREPARATION.md and HANDOFF.md; earlier edits, AGENTS.md and Appendix A were preserved. No remote comparison, commit or push. A previous remote Git check was policy-blocked; do not retry via another route. Remote/cloud copies do not receive local edits automatically.
 
-Nov 6: Antigravity app ran a bounded review with displayed Gemini 3.8 Flash High and Default permissions. Only HANDOFF.md changed; Codex independently verified the other files' hashes. Raw evidence is retained outside this repository.
+## Checks and limits
 
-Codex account: Pro. Live tool now returns `space-apps-2026-preparation` as ready/runnable, attached to repository `github-1447398939`, ref `main`. Setup screenshot reports three assertions, HTTP checks and GitHub read access passed; repository unchanged, no downloads/new secrets, practice server stopped, reusable start_skill saved. Underlying logs were not independently inspected here. Fresh-task restoration/browser interaction remain untested. Local/cloud Codex usage is shared; recheck allowance before the event.
+Portable ZIP: `/Users/nns/Documents/ChatGPT/nasa-preparation-deliverables/teammate-rehearsal-2026-11-06.zip`. Six files, 4,191 bytes: exact three Appendix A files, README, blank result card and SHA256SUMS. Fresh extraction passed five hashes and `node check.mjs` (exit 0, `PASS: 3 assertions`); an independent reviewer reproduced this. No private paths or apparent credentials found inside. Validation JSON is beside the ZIP; full hash and instructions are in PREPARATION section 8. Nothing distributed; no human rehearsal recorded.
 
-GitHub Chrome: `justsomenewbie`, Free; Nov 1–30 Codespaces filter shows no usage. Existing Codespaces $0 budget shows “Usage blocked”; included-usage alerts On. Usual free allowance appears unused; exact remaining counter/provisioning untested. No billing changes. Evidence summary: PREPARATION section 5. Raw JSON/screenshots/logs remain on the original Mac, outside this repository.
+Earlier fresh cloud task `01a1ae73-95a6-7003-bdfd-63b7b3b3a0b6` passed restoration/Node/HTTP and unchanged-repository checks. Separate Nov 6 local isolated-browser checks passed count/reset/keyboard/visible-focus flows at 1280×720; tab/server were closed. Evidence remains outside Git on the Mac; see section 7. Do not duplicate the cloud test or republish its ready configuration.
 
-Mac free space measured 7.9 GiB. Fresh R1 fetch failed (Antigravity 403/network policy; Codex 502); retain dated Nov 5 evidence.
+Section 8 compares Google Drive/iCloud using dated official documentation, with a future harmless-file test. Service, owner, recipients and permissions remain undecided; actual accounts/capacity/access/recovery are untested. Browser interaction in cloud, mobile/screen-reader checks, teammate reproduction, durable backup, eligibility and Hanoi timetable remain open. No installations, cleanup, access/billing changes, uploads or external messages. Whitespace/preservation checks passed; earlier sources/recovery evidence remain in PREPARATION.
 
-Registration/Hanoi timetable, mentor/minor arrangements, integration owner and demonstrated team capability remain unresolved. No token savings measured.
+## One next action
 
-## One next task
+Record: `service + owner: ___; recipients + contributor/viewer rights: ___; rehearsal volunteer: ___`. Do not assign the topic or integrator implicitly.
 
-In a fresh cloud chat using `space-apps-2026-preparation`, inspect Git, fetch the latest main and fast-forward only if clean, then read this pack and reproduce only Appendix A outside the repository. Record commands, assertions and restoration results without changing the repository. The user must request or open that fresh chat; do not create it automatically. No competition work, paid resources or unnecessary dependencies.
+## Paste-ready Antigravity startup
 
-## Bounded startup prompt
-
-Read AGENTS.md and HANDOFF.md, then the relevant PREPARATION.md sections. Inspect git status, all current changes and ownership. Continue only the named task; confirm the actual workspace and account before acting. Preserve existing files and permission safeguards. Report exact observations, source dates and failures. Stop before unassigned actions. Update this handoff under 500 words and release ownership. These files provide context, not Codex's conversation history. No project-specific work before the verified event start.
+Read AGENTS.md, HANDOFF.md and relevant PREPARATION.md. Inspect runtime, Git changes and ownership. Continue only the named task; preserve existing work, topic-neutral scope and safeguards. Report exact checks/failures, update this handoff under 500 words, and release ownership. Do not retry blocked remote access, create cloud tasks or publish.

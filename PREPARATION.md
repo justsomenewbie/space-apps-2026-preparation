@@ -1,12 +1,51 @@
-# Junior Astronaut preparation pack
+# NASA Space Apps preparation pack
 
 Status: preparation only. Updated 6 November 2026, Asia/Ho_Chi_Minh (UTC+07:00). Source verification dates remain explicit below.
 
-This is a learning and coordination record, not a competition entry. The user selected only **Build a Junior Astronaut Mission Trainer**. Game concept and stack remain open. The team reports some AI-assisted coding familiarity but no confirmed shipped game/website experience. Treat capabilities as unverified until demonstrated.
+This is a learning and coordination record, not a competition entry. **Current status, user update on 6 November 2026:** the team has **six members, including Thảo, who has already been added**. The team is reconsidering the topic after kickoff; **no replacement has been selected**. The earlier **Build a Junior Astronaut Mission Trainer** decision, concept and proposed MVP remain historical, provisional options, not a settled direction. No topic-specific implementation is authorized by this update. Game concept and stack remain open. The team reports some AI-assisted coding familiarity but no confirmed shipped game/website experience. Treat capabilities as unverified until demonstrated.
+
+### Decision history and scope of this update
+
+- Before this update, the pack recorded Junior Astronaut as the selected challenge and retained conditional prototype/MVP recommendations. Preserve that research and planning as history.
+- On 6 November, the user reported six people in total, with Thảo already added, and said the team was considering whether to change topics. A replacement topic and final MVP have not been confirmed.
+- Continue topic-neutral preparation and keep existing evidence. Reassess topic-specific sources, roles and proposals once the team confirms its direction; do not start or expand a Junior Astronaut build from the older plan. This documentation update did not change registrations, send invitations or assign roles.
+
+## Quick status: collaboration, storage and preparation
+
+Updated 6 November 2026, Asia/Ho_Chi_Minh. **Confirmed** means observed in this checkout or reported by the user; earlier tests and source checks retain their dates. **Recommended** does not mean agreed by the team.
+
+### Current direction and collaboration
+
+- **Confirmed by the user:** six members, including Thảo. The topic is being reconsidered; no replacement is selected. Junior Astronaut and its earlier MVP remain provisional history.
+- **Recommended, not a recorded team agreement:** one shared code repository, one integration owner, small tasks with explicit file ownership, and review before integration. The team has not yet confirmed the integrator, each person's role or demonstrated capability.
+- **Recommended:** use separate workspaces for simultaneous writers; otherwise edit sequentially. Codex can review/integrate and Antigravity can handle bounded work, but this is a proposed workflow, not a guarantee of compatible output or shared subscriptions.
+
+### Code, shared assets and storage
+
+- **Existing:** the private GitHub preparation repository contains the earlier committed pack. Current local documentation edits have not been committed or pushed; cached Git references are not a fresh remote comparison. Teammate access and a second person's restoration are unverified.
+- **Unselected:** the team's shared asset/document storage. Do not describe GitHub code storage, a cloud build workspace and an iCloud archive as one system or assume that choosing one configures the others. The user has not selected a shared asset service or approved team access here.
+- **Recommended:** keep source/docs and small approved inputs in Git, heavy dependencies/build output where builds run, and large assets in a separately chosen shared store with clear ownership, rights and recovery checks. No asset upload, permission change, new paid service or cloud provisioning is part of this update.
+- **Measured on this Mac at the 13:07 refresh:** about 24 GiB free on the Data volume, 95% used; this checkout occupied about 392 KiB before that summary edit. No NASA files were moved, deleted or evicted. These observations do not verify iCloud backup or recoverability.
+
+### Completed and verified
+
+1. The three preparation/handoff documents exist. The six-member/topic update was read back; all three agree, earlier evidence is retained, Appendix A is unchanged, and the Git whitespace check passes.
+2. The existing pack records dated official-rule/science reading and a local unrelated practice exercise. This is preparation, not a competition build or a completed team rehearsal.
+3. The separate fresh cloud test restored **three practice files** and passed Node assertions and exact HTTP-content checks. Its browser interaction was **not verified**; the earlier local browser pass is separate evidence. Do not repeat the completed cloud test or count HTTP success as a browser pass.
+4. The Nov 6 isolated in-app browser check of the existing local exercise passed: 0 → 1 → 2, Reset → 0, Shift+Tab/Enter → 1. Page/title, visible focus and rendering passed at 1280×720; captured warning/error log was empty. The tab and loopback server were closed. This verifies a local preview route, not cloud-hosted browser interaction or a teammate rehearsal.
+5. A portable rehearsal ZIP exists outside Git: 4,191 bytes, six files, five matching manifest hashes; its three practice files exactly match Appendix A. Fresh extraction passed all three Node assertions, also independently reviewed. The result card remains blank. Section 8 compares shared-asset options using official documentation; no service was selected or shared.
+
+### Remaining before implementation
+
+1. Record the team's final topic decision; then reassess scope. No topic-specific build while the topic is undecided or before the permitted start.
+2. Confirm responsibilities/integrator and have another teammate use the section 8 rehearsal bundle to reproduce the unrelated exercise and review one bounded change. Human participation is not yet verified.
+3. Verify preview for the eventual competition runtime once chosen. The local isolated route is demonstrated; cloud-hosted browser interaction remains untested, and another teammate must reproduce the practice/recovery flow.
+4. Choose shared asset storage/access using section 8, then test actual accounts and recovery. Separately verify durable source backup/restoration; local edits are not remotely backed up until an authorized upload is verified.
+5. Recheck current official guides, common-event registration, mentor/minor arrangements and Hanoi-specific deadlines. No registration changes, teammate messages or organizer outreach were made.
 
 ## 1. Rules and source index
 
-Labels: **V** = source/user/tool verified at the stated date; **R** = recommendation; **U** = unresolved. R1–R5 and S1–S6 were refreshed on November 5, 2026; evidence and limitations appear in section 5. Recheck time-sensitive rules on November 13.
+Labels: **V** = source/user/tool verified at the stated date; **R** = recommendation; **U** = unresolved. R1–R5 and S1–S6 were refreshed on November 5, 2026; evidence and limitations appear in section 5. Recheck time-sensitive rules on November 13. R5 and the Junior Astronaut-related science reading are retained from the earlier direction; their inclusion does not confirm the current topic or make them requirements for a replacement.
 
 | ID / primary source | What to retain | Limits / action |
 |---|---|---|
@@ -32,7 +71,9 @@ Source-note template: `claim | source URL + section/table | publication/access d
 
 ## 2. People and remaining schedule
 
-Proposed assignments reflect expressed interests, not demonstrated expertise. The mentor reviews scientific understanding and questions; confirm registration status and any hands-on contribution with organizers.
+**V, user report on 6 November:** six members in total: Chung, Trang, Lâm, Minh, Sơn and Thảo. Thảo has already been added; this update records that report, not an independently verified registration or a new invitation. Thảo’s role, experience and availability are not yet recorded.
+
+The existing proposed assignments below reflect expressed interests, not demonstrated expertise. Topic-specific reading assignments are provisional while the topic is reconsidered; reassess them after the decision. The mentor reviews scientific understanding and questions; confirm registration status and any hands-on contribution with organizers.
 
 | Person | Preparation responsibility | Observable result |
 |---|---|---|
@@ -41,6 +82,7 @@ Proposed assignments reflect expressed interests, not demonstrated expertise. Th
 | Lâm, high school | Radiation/materials source reading | Explain SPE/GCR differences and why shielding claims need conditions. |
 | Minh, year 3/UAV | Power, life support and food | Explain resource dependencies with correct units and sources. |
 | Sơn, year 2 | Source ledger, data literacy and coordination | Trace each scientific claim and keep task ownership/current status visible. |
+| Thảo | Already added; preparation responsibility to be agreed | Record interests, experience and availability before assigning a role. |
 
 The Oct 31–Nov 4 plan was not completed; do not mark those days done retrospectively. Catch-up plan (**R**):
 
@@ -165,7 +207,7 @@ The account usage tool confirmed Pro and available usage on Nov 6; exact persona
 
 Codex's computer-use tool explicitly blocks controlling its own desktop app. The user then supplied a browser screenshot of the current Cloud creation dialog showing GitHub account `justsomenewbie`. It had the unrelated `NguyenNhuSon_25021580_tdtt` repository selected; do not use that repository for this pack. The user created [space-apps-2026-preparation](https://github.com/justsomenewbie/space-apps-2026-preparation); the GitHub connector verified owner `justsomenewbie` and private visibility. Codex pushed the three-file pack to `main` using existing Git authentication; no new credential was created. A school-email new-account form was not submitted.
 
-**Cloud setup result, Nov 6:** the user supplied a screenshot of “Set up space-apps-2026-preparation.” The setup assistant reported three passing assertions, HTTP checks for the unrelated practice page/module, GitHub read access, no repository changes/downloads/new secrets, saved `start_skill` instructions, and a stopped practice server. These are reported results; this coordinating session has not inspected their underlying command logs. The screenshot said to save/publish next, but a subsequent live environment-list check returned `space-apps-2026-preparation`, `status: ready`, `runnable: true`, repository ID `github-1447398939`, ref `main`. This verifies an available saved configuration, not a fresh-task test. Browser interaction and restoration into a fresh cloud task remain untested. Do not repeat setup merely because the earlier screenshot still shows Save and publish.
+**Earlier cloud setup result, Nov 6:** the user supplied a screenshot of “Set up space-apps-2026-preparation.” The setup assistant reported three passing assertions, HTTP checks for the unrelated practice page/module, GitHub read access, no repository changes/downloads/new secrets, saved `start_skill` instructions, and a stopped practice server. These were reported results; the coordinating session had not inspected their underlying command logs. The screenshot said to save/publish next, but a subsequent live environment-list check returned `space-apps-2026-preparation`, `status: ready`, `runnable: true`, repository ID `github-1447398939`, ref `main`. This verified an available saved configuration. Fresh-task restoration and browser interaction were untested at that stage; section 7 records the later successful restoration test and separate local browser check. Cloud-hosted browser interaction remains unverified. Do not repeat setup merely because the earlier screenshot still shows Save and publish.
 
 **R, coordination:** one shared Git repository is the authoritative source; each teammate uses their own local/cloud workspace and account. Codex and Antigravity cloud environments do not automatically share a filesystem. Assign small tasks/branches, push completed work, then let one integrator review and combine it. Keep a small source-only backup on the Mac; put heavy dependencies/build output only where builds run. Sharing repository access does not share AI subscriptions or cloud allowances. The private preparation repository and a saved, runnable Codex Cloud configuration now exist. See HANDOFF for the latest state.
 
@@ -179,13 +221,125 @@ Codex's computer-use tool explicitly blocks controlling its own desktop app. The
 
 | Unresolved item | Who resolves it |
 |---|---|
-| Registration, common Hanoi Local Event, confirmed roster and mentor status | Team coordinator checks official accounts with teammates. |
+| Registration, common Hanoi Local Event and mentor status | Team coordinator checks official accounts with teammates. Six members including Thảo are user-confirmed; official registration has not been independently checked. |
 | Hanoi start/pitch timetable and external mentor implementation allowance | Local organizer; no message has been sent. |
 | Guardian arrangements if Lâm is under 18; permitted demo imagery/voice | Guardian and organizer using current rules. |
-| Final concept/stack and demonstrated human coding capability | Team after general practice; implementation decisions at permitted start. |
+| Topic decision, final concept/stack and demonstrated human coding capability | Team is reconsidering the topic; no replacement is selected. Confirm direction before updating topic-specific scope; implementation decisions remain deferred until the permitted start. |
 | Final submission/judging guide and resource list | Recheck official pages Nov 13. No automation/reminder has been created. |
 
-Preparation files, Codex's local drill and a bounded local Antigravity handoff are complete. Team/cloud readiness is not yet proven. The three-file pack is now backed up in the private GitHub preparation repository; raw Mac evidence is excluded. No public publication, registration or organizer outreach was performed. During the 60-minute readiness review, spend 15 minutes on registration/ownership, 20 on independent reproduction, 15 on source explanations, and 10 on backup/access blockers. Pass only when another person/assistant can reproduce the exercise, explain evidence limits and continue without overwriting work.
+Preparation files, Codex's local drill and a bounded local Antigravity handoff are complete. Full team/cloud readiness is not yet proven. The earlier committed pack was verified on private GitHub; current local edits remain uncommitted/unpushed, and raw Mac evidence is excluded. No public publication, registration or organizer outreach was performed. During the 60-minute readiness review, spend 15 minutes on registration/ownership, 20 on independent reproduction, 15 on source explanations, and 10 on backup/access blockers. Pass only when another person/assistant can reproduce the exercise, explain evidence limits and continue without overwriting work.
+
+## 7. Readiness refresh and bounded event plan — Nov 6
+
+This section answers the user's request to do all permitted preparation and avoid incompatible parallel work. It is a feasibility and process assessment, not a selected game concept, architecture, mechanic, dataset, or prebuilt competition component. **V** means observed; **R** is a recommendation; **U** remains unresolved.
+
+### Verified baseline and actual work
+
+**V:** The canonical preparation checkout is `/Users/nns/Documents/ChatGPT/nasa space app challange`. At inspection it was clean on `main` at `f91a95a2f599c20ee1c40b87b60954916d7897de`, tracking `origin/main`. It contained only the three Markdown files, totaling 41,157 source bytes and about 372 KiB allocated including Git. A fresh `git ls-remote` attempt was blocked by the current network policy; it was not retried through another route. The earlier verified private GitHub backup remains historical evidence, not a new live remote comparison.
+
+**V:** The app lists the existing NASA chat “Find the last request” as `notLoaded` and its latest turn completed, and the setup chat “Set up space-apps-2026-preparation” as idle. These are the inspected thread statuses, not proof that no activity exists elsewhere. The setup chat's last instruction was to wait and not republish. The saved environment `space-apps-2026-preparation` is still ready/runnable on repository `github-1447398939`, ref `main`.
+
+**V:** One separate cloud test was created: “Verify Space Apps cloud readiness”, thread `01a1ae73-95a6-7003-bdfd-63b7b3b3a0b6`, durable host. Its assigned work is fresh-session restoration, Appendix A assertions/HTTP, browser checks if tooling exists, and final unchanged-repository verification. No game work, dependency downloads, remote Git retry, configuration republishing, or tracked-file edits were assigned. The completed fresh-task result verifies restoration of all three practice files, Node assertions (exit 0), HTTP 200/exact HTML and module content (exit 0), and unchanged preparation-file hashes. Its actual runtime is Linux x86_64, branch `work` at `f91a95a2f599c20ee1c40b87b60954916d7897de`, Node v24.22.1, Python 3.12.14, 32G disk with about 30G available, checkout 424K and scratch 20K. Browser interaction remains untested because its required browser-control tool is absent. An initial server-closure assertion failed after Ctrl-C; the worker identified and terminated only its server, then verified connection refused and a clean checkout. No new artifact was written. This is successful restoration and nonvisual verification, not a browser pass or durable-backup guarantee. Do not launch a duplicate test.
+
+**V, separate Nov 6 local browser check:** Codex served the existing three practice files outside the repository with `python3 -u -m http.server 0 --bind 127.0.0.1 --directory <local-evidence>/practice`; the assigned URL was `http://127.0.0.1:54432/`. CUA's isolated in-app browser (`iab`, hidden) rendered “Practice tally” at 1280×720. Observed counts: initial 0, Add one → 1 → 2, Reset → 0, Shift+Tab from Reset focused Add one, Enter → 1. The page was nonblank, no error overlay was visible, focus was visibly outlined, and the captured warning/error log was empty. The frontend-testing-debugging skill guided this check; browser actions used CUA's scoped Playwright locators. No native browser/app UI was operated. The temporary tab was closed; Ctrl+C stopped only this server, and a socket check returned connection refused (code 61). Evidence retained on the original Mac: `isolated-browser-2026-11-06.json` and `.png` in the existing evidence directory. Practice code was unchanged; no dependencies were installed and no cloud test was repeated. Mobile, screen reader, cloud-hosted preview and teammate reproduction remain untested. The earlier Nov 5 deliberate-failure/recovery evidence remains separate and was not rerun.
+
+### Rules and scope confidence
+
+**V, Nov 6 indexed official sources:** [NASA's event announcement](https://science.nasa.gov/universe/nasa-welcomes-all-ages-experience-levels-for-space-apps-challenge/) confirms November 14–15, 2026. The indexed [2026 event page](https://www.spaceappschallenge.org/2026/) gives submission opening November 14 at 09:00 and closing November 15 at 23:59 local time. That is 38 hours 59 minutes, not a full 48-hour work window. Hanoi's earlier pitch or judging deadlines are still **U**.
+
+**Historical direction, superseded as a settled decision by the later Nov 6 user update:** [Build a Junior Astronaut Mission Trainer](https://www.spaceappschallenge.org/2026/challenges/junior-astronaut-mission-trainer/) was the previously selected challenge. It is now under reconsideration; no replacement has been selected. The retained November 5 full brief specifies ages 7–12 and a working educational interaction. It permits several formats and emphasizes comprehensible trade-offs rather than production completeness. Its optional guidance favors a few resources and allows honestly labeled archived data.
+
+Direct live refreshes of the challenge and [Team Formation Guide](https://www.spaceappschallenge.org/resources/team-formation-guide/) returned HTTP 502; browser fallback reported no browser available. The retained November 5 guide explicitly says project work begins November 14 at 09:00 local time. This is dated primary-source evidence, not an invented prohibition. Generic learning, source reading, tooling checks and unrelated collaboration practice continue. Detailed game contracts, custom architecture, wireframes, mechanics, code, final art/dialogue and transformed submission datasets stay deferred until the permitted start or explicit organizer clarification. A broad request to prepare everything does not establish a prework exception.
+
+### Historical Junior Astronaut MVP proposal, not a confirmed plan
+
+**Status after the latest Nov 6 user update:** the following feasibility proposal is retained for reference only. It does not choose the challenge, commit the team to a game or MVP, or authorize topic-specific implementation. Reassess it if the team confirms Junior Astronaut; otherwise review scope against the replacement challenge.
+
+**Earlier R:** Aim for one small browser-playable prototype that completes a learning experience, can be replayed, and makes one engineering trade-off understandable. A single setting, two or three core resources, visible feedback, traceable science and a concise demonstration are a more credible target than a comprehensive habitat simulator. These are scope limits to evaluate at the start, not final mechanics.
+
+Cut accounts, multiplayer, backend services, live-data dependency, 3D, broad content libraries and accurate radiation-dosimetry claims from the initial target. Add something only after the shared baseline works and someone owns its verification. A static real-data example may be considered during the event; do not mislabel it as live or convert a space-weather category into an unsupported astronaut dose.
+
+Feasibility is conditional: the team has not yet demonstrated that another person can run, review and recover the same build. If that drill fails, reduce to a simpler interactive format before adding contributors or tools. No probability of winning or guaranteed completion is established.
+
+| Relative time after permitted start | Target and review gate |
+|---|---|
+| 0–2 hours | Confirm deadline, one learning outcome, format/stack supported by practice, integrator, task boundaries and one demo path. Agree actual interfaces then. |
+| 2–6 hours | Produce the smallest complete interactive path and test it end to end. If absent at hour 6, cut scope before splitting more tasks. |
+| 6–12 hours | Integrate small reviewed changes into one runnable baseline. Check science attribution, reset/replay and error cases. |
+| 12–28 hours | Improve clarity/accessibility and fix observed failures; include planned sleep and breaks. Test with an independent teammate. No reliance on everyone coding continuously. |
+| 28–36 hours | Freeze features, test the combined version, prepare the actual required presentation/submission and rehearse recovery. Keep roughly 3 hours of global-deadline buffer; move earlier for Hanoi's schedule. |
+
+The demo acceptance path to agree at the start is generic: enter without assistance, make a meaningful choice, understand its consequence, restart or replay, and locate the cited scientific basis. The detailed screen flow and simulation behavior remain undecided.
+
+### Coordination contract, without assigning people
+
+**R:** Start with at most two implementation streams plus an independent reviewer. Extra people contribute source review, accessibility checks and reproduction tests rather than separate full apps. One integrator owns shared interfaces, dependencies/configuration, cross-module state and the release baseline. No named teammate has been appointed by this document.
+
+| Work area during the event | Ownership rule |
+|---|---|
+| Shared contracts and integration | One owner approves schema, units, version changes, dependency edits and merges. Other workers propose changes rather than editing these files independently. |
+| Logic or isolated behavior | One worker owns an explicit file/module set and its focused tests; it consumes the agreed contract. |
+| Presentation and accessibility | A different worker owns an explicit non-overlapping file set; no duplicated calculation or second source of state. |
+| Scientific evidence and content review | A reviewer records sources, assumptions, data dates and rights; no unreviewed numerical constants enter the shared build. |
+| QA and demonstration | An independent reviewer runs the combined baseline, repeated/reset/error flows and the agreed demo; a checklist is not marked passed without execution. |
+
+Blank interface review fields: name/version; producer/consumer; input/output shape; units/ranges; defaults; failure behavior; deterministic acceptance examples; owner/reviewer; affected callers. Fill these for the chosen solution only after the allowed start. A contract change must list callers and invalidate old test evidence until rerun.
+
+Blank task card: goal; one owner; reviewer; base commit; branch/checkout; allowed files; prohibited files; dependencies; acceptance command and expected result; timebox; status; changed files; result commit/diff; observed failures; handoff. Keep shared work on the authoritative branch only after review. Separate branches alone do not isolate files: concurrent writers require separate checkouts/worktrees with measured storage. Default to sequential ownership when isolation is unavailable. Merge small increments every 2–3 hours, not five apps at the end.
+
+Review gate: inspect the full working/staged diff and untracked files; run focused checks; integrate; rerun combined checks; then update the handoff. If the combined build fails, freeze new feature intake and repair or revert the isolated change through the integrator. Do not automatically discard anyone's work.
+
+### Storage, sources and remaining preparation gates
+
+**V, Nov 6 current measurement:** Mac Data volume reports about 24 GiB available, 95% used; this supersedes the earlier 7.9 GiB observation, without assuming why it changed. The tiny preparation checkout is not the storage problem. No cleanup or download was performed. Keep heavy dependencies and build artifacts on the selected cloud runtime; the published config, each running task, Mac checkout, GitHub remote and delivered artifacts are distinct storage locations. A saved config is a recipe, and scratch is not a durable backup. The dot cloud disk observation is not this Codex Cloud task's quota.
+
+**R:** Record actual workspace path, source commit, disk available, artifact size and backup location at each milestone. Commit source/docs/lockfiles and small approved data only; exclude caches, dependencies, temporary renders, secrets and large raw archives. Do not call a local commit backed up until the authorized remote update is verified. Keep one small, tested runnable release artifact outside disposable build output after the event build exists. No bulk copy to the Mac is needed now.
+
+**V, Nov 6 source refresh:** [ECLSS](https://www.nasa.gov/reference/environmental-control-and-life-support-systems-eclss/) supports the water/air/oxygen-system relationship; its station-specific measurements are not lunar habitat constants. [NASA Langley radiation research](https://ddtrb.larc.nasa.gov/radiation/) distinguishes particle sources and shielding context; it does not provide a universal material protection percentage. [OSDR](https://science.nasa.gov/biological-physical/data/osdr/) is a broad biological/environmental archive, so study context and units must be checked rather than treating every result as a human safety threshold. [DONKI](https://ccmc.gsfc.nasa.gov/tools/DONKI/) offers event observations/analyses, explicitly describes research/prototyping quality and points to source acknowledgement policies. No datasets were downloaded or converted into game assets.
+
+**V, Nov 6 rights check:** [NASA media guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) generally allow educational/informational use with attribution but warn that third-party material has separate rights and NASA endorsement must not be implied. NASA identity/logo rules are separate. Record each chosen item's owner, exact rights notice, attribution and any limitation; do not label everything on a NASA site as unrestricted. Specific assets are not selected or licensed here.
+
+| Remaining gate | Evidence required, not an automatic external action |
+|---|---|
+| Preview on the chosen runtime | Fresh cloud restoration/Node/HTTP and separate local isolated browser interaction passed. Verify a usable preview route for the eventual competition runtime; cloud-hosted browser interaction is still untested. |
+| Team readiness and integrator | Another teammate reproduces the unrelated exercise, reviews a bounded change and completes a handoff; team chooses the integration owner. |
+| Event eligibility and timetable | Six-member roster including Thảo is user-confirmed; verify common Local Event, official registration/mentor/minor arrangements and Hanoi's exact deadlines. No account changes or outreach has been made. |
+| Rules and resources on Nov 13 | Current official guides, submission fields and presentation limits; resolve any prework question before custom deliverables. |
+| Durable storage and fallback | Authorized remote access/backup verification, a second person able to restore source, and a demonstrated preview route. No paid overage or new credential is assumed. |
+
+## 8. Portable rehearsal and shared-asset decision — Nov 6
+
+### Rehearsal bundle: ready locally, not distributed
+
+**V:** `/Users/nns/Documents/ChatGPT/nasa-preparation-deliverables/teammate-rehearsal-2026-11-06.zip` is outside this repository. It contains the exact Appendix A `index.html`, `increment.mjs` and `check.mjs`, plus a five-step `README.md`, blank `RESULT_CARD.md` and `SHA256SUMS` covering the other five files. The README estimates 20–30 minutes, requires existing Node/Python/browser tools, and explains checksums, serving on an assigned loopback port, keyboard checks, a deliberate one-line failure, restoration and server shutdown. No installation is required when those tools are already available; missing tools are recorded as a blocker.
+
+**V:** ZIP size 4,191 bytes; SHA-256 `e1d1b43dae4f83c2c792be50a641e92b7b6ddf4e9f69c6116d459f6ef5e885cf`. Fresh temporary extraction verified six allowed paths, all five manifest hashes and exact Appendix A bytes. `node check.mjs` exited 0 with `PASS: 3 assertions` and no stderr. The six text files were reviewed for private paths, account identifiers and apparent credentials; none were found. An independent read-only reviewer reproduced the extraction/hash/Node results. Validation record: `teammate-rehearsal-2026-11-06-validation.json` beside the ZIP. No uploads or messages occurred. This verifies packaging and Node execution, not another person's participation, Windows command execution or a new browser test. A filled result card intentionally differs from the distributed checksum; preserve the original ZIP.
+
+### Shared assets: comparison, not a service decision
+
+**V, official documentation checked Nov 6:** this compares ordinary Google Drive shared folders with iCloud Drive shared folders, not Google Workspace Shared Drives or iCloud Shared Albums. Google help pages were read directly; repeated Apple page requests returned HTTP 429, so Apple details below use indexed official help text. **U:** the team's actual accounts, remaining capacity, organization restrictions and cross-device access are untested.
+
+| Decision point | Google Drive shared folder | iCloud Drive shared folder |
+|---|---|---|
+| Ownership | Files belong to their creator/uploader. Transferring a folder does not transfer its contents' ownership; record file owners, not just the folder owner. [Google ownership](https://support.google.com/docs/answer/2494892?hl=en) | The person who first shares is the owner; invitees are participants. Owner controls sharing options and can stop sharing. [Apple roles](https://support.apple.com/en-sg/guide/icloud/mm9331af712f/icloud) |
+| Contributor and viewer | Editor can add/edit/move/remove items; Viewer can read. Editor resharing is on by default; inspect its setting. Folder permissions are inherited. [Google roles](https://support.google.com/drive/answer/7166529?hl=en) | Use Can Make Changes for contributors, View Only for readers. Participant invitations depend on the owner's setting; folder membership governs its contents. [Apple permissions](https://support.apple.com/en-gb/guide/icloud/mm708256356b/icloud) |
+| Accounts and devices | Browser route available. Recommend named Google accounts and Restricted access; school/work policies may block external sharing. Public-link access is a different mode, not a workaround for a failed private test. [Google access](https://support.google.com/drive/answer/7166529?hl=en) | Browser route at iCloud.com uses an Apple Account; Apple devices and supported Windows setups also offer Drive access. Verify each person's actual login/platform; do not assume they need a Mac. [Apple web sharing](https://support.apple.com/en-gb/guide/icloud/mm708256356b/icloud), [setup](https://support.apple.com/en-gb/118443) |
+| Revocation | Remove access and inspect any separate file grants, inherited access and link settings. Moving an item to Trash is not revocation: collaborators retain access until permanent deletion. [Google sharing](https://support.google.com/drive/answer/7166529?hl=en), [deletion](https://support.google.com/drive/answer/2375102?hl=en) | Owner can remove a participant or stop sharing; deleting the shared folder also removes participants' access. Existing independent copies remain available. [Manage sharing](https://support.apple.com/en-gb/guide/icloud/mm59dd13d0be/icloud), [copy limitation](https://support.apple.com/en-au/guide/mac-help/mchl91854a7a/27/mac/27) |
+| Deletion and recovery | Owner can restore from Trash; automatic permanent deletion follows 30 days. A nonowner's removal can instead move a shared item to its owner's My Drive. Do not promise recovery after permanent deletion. [Recovery](https://support.google.com/drive/answer/1716222), [deletion](https://support.google.com/drive/answer/2375102?hl=en), [shared-item behavior](https://support.google.com/drive/answer/7166529?hl=en) | Deleted files can generally be recovered within 30 days; permanently removed files cannot. Confirm who can recover the specific shared test item. [Apple recovery](https://support.apple.com/en-asia/guide/icloud/mmae56ea1ca5/icloud) |
+
+**R:** Choose the service whose existing accounts, owner availability, capacity and access/recovery test fit the team. Neither a paid-plan claim nor a folder icon proves usable capacity or backup. Use browser access initially to avoid unnecessary local sync; downloads still take Mac space. Treat revocation as stopping future service access, not remotely erasing copies already downloaded. Keep code in Git and large shared assets in the chosen store; these have separate backup checks. Do not select a service or grant access from this comparison alone.
+
+### Minimal future access test — pending named permission
+
+After the team records the service/owner and exact recipients/rights, use one new folder and one harmless `access-test.txt`; no real project assets. Estimate 10–15 minutes excluding login problems. This checklist has **not** been executed:
+
+1. Owner confirms the intended signed-in account, available capacity and private/restricted invitation settings; leave public links and participant resharing off for the test.
+2. Named contributor opens it on their actual device and uploads/changes the test text. Named viewer reads it and verifies that editing/upload is unavailable. Record actual results, ownership and platform.
+3. Check that an uninvited/signed-out session cannot read the private item. Inspect both folder and file access, including inherited or separate grants.
+4. Owner performs an agreed reversible deletion/removal of only the test item, then restores it and verifies its exact content and access. Never empty Trash or permanently delete. Record which account performed recovery.
+5. Owner revokes the test recipient's access and checks the service link again; a retained download is expected to remain. Record pass/fail/blocker and final sharing state. Leave any cleanup or renewed access for explicit instruction.
+
+**One next action, under two minutes:** record one line: `service + owner: ___; recipients + contributor/viewer rights: ___; rehearsal volunteer: ___`. These remain team decisions; no invitation, role assignment or message has been made.
 
 ## Appendix A — portable practice files
 

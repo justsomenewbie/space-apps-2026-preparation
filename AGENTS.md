@@ -40,7 +40,9 @@ Identify the actual runtime before acting. Mac paths, installed apps and disk ob
 
 ## Competition boundary
 
-Only **Build a Junior Astronaut Mission Trainer** is selected. Concept, Moon/Mars setting, architecture, and final stack remain undecided. Until the official project start (currently 14 November 2026, 09:00 local event time), restrict work to preparation, source reading, and unrelated practice. Do not create submission code, custom mechanics, final UI/art, or processed submission datasets early. Recheck official sources before relying on dates or uncertain prework exceptions; distinguish an organizer rule from our interpretation. A change of date alone does not authorize a new build task.
+**Current user update, 6 November 2026:** the team has six members including Thảo, who has already been added. The topic is under reconsideration after kickoff; no replacement has been selected. **Build a Junior Astronaut Mission Trainer**, its earlier concept and proposed MVP are historical, provisional options, not settled decisions. Preserve that preparation as reference; do not resume topic-specific implementation or assume a final challenge, setting, architecture or stack. Record any later topic decision explicitly.
+
+Until the official project start (currently 14 November 2026, 09:00 local event time), restrict work to preparation, source reading, and unrelated practice. Do not create submission code, custom mechanics, final UI/art, or processed submission datasets early. Recheck official sources before relying on dates or uncertain prework exceptions; distinguish an organizer rule from our interpretation. A change of date alone does not authorize a new build task.
 
 ## Ownership and handoff
 
