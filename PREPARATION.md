@@ -1,6 +1,6 @@
 # NASA Space Apps preparation pack
 
-Status: preparation only. Updated 7 November 2026, Asia/Ho_Chi_Minh (UTC+07:00). Source verification dates remain explicit below.
+Status: preparation only. Updated 8 November 2026, Asia/Ho_Chi_Minh (UTC+07:00). Source verification dates remain explicit below.
 
 This is a learning and coordination record, not a competition entry. **Current status, user update on 6 November 2026:** the team has **six members, including Thảo, who has already been added**. The team is reconsidering the topic after kickoff; **no replacement has been selected**. The earlier **Build a Junior Astronaut Mission Trainer** decision, concept and proposed MVP remain historical, provisional options, not a settled direction. No topic-specific implementation is authorized by this update. Game concept and stack remain open. The team reports some AI-assisted coding familiarity but no confirmed shipped game/website experience. Treat capabilities as unverified until demonstrated.
 
@@ -352,6 +352,40 @@ After the team records the service/owner and exact recipients/rights, use one ne
 A new [access-test-2026-11-07.txt](https://drive.google.com/file/d/1RLTg6i5M_dTfXlDVIFYlgcWfsJ-tCAGv/view?usp=drivesdk) contains only a harmless rehearsal marker, 184 bytes, SHA-256 `bcce986e1506331ac1aa7dc602db84ecd7019d4eb94c9cef70956e760a52c6df`. Upload and owner read passed. In Drive's browser UI, only this test file was moved to Trash and restored through Restore from trash; the UI confirmed restoration and the file reappeared in the original folder. A connector reread returned the exact original text and unchanged owner-only access. The user's separate, uninvited school account received HTTP 404 for the known file, consistent with private access. No access request was sent, and no permanent deletion or empty-Trash action occurred. The restored test file remains in the private folder.
 
 **Still untested:** teammate invitations, contributor/viewer behavior on their devices, teammate reproduction, signed-out browser access and teammate revocation. No recipient emails or rights have been specified, so no sharing was performed. The chosen service is now settled, while full team readiness is not. One next action: provide each teammate's Google-account email and whether they should contribute or view, plus one volunteer for the existing rehearsal.
+
+## 10. Readiness and source review — Nov 8
+
+This review is preparation, not a submission. The existing NASA desktop thread was not loaded and both preparation cloud threads were idle when checked. Completed restoration, browser, backup and integration drills were not rerun. Topic remains undecided; no team access, registration, role, publication or competition component was changed.
+
+### Source confidence and a registration discrepancy
+
+**Indexed official evidence checked Nov 8:** the [2026 event page](https://www.spaceappschallenge.org/2026/) still gives November 14–15, with project submission open Saturday 09:00 through Sunday 23:59 local time. That is 38 hours 59 minutes, not a guaranteed 48-hour build window. It also says registration remains open through November 15.
+
+The [2026 participant terms](https://www.spaceappschallenge.org/legal/), labeled updated August 7, say registration must precede the start. This conflicts with the event page's later registration wording. **Recommendation:** complete and verify registration before the start; do not rely on late registration without organizer clarification. No Space Apps account/dashboard was inspected or registered in this review.
+
+**Evidence limitation:** direct requests for the team guide, FAQ, legal page and event directory returned HTTP 502. The browser fallback could not complete: the in-app browser was unavailable, Chrome opening timed out, and subsequent state checks did not establish the outcome. A public rules tab may have opened; its state/closure is unverified. Indexed official event/terms text is dated evidence, not a successful live-browser reread. Team-guide/FAQ details retain their earlier Nov 5 verification date. Search returned an old 2025 Hanoi page and current program mentions, but no verified 2026 Hanoi timetable. This does not prove that no timetable exists. Do not import schedules or presentation limits from other cities or staging pages.
+
+**Registration evidence added later Nov 8:** read-only checks of the connected personal and school mailboxes found official personal-mail receipts dated Oct 21 (2026 event registration) and Oct 24 (Hanoi Local Event selection). These establish completed owner actions at those dates, not the current full-team membership or all six people's eligibility. Team-join requests are not proof of acceptance; the user's later report that Thảo was added remains the newer team evidence. No requests were accepted/declined, and no account data was changed. The searches found no newer local timetable; a bounded primary-calendar search for NASA was empty. Direct retrieval of the likely 2026 Hanoi page timed out, and browser tab inventory also timed out, so live schedule/membership verification remains blocked. Exact private email references stay outside this repository.
+
+### Rights and privacy gate
+
+The indexed [participant terms](https://www.spaceappschallenge.org/legal/) require source and license documentation, including open-source material. Third-party material must meet the stated public/open-source conditions. Original content must be unrestricted or OSI-licensed; the terms specify Apache 2.0 distribution if no OSI license is chosen. Under-18 participants need guardian registration/accompaniment; their recognizable names, voices and likenesses should not appear in submissions. Adults featured need consent. No license choice or consent is made here.
+
+**Recommended preparation:** retain a source/rights ledger, separate private roster/contacts from future public deliverables, and check each asset before use. A no-cost download, public URL or paid AI account is not proof of redistribution rights. Do not place private preparation documents directly into a future public submission repository: review a separate export first. The preparation repository and Drive folder stay private.
+
+### Five remaining gates, in dependency order
+
+| Gate | Current evidence | Exact next evidence required |
+|---|---|---|
+| Registration and local rules | Official receipts confirm the owner registered Oct 21 and selected Hanoi Oct 24; the six-person roster remains user-reported. | Verify the current full-team membership and each member's event; Hanoi schedule and any earlier pitch deadline; applicable guardian/mentor arrangements. Do not ask the owner to register again based only on the earlier evidence gap. No private IDs need to enter the public repo. |
+| Topic and integration decision | Topic still undecided; no human integrator selected. | Team confirms challenge URL and integrator. Evaluate one demonstrable outcome and exclusions after the permitted start, rather than building separate apps. |
+| Real teammate rehearsal | Owner tests and offline conflict drill passed; human reproduction unverified. | One volunteer returns the existing result card with their own runtime, version, checks and one reviewed change. Do not count another AI run as human verification. |
+| Access and storage | Private GitHub recovery and owner-only Drive recovery passed Nov 7. Mac has about 12 GiB free Nov 8. | Exact teammate accounts/rights before sharing; actual contributor/viewer test afterward. Keep dependencies off this near-full Mac. New local edits are not remotely backed up. |
+| Final release/readiness review | Cloud Node/HTTP and separate local browser checks passed earlier. | On Nov 13, reread current submission/judging guides and record exact fields/limits. At build time verify preview in the chosen runtime, combined checks, artifact rights/privacy and restoration from the exact release. |
+
+**Recommendation:** keep the earlier shared-interface review and combined-test gate mandatory. The Nov 8 drill showed a clean Git merge and passing focused tests can still violate the shared type contract. A named reviewer must test the integrated version; no new automation is needed to apply this rule.
+
+**Next action under two minutes:** identify one rehearsal volunteer and supply the actual 2026 Hanoi event or organizer schedule link if available. Sharing, role assignment and registration remain separate authorized actions.
 
 ## Appendix A — portable practice files
 
