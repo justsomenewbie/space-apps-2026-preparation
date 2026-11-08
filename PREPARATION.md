@@ -12,11 +12,11 @@ This is a learning and coordination record, not a competition entry. **Current s
 
 ## Quick status: collaboration, storage and preparation
 
-Updated 7 November 2026, Asia/Ho_Chi_Minh. **Confirmed** means observed in this checkout or reported by the user; earlier tests and source checks retain their dates. **Recommended** does not mean agreed by the team.
+Updated 8 November 2026, Asia/Ho_Chi_Minh. **Confirmed** means observed in this checkout or reported by the user; earlier tests and source checks retain their dates. **Recommended** does not mean agreed by the team.
 
 ### Current direction and collaboration
 
-- **Confirmed by the user:** six members, including Thảo. The topic is being reconsidered; no replacement is selected. Junior Astronaut and its earlier MVP remain provisional history.
+- **Confirmed by the user Nov 8:** all six team members have registered and are listed on the NASA team ("Everyone is in"). This resolves the membership check; do not repeat registration or approval requests. Six members include Thảo. The topic is being reconsidered; no replacement is selected. Junior Astronaut and its earlier MVP remain provisional history.
 - **Recommended, not a recorded team agreement:** one shared code repository, one integration owner, small tasks with explicit file ownership, and review before integration. The team has not yet confirmed the integrator, each person's role or demonstrated capability.
 - **Recommended:** use separate workspaces for simultaneous writers; otherwise edit sequentially. Codex can review/integrate and Antigravity can handle bounded work, but this is a proposed workflow, not a guarantee of compatible output or shared subscriptions.
 
@@ -41,7 +41,7 @@ Updated 7 November 2026, Asia/Ho_Chi_Minh. **Confirmed** means observed in this 
 2. Confirm responsibilities/integrator and have another teammate use the section 8 rehearsal bundle to reproduce the unrelated exercise and review one bounded change. Human participation is not yet verified.
 3. Verify preview for the eventual competition runtime once chosen. The local isolated route is demonstrated; cloud-hosted browser interaction remains untested, and another teammate must reproduce the practice/recovery flow.
 4. Name the teammate Google accounts and contributor/viewer roles, then test their actual access and reproduction. Owner-only Drive recovery and GitHub source restoration passed in section 9; these do not prove teammate access.
-5. Recheck current official guides, common-event registration, mentor/minor arrangements and Hanoi-specific deadlines. No registration changes, teammate messages or organizer outreach were made.
+5. Recheck current official guides, applicable mentor/minor arrangements and Hanoi-specific deadlines. Team registration/membership is user-confirmed Nov 8. No registration changes, teammate messages or organizer outreach were made.
 
 ## 1. Rules and source index
 
@@ -71,7 +71,7 @@ Source-note template: `claim | source URL + section/table | publication/access d
 
 ## 2. People and remaining schedule
 
-**V, user report on 6 November:** six members in total: Chung, Trang, Lâm, Minh, Sơn and Thảo. Thảo has already been added; this update records that report, not an independently verified registration or a new invitation. Thảo’s role, experience and availability are not yet recorded.
+**V, user report on 6 November:** six members in total: Chung, Trang, Lâm, Minh, Sơn and Thảo. Thảo has already been added; this update records that report, not an independently verified registration or a new invitation. Thảo’s role, experience and availability are not yet recorded. **Nov 8 update:** when asked whether each teammate had registered and was listed on the NASA team, the user replied "Everyone is in." Treat full team membership as user-confirmed; do not reopen that check without new contradictory evidence.
 
 The existing proposed assignments below reflect expressed interests, not demonstrated expertise. Topic-specific reading assignments are provisional while the topic is reconsidered; reassess them after the decision. The mentor reviews scientific understanding and questions; confirm registration status and any hands-on contribution with organizers.
 
@@ -221,13 +221,13 @@ Codex's computer-use tool explicitly blocks controlling its own desktop app. The
 
 | Unresolved item | Who resolves it |
 |---|---|
-| Registration, common Hanoi Local Event and mentor status | Team coordinator checks official accounts with teammates. Six members including Thảo are user-confirmed; official registration has not been independently checked. |
+| Applicable mentor/guardian arrangements | Team registration and membership are user-confirmed Nov 8, not an open task. Confirm only any remaining mentor/guardian arrangements required by current rules. |
 | Hanoi start/pitch timetable and external mentor implementation allowance | Local organizer; no message has been sent. |
 | Guardian arrangements if Lâm is under 18; permitted demo imagery/voice | Guardian and organizer using current rules. |
 | Topic decision, final concept/stack and demonstrated human coding capability | Team is reconsidering the topic; no replacement is selected. Confirm direction before updating topic-specific scope; implementation decisions remain deferred until the permitted start. |
 | Final submission/judging guide and resource list | Recheck official pages Nov 13. No automation/reminder has been created. |
 
-Preparation files, Codex's local drill and a bounded local Antigravity handoff are complete. Full team/cloud readiness is not yet proven. The Nov 7 three-document snapshot was verified by fresh restoration from private GitHub (section 9); raw Mac evidence and the rehearsal ZIP remain outside Git. No public publication, registration or organizer outreach was performed. During the 60-minute readiness review, spend 15 minutes on registration/ownership, 20 on independent reproduction, 15 on source explanations, and 10 on backup/access blockers. Pass only when another person/assistant can reproduce the exercise, explain evidence limits and continue without overwriting work.
+Preparation files, Codex's local drill and a bounded local Antigravity handoff are complete. Full team/cloud readiness is not yet proven. The Nov 7 three-document snapshot was verified by fresh restoration from private GitHub (section 9); raw Mac evidence and the rehearsal ZIP remain outside Git. No public publication, registration or organizer outreach was performed. During the 60-minute readiness review, spend 15 minutes on ownership/roles, 20 on independent reproduction, 15 on source explanations, and 10 on backup/access blockers. Pass only when another person/assistant can reproduce the exercise, explain evidence limits and continue without overwriting work.
 
 ## 7. Readiness refresh and bounded event plan — Nov 6
 
@@ -303,7 +303,7 @@ Review gate: inspect the full working/staged diff and untracked files; run focus
 |---|---|
 | Preview on the chosen runtime | Fresh cloud restoration/Node/HTTP and separate local isolated browser interaction passed. Verify a usable preview route for the eventual competition runtime; cloud-hosted browser interaction is still untested. |
 | Team readiness and integrator | Another teammate reproduces the unrelated exercise, reviews a bounded change and completes a handoff; team chooses the integration owner. |
-| Event eligibility and timetable | Six-member roster including Thảo is user-confirmed; verify common Local Event, official registration/mentor/minor arrangements and Hanoi's exact deadlines. No account changes or outreach has been made. |
+| Event arrangements and timetable | Nov 8 user confirmation resolves the six-member registration/membership check. Applicable mentor/guardian arrangements and Hanoi's exact deadlines remain separate; no account changes or outreach has been made. |
 | Rules and resources on Nov 13 | Current official guides, submission fields and presentation limits; resolve any prework question before custom deliverables. |
 | Durable storage and fallback | Authorized remote access/backup verification, a second person able to restore source, and a demonstrated preview route. No paid overage or new credential is assumed. |
 
@@ -361,11 +361,11 @@ This review is preparation, not a submission. The existing NASA desktop thread w
 
 **Indexed official evidence checked Nov 8:** the [2026 event page](https://www.spaceappschallenge.org/2026/) still gives November 14–15, with project submission open Saturday 09:00 through Sunday 23:59 local time. That is 38 hours 59 minutes, not a guaranteed 48-hour build window. It also says registration remains open through November 15.
 
-The [2026 participant terms](https://www.spaceappschallenge.org/legal/), labeled updated August 7, say registration must precede the start. This conflicts with the event page's later registration wording. **Recommendation:** complete and verify registration before the start; do not rely on late registration without organizer clarification. No Space Apps account/dashboard was inspected or registered in this review.
+The [2026 participant terms](https://www.spaceappschallenge.org/legal/), labeled updated August 7, say registration must precede the start. This conflicts with the event page's later registration wording. **Historical recommendation:** complete registration before the start rather than rely on late registration. The subsequent Nov 8 user confirmation resolves this task for the team; no repeat registration check is needed. No Space Apps account/dashboard was inspected or registered in this review.
 
 **Evidence limitation:** direct requests for the team guide, FAQ, legal page and event directory returned HTTP 502. The browser fallback could not complete: the in-app browser was unavailable, Chrome opening timed out, and subsequent state checks did not establish the outcome. A public rules tab may have opened; its state/closure is unverified. Indexed official event/terms text is dated evidence, not a successful live-browser reread. Team-guide/FAQ details retain their earlier Nov 5 verification date. Search returned an old 2025 Hanoi page and current program mentions, but no verified 2026 Hanoi timetable. This does not prove that no timetable exists. Do not import schedules or presentation limits from other cities or staging pages.
 
-**Registration evidence added later Nov 8:** read-only checks of the connected personal and school mailboxes found official personal-mail receipts dated Oct 21 (2026 event registration) and Oct 24 (Hanoi Local Event selection). These establish completed owner actions at those dates, not the current full-team membership or all six people's eligibility. Team-join requests are not proof of acceptance; the user's later report that Thảo was added remains the newer team evidence. No requests were accepted/declined, and no account data was changed. The searches found no newer local timetable; a bounded primary-calendar search for NASA was empty. Direct retrieval of the likely 2026 Hanoi page timed out, and browser tab inventory also timed out, so live schedule/membership verification remains blocked. Exact private email references stay outside this repository.
+**Registration evidence added later Nov 8 (superseded in scope by the user confirmation below):** read-only checks of the connected personal and school mailboxes found official personal-mail receipts dated Oct 21 (2026 event registration) and Oct 24 (Hanoi Local Event selection). These establish completed owner actions at those dates, not the current full-team membership or all six people's eligibility. Team-join requests are not proof of acceptance; the user's later report that Thảo was added remains the newer team evidence. No requests were accepted/declined, and no account data was changed. The searches found no newer local timetable; a bounded primary-calendar search for NASA was empty. Direct retrieval of the likely 2026 Hanoi page timed out, and browser tab inventory also timed out, so live schedule/membership verification remains blocked. Exact private email references stay outside this repository. **Subsequent user confirmation, Nov 8:** asked whether every teammate had completed registration and was listed on the NASA team, the user replied "Everyone is in." The full-team membership check is now resolved by the user, even though no independent dashboard inspection occurred. Do not keep it as a blocker or ask the team to register again.
 
 ### Rights and privacy gate
 
@@ -377,7 +377,7 @@ The indexed [participant terms](https://www.spaceappschallenge.org/legal/) requi
 
 | Gate | Current evidence | Exact next evidence required |
 |---|---|---|
-| Registration and local rules | Official receipts confirm the owner registered Oct 21 and selected Hanoi Oct 24; the six-person roster remains user-reported. | Verify the current full-team membership and each member's event; Hanoi schedule and any earlier pitch deadline; applicable guardian/mentor arrangements. Do not ask the owner to register again based only on the earlier evidence gap. No private IDs need to enter the public repo. |
+| Local rules and arrangements | Official owner receipts plus the Nov 8 user confirmation resolve team registration/membership. | Verify Hanoi schedule and any earlier pitch deadline; applicable guardian/mentor arrangements. Do not repeat the resolved membership check. No private IDs need to enter the public repo. |
 | Topic and integration decision | Topic still undecided; no human integrator selected. | Team confirms challenge URL and integrator. Evaluate one demonstrable outcome and exclusions after the permitted start, rather than building separate apps. |
 | Real teammate rehearsal | Owner tests and offline conflict drill passed; human reproduction unverified. | One volunteer returns the existing result card with their own runtime, version, checks and one reviewed change. Do not count another AI run as human verification. |
 | Access and storage | Private GitHub recovery and owner-only Drive recovery passed Nov 7. Mac has about 12 GiB free Nov 8. | Exact teammate accounts/rights before sharing; actual contributor/viewer test afterward. Keep dependencies off this near-full Mac. Nov 8 content snapshot backup passed; current Git status/remote evidence identifies any later edits. |

@@ -1,11 +1,11 @@
 # Current handoff
 
 Updated: 8 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Registration evidence corrected and Nov 8 content snapshot backed up; ownership released. This status update records the verification.
+Active editor: none. Nov 8 user confirmation resolves team membership; ownership released. Existing backup workflow is unchanged; current Git/remote state identifies this small follow-up snapshot.
 
 ## Decisions
 
-Six members: Chung, Trang, Lâm, Minh, Sơn and Thảo. Topic remains undecided. Junior Astronaut is historical/provisional. Official receipts confirm owner registration Oct 21 and Hanoi selection Oct 24; the current full-team roster, integrator and human rehearsal remain unverified. Continue topic-neutral preparation only; no early submission components.
+Six members: Chung, Trang, Lâm, Minh, Sơn and Thảo. Topic remains undecided. Junior Astronaut is historical/provisional. Official receipts confirm owner registration Oct 21 and Hanoi selection Oct 24. On Nov 8 the user confirmed every teammate is registered and listed: "Everyone is in." Membership is resolved by user confirmation; integrator and human rehearsal remain open. Continue topic-neutral preparation only; no early submission components.
 
 ## Canonical work and backup
 
@@ -25,11 +25,11 @@ Nov 8 offline integration drill detected/resolved a same-line conflict. A clean 
 
 ## New source/readiness review
 
-Section 10 records Nov 8 indexed official evidence: event submission remains Nov 14 09:00–Nov 15 23:59 local. Event registration wording differs from legal terms; recommend verification before start. Rights, privacy and five readiness gates are explicit. Direct source fetches returned 502; browser fallback timed out, so a public rules tab's state is uncertain. No verified 2026 Hanoi timetable was found; older/different-city schedules were not substituted. Earlier FAQ/team-guide evidence is not presented as newly verified.
+Section 10 records Nov 8 indexed official evidence: event submission remains Nov 14 09:00–Nov 15 23:59 local. Event registration wording differs from legal terms; the Nov 8 user confirmation resolves the team’s registration task. Rights, privacy and five readiness gates are explicit. Direct source fetches returned 502; browser fallback timed out, so a public rules tab's state is uncertain. No verified 2026 Hanoi timetable was found; older/different-city schedules were not substituted. Earlier FAQ/team-guide evidence is not presented as newly verified.
 
 ## One next action
 
-Name one rehearsal volunteer and provide the actual 2026 Hanoi event/schedule link if available. Team emails/rights, topic/integrator and full-team registration verification remain pending. No team sharing, outreach, role assignment, registration, public publication or payment occurred.
+Name one rehearsal volunteer and provide the actual 2026 Hanoi event/schedule link if available. Team file-access emails/rights and topic/integrator remain pending; competition membership is confirmed. Do not repeat registration checks. No team sharing, outreach, role assignment, registration, public publication or payment occurred.
 
 ## Antigravity startup
 
