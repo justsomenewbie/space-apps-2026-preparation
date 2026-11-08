@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 8 November 2026, Asia/Ho_Chi_Minh.
-Active editor: NASA backup update; only HANDOFF.md and PREPARATION.md. Registration evidence corrected; normal backup to the existing private remote is in progress.
+Active editor: none. Registration evidence corrected and Nov 8 content snapshot backed up; ownership released. This status update records the verification.
 
 ## Decisions
 
@@ -11,9 +11,9 @@ Six members: Chung, Trang, Lâm, Minh, Sơn and Thảo. Topic remains undecided.
 
 Local: `/Users/nns/Documents/ChatGPT/nasa space app challange`.
 Private remote: https://github.com/justsomenewbie/space-apps-2026-preparation.
-Current local HEAD: `f4a6453`. The three-document snapshot `3cb43575fd8448c2b16f1533e522d23d556c5177` was pushed and independently restored Nov 7, byte-matched and passed git fsck. Later Nov 8 edits are uncommitted and not newly backed up. A Nov 8 read-only remote check matched this HEAD; the new snapshot push is pending. AGENTS.md and Appendix A are unchanged.
+Nov 8 content snapshot: `2a400320f24eb348cc3953be817677c7b7aaeedf`, normally pushed to the existing private remote. A fresh bounded remote recovery byte-matched all three documents and passed git fsck. This status update records that check; inspect current Git/remote state for later commits. No force push or access changes. AGENTS.md and Appendix A remain unchanged. Evidence: `nasa-preparation-deliverables/backup-verification-2026-11-08.json`.
 
-User selected personal Drive. Private assets folder: https://drive.google.com/drive/folders/1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S . Nov 7 owner-only 184-byte upload/read/Trash/restore passed; uninvited school account could not read it. No teammate invitations. Drive then displayed 32.94 GB of 5 TB used. Section 9 preserves details. Mac now reports about 12 GiB free; no cleanup/download/install occurred.
+User selected personal Drive. Private assets folder: https://drive.google.com/drive/folders/1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S . Nov 7 owner-only 184-byte upload/read/Trash/restore passed; uninvited school account could not read it. No teammate invitations. Drive then displayed 32.94 GB of 5 TB used. Section 9 preserves details. Mac now reports about 12 GiB free; no cleanup, bulk download or install occurred.
 
 ## Completed checks
 
@@ -29,7 +29,7 @@ Section 10 records Nov 8 indexed official evidence: event submission remains Nov
 
 ## One next action
 
-Name one rehearsal volunteer and provide the actual 2026 Hanoi event/schedule link if available. Team emails/rights, topic/integrator and full-team registration verification remain pending. No sharing, outreach, role assignment, registration, publication or payment occurred.
+Name one rehearsal volunteer and provide the actual 2026 Hanoi event/schedule link if available. Team emails/rights, topic/integrator and full-team registration verification remain pending. No team sharing, outreach, role assignment, registration, public publication or payment occurred.
 
 ## Antigravity startup
 
