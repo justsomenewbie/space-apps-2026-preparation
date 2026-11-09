@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 9 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Documentation saved; ownership released. Independent review and existing Codex chat context refresh are read-only.
+Active editor: none. User-authorized documentation backup completed; ownership released.
 
 ## Read first
 
@@ -18,7 +18,7 @@ Earlier Nov 8 review of [the Hanoi page](https://eventstem.com/spaceapps.html?la
 Canonical Mac folder: `/Users/nns/Documents/ChatGPT/nasa space app challange`.
 Private remote: https://github.com/justsomenewbie/space-apps-2026-preparation.
 
-HEAD remains `d8d4ff26667b287d02dd0d122ab17e83cb426fba`, remotely verified Nov 8. **Nov 9 changes to AGENTS.md, PREPARATION.md, HANDOFF.md and new COMPETITION_RUNBOOK.md are local, uncommitted/unpushed.** No remote operation occurred. Pre-edit snapshots and the current readiness summary are in sibling `nasa-preparation-deliverables`; these local copies are not off-device backup. Appendix A and rehearsal artifacts are preserved.
+Nov 9 content snapshot `7d5c493efbdedb49cbf86522e509087bbf4f4411` committed all four documents and was normally pushed to `origin/main` at the user’s explicit request. Remote main matched that commit; the GitHub connector confirmed private visibility and owner `justsomenewbie`. This follow-up records that verified snapshot; inspect Git for the latest status-note commit. Only the four Markdown documents are included. Appendix A is unchanged. Sibling deliverables, private contacts and raw evidence remain outside Git; cloud agents cannot assume those local files exist.
 
 Dated portable/Node, cloud restoration/HTTP, local browser and conflict/integration drills passed. Real teammate rehearsal and cloud interactive preview remain unverified. Drive permission readback Nov 9 is owner-only. Contacts exist privately; approve exact recipients/rights before sharing. Mac had about 13 GiB available at 09:22 UTC Nov 9; remeasure before downloads.
 
@@ -30,4 +30,4 @@ Expect Nov 10 logistics and Nov 13 resources/guides; verify actual receipt, sour
 
 ## One next action
 
-Name one rehearsal volunteer and confirm the integration owner. No names assigned here.
+In the existing cloud environment, obtain the latest `main` without overwriting any work, read the four Markdown files and report the checked-out commit. Start no competition implementation. Team owners and rehearsal volunteer remain to be agreed.
