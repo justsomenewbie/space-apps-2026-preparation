@@ -34,13 +34,15 @@ Exceptions: explain fully when asked to explain. Confirm before destructive acti
 
 ## Start every session
 
-Read `HANDOFF.md`, then the relevant sections of `PREPARATION.md`. Run `git status --short --branch` and inspect existing changes before editing. These files are durable context, not automatic cross-app memory. Do not assume Antigravity knows this conversation.
+Read `HANDOFF.md`, then `COMPETITION_RUNBOOK.md` for the current event workflow and the relevant sections of `PREPARATION.md` for dated evidence. Run `git status --short --branch` and inspect existing changes before editing. These files are durable context, not automatic cross-app memory. Do not assume Antigravity knows this conversation.
 
 Identify the actual runtime before acting. Mac paths, installed apps and disk observations in the pack describe the original Mac, not a cloud checkout. Evidence retained outside this repository is unavailable to a cloud agent unless explicitly supplied; use Appendix A for the portable unrelated exercise. Inspect local tool availability instead of assuming it matches the Mac. Remote assistants exchange committed work through Git, not a shared filesystem.
 
 ## Competition boundary
 
-**Current user update, 6 November 2026:** the team has six members including Thảo, who has already been added. The topic is under reconsideration after kickoff; no replacement has been selected. **Build a Junior Astronaut Mission Trainer**, its earlier concept and proposed MVP are historical, provisional options, not settled decisions. Preserve that preparation as reference; do not resume topic-specific implementation or assume a final challenge, setting, architecture or stack. Record any later topic decision explicitly.
+**Current decision record, 9 November 2026:** the corrected Hanoi form submitted Nov 8 at 21:59 records six members and **Lunar Landing Site Navigator**. Membership is user-confirmed. Junior Astronaut and the earlier undecided-topic status are historical. Do not reopen registration or assume an agreed implementation scope, stack or integrator. Use PREPARATION section 11 for evidence and the current proposed schedule; use COMPETITION_RUNBOOK.md for the comprehensive event handoff, bounded prompt loop and the user's event-time Fast mode preference. This preference does not enable Fast now or authorize paid overages, resets or weakened safeguards.
+
+**Deadline distinction:** an earlier Nov 8 organizer-page review reported **11:00 Hanoi on Nov 15 for local judging submission**; the global deadline is **23:59 Hanoi the same day**. Fresh direct verification of the local page remains pending. Plan conservatively for the earlier reported cutoff, clearly label its source status, and never reuse the old Sunday-afternoon completion plan as current. A 09:00 freeze is a recommendation, not an organizer rule.
 
 Until the official project start (currently 14 November 2026, 09:00 local event time), restrict work to preparation, source reading, and unrelated practice. Do not create submission code, custom mechanics, final UI/art, or processed submission datasets early. Recheck official sources before relying on dates or uncertain prework exceptions; distinguish an organizer rule from our interpretation. A change of date alone does not authorize a new build task.
 

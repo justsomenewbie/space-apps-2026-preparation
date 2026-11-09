@@ -1,35 +1,37 @@
 # NASA Space Apps preparation pack
 
-Status: preparation only. Updated 8 November 2026, Asia/Ho_Chi_Minh (UTC+07:00). Source verification dates remain explicit below.
+Status: preparation only. Updated 9 November 2026, Asia/Ho_Chi_Minh (UTC+07:00). Section 11 is the current decision and schedule record; earlier dated evidence remains historical where superseded. `COMPETITION_RUNBOOK.md` indexes the current sources, mentor-plan gaps, six-person output lanes, event workflow, Fast mode procedure and permissions. It is a planning handoff, not a completed competition solution.
 
-This is a learning and coordination record, not a competition entry. **Current status, user update on 6 November 2026:** the team has **six members, including Thảo, who has already been added**. The team is reconsidering the topic after kickoff; **no replacement has been selected**. The earlier **Build a Junior Astronaut Mission Trainer** decision, concept and proposed MVP remain historical, provisional options, not a settled direction. No topic-specific implementation is authorized by this update. Game concept and stack remain open. The team reports some AI-assisted coding familiarity but no confirmed shipped game/website experience. Treat capabilities as unverified until demonstrated.
+This is a learning and coordination record, not a competition entry. **Current submitted choice: Lunar Landing Site Navigator.** The corrected Hanoi team-form receipt, submitted 8 November at 21:59 Hanoi and reread on 9 November, records six members and this challenge. The user confirmed full team membership on 8 November. The earlier Junior Astronaut concept is historical. Submitted choice does not prove a fixed implementation scope, agreed stack, named integrator or irreversible challenge selection.
+
+**Deadline distinction:** the 8 November organizer-page review reported **11:00 Hanoi on 15 November for the local judging submission**, earlier than the global **23:59 Hanoi on 15 November**. Direct fresh verification of the local page is pending. Plan conservatively for the reported earlier cutoff; do not use the old Sunday-afternoon completion plan. Source confidence and the revised proposed schedule are in section 11.
 
 ### Decision history and scope of this update
 
-- Before this update, the pack recorded Junior Astronaut as the selected challenge and retained conditional prototype/MVP recommendations. Preserve that research and planning as history.
-- On 6 November, the user reported six people in total, with Thảo already added, and said the team was considering whether to change topics. A replacement topic and final MVP have not been confirmed.
-- Continue topic-neutral preparation and keep existing evidence. Reassess topic-specific sources, roles and proposals once the team confirms its direction; do not start or expand a Junior Astronaut build from the older plan. This documentation update did not change registrations, send invitations or assign roles.
+- The earlier pack recorded Junior Astronaut, then an undecided topic on 6 November. Preserve that research as history.
+- The corrected 8 November Hanoi receipt establishes Lunar Landing Site Navigator as the submitted choice. The earlier organizer-list review also reported successful registration; it was not independently refreshed on 9 November.
+- Continue challenge reading, data/tool learning, coordination planning and unrelated practice. Do not begin submission code, final UI/art or processed submission datasets before the permitted event start. This update changes documentation only; it does not assign people, share files, register, publish or implement the solution.
 
 ## Quick status: collaboration, storage and preparation
 
-Updated 8 November 2026, Asia/Ho_Chi_Minh. **Confirmed** means observed in this checkout or reported by the user; earlier tests and source checks retain their dates. **Recommended** does not mean agreed by the team.
+Updated 9 November 2026, Asia/Ho_Chi_Minh. **Verified** means observed at its stated date; **reported** identifies earlier source findings that have not been freshly repeated. **Recommended** does not mean agreed by the team. See section 11 for the current evidence boundary.
 
 ### Current direction and collaboration
 
-- **Confirmed by the user Nov 8:** all six team members have registered and are listed on the NASA team ("Everyone is in"). This resolves the membership check; do not repeat registration or approval requests. Six members include Thảo. The topic is being reconsidered; no replacement is selected. Junior Astronaut and its earlier MVP remain provisional history.
+- **Current:** all six members are user-confirmed registered/listed. The corrected Nov 8 Hanoi receipt records **Lunar Landing Site Navigator**; it was reread Nov 9. Do not reopen registration or describe the topic as undecided. Named roles, the integrator and human rehearsal are not yet recorded as complete.
 - **Recommended, not a recorded team agreement:** one shared code repository, one integration owner, small tasks with explicit file ownership, and review before integration. The team has not yet confirmed the integrator, each person's role or demonstrated capability.
 - **Recommended:** use separate workspaces for simultaneous writers; otherwise edit sequentially. Codex can review/integrate and Antigravity can handle bounded work, but this is a proposed workflow, not a guarantee of compatible output or shared subscriptions.
 
 ### Code, shared assets and storage
 
-- **Verified Nov 7:** the latest three-document snapshot was committed and pushed as `3cb43575fd8448c2b16f1533e522d23d556c5177` to the existing private GitHub repository. A fresh remote clone matched all three files byte-for-byte and passed `git fsck --full`. Teammate access and a second person's restoration are still unverified; section 9 records the checks.
-- **Selected by the user Nov 7:** personal Google Drive, with a new private [NASA Space Apps 2026 Assets folder](https://drive.google.com/drive/folders/1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S). Owner-only upload/read and Trash/restore passed. No teammate has been invited. GitHub, the cloud build workspace and Drive remain distinct storage locations.
+- **Backup boundary:** the recorded remote head is `d8d4ff26667b287d02dd0d122ab17e83cb426fba`, verified Nov 8; its preceding snapshot `5f420c7` passed fresh byte-matched restoration and `git fsck`. Local Nov 9 began clean at `d8d4ff2`. **This Nov 9 documentation correction is local and uncommitted/unpushed**, so the earlier remote backup does not yet contain it. No fresh remote operation occurred.
+- **Selected by the user Nov 7:** personal Google Drive, with the private [NASA Space Apps 2026 Assets folder](https://drive.google.com/drive/folders/1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S). Owner-only upload/read and Trash/restore passed Nov 7. Permission metadata reread Nov 9 still shows only the owner and `shared: false`. Team access is not configured. GitHub, cloud compute and Drive are separate storage locations.
 - **Recommended:** keep source/docs and small approved inputs in Git, heavy dependencies/build output where builds run, and larger assets in the selected Drive folder. Only a harmless 184-byte test file was uploaded; no competition assets, teammate access, paid service or cloud provisioning were added.
 - **Measured Nov 7:** Mac Data volume reports about 18 GiB available, 96% used. The preparation checkout is tiny; this is not a reason to duplicate heavy assets locally. Personal Drive displayed 32.94 GB of 5 TB used. No Mac cleanup occurred and these observations do not verify iCloud recovery.
 
 ### Completed and verified
 
-1. The three preparation/handoff documents exist. The six-member/topic update was read back; all three agree, earlier evidence is retained, Appendix A is unchanged, and the Git whitespace check passes.
+1. The three original preparation/handoff documents and the new COMPETITION_RUNBOOK.md exist. The Nov 9 correction records the submitted Lunar choice and distinguishes the reported local deadline from the global deadline. Earlier test evidence and Appendix A are retained; current validation is recorded beside the local readiness artifact.
 2. The existing pack records dated official-rule/science reading and a local unrelated practice exercise. This is preparation, not a competition build or a completed team rehearsal.
 3. The separate fresh cloud test restored **three practice files** and passed Node assertions and exact HTTP-content checks. Its browser interaction was **not verified**; the earlier local browser pass is separate evidence. Do not repeat the completed cloud test or count HTTP success as a browser pass.
 4. The Nov 6 isolated in-app browser check of the existing local exercise passed: 0 → 1 → 2, Reset → 0, Shift+Tab/Enter → 1. Page/title, visible focus and rendering passed at 1280×720; captured warning/error log was empty. The tab and loopback server were closed. This verifies a local preview route, not cloud-hosted browser interaction or a teammate rehearsal.
@@ -37,11 +39,11 @@ Updated 8 November 2026, Asia/Ho_Chi_Minh. **Confirmed** means observed in this 
 
 ### Remaining before implementation
 
-1. Record the team's final topic decision; then reassess scope. No topic-specific build while the topic is undecided or before the permitted start.
+1. Confirm the submitted Lunar challenge against the official full brief when accessible, and agree an achievable scope/integrator. Do not repeat topic-selection or registration work already resolved. Submission implementation still waits for the permitted start.
 2. Confirm responsibilities/integrator and have another teammate use the section 8 rehearsal bundle to reproduce the unrelated exercise and review one bounded change. Human participation is not yet verified.
 3. Verify preview for the eventual competition runtime once chosen. The local isolated route is demonstrated; cloud-hosted browser interaction remains untested, and another teammate must reproduce the practice/recovery flow.
-4. Name the teammate Google accounts and contributor/viewer roles, then test their actual access and reproduction. Owner-only Drive recovery and GitHub source restoration passed in section 9; these do not prove teammate access.
-5. Recheck current official guides, applicable mentor/minor arrangements and Hanoi-specific deadlines. Team registration/membership is user-confirmed Nov 8. No registration changes, teammate messages or organizer outreach were made.
+4. Use the teammate addresses already present in the private corrected receipt to propose exact contributor/viewer rights for approval, then test actual access. Do not copy those contacts into Git or ask for them all again. Earlier owner-only recovery does not prove teammate access.
+5. Recheck final guides and the reported Hanoi 11:00 Nov 15 local cutoff, separately from global 23:59. Track the expected Nov 10 allocation/team-code notice and Nov 13 guides/resources. Check applicable guardian/mentor arrangements; no new registration, outreach or invitation is part of this update.
 
 ## 1. Rules and source index
 
@@ -51,7 +53,7 @@ Labels: **V** = source/user/tool verified at the stated date; **R** = recommenda
 |---|---|---|
 | R1 [Team Formation Guide](https://www.spaceappschallenge.org/resources/team-formation-guide/) | V, Nov 5: challenge review/selection before the event is encouraged; project work starts Nov 14 at 09:00 local time. | Confirm Hanoi's local timetable separately. Local teams: 1–6, same Local Event, one team/challenge. |
 | R2 [Participant FAQ](https://www.spaceappschallenge.org/resources/participant-faqs/) | V, Nov 5: AI/code-generation assistance is allowed with disclosure (the FAQ calls it SI). Resources and submission/judging guides scheduled Nov 13. | The no-early-project-work rule is explicit in R1. General learning/source notebooks are our preparation interpretation, not a blanket exemption for project development. |
-| R3 [2026 event](https://www.spaceappschallenge.org/2026/) | V, Nov 5: submission opens Nov 14, 09:00; closes Nov 15, 23:59 local time. | Do not assume a full 48-hour submission window or invent video limits. |
+| R3 [2026 event](https://www.spaceappschallenge.org/2026/) | V, Nov 5: global submission opens Nov 14, 09:00; closes Nov 15, 23:59 local time. | Global timing is not the local judging deadline. Section 11 records the reported earlier Hanoi 11:00 Nov 15 cutoff and its verification limit. |
 | R4 [Terms](https://www.spaceappschallenge.org/legal/) | V, Nov 5: source attribution and suitable public/open-source rights required. | R2 also requires guardian registration/accompaniment and restricts under-18 images/voice. External mentor implementation limits need clarification. Read current terms before submission. |
 | R5 [Junior Astronaut brief](https://www.spaceappschallenge.org/2026/challenges/junior-astronaut-mission-trainer/) | V, Nov 5: target ages 7–12; working interaction teaches engineering trade-offs. Optional guidance favors 2–3 core resources and accessible play. | R: do not treat every listed system, 3D, accounts or live APIs as separate required features. Archived real data is explicitly acceptable if labeled honestly. Resources tab still says Nov 13. |
 
@@ -73,7 +75,7 @@ Source-note template: `claim | source URL + section/table | publication/access d
 
 **V, user report on 6 November:** six members in total: Chung, Trang, Lâm, Minh, Sơn and Thảo. Thảo has already been added; this update records that report, not an independently verified registration or a new invitation. Thảo’s role, experience and availability are not yet recorded. **Nov 8 update:** when asked whether each teammate had registered and was listed on the NASA team, the user replied "Everyone is in." Treat full team membership as user-confirmed; do not reopen that check without new contradictory evidence.
 
-The existing proposed assignments below reflect expressed interests, not demonstrated expertise. Topic-specific reading assignments are provisional while the topic is reconsidered; reassess them after the decision. The mentor reviews scientific understanding and questions; confirm registration status and any hands-on contribution with organizers.
+**Historical Junior Astronaut preparation assignments:** the table below records earlier interests, not current Lunar task assignments or demonstrated expertise. Do not carry radiation/life-support roles into the Lunar plan automatically. Agree new owners and outputs with the team. The mentor can review scientific understanding; confirm any hands-on contribution against current rules.
 
 | Person | Preparation responsibility | Observable result |
 |---|---|---|
@@ -84,7 +86,7 @@ The existing proposed assignments below reflect expressed interests, not demonst
 | Sơn, year 2 | Source ledger, data literacy and coordination | Trace each scientific claim and keep task ownership/current status visible. |
 | Thảo | Already added; preparation responsibility to be agreed | Record interests, experience and availability before assigning a role. |
 
-The Oct 31–Nov 4 plan was not completed; do not mark those days done retrospectively. Catch-up plan (**R**):
+The Oct 31–Nov 4 plan was not completed; do not mark those days done retrospectively. The following earlier catch-up plan is historical; section 11 supplies the current proposed schedule and deadlines.
 
 | Date | Bounded action | Done when |
 |---|---|---|
@@ -222,16 +224,16 @@ Codex's computer-use tool explicitly blocks controlling its own desktop app. The
 | Unresolved item | Who resolves it |
 |---|---|
 | Applicable mentor/guardian arrangements | Team registration and membership are user-confirmed Nov 8, not an open task. Confirm only any remaining mentor/guardian arrangements required by current rules. |
-| Hanoi start/pitch timetable and external mentor implementation allowance | Local organizer; no message has been sent. |
+| Fresh Hanoi timetable verification and mentor implementation allowance | Earlier organizer-page review reported 11:00 Nov 15 local submission. Fresh direct reread remains pending; section 11 is the conservative planning basis. |
 | Guardian arrangements if Lâm is under 18; permitted demo imagery/voice | Guardian and organizer using current rules. |
-| Topic decision, final concept/stack and demonstrated human coding capability | Team is reconsidering the topic; no replacement is selected. Confirm direction before updating topic-specific scope; implementation decisions remain deferred until the permitted start. |
+| Scope/stack, integrator and demonstrated human capability | Lunar Landing Site Navigator is the submitted choice. Final scope and owners remain to be agreed; a real teammate rehearsal is still required. |
 | Final submission/judging guide and resource list | Recheck official pages Nov 13. No automation/reminder has been created. |
 
 Preparation files, Codex's local drill and a bounded local Antigravity handoff are complete. Full team/cloud readiness is not yet proven. The Nov 7 three-document snapshot was verified by fresh restoration from private GitHub (section 9); raw Mac evidence and the rehearsal ZIP remain outside Git. No public publication, registration or organizer outreach was performed. During the 60-minute readiness review, spend 15 minutes on ownership/roles, 20 on independent reproduction, 15 on source explanations, and 10 on backup/access blockers. Pass only when another person/assistant can reproduce the exercise, explain evidence limits and continue without overwriting work.
 
 ## 7. Readiness refresh and bounded event plan — Nov 6
 
-This section answers the user's request to do all permitted preparation and avoid incompatible parallel work. It is a feasibility and process assessment, not a selected game concept, architecture, mechanic, dataset, or prebuilt competition component. **V** means observed; **R** is a recommendation; **U** remains unresolved.
+**Historical Nov 6 review.** Its Junior Astronaut scope and relative-hour timetable are superseded by the submitted Lunar choice and section 11 schedule. Preserve its dated tests and coordination lessons, not its old deadline assumptions. **V** means observed; **R** is a recommendation; **U** remains unresolved.
 
 ### Verified baseline and actual work
 
@@ -253,7 +255,7 @@ Direct live refreshes of the challenge and [Team Formation Guide](https://www.sp
 
 ### Historical Junior Astronaut MVP proposal, not a confirmed plan
 
-**Status after the latest Nov 6 user update:** the following feasibility proposal is retained for reference only. It does not choose the challenge, commit the team to a game or MVP, or authorize topic-specific implementation. Reassess it if the team confirms Junior Astronaut; otherwise review scope against the replacement challenge.
+**Historical only, superseded Nov 8–9:** the team submitted Lunar Landing Site Navigator. The Junior Astronaut concept and 0–36-hour table below are retained as earlier analysis and must not be used as the current execution plan. Use section 11 instead; Sunday-afternoon completion is too late for the reported Hanoi cutoff.
 
 **Earlier R:** Aim for one small browser-playable prototype that completes a learning experience, can be replayed, and makes one engineering trade-off understandable. A single setting, two or three core resources, visible feedback, traceable science and a concise demonstration are a more credible target than a comprehensive habitat simulator. These are scope limits to evaluate at the start, not final mechanics.
 
@@ -351,11 +353,11 @@ After the team records the service/owner and exact recipients/rights, use one ne
 
 A new [access-test-2026-11-07.txt](https://drive.google.com/file/d/1RLTg6i5M_dTfXlDVIFYlgcWfsJ-tCAGv/view?usp=drivesdk) contains only a harmless rehearsal marker, 184 bytes, SHA-256 `bcce986e1506331ac1aa7dc602db84ecd7019d4eb94c9cef70956e760a52c6df`. Upload and owner read passed. In Drive's browser UI, only this test file was moved to Trash and restored through Restore from trash; the UI confirmed restoration and the file reappeared in the original folder. A connector reread returned the exact original text and unchanged owner-only access. The user's separate, uninvited school account received HTTP 404 for the known file, consistent with private access. No access request was sent, and no permanent deletion or empty-Trash action occurred. The restored test file remains in the private folder.
 
-**Still untested:** teammate invitations, contributor/viewer behavior on their devices, teammate reproduction, signed-out browser access and teammate revocation. No recipient emails or rights have been specified, so no sharing was performed. The chosen service is now settled, while full team readiness is not. One next action: provide each teammate's Google-account email and whether they should contribute or view, plus one volunteer for the existing rehearsal.
+**Still untested:** contributor/viewer behavior on teammates' devices, human rehearsal, signed-out browser access and revocation. Nov 9 update: the corrected private registration receipt supplies teammate addresses, but approved sharing rights remain unresolved. Reuse those contacts privately rather than asking for them again or copying them to Git. The folder remains owner-only. One next action: approve exact recipients/rights and name a rehearsal volunteer.
 
 ## 10. Readiness and source review — Nov 8
 
-This review is preparation, not a submission. The existing NASA desktop thread was not loaded and both preparation cloud threads were idle when checked. Completed restoration, browser, backup and integration drills were not rerun. Topic remains undecided; no team access, registration, role, publication or competition component was changed.
+**Historical Nov 8 morning review.** The topic was undecided at that check; the later corrected Hanoi form records Lunar Landing Site Navigator. Section 11 supersedes the old topic/timetable status. The thread statuses and completed drill results below retain their original dates; they were not rerun in this documentation update.
 
 ### Source confidence and a registration discrepancy
 
@@ -377,8 +379,8 @@ The indexed [participant terms](https://www.spaceappschallenge.org/legal/) requi
 
 | Gate | Current evidence | Exact next evidence required |
 |---|---|---|
-| Local rules and arrangements | Official owner receipts plus the Nov 8 user confirmation resolve team registration/membership. | Verify Hanoi schedule and any earlier pitch deadline; applicable guardian/mentor arrangements. Do not repeat the resolved membership check. No private IDs need to enter the public repo. |
-| Topic and integration decision | Topic still undecided; no human integrator selected. | Team confirms challenge URL and integrator. Evaluate one demonstrable outcome and exclusions after the permitted start, rather than building separate apps. |
+| Local rules and arrangements | Registration is resolved; the later Nov 8 form records Lunar. Earlier review reported Hanoi 11:00 Nov 15 local submission. | Freshly verify the local cutoff and operational arrangements, keeping global 23:59 separate. Section 11 gives the source limit and schedule. |
+| Scope and integration decision | Submitted choice is Lunar Landing Site Navigator; no finalized human integrator is recorded here. | Confirm full official brief, named owners and one achievable outcome. Do not build separate apps or begin submission implementation early. |
 | Real teammate rehearsal | Owner tests and offline conflict drill passed; human reproduction unverified. | One volunteer returns the existing result card with their own runtime, version, checks and one reviewed change. Do not count another AI run as human verification. |
 | Access and storage | Private GitHub recovery and owner-only Drive recovery passed Nov 7. Mac has about 12 GiB free Nov 8. | Exact teammate accounts/rights before sharing; actual contributor/viewer test afterward. Keep dependencies off this near-full Mac. Nov 8 content snapshot backup passed; current Git status/remote evidence identifies any later edits. |
 | Final release/readiness review | Cloud Node/HTTP and separate local browser checks passed earlier. | On Nov 13, reread current submission/judging guides and record exact fields/limits. At build time verify preview in the chosen runtime, combined checks, artifact rights/privacy and restoration from the exact release. |
@@ -387,7 +389,48 @@ The indexed [participant terms](https://www.spaceappschallenge.org/legal/) requi
 
 **Backup completed later Nov 8:** content snapshot `2a400320f24eb348cc3953be817677c7b7aaeedf` was committed and normally pushed to the same existing private repository. Visibility was rechecked as private, and the remote base matched before writing. A fresh small remote recovery matched all three documents and passed `git fsck --full`. This status update follows that snapshot; use current Git/remote evidence for the newest status commit. No collaborator permissions, new credentials or competition materials were added. Private email contents and exact message references were not uploaded.
 
-**Next action under two minutes:** identify one rehearsal volunteer and supply the actual 2026 Hanoi event or organizer schedule link if available. Sharing, role assignment and registration remain separate authorized actions.
+**Historical next action, superseded by section 11:** the organizer link and submitted choice are now known. Name a rehearsal volunteer and approve intended teammate rights; do not repeat registration or ask for the same link/contacts again.
+
+## 11. Current Lunar choice, deadline correction and readiness plan — Nov 9
+
+### What is verified and what is reported
+
+| Evidence | Status and consequence |
+|---|---|
+| Corrected Hanoi form, submitted Nov 8 at 21:59 Hanoi | Reread Nov 9: six members and **Lunar Landing Site Navigator** selected. Private receipt references remain outside Git. This proves submission, not that the choice is irreversible. |
+| [Hanoi organizer registration/schedule page](https://eventstem.com/spaceapps.html?lang=vi) | Earlier Nov 8 review reported successful team registration, allocation/team code expected Nov 10, and **11:00 Hanoi Nov 15 local judging submission cutoff**. These are reported prior findings. Fresh direct verification on Nov 9 is pending: web retrieval failed and direct Mac access was policy-blocked; no alternate-route retry was made. |
+| [SEPA event page](https://sepa.org.vn/en/spaceapps-hanoi-2026) | Retrieved through web Nov 9: event Nov 14–15, **global deadline 23:59 local time Nov 15**, submission/judging guides Nov 13, and no early project work. This page's general global timing does not cancel the earlier local cutoff reported above. |
+| [NASA Lunar brief](https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/) and [Athlone reproduction](https://hackathlone.com/challenges/lunar-landing-site-navigator) | NASA direct retrieval returned 502 Nov 9. Athlone was read successfully: rapid site/date comparison using Sun/Earth positions, with precomputed data permitted and advanced terrain treatment optional. It reports resources Nov 13. Treat detailed requirements as mirror-sourced until the original is accessible. |
+
+**Planning rule:** protect the earlier reported **11:00 local cutoff**. Do not schedule the first completed build or required local submission for Sunday afternoon, and do not assume the global 23:59 window extends Hanoi judging. If fresh organizer information changes a deadline, revise the plan before use. An earlier observed opening of Nov 14 09:00 plus the reported local cutoff gives about 26 hours, not 48 hours of local-round work. The exact Hanoi opening/pitch/submission mechanics still need confirmation.
+
+The organizer reminder reread Nov 9 says the last form counts and gives a registration cutoff of Nov 9 07:30; the corrected receipt predates it. No repeat registration is needed. The expected Nov 10 team-code/allocation email was not found in bounded personal/school searches on Nov 9. Expected timing is not a guarantee of receipt. Support requested in the form is not proof equipment or a workspace has been allocated.
+
+### Revised proposed schedule, all times Hanoi (UTC+07:00)
+
+This is a planning recommendation, not a team-approved allocation or permission to start project work early. Named owners and final scope still need agreement. Source learning, tool practice and coordination may continue before the event; no reusable submission components are created by this plan.
+
+| When | Bounded outcome and stop rule |
+|---|---|
+| Nov 9–12 | Confirm roles, availability and one integrator; approve private file-access rights using existing contacts; have one teammate complete the unrelated rehearsal. Record actual outcomes, not assumed readiness. Track the expected Nov 10 logistics notice. |
+| Nov 13 | Reread official Lunar resources and submission/judging guides; verify the local 11:00 cutoff, venue/mode and pitch details. Record required fields and source/rights/privacy limits. Agree a smaller fallback if tools or data are not understood. |
+| Nov 14 morning, after the verified permitted start | Confirm one demonstrable comparison outcome, owners, data/interface assumptions and acceptance checks. Work toward one complete site/time-to-result path. If there is no runnable path by early afternoon, cut scope rather than add parallel features. |
+| Nov 14 afternoon/evening | Integrate a second comparison only once the first path works. Independently check sample results, units and limitations. Prepare demo/source notes alongside implementation. End with a runnable baseline and a rest plan, not six unmerged pieces. |
+| Nov 15 morning | **Recommended feature freeze by 09:00 or earlier.** Use 09:00–10:30 for combined checks, exact required submission fields, access/rights review, backup and local submission. Aim to finish by 10:30, leaving a 30-minute buffer before the **reported 11:00 local cutoff**. Earlier freezes/submission are preferable if organizer procedures require them. |
+
+**Sunday afternoon:** use only for confirmed judging/presentation steps and any separately required global submission work before 23:59. Do not assume local submissions can be changed after 11:00 or that later code will be judged. Planned 09:00 freeze and 10:30 target are our recommendations, not organizer rules. Sleep and breaks must be allocated by the team; no continuous overnight effort is assumed.
+
+### Remaining readiness evidence
+
+1. A named integrator and owners with concrete outputs, agreed by the team. The submitted Lunar choice is resolved; the final scope/stack and human capabilities are not.
+2. A real teammate's completed rehearsal card and a reviewed combined change. Existing assistant drills do not count as human participation.
+3. Approved exact Drive recipients/rights and an actual contributor/viewer test. Nov 9 permission readback is still owner-only. Teammate emails are available privately in the corrected receipt; never copy them into Git.
+4. Fresh official/local source verification and the Nov 10/13 logistics/resources updates. The local 11:00 deadline remains a reported prior finding until reread; use it conservatively rather than falling back to 23:59.
+5. Backup of this correction and eventual build-runtime preview/release recovery. The previous private backup remains valid for its dated snapshot; **these Nov 9 edits are saved locally, uncommitted and unpushed**. No cloud task, upload, permission change, public publication or contest code was created.
+
+**Expanded handoff, Nov 9:** COMPETITION_RUNBOOK.md consolidates the current source links, six-person output lanes, delivered mentor plan, scientific caveats, prompt-by-prompt integration/review flow, storage locations and unresolved permissions. The user requested intensive event-time work and Fast mode; official guidance was checked, but no speed/account setting was changed. The delivered four-page mentor plan was read in full, reconciled into the runbook, and copied to sibling nasa-preparation-deliverables/Ke-hoach-NASA-theo-mentor.docx. Its proposed owners remain unconfirmed. Fresh Mac disk check at 09:22 UTC found about 13 GiB available (97% used); the checkout was about 704 KiB before adding the runbook. These are observations, not guaranteed event capacity. All four current documentation files remain local and uncommitted/unpushed.
+
+**Next action under two minutes:** choose one rehearsal volunteer and confirm who will integrate the team's work. No names are assigned by this document.
 
 ## Appendix A — portable practice files
 

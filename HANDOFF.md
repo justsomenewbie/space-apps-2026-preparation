@@ -1,36 +1,33 @@
 # Current handoff
 
-Updated: 8 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Nov 8 user confirmation resolves team membership; ownership released. Existing backup workflow is unchanged; current Git/remote state identifies this small follow-up snapshot.
+Updated: 9 November 2026, Asia/Ho_Chi_Minh.
+Active editor: none. Documentation saved; ownership released. Independent review and existing Codex chat context refresh are read-only.
 
-## Decisions
+## Read first
 
-Six members: Chung, Trang, Lâm, Minh, Sơn and Thảo. Topic remains undecided. Junior Astronaut is historical/provisional. Official receipts confirm owner registration Oct 21 and Hanoi selection Oct 24. On Nov 8 the user confirmed every teammate is registered and listed: "Everyone is in." Membership is resolved by user confirmation; integrator and human rehearsal remain open. Continue topic-neutral preparation only; no early submission components.
+`COMPETITION_RUNBOOK.md` is the comprehensive event handoff: current decisions and sources, six-person output lanes, reported mentor request, schedule, science limitations, prompt/review loop, Fast mode procedure, locations and permissions. `PREPARATION.md` section 11 records the source confidence; earlier Junior Astronaut plans are historical. The delivered mentor plan has been read in full and copied to sibling `nasa-preparation-deliverables/Ke-hoach-NASA-theo-mentor.docx`; proposed owners remain unconfirmed.
 
-## Canonical work and backup
+Six members are user-confirmed registered/listed. The corrected Hanoi form submitted Nov 8 at 21:59, reread Nov 9, records **Lunar Landing Site Navigator**. Final scope/stack, integration owner and human rehearsal remain open. No early submission implementation.
 
-Local: `/Users/nns/Documents/ChatGPT/nasa space app challange`.
+## Deadlines
+
+Earlier Nov 8 review of [the Hanoi page](https://eventstem.com/spaceapps.html?lang=vi) reported **11:00 Hanoi Nov 15 local judging submission**. Fresh direct verification remains pending after retrieval failure/policy-blocked access; do not bypass. Global submission is separately **23:59 Hanoi Nov 15**. Protect the earlier local cutoff. Recommended freeze: 09:00 or earlier; target local submission: 10:30. These targets are recommendations, not rules. Never reuse the old Sunday-afternoon completion plan.
+
+## Local state and backup
+
+Canonical Mac folder: `/Users/nns/Documents/ChatGPT/nasa space app challange`.
 Private remote: https://github.com/justsomenewbie/space-apps-2026-preparation.
-Nov 8 content snapshot: `2a400320f24eb348cc3953be817677c7b7aaeedf`, normally pushed to the existing private remote. A fresh bounded remote recovery byte-matched all three documents and passed git fsck. This status update records that check; inspect current Git/remote state for later commits. No force push or access changes. AGENTS.md and Appendix A remain unchanged. Evidence: `nasa-preparation-deliverables/backup-verification-2026-11-08.json`.
 
-User selected personal Drive. Private assets folder: https://drive.google.com/drive/folders/1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S . Nov 7 owner-only 184-byte upload/read/Trash/restore passed; uninvited school account could not read it. No teammate invitations. Drive then displayed 32.94 GB of 5 TB used. Section 9 preserves details. Mac now reports about 12 GiB free; no cleanup, bulk download or install occurred.
+HEAD remains `d8d4ff26667b287d02dd0d122ab17e83cb426fba`, remotely verified Nov 8. **Nov 9 changes to AGENTS.md, PREPARATION.md, HANDOFF.md and new COMPETITION_RUNBOOK.md are local, uncommitted/unpushed.** No remote operation occurred. Pre-edit snapshots and the current readiness summary are in sibling `nasa-preparation-deliverables`; these local copies are not off-device backup. Appendix A and rehearsal artifacts are preserved.
 
-## Completed checks
+Dated portable/Node, cloud restoration/HTTP, local browser and conflict/integration drills passed. Real teammate rehearsal and cloud interactive preview remain unverified. Drive permission readback Nov 9 is owner-only. Contacts exist privately; approve exact recipients/rights before sharing. Mac had about 13 GiB available at 09:22 UTC Nov 9; remeasure before downloads.
 
-Portable ZIP: `/Users/nns/Documents/ChatGPT/nasa-preparation-deliverables/teammate-rehearsal-2026-11-06.zip`. Six files, 4,191 bytes; extraction/hashes/three Node assertions passed independently. Result card remains blank.
+## Event work
 
-Earlier fresh cloud restoration/Node/HTTP and separate local browser count/reset/keyboard checks passed. Cloud browser preview, mobile/screen-reader behavior and human reproduction remain unverified. Do not duplicate completed tests or republish the cloud configuration.
+The user wants intensive, focused iterations and Fast mode during the event. Official support/procedure and usage costs are in the runbook. Fast mode is **not enabled or verified now**; no CLI/config/account changes, credits or resets. Check the supported visible control at event time, protect checkpoints, and do not promise uninterrupted execution.
 
-Nov 8 offline integration drill detected/resolved a same-line conflict. A clean merge then passed focused tests but failed the shared-type integration check; contract repair made all three checks pass. Evidence/summary live in `nasa-preparation-deliverables/integration-rehearsal-2026-11-08.json` and `integration-rehearsal-summary-2026-11-08.md`. No competition code was created.
-
-## New source/readiness review
-
-Section 10 records Nov 8 indexed official evidence: event submission remains Nov 14 09:00–Nov 15 23:59 local. Event registration wording differs from legal terms; the Nov 8 user confirmation resolves the team’s registration task. Rights, privacy and five readiness gates are explicit. Direct source fetches returned 502; browser fallback timed out, so a public rules tab's state is uncertain. No verified 2026 Hanoi timetable was found; older/different-city schedules were not substituted. Earlier FAQ/team-guide evidence is not presented as newly verified.
+Expect Nov 10 logistics and Nov 13 resources/guides; verify actual receipt, source details and guardian/mentor arrangements. Preserve Safari. Read Git state and ownership before every task; use isolated workspaces for concurrent writers, independent combined checks and concise handoffs.
 
 ## One next action
 
-Name one rehearsal volunteer and provide the actual 2026 Hanoi event/schedule link if available. Team file-access emails/rights and topic/integrator remain pending; competition membership is confirmed. Do not repeat registration checks. No team sharing, outreach, role assignment, registration, public publication or payment occurred.
-
-## Antigravity startup
-
-Read AGENTS.md, HANDOFF.md and relevant PREPARATION.md. Inspect runtime, changes and ownership. Continue only the named task; preserve existing work and safeguards. Report exact checks/failures, update this handoff under 500 words, and release ownership. No new cloud tasks, sharing or publication without specific authorization.
+Name one rehearsal volunteer and confirm the integration owner. No names assigned here.
