@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 10 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Product review/cloud sync complete; ownership released.
+Active editor: none. Handoff backup/cloud sync verified; ownership released.
 
 ## Read first
 
@@ -33,7 +33,7 @@ Fresh [SEPA read](https://sepa.org.vn/en/spaceapps-hanoi-2026): Nov 14–15, no 
 
 ## Local state
 
-Mac cf359c4; backup `62a30ea`; Appendix A unchanged. HANDOFF changes preserved/uncommitted. Cloud `work`: d4117cd→cf359c4 fast-forward, five matching blobs, clean before/after; three scratch hashes unchanged. Nov 10 chat `01a1ae73-95a6-7003-bdfd-63b7b3b3a0b6`. Sibling deliverables outside Git; Fast unchanged.
+Verified Nov 10: Mac/GitHub/cloud at d7852ff; five matching blobs, clean checkouts, unchanged scratch hashes. Cloud chat `01a1ae73-95a6-7003-bdfd-63b7b3b3a0b6`. This status note follows that snapshot. Appendix A unchanged; sibling deliverables outside Git; Fast unchanged.
 
 Drive `1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S`: index, plan/task-board, AI-context and QA folders. Recorded five writers plus owner on uploaded coordination files, no public permission: `qa/drive-upload-2026-11-10.json`. RUNBOOK and PREPARATION now distinguish completed sharing from unverified teammate-device access; historical owner-only observations remain dated. No new permission change.
 
