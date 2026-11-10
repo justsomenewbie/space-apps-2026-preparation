@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 10 November 2026, Asia/Ho_Chi_Minh.
-Active editor: Codex. User-authorized preparation backup in progress.
+Active editor: none. User-authorized preparation backup verified; ownership released.
 
 ## Read first
 
@@ -31,7 +31,7 @@ Fresh [SEPA read](https://sepa.org.vn/en/spaceapps-hanoi-2026): Nov 14–15, no 
 
 ## Local state
 
-Backup base: local/remote main d4117cd. User authorized committing/pushing all five preparation Markdown files Nov 10. GitHub connector confirms private visibility. Full diff and Drive evidence reviewed; remote result pending. No Fast change or cloud refresh. Prior disk snapshot: 14 GiB free, not remeasured.
+Nov 10 content snapshot `62a30ea622ff12f489b2ca016b3d1dd6a05df423` contains all five preparation Markdown files; normal push and matching remote main verified. GitHub connector confirms private visibility. Independent review/whitespace checks passed; Appendix A unchanged. This note follows that snapshot; inspect Git for its status-note commit. No Fast change or cloud refresh; sibling deliverables remain outside Git.
 
 Drive `1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S`: index, plan/task-board, AI-context and QA folders. Recorded five writers plus owner on uploaded coordination files, no public permission: `qa/drive-upload-2026-11-10.json`. RUNBOOK and PREPARATION now distinguish completed sharing from unverified teammate-device access; historical owner-only observations remain dated. No new permission change.
 
@@ -39,10 +39,10 @@ Native task board: https://docs.google.com/spreadsheets/d/1zqhG7NVRH-TdO6fr6e0n7
 
 Last GitHub access view: private, five invitations pending, zero accepted. Evidence: sibling `nasa-preparation-deliverables/github-invitations-2026-11-10.jpg`. No Zalo message sent by assistant.
 
-Bounded Nov 8–10 NASA/Space Apps/eventstem/sepa searches in both linked mailboxes found no new team-code notice; other channels unverified. Local rehearsal card remains blank. Keep current tools; reuse eligibility and human rehearsal remain unresolved. No installs, remote edits or assignments.
+Bounded Nov 8–10 NASA/Space Apps/eventstem/sepa searches in both linked mailboxes found no new team-code notice; other channels unverified. Local rehearsal card remains blank. Keep current tools; reuse eligibility and human rehearsal remain unresolved. No installs, Drive edits or assignments.
 
 Source-learning note: sibling `nasa-preparation-deliverables/Doc_dung_nguon_lunar_2026-11-10.md`. Primary definitions reread; no calculations or science validation.
 
 ## One next action
 
-Complete the authorized backup and verify remote main. Scope and owners remain unconfirmed.
+Clarify with Thảo the changed-schedule question; scope and owners remain unconfirmed.
