@@ -1,6 +1,6 @@
 # NASA Space Apps preparation pack
 
-Status: preparation only. Updated 9 November 2026, Asia/Ho_Chi_Minh (UTC+07:00). Section 11 is the current decision and schedule record; earlier dated evidence remains historical where superseded. `COMPETITION_RUNBOOK.md` indexes the current sources, mentor-plan gaps, six-person output lanes, event workflow, Fast mode procedure and permissions. It is a planning handoff, not a completed competition solution.
+Status: preparation only. Updated 10 November 2026 (Drive-status reconciliation), Asia/Ho_Chi_Minh (UTC+07:00). Section 11 is the current decision and schedule record; earlier dated evidence remains historical where superseded. `COMPETITION_RUNBOOK.md` indexes the current sources, mentor-plan gaps, six-person output lanes, event workflow, Fast mode procedure and permissions. It is a planning handoff, not a completed competition solution.
 
 This is a learning and coordination record, not a competition entry. **Current submitted choice: Lunar Landing Site Navigator.** The corrected Hanoi team-form receipt, submitted 8 November at 21:59 Hanoi and reread on 9 November, records six members and this challenge. The user confirmed full team membership on 8 November. The earlier Junior Astronaut concept is historical. Submitted choice does not prove a fixed implementation scope, agreed stack, named integrator or irreversible challenge selection.
 
@@ -14,7 +14,7 @@ This is a learning and coordination record, not a competition entry. **Current s
 
 ## Quick status: collaboration, storage and preparation
 
-Updated 9 November 2026, Asia/Ho_Chi_Minh. **Verified** means observed at its stated date; **reported** identifies earlier source findings that have not been freshly repeated. **Recommended** does not mean agreed by the team. See section 11 for the current evidence boundary.
+Updated 10 November 2026 (Drive status), Asia/Ho_Chi_Minh. **Verified** means observed at its stated date; **reported** identifies earlier source findings that have not been freshly repeated. **Recommended** does not mean agreed by the team. See section 11 for the current evidence boundary.
 
 ### Current direction and collaboration
 
@@ -25,8 +25,8 @@ Updated 9 November 2026, Asia/Ho_Chi_Minh. **Verified** means observed at its st
 ### Code, shared assets and storage
 
 - **Backup verified Nov 9:** at the user’s explicit request, all four current Markdown documents were committed as `7d5c493efbdedb49cbf86522e509087bbf4f4411` and normally pushed to the existing private repository. Remote `main` matched that snapshot; account/visibility were verified through the GitHub connector. This follow-up records the result; inspect current Git for later status-note commits. Earlier `5f420c7` restoration evidence remains dated. Local deliverables and private contacts stay outside Git.
-- **Selected by the user Nov 7:** personal Google Drive, with the private [NASA Space Apps 2026 Assets folder](https://drive.google.com/drive/folders/1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S). Owner-only upload/read and Trash/restore passed Nov 7. Permission metadata reread Nov 9 still shows only the owner and `shared: false`. Team access is not configured. GitHub, cloud compute and Drive are separate storage locations.
-- **Recommended:** keep source/docs and small approved inputs in Git, heavy dependencies/build output where builds run, and larger assets in the selected Drive folder. Only a harmless 184-byte test file was uploaded; no competition assets, teammate access, paid service or cloud provisioning were added.
+- **Selected by the user Nov 7:** personal Google Drive, with the private [NASA Space Apps 2026 Assets folder](https://drive.google.com/drive/folders/1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S). Owner-only upload/read and Trash/restore passed Nov 7. Nov 9 permission metadata was owner-only. The Nov 10 recorded connector readback confirms five writers plus the owner on the uploaded coordination files, with no public permission. This supersedes the earlier unconfigured-sharing status; teammate-device access remains untested. GitHub, cloud compute and Drive are separate storage locations.
+- **Recommended:** keep source/docs and small approved inputs in Git, heavy dependencies/build output where builds run, and larger assets in the selected Drive folder. The Nov 7 test uploaded only a harmless 184-byte file. The Nov 10 coordination pack and navigation index were subsequently uploaded and shared privately as recorded in section 11. These are preparation documents, not competition assets; no new upload, permission change, paid service or cloud provisioning occurs in this reconciliation.
 - **Measured Nov 7:** Mac Data volume reports about 18 GiB available, 96% used. The preparation checkout is tiny; this is not a reason to duplicate heavy assets locally. Personal Drive displayed 32.94 GB of 5 TB used. No Mac cleanup occurred and these observations do not verify iCloud recovery.
 
 ### Completed and verified
@@ -35,14 +35,14 @@ Updated 9 November 2026, Asia/Ho_Chi_Minh. **Verified** means observed at its st
 2. The existing pack records dated official-rule/science reading and a local unrelated practice exercise. This is preparation, not a competition build or a completed team rehearsal.
 3. The separate fresh cloud test restored **three practice files** and passed Node assertions and exact HTTP-content checks. Its browser interaction was **not verified**; the earlier local browser pass is separate evidence. Do not repeat the completed cloud test or count HTTP success as a browser pass.
 4. The Nov 6 isolated in-app browser check of the existing local exercise passed: 0 → 1 → 2, Reset → 0, Shift+Tab/Enter → 1. Page/title, visible focus and rendering passed at 1280×720; captured warning/error log was empty. The tab and loopback server were closed. This verifies a local preview route, not cloud-hosted browser interaction or a teammate rehearsal.
-5. A portable rehearsal ZIP exists outside Git: 4,191 bytes, six files, five matching manifest hashes; its three practice files exactly match Appendix A. Fresh extraction passed all three Node assertions, also independently reviewed. The result card remains blank. Section 8 compares shared-asset options using official documentation. The later Nov 7 selection and owner-only storage test are recorded in section 9; teammate sharing is still pending.
+5. A portable rehearsal ZIP exists outside Git: 4,191 bytes, six files, five matching manifest hashes; its three practice files exactly match Appendix A. Fresh extraction passed all three Node assertions, also independently reviewed. The result card remains blank. Section 8 compares shared-asset options using official documentation. The Nov 7 selection and owner-only storage test are recorded in section 9. Nov 10 sharing is recorded in section 11; actual teammate-device testing remains pending.
 
 ### Remaining before implementation
 
 1. Confirm the submitted Lunar challenge against the official full brief when accessible, and agree an achievable scope/integrator. Do not repeat topic-selection or registration work already resolved. Submission implementation still waits for the permitted start.
 2. Confirm responsibilities/integrator and have another teammate use the section 8 rehearsal bundle to reproduce the unrelated exercise and review one bounded change. Human participation is not yet verified.
 3. Verify preview for the eventual competition runtime once chosen. The local isolated route is demonstrated; cloud-hosted browser interaction remains untested, and another teammate must reproduce the practice/recovery flow.
-4. Use the teammate addresses already present in the private corrected receipt to propose exact contributor/viewer rights for approval, then test actual access. Do not copy those contacts into Git or ask for them all again. Earlier owner-only recovery does not prove teammate access.
+4. Have a teammate open the already-shared Drive pack in their own account and complete the unrelated handoff trial. The Nov 10 permissions readback passed; actual device access and human rehearsal remain untested. Do not repeat invitations or expose contacts in Git. GitHub invitation acceptance is separate and requires current evidence.
 5. Recheck final guides and the reported Hanoi 11:00 Nov 15 local cutoff, separately from global 23:59. Track the expected Nov 10 allocation/team-code notice and Nov 13 guides/resources. Check applicable guardian/mentor arrangements; no new registration, outreach or invitation is part of this update.
 
 ## 1. Rules and source index
@@ -311,7 +311,7 @@ Review gate: inspect the full working/staged diff and untracked files; run focus
 
 ## 8. Portable rehearsal and shared-asset decision — Nov 6
 
-Historical Nov 6 comparison and proposed checklist. Section 9 records the later personal-Drive selection and completed owner-only recovery test; named teammate access is still pending.
+Historical Nov 6 comparison and proposed checklist. Section 9 records the later personal-Drive selection and completed owner-only recovery test. Section 11 records completed Nov 10 file sharing; actual teammate-device access is still unverified. The earlier invitation/revocation checklist below is historical, not a request to change current permissions.
 
 ### Rehearsal bundle: ready locally, not distributed
 
@@ -353,7 +353,7 @@ After the team records the service/owner and exact recipients/rights, use one ne
 
 A new [access-test-2026-11-07.txt](https://drive.google.com/file/d/1RLTg6i5M_dTfXlDVIFYlgcWfsJ-tCAGv/view?usp=drivesdk) contains only a harmless rehearsal marker, 184 bytes, SHA-256 `bcce986e1506331ac1aa7dc602db84ecd7019d4eb94c9cef70956e760a52c6df`. Upload and owner read passed. In Drive's browser UI, only this test file was moved to Trash and restored through Restore from trash; the UI confirmed restoration and the file reappeared in the original folder. A connector reread returned the exact original text and unchanged owner-only access. The user's separate, uninvited school account received HTTP 404 for the known file, consistent with private access. No access request was sent, and no permanent deletion or empty-Trash action occurred. The restored test file remains in the private folder.
 
-**Still untested:** contributor/viewer behavior on teammates' devices, human rehearsal, signed-out browser access and revocation. Nov 9 update: the corrected private registration receipt supplies teammate addresses, but approved sharing rights remain unresolved. Reuse those contacts privately rather than asking for them again or copying them to Git. The folder remains owner-only. One next action: approve exact recipients/rights and name a rehearsal volunteer.
+**Historical state as of Nov 9:** contributor/viewer behavior on teammates' devices, human rehearsal, signed-out browser access and revocation were untested; the folder was owner-only and exact sharing rights remained unresolved. The private receipt supplied teammate addresses. **Superseded on Nov 10:** the coordination files now have five writers plus the owner and no public permission in the recorded connector readback (section 11). Actual teammate-device testing and human rehearsal remain unverified; do not repeat invitations or revoke existing access to replay the old checklist.
 
 ## 10. Readiness and source review — Nov 8
 
@@ -382,7 +382,7 @@ The indexed [participant terms](https://www.spaceappschallenge.org/legal/) requi
 | Local rules and arrangements | Registration is resolved; the later Nov 8 form records Lunar. Earlier review reported Hanoi 11:00 Nov 15 local submission. | Freshly verify the local cutoff and operational arrangements, keeping global 23:59 separate. Section 11 gives the source limit and schedule. |
 | Scope and integration decision | Submitted choice is Lunar Landing Site Navigator; no finalized human integrator is recorded here. | Confirm full official brief, named owners and one achievable outcome. Do not build separate apps or begin submission implementation early. |
 | Real teammate rehearsal | Owner tests and offline conflict drill passed; human reproduction unverified. | One volunteer returns the existing result card with their own runtime, version, checks and one reviewed change. Do not count another AI run as human verification. |
-| Access and storage | Private GitHub recovery and owner-only Drive recovery passed Nov 7. Mac has about 12 GiB free Nov 8. | Exact teammate accounts/rights before sharing; actual contributor/viewer test afterward. Keep dependencies off this near-full Mac. Nov 8 content snapshot backup passed; current Git status/remote evidence identifies any later edits. |
+| Access and storage | Private GitHub recovery and owner-only Drive recovery passed Nov 7. Mac has about 12 GiB free Nov 8. | Historical Nov 8 gate: exact accounts/rights before sharing. Nov 10 file permissions are now recorded in section 11; actual teammate-device access remains unverified. Keep dependencies off this near-full Mac. Current Git status/remote evidence identifies later edits beyond the Nov 8 backup. |
 | Final release/readiness review | Cloud Node/HTTP and separate local browser checks passed earlier. | On Nov 13, reread current submission/judging guides and record exact fields/limits. At build time verify preview in the chosen runtime, combined checks, artifact rights/privacy and restoration from the exact release. |
 
 **Recommendation:** keep the earlier shared-interface review and combined-test gate mandatory. The Nov 8 drill showed a clean Git merge and passing focused tests can still violate the shared type contract. A named reviewer must test the integrated version; no new automation is needed to apply this rule.
@@ -412,7 +412,7 @@ This is a planning recommendation, not a team-approved allocation or permission 
 
 | When | Bounded outcome and stop rule |
 |---|---|
-| Nov 9–12 | Confirm roles, availability and one integrator; approve private file-access rights using existing contacts; have one teammate complete the unrelated rehearsal. Record actual outcomes, not assumed readiness. Track the expected Nov 10 logistics notice. |
+| Nov 9–12 | Confirm roles, availability and one integrator; have one teammate open the already-shared pack and complete the unrelated rehearsal. Nov 10 file-sharing permissions are recorded below; actual device access is not. Track the expected Nov 10 logistics notice. |
 | Nov 13 | Reread official Lunar resources and submission/judging guides; verify the local 11:00 cutoff, venue/mode and pitch details. Record required fields and source/rights/privacy limits. Agree a smaller fallback if tools or data are not understood. |
 | Nov 14 morning, after the verified permitted start | Confirm one demonstrable comparison outcome, owners, data/interface assumptions and acceptance checks. Work toward one complete site/time-to-result path. If there is no runnable path by early afternoon, cut scope rather than add parallel features. |
 | Nov 14 afternoon/evening | Integrate a second comparison only once the first path works. Independently check sample results, units and limitations. Prepare demo/source notes alongside implementation. End with a runnable baseline and a rest plan, not six unmerged pieces. |
@@ -424,7 +424,7 @@ This is a planning recommendation, not a team-approved allocation or permission 
 
 1. A named integrator and owners with concrete outputs, agreed by the team. The submitted Lunar choice is resolved; the final scope/stack and human capabilities are not.
 2. A real teammate's completed rehearsal card and a reviewed combined change. Existing assistant drills do not count as human participation.
-3. Approved exact Drive recipients/rights and an actual contributor/viewer test. Nov 9 permission readback is still owner-only. Teammate emails are available privately in the corrected receipt; never copy them into Git.
+3. **Drive sharing completed; actual access still unverified.** The Nov 10 connector metadata/root-listing record confirms five writers plus the owner on each uploaded coordination file, with no public permission. It covers the human plan (Word/PDF), AI context and navigation index. Local evidence: sibling `nasa-preparation-deliverables/nhom-va-ai-2026-11-10/qa/drive-upload-2026-11-10.json`, reread Nov 10 for this reconciliation. It does not verify teammate-device opening, remote byte hashes or a human handoff. Do not repeat invitations. GitHub membership/acceptance is separate; the last dated view showed five invitations pending. Keep private contacts outside Git.
 4. Fresh official/local source verification and the Nov 10/13 logistics/resources updates. The local 11:00 deadline remains a reported prior finding until reread; use it conservatively rather than falling back to 23:59.
 5. Eventual build-runtime preview/release recovery and loading the updated pack in a cloud checkout. The Nov 9 four-document snapshot `7d5c493` was committed, pushed and verified on private `main` at the user’s request. A running cloud checkout is not automatically refreshed. No cloud task, access change, public publication or contest code was created.
 

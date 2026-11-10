@@ -61,3 +61,9 @@ Codex handles ambiguous analysis, shared decisions, integration, and review. Gem
 ## Limited disk space
 
 Use the existing checkout sequentially by default; both assistants read the same files. Do not add a CLI, duplicate checkout, local model, container image, dependency stack, or bulk dataset merely for coordination. Before a substantial download/install, inspect available space and justify the required footprint. Keep source URLs plus small selected evidence; do not cache entire OSDR/DONKI archives. Keep reproducible source separate from disposable build output, and inspect actual paths/sizes before proposing cleanup. Never delete app state, credentials, caches or user files without the user's explicit cleanup authorization. App history/cache growth is outside this Markdown workflow and must be measured separately.
+
+## Plugin and skill routing
+
+The user explicitly requested on 9 November 2026 that useful NASA plugins be available and selected automatically from ordinary language. Read `PLUGIN_ROUTING.md` when a task involves source research, notebooks, maps/charts, interface work, QA, documents or Git collaboration. Use the relevant installed workflow without waiting for the user to name a plugin. Read its actual skill instructions before using it; do not merely list a tool as a substitute for invoking it. Say briefly what was used and what was actually verified.
+
+This is task routing, not permission to build before the permitted start, connect a new account, grant persistent access, publish, spend money, or relax safeguards. Use existing capabilities first. Installed, available in this session, invoked, and independently verified are different states. If a skill is missing from the session catalog, inspect the relevant local skill path from the routing note and report any execution limitation honestly. Do not copy a plugin into the repository just to make its name appear.
