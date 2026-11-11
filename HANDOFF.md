@@ -1,36 +1,34 @@
 # Current handoff
 
 Updated: 11 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Reviewed content published; ownership released.
+Active editor: Codex, dependency repair and authorized Git publication.
 
 ## Read first
 
-README links the shared pack. Read COMPETITION_RUNBOOK, PREPARATION §11, DATA_PREPARATION, BOI_CANH_AI and FRONTEND_HANDOFF. PREPARATION_COVERAGE records 15 NASA histories/77 turns, including the active audit; old chats do not automatically share memory. Mac originals/evidence: sibling `nasa-preparation-deliverables/full-sync-2026-11-11/`. Cloud lacks sibling files and Mac-installed tools.
+README → COMPETITION_RUNBOOK → FRONTEND_HANDOFF → DATA_PREPARATION. PREPARATION §11 is dated history; PREPARATION_COVERAGE records the 15-history/77-turn audit. Mac-only evidence is in sibling `nasa-preparation-deliverables/`; cloud does not inherit it or Mac tools.
 
-Six registered members; Lunar Landing Site Navigator confirmed. Scope/stack/data and individual acceptance remain open. AI context §1 preserves both unadopted proposals: Moon Plan B (two sites/five dates) and Lunar Workday (two sites/two dates, ordered science-then-transmission tasks). Neither novelty nor science is validated. No submission code/UI/assets/processed dataset created.
+Six registered members; Lunar Landing Site Navigator confirmed. Product scope, actual implementation repo/branch, shared data contract and accepted individual outputs remain open. Moon Plan B/Lunar Workday are unadopted proposals, not validated science. No Lunar submission code/UI/assets/processed dataset exists here.
 
-## Event evidence
+## Frontend preparation — latest
 
-RUNBOOK cites caption plus all six Q&A images: THCS Trưng Vương, check-in 07:00 November 14–15, opening 08:15; meals self-funded. Team room/meeting/overnight arrangements unresolved. Portal opens 09:00 November 14; physical opening is separate.
+The user clarified that Sơn owns frontend preparation/framework choice. Do not wait for Chung to choose it. Codex prepared React + TypeScript + Vite/npm/CSS as the default; coordinate shared interfaces/integration with Chung. Prefer `frontend/` in the shared implementation repo; URL/branch remain unknown. No separate frontend repo created.
 
-BTC PDF IV.1 says before 11:00 November 15, VI.1 says 12:00; conflict unresolved. Global 23:59 is separate. Recommend freeze 09:00/submit 10:30; not organizer rules. Recheck November 13 guides.
+FRONTEND_HANDOFF §6 records the unrelated stock-template test: Node 24.22.2/npm 11.19.1; React/DOM 19.2.8, Vite 8.3.8, TypeScript 6.0.3; lockfile retained. Nine stock source/assets matched upstream. Build/lint and six production-browser groups passed at 1280/320 px; screenshots inspected. Independent reviewer reran build/lint, its own browser smoke and stock-source comparison. Existing tally's three assertions passed again. No additional plugin/browser installed. Disk: 184 GiB free before the approximately 118 MiB practice install.
 
-NASA Terms/FAQ reuse conditions and pinned CLPS MIT/PolarWindow Apache-2.0 selections are in DATA_PREPARATION/AI context. No code/data imported. Q5 framework exception is AI-focused; permission for early Lunar frontend remains unverified. Current task remains preparation only, regardless of calendar changes.
+Evidence: `readiness-gaps-2026-11-11/` and `dev-tool-fix-2026-11-11/`. Scoped minimatch 11.0.7 pins repair the ten moderate entries. Independent clean install, checker, lint/build and production-browser smoke passed; full/production-only audits both returned zero. Coordinator's two failed subset-audit requests remain recorded as network failures. No force or disabled controls. This is a tested cross-major exception; remove after stable upstream adoption and recheck. Portable manifests/checker are in `practice-stack-lock/`, without app source. No Lunar integration, deploy/offline, speech/native zoom or second-device claim. Antigravity's earlier read-only review was independently checked.
 
-## Team and access
+## Event and people
 
-Live Sheet: Chung integration/backend; Trang sources; Sơn + Thảo frontend; Minh + Trang QA; Lâm + Thảo content. G7 contradicts QA with Minh + Thảo. All statuses Chưa làm; preferences/results blank; assignments do not prove acceptance.
+Recorded venue: THCS Trưng Vương; check-in 07:00, opening 08:15, portal 09:00 November 14. Team room/overnight arrangements unresolved. Organizer PDF contradicts itself: before 11:00 versus 12:00 November 15; separate global 23:59. Recommended freeze 09:00/submit 10:30 are not rules. Recheck November 13 guides. Prework remains preparation/unrelated practice only.
 
-All ten Drive items now anyone-with-link reader, not discoverable in search, with owner plus five named writers. Root/folder listing is available without login. Word/PDF/index/AI updated at existing IDs. Five-page plan inspected on every page; embedded-font export preserved the reviewed layout. Original files backed up.
+Live Sheet reread: Chung integration/backend; Sơn + Thảo frontend; Trang sources; Minh + Trang QA, while G7 says Minh + Thảo; Lâm + Thảo content. All statuses Chưa làm; other members' acceptance, QA conflict, backups/submitter and teammate rehearsal remain unverified.
 
-GitHub visibility is public, explicitly authorized. Live Manage access: two collaborators, three pending invitations. Public read does not grant push. No contacts/invitation screenshots/raw transcripts added. History retains author email metadata and an old identifier; no history rewrite. Teammate-device testing remains unverified.
+## Sharing and Git
 
-## Checks, tools and Git
+Earlier verified sharing remains: ten Drive items anyone-with-link reader plus five named writers; GitHub public, two collaborators/three pending invitations at the earlier check. No access changes this task.
 
-Portable practice-tally has six files; five code files match the earlier unrelated exercise, three assertions passed again. Prior Mac browser groups passed; no new teammate rehearsal. Node24, six frontend skills, relay and Context Mode details/limits are in PLUGIN_ROUTING. Context Mode invoked this audit; no automatic whole-chat capture. No Fast/overage changes.
-
-Mac/GitHub/cloud content snapshot **67975b9** verified November 11: 17 matching files; anonymous GitHub archive matched local bytes. Existing cloud chat Verify Space Apps cloud readiness fast-forwarded safely on branch work; clean, three scratch hashes unchanged. Root compared all 17 observed cloud blobs with local Git. This status note follows that snapshot; pull latest main and verify equality before new work. Untracked Mac .DS_Store remains untouched. No external outreach/deployment or settings changes beyond requested sharing.
+Base HEAD `e387815`; five preparation documents plus `practice-stack-lock/` are being reviewed for the user-authorized commit/push to `origin/main`. Publication is pending; do not call local changes backed up yet. No Drive update or cloud sync this task. Untracked `.DS_Store` is excluded and untouched. Inspect Git before further work.
 
 ## One next action
 
-Open README and confirm the QA owner with the team; do not build Lunar yet.
+Use FRONTEND_HANDOFF's unsent draft to request the integration path and one real response example; frontend framework choice need not wait.
