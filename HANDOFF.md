@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 11 November 2026, Asia/Ho_Chi_Minh.
-Active editor: Codex, dependency repair and authorized Git publication.
+Active editor: none. Dependency repair/publication verified; ownership released.
 
 ## Read first
 
@@ -27,7 +27,7 @@ Live Sheet reread: Chung integration/backend; Sơn + Thảo frontend; Trang sour
 
 Earlier verified sharing remains: ten Drive items anyone-with-link reader plus five named writers; GitHub public, two collaborators/three pending invitations at the earlier check. No access changes this task.
 
-Base HEAD `e387815`; five preparation documents plus `practice-stack-lock/` are being reviewed for the user-authorized commit/push to `origin/main`. Publication is pending; do not call local changes backed up yet. No Drive update or cloud sync this task. Untracked `.DS_Store` is excluded and untouched. Inspect Git before further work.
+Preparation checkpoint `dcf726a` was committed and pushed to `origin/main` on November 11; remote HEAD matched its full SHA. This status note follows that verified checkpoint. No Drive update or cloud task refresh this turn. Untracked `.DS_Store` is excluded and untouched. Inspect current Git before further work.
 
 ## One next action
 
