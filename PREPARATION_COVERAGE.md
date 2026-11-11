@@ -1,6 +1,23 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
-Cập nhật 11/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị, không chứng nhận nhóm đã làm sản phẩm, đồng ý mọi đề xuất hoặc đã mở file trên máy thật.
+Cập nhật 12/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị, không chứng nhận nhóm đã làm sản phẩm, đồng ý mọi đề xuất hoặc đã mở file trên máy thật.
+
+## Checkpoint tiếp nối chat — 12/11/2026
+
+AGENTS yêu cầu đối chiếu thay đổi khi bắt đầu/kết thúc công việc; không có capture hoặc đồng bộ nền. Lượt này đọc user/final messages của **6 lượt gần nhất được chọn trong 4 chat**, đối chiếu với file hiện hành; không phải rà hết lịch sử. Inventory local được đọc một trang 50 mục; không rà lại archived hay toàn bộ các host. Các trang cũ chưa đọc vẫn là khoảng trống, không được tính đã bao phủ chỉ vì đọc lượt mới nhất. Mốc 15 lịch sử/77 lượt bên dưới giữ nguyên tính lịch sử.
+
+| Chat đã đọc (ID, host) | Lượt mới nhất đã đọc | Phạm vi và nơi lưu kết quả |
+|---|---|---|
+| Review attached file — `01a1c9f1-a4e1-7c40-a0e8-644d5776db1b`, local | `01a1cc22-3fa3-7c23-9a46-d7b752a03321` | Hai lượt gần nhất: hosting và endurance; đối chiếu FRONTEND_HANDOFF, HOSTING_PLAN, PLUGIN_ROUTING. Các lượt cũ của chat chưa được rà lại. |
+| Confirm project start time — `01a1cb15-0033-77c2-bd0b-e5fb2c2a230a`, local | `01a1cbd8-c217-76c2-808b-3f1df6ccb00c` | Hai lượt gần nhất: người dùng xác nhận chưa chốt sản phẩm; kết quả đồng bộ timing. Đối chiếu HANDOFF/runbook; mốc giờ đã có trong repo. |
+| Explain event-start workflow — `01a1c9b1-ea94-7420-b169-14bf4e8f2e02`, local | `01a1ca65-4b33-7340-859d-fea1155c7cce` | Một lượt: coordinator báo cloud tới `edeff34`; phân biệt với checkpoint đã chạy test `8d2f61e`. |
+| Verify Space Apps cloud readiness — `01a1ae73-95a6-7003-bdfd-63b7b3b3a0b6`, durable | `01a1ca83-772c-77e1-8ff7-d086ac7db608` | Một lượt: báo cáo cloud xác nhận `edeff34`, 21 blobs, sạch; kiểm danh sách blob với Git local, không chạy shell cloud mới. |
+
+Chat hiện tại **Clarify project tool readiness**, `01a1cc36-6d90-70b2-998d-0b92097b3a4e`, lưu yêu cầu chọn tool chủ động và giảm lặp lại lịch sử vào AGENTS/PLUGIN_ROUTING. Lượt này đang chạy khi ghi checkpoint; lần sau đọc phần hoàn tất. Bản local `../nasa-preparation-deliverables/continuity-readiness-2026-11-12/chat-checkpoints.json` giữ thời gian, turn IDs, cursor và phạm vi đọc; file đó không tự chuyển lên cloud. Nếu không có cursor, dùng ID/turn trong bảng để tìm lại; chỉ đọc phần liên quan còn thiếu.
+
+**Trạng thái sync đã phân biệt:** `git ls-remote` xác nhận GitHub main và local HEAD cùng `854cdcb258c312be1022d6f2d995e3f7adbbe7cd`. Các sửa đổi frontend/tool/hosting trước lượt này và bốn tài liệu của lượt audit còn local, chưa commit/push. Cloud mới nhất đọc được là báo cáo `edeff34`, chưa xác minh lại checkout trực tiếp. Drive/Word/PDF giữ bằng chứng timing ngày 11/11, không suy ra đã có các ghi chú hosting/tool mới. Không gửi tin nhắn, tạo chat mới, thay quyền, mua dịch vụ hoặc công bố thêm trong audit này.
+
+**Cách tiếp nối:** so inventory chat liên quan với bảng này; đọc lượt mới và khoảng trống có ảnh hưởng; cập nhật file sở hữu quyết định, rồi ghi checkpoint và trạng thái sync thực. Chỉ xem lại toàn bộ lịch sử khi nguồn thiếu, mâu thuẫn không giải quyết được hoặc người dùng yêu cầu. Khi không truy cập được chat/host, nêu giới hạn thay vì báo “đã cập nhật mọi nơi”.
 
 ## Những phần đã đối chiếu
 

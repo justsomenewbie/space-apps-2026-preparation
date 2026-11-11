@@ -1,6 +1,6 @@
 # Chuẩn bị NASA Space Apps 2026 của nhóm Lunar
 
-**Chỉ chuẩn bị trước thi.** Nhóm gồm Chung, Trang, Lâm, Minh, Sơn, Thảo; đề đã đăng ký là Lunar Landing Site Navigator. Repo này chứa tài liệu, nguồn và bài luyện không liên quan; chưa có ứng dụng, UI hoặc dataset bài nộp. Cập nhật 11/11/2026, giờ Hà Nội.
+**Chỉ chuẩn bị trước thi.** Nhóm gồm Chung, Trang, Lâm, Minh, Sơn, Thảo; đề đã đăng ký là Lunar Landing Site Navigator. Repo này chứa tài liệu, nguồn và bài luyện không liên quan; chưa có ứng dụng, UI hoặc dataset bài nộp. Cập nhật 12/11/2026, giờ Hà Nội.
 
 ## Bắt đầu trong hai phút
 
@@ -18,8 +18,15 @@ Git là bản có lịch sử cho tài liệu chuẩn bị; Sheet giữ phân c�
 
 ## Những điều chưa chốt
 
-Phạm vi sản phẩm, stack, dữ liệu/địa điểm cụ thể, người dự phòng và người bấm nộp vẫn chưa được xác nhận. Moon Plan B và các phương án trước là đề xuất, không phải quyết định nhóm. Chưa có buổi luyện trên máy đồng đội được ghi nhận. Chuẩn bị công cụ trên Mac của Sơn không đồng nghĩa đã có trên máy khác/cloud.
+Phạm vi sản phẩm, backend/hợp đồng dùng chung, dữ liệu/địa điểm cụ thể, người dự phòng và người bấm nộp vẫn chưa được xác nhận. Moon Plan B và các phương án trước là đề xuất, không phải quyết định nhóm. Chưa có buổi luyện trên máy đồng đội được ghi nhận. Chuẩn bị công cụ trên Mac của Sơn không đồng nghĩa đã có trên máy khác/cloud.
 
 **Đính chính 11/11:** được làm toàn bộ dự án từ **00:00 ngày 14/11, giờ Hà Nội**, theo trao đổi người dùng cung cấp và xác nhận; hết giới hạn chỉ chuẩn bị từ mốc đó. [Timeline mới, trang 2](https://drive.google.com/file/d/1m07k0x7akRQqZ7YQS71hJs_ITXxgOK7e/view) xác nhận hạn Hà Nội **11:00 ngày 15/11**; 09:00 ngày 14 là mở cổng nộp. Mục tiêu 10:30 là khuyến nghị. Nguồn chi tiết: COMPETITION_RUNBOOK và BOI_CANH_AI mục 2/8.
 
 **Bước tiếp dưới hai phút:** mở bảng việc và xác nhận phần của mình; nếu C10/G7 còn mâu thuẫn, hỏi nhóm để chốt người QA.
+
+
+## Bộ chuẩn bị ngày 12 tháng 11
+
+Mã bộ: **PREP-2026-11-12**. Đọc [HANDOFF](HANDOFF.md) và [AGENTS](AGENTS.md) để tiếp tục; [FRONTEND_HANDOFF](FRONTEND_HANDOFF.md) có stack do Sơn chọn, định hướng mobile/3D/audio và giới hạn bài thử; [HOSTING_PLAN](HOSTING_PLAN.md) có phương án chạy độc lập Mac; [PLUGIN_GUIDE_REVIEW](PLUGIN_GUIDE_REVIEW.md) và [PLUGIN_ROUTING](PLUGIN_ROUTING.md) có cách chọn công cụ. Product/repo triển khai/hợp đồng dữ liệu vẫn cần nhóm chốt.
+
+Drive giữ Word/PDF xuất từ KE_HOACH_NHOM.md, BOI_CANH_AI.md cùng nguồn Git và ZIP đầy đủ của commit phát hành. File 00 ĐỌC TRƯỚC trên Drive trỏ tới bản kê commit/SHA-256. Mỗi lần sửa phải đối chiếu đúng commit và hash, không suy bản tải cũ tự thay đổi. Công cụ được cài trên Mac và bằng chứng sibling không tự nằm trong ZIP.

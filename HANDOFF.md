@@ -1,27 +1,25 @@
 # Current handoff
 
-Updated: 11 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Timing documents and shared copies reviewed; ownership released.
+Updated: 12 November 2026, Asia/Ho_Chi_Minh.
+Active editor: Codex preparation sync; reviewers read-only.
 
 ## Read first
 
 README → COMPETITION_RUNBOOK → FRONTEND_HANDOFF → DATA_PREPARATION. PREPARATION §11 and PREPARATION_COVERAGE preserve dated evidence; the 15-history/77-turn audit is historical. Mac sibling evidence and installed tools do not transfer through Git.
 
-Six registered members; Lunar Landing Site Navigator confirmed. Product scope, implementation repo/branch, data contract and accepted individual outputs remain open. Moon Plan B/Lunar Workday are unadopted proposals, not validated science. No Lunar submission code/UI/assets/processed dataset exists here.
+Six registered members; Lunar Landing Site Navigator confirmed. Product unchosen (user, Nov12); implementation repo/branch, data contract and accepted individual outputs remain open. Moon Plan B/Lunar Workday are unadopted proposals, not validated science. No Lunar submission code/UI/assets/processed dataset exists here.
 
 ## Frontend preparation
 
-Sơn owns frontend preparation/framework choice; do not wait for Chung to choose it. Prepared default: React + TypeScript + Vite/npm/CSS. Coordinate the shared contract/integration with Chung; prefer `frontend/` in the shared repo. URL/branch remain unknown; no separate frontend repo created.
+Sơn chooses frontend: prepared React + TypeScript + Vite/npm/CSS. Coordinate contracts/integration with Chung; prefer `frontend/` in the shared repo. URL/branch unknown; no separate frontend repo created.
 
-FRONTEND_HANDOFF §6 records Mac stock-practice checks and the scoped minimatch 11.0.7 repair. Exact generic manifests/checker are in `practice-stack-lock/`, without app source. This is a tested cross-major compatibility exception; remove after stable upstream adoption and recheck. Earlier Antigravity review was independently checked. Mac evidence: sibling `readiness-gaps-2026-11-11/` and `dev-tool-fix-2026-11-11/`.
+FRONTEND_HANDOFF §6 records Mac stock-practice checks and the scoped minimatch 11.0.7 repair. Generic manifests/checker: `practice-stack-lock/`, without app source. The tested cross-major exception needs removal/recheck after upstream adoption. Mac evidence: sibling `readiness-gaps-2026-11-11/` and `dev-tool-fix-2026-11-11/`.
 
 ## Cloud verification — latest
 
-Existing chat **Verify Space Apps cloud readiness**, checkout `/workspace/space-apps-2026-preparation`, branch `work`, fast-forwarded safely to tested checkpoint `8d2f61e`. Root independently compared all 21 returned cloud blobs with local Git; clean state and three existing tally-scratch hashes preserved.
+Tested checkpoint: `8d2f61e`, chat **Verify Space Apps cloud readiness**, `/workspace/space-apps-2026-preparation`, branch `work`. All 21 blobs matched Git; clean checkout and scratch hashes preserved. Latest reported documentation sync is below.
 
-Linux x86_64: Node 24.22.1, npm 11.9.0, Python 3.12.14. Tally's 3 assertions, fresh stock generation, `npm ci`, tooling check, lint/build and both full/production-only audits passed; both audits zero. Nine stock source/assets and three copied input files match their originals.
-
-Integrated Browser lacked `node_repl`; installed Python Playwright 1.62.0 plus Chromium 155.0.8059.79 passed six production-preview groups: page/content, click, Space, reload, 320 px and error health. No installation needed. Initial sandbox preview/HTTP failures were preserved; supported per-command escalation succeeded. Owned preview stopped/port closed. No Lunar/backend/science, teammate, deploy/offline, speech/native-zoom claim.
+At that tested checkpoint, tally, clean stock install, tooling check, lint/build, both audits (zero findings) and six production-browser groups passed. FRONTEND_HANDOFF §6 preserves Linux runtime, source hashes, Python Playwright fallback, original sandbox failures and supported escalation. Owned preview stopped. No Lunar/backend/science, teammate, deploy/offline or assistive-speech claim.
 
 Cloud evidence: `/workspace/scratch/stack-verification-cgt9f487/`; Mac review: sibling `cloud-frontend-check-2026-11-11/`. Scratch evidence is not a durable backup. This documentation note follows the tested checkpoint; code/lock are unchanged.
 
@@ -33,6 +31,16 @@ Latest Sheet read: Chung integration/backend; Sơn + Thảo frontend; Trang sour
 
 ## Git and next action
 
+Mac routing: 30 packs/469 paths. Both browsers passed 10-minute PBR/texture runs. Separate correctness/memory-lifecycle checks passed; motion polling fixed. Chromium had a 1.112 s hitch under host pressure. Evidence: sibling `3d-endurance-2026-11-12/README.md`. Physical-phone/24-hour/server tests remain open.
+
+[HOSTING_PLAN.md](HOSTING_PLAN.md): Cloudflare/R2; optional Railway Python. Estimate $5–10 or $25–35/month before tax/domain, workload-dependent. Sources/limits checked Nov12; sibling `hosting-research-2026-11-12/`. No purchase/deployment; team adoption pending.
+
 Timing sync targets GitHub main; Drive Word/PDF (6 pages), AI context and index replaced in place, byte-verified; both Sheet A4 notes checked. Evidence: sibling `timing-sync-2026-11-11/`. Unrelated runtime edits remain local.
 
-Next: use the midnight start when agreeing group working hours.
+Review: sibling `direction-review-2026-11-12/REVIEW.md`.
+
+Continuity: follow AGENTS startup/end checks and PREPARATION_COVERAGE chat checkpoints; select tools by task. This is on-demand reconciliation, not continuous capture.
+
+Release PREP-2026-11-12 assembles the latest instructions, frontend/tool/hosting notes, AI context and human-plan source. User authorized GitHub, existing cloud checkout and Drive/Word/PDF synchronization. Destination verification is in progress; prior confirmed GitHub/cloud states are in PREPARATION_COVERAGE. Evidence: sibling `preparation-sync-2026-11-12/`.
+
+Next: agree one demo outcome and obtain the implementation repo/branch (2 minutes).

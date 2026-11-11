@@ -1,12 +1,40 @@
 # NASA plugin and skill routing
 
-Updated 11 November 2026. This is environment preparation, not competition code, scientific results or a final UI design. Preserve all boundaries in AGENTS.md. The new installation record below supersedes the older no-install snapshot.
+Updated 12 November 2026. This is environment preparation, not competition code, scientific results or a final UI design. Preserve all boundaries in AGENTS.md. The new installation record below supersedes the older no-install snapshot.
 
 ## How to use
 
 Read the current task, choose the smallest useful workflow below, then read its actual SKILL.md and use it. The user should not need slash commands or plugin names. Prefer the session's skill catalog and tools. Local Mac fallback paths are below; a cloud checkout does not have these files automatically. Do not claim a tool worked because it is installed or because a past assistant used it.
 
+### Default for growing complexity — 12 November
+
+Start with Git, the current handoff, small tasks with acceptance examples, and independent review. Codex coordinates; native subagents or the existing Antigravity relay handle bounded work. Initially use at most two implementation streams, with separate worktrees and file ownership for concurrent writers. Check shared data contracts, units and combined behavior before integration.
+
+Use CodeGraph first when the implementation repository has an index; this preparation repository has none. Use Context Mode for large selected outputs, not as the project memory. If dependencies between phases become hard to track, select the existing GSD phase/state workflow after reading its LOCAL_USE and relevant skill; its scoped CLI has dated test evidence, but host hooks and typed-agent dispatch are inactive. BMAD is an alternative, not a second simultaneous planning system. Do not initialize either merely to answer a readiness question.
+
+Current audit: Context Mode MCP index/search succeeded on this file. `ctx_doctor` still reports D3 host-config/hook mismatch and D4 legacy-entry warning; this is not a clean full-integration pass. The documented installation deliberately omits automatic approval and capture hooks. No setup/upgrade or permission change was applied. Selected local GSD/gstack/relay files were checked against their recorded hashes; this does not rerun browsers/models or prove account quota. Evidence: sibling `nasa-preparation-deliverables/continuity-readiness-2026-11-12/`. Follow AGENTS continuity checks instead of promising perfect recall.
+
 ## Tasks and routes
+
+### Job-based selection from the 30-plugin guide — 11 November
+
+Use `/Users/nns/.codex/workflows/noocap/CATALOG.md` for automatic task-based selection. Search SKILL_INDEX.tsv, read the chosen LOCAL_USE.md, then the relevant actual skill. The catalog now contains four existing packs, 12 instruction libraries (454 entrypoints), and 14 installed local runtimes, plus a renderer for the existing HyperFrames pack (15 runtime guides; 469 total index entries). [PLUGIN_GUIDE_REVIEW.md](PLUGIN_GUIDE_REVIEW.md) is the portable source/status table; it does not install these Mac tools elsewhere.
+
+The user explicitly authorized installing/testing the remaining 14. Local RUNTIME_STATUS.md and RUNTIME_INSTALLATION.json distinguish selected passing checks from blocked/unverified features. The later BROWSER_RENDER_STATUS.md records 10 passing selected browser/render workflows and independent reruns. Use gstack's run-local for its tested local QA/WebGL2/PDF route; Taste capture, Impeccable live CDP, dashboard/CV PDF, PPT preview, diagram exports and local video renders now have evidence. REA SQLite cleanup remains a separate non-browser limit. No provider-quality claim follows from local unit/fixture tests. Source matches for generic names remain candidates.
+
+For actual Safari or realistic 3D QA, read the Mac catalog's SAFARI_3D_VERIFICATION.json and sibling `nasa-preparation-deliverables/safari-3d-readiness-2026-11-12/README.md`. Actual Safari 26.6.2 and Chromium 158 passed the unrelated textured 144-model/shadow fixture, controls, narrow layouts and two context recoveries. Gstack stays Chromium-only; native Safari uses the existing system safaridriver and its own Automation window. User enabled Allow Remote Automation; leave other Safari settings unchanged. Historical session IDs are closed. Physical phones, long thermal/unique-asset memory stress and actual app performance still require checks. These local harnesses/assets are not in this Git repository.
+
+For interface work choose existing frontend/UI UX guidance, then Taste/Impeccable when useful. For structure, CodeGraph remains first in indexed projects; Graphify/Understand Anything fill actual gaps. Choose GSD or BMAD only when their planning model helps. Claude-Mem is explicit local notes, Headroom selected offline content; passive capture/proxies remain inactive. OpenMontage and HyperFrames actual browser video rendering are tested; full provider generation is not.
+
+Evidence: sibling `nasa-preparation-deliverables/browser-render-repair-2026-11-11/` and `runtime-setup-2026-11-11/`; prior source intake and routing cases remain in `plugin-guide-2026-11-11/`. Preserve source/patch records, task authorization, user data and competition timing. Ordinary approved work needs no repeated confirmation. No host hooks, paid services, accounts, telemetry or publication were enabled. Mention the workflow actually used and its actual verification level.
+
+### Website launch/SEO — automatic selection, 11 November
+
+For ordinary requests to review a website for launch, sharing or SEO, use `web-launch-review` at `/Users/nns/.codex/skills/web-launch-review/SKILL.md`. The user requested reuse for NASA and future projects. Global Mac AGENTS also routes this task without requiring a named invocation; availability elsewhere requires its own installation. Read only when launch/SEO is relevant, not for every small UI edit.
+
+The skill records all 20 reviewed checks with primary sources and applicability decisions. Preserve intentional noindex, add sitemap/robots/schema only as needed, and distinguish lab results from field Core Web Vitals. Google says llms.txt does not affect its Search visibility/rankings. FRONTEND_HANDOFF §3 holds the portable NASA priorities and prework boundary.
+
+Validation: pre-install SkillGuard reported zero active/suppressed findings; system Ruby parsed the YAML frontmatter; an independent reviewer checked all 20 items and three hypothetical routing cases. The bundled Python validator could not run because PyYAML was absent; no dependency was installed to mask that result. No deployed-site audit or ranking outcome is claimed. Evidence: sibling `nasa-preparation-deliverables/plugin-guide-2026-11-11/`.
 
 ### Context Mode — global Mac setup, 11 November
 
@@ -70,7 +98,7 @@ CodeGraph CLI/MCP already exist. This repository contains preparation documents 
 | Explain/compare lunar data sources, units, coordinate/time conventions or source claims | Official NASA/JPL/PDS sources using available read-only search/fetch; relevant existing research skills when useful | Primary sources first. Record actual retrieval and unknowns. Never invent a mission-grade scientific validator. A plugin is not required to read a public NASA document. |
 | Review a map, terrain view, projection, site-comparison plot or uncertain result | Build Web Data Visualization: geospatial-and-cartographic-visualization, statistical-and-uncertainty-visualization, testing-data-visualizations; data-visualization for chart choice | These are presentation/QA workflows, not lunar physics. Do not assume terrestrial Earth CRS, map tiles or Earth-radius defaults are valid for the Moon. Read topic-specific instructions only. |
 | Create a small reproducible notebook or inspect notebook structure | jupyter-notebook; Data validation workflow if actually exposed | Before permitted start, only unrelated practice or source reading. Do not process submission datasets early. Notebook scaffolding does not verify physical calculations. |
-| Build the agreed web interface or inspect UI behavior | Build Web Apps: frontend-app-builder, react-best-practices, frontend-testing-debugging; existing browser/Playwright when appropriate | Only implement at the permitted start after scope/stack agreement. No new payment/database platform unless needed and approved. Never touch the user's Safari window. |
+| Build the agreed web interface or inspect UI behavior | Build Web Apps: frontend-app-builder, react-best-practices, frontend-testing-debugging; existing browser/Playwright when appropriate | Only implement at the permitted start after scope/stack agreement. No new payment/database platform unless needed and approved. Use only an explicitly owned Safari Automation window for authorized Safari tests; preserve the user's personal windows. |
 | Review changes, tests and security; prepare a pitch or team handoff | Existing GitHub, Codex Security, document/PDF/presentation workflows; Google Drive when the task actually needs shared files | Read-only first. Publication, sharing, credentials and paid services still need the applicable approval. One editor per checkout. Scientific review is separate from security/CI. |
 
 ## Verified local inventory
@@ -118,3 +146,9 @@ Historical 9 November thread-message smoke test: not verified. The existing NASA
 
 - [Plugin architecture](https://developers.openai.com/plugins/concepts/plugins): plugins can package skills, MCP or both; availability can differ by surface.
 - [Package your plugin](https://developers.openai.com/plugins/build/plugins): local/repo distribution and project enabling; authentication remains separate.
+
+### Extended 3D endurance and user vision — 12 November
+
+Use the Mac catalog ENDURANCE_VERIFICATION.json and sibling `3d-endurance-2026-11-12/README.md` for the latest test route. Native Safari and Chromium each passed 10 minutes with the 144-model scene plus bounded 512 MiB raw texture storage and three allocation/release cycles. Thermal states stayed nominal; Chromium had an early 1.112 s frame under host pressure, so no uniform-smoothness claim. The reduced-motion harness now waits on actual control state; both full 10-group runs passed. Five independent memory-lifecycle groups passed; historical failures remain available. These checks do not establish physical-phone performance, per-process VRAM or 24/7 server uptime.
+
+FRONTEND_HANDOFF records the user's space/premium/realistic-model/music/SFX vision as direction with Codex judgment, and 24/7 availability without keeping the Mac on. Existing core tools suffice for the proposed web approach; optional model optimization follows actual asset needs. Hosting/provider/paid plans remain undecided and undeployed. Read the exact selected skill and guide; do not require the user to name it.

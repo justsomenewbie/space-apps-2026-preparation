@@ -38,6 +38,16 @@ Read `HANDOFF.md`, then `COMPETITION_RUNBOOK.md` for the current event workflow 
 
 Identify the actual runtime before acting. Mac paths, installed apps and disk observations in the pack describe the original Mac, not a cloud checkout. Evidence retained outside this repository is unavailable to a cloud agent unless explicitly supplied; use Appendix A for the portable unrelated exercise. Inspect local tool availability instead of assuming it matches the Mac. Remote assistants exchange committed work through Git, not a shared filesystem.
 
+## Continuity between chats
+
+The user should be able to say “Continue from the current handoff” without naming tools or requesting a full chat audit.
+
+1. Read `PLUGIN_ROUTING.md` for the task, discover the relevant current tools, and read/use the selected skill. Distinguish installed, available, invoked and verified; report a missing capability and use a suitable fallback.
+2. At session start, use available chat-list/read tools to compare relevant project chats with the checkpoints in `PREPARATION_COVERAGE.md`. Read new or unreviewed relevant turns, including older pages when a decision needs them. Listing summaries alone are not a review. Record inaccessible histories and coverage gaps; do not reread every chat by default or message other chats merely to inspect them.
+3. Reconcile decisions into their owning file: event workflow in `COMPETITION_RUNBOOK.md`, frontend in `FRONTEND_HANDOFF.md`, sources in `DATA_PREPARATION.md`, tools in `PLUGIN_ROUTING.md`. Check the live Sheet when assignments matter. Keep proposals, user decisions and independently verified results distinct; resolve consequential conflicts before dependent work.
+4. After each bounded task, update the reviewed chat/turn checkpoint and `HANDOFF.md`: outcome, evidence, owner, next action, local changes, published Git SHA, last confirmed cloud SHA and pending shared-copy updates. Verify authorized sync at its destination; a save or commit alone is not a push, cloud refresh or Drive update.
+5. These checks run while an assistant is working; they are not background capture or continuous synchronization. If chat tools are unavailable, continue from repository evidence and state the limit. New repositories and other apps need the relevant instructions/context supplied explicitly.
+
 ## Competition boundary
 
 **Current decision record, 9 November 2026:** the corrected Hanoi form submitted Nov 8 at 21:59 records six members and **Lunar Landing Site Navigator**. Membership is user-confirmed. Junior Astronaut and the earlier undecided-topic status are historical. Do not reopen registration or assume an agreed implementation scope, stack or integrator. Use PREPARATION section 11 for evidence and the current proposed schedule; use COMPETITION_RUNBOOK.md for the comprehensive event handoff, bounded prompt loop and the user's event-time Fast mode preference. This preference does not enable Fast now or authorize paid overages, resets or weakened safeguards.

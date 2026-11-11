@@ -1,16 +1,18 @@
 # Kế hoạch phối hợp nhóm Lunar
 
-Cập nhật 11/11/2026 · Giờ Hà Nội
+Cập nhật 12/11/2026 · Giờ Hà Nội · Bộ chuẩn bị PREP-2026-11-12
 
 **Bắt đầu làm toàn bộ dự án: 00:00 ngày 14/11/2026. Hạn nộp Hà Nội: 11:00 ngày 15/11/2026.**
 
 Nhóm đã thống nhất đề Lunar Landing Site Navigator, chưa chốt ý tưởng sản phẩm hay bắt đầu làm. Dự kiến cả nhóm gặp trực tiếp và dành trọn thời gian làm việc trong đợt thi 14–15/11 nếu thu xếp được, vẫn dùng Internet. Chỗ gặp, giờ tập trung và các ngoại lệ còn cần chốt; lịch có nghỉ và không mặc định thức xuyên đêm.
 
-## 1 Cần xét lại hướng sản phẩm trước khi chốt
+## 1 Chọn một kết quả so sánh nhỏ và có ích
 
-Hướng “chọn điểm/ngày rồi so sánh Mặt Trời, Trái Đất” đã có nhiều sản phẩm gần giống. [PolarWindow](https://github.com/MdAhbab/PolarWindow/blob/main/docs/system-design.md) còn mô tả đổi ngày, lịch quan sát và báo cáo; [CLPS Browser](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/main/README.md) có so sánh điểm/ngày và chế độ đơn giản. Vì vậy, hướng này hiện chỉ là bản tham khảo để hiểu công việc, chưa phải ý tưởng khác biệt đáng chốt. Đây là thông tin từ tài liệu tác giả, chưa chạy kiểm chứng sản phẩm.
+**Ngày 12/11, Sơn xác nhận nhóm chưa chốt sản phẩm.** Hướng so sánh địa điểm/ngày và vị trí Mặt Trời–Trái Đất vẫn phù hợp đề Lunar. Có công cụ tương tự làm giảm căn cứ tuyên bố mới, không khiến hướng so sánh trở thành sai. [PolarWindow](https://github.com/MdAhbab/PolarWindow/blob/main/docs/system-design.md) và [CLPS Browser](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/main/README.md) đã mô tả nhiều chức năng liên quan; chưa chạy kiểm chứng hai sản phẩm.
 
-**Việc cần làm trước:** dành 30 phút dùng hai công cụ có sẵn cho cùng một tác vụ; ghi chỗ người mới mắc và công cụ đã hỗ trợ đến đâu. Chỉ chọn hướng khi trả lời được: ai gặp khó khăn gì, cách đang có còn vướng ở đâu, nhóm cải thiện phần nào và kiểm tra bằng cách nào. Không tìm được lý do đủ rõ thì cùng bàn lại hướng sản phẩm; chưa tự đổi đề đã đăng ký.
+**Đề xuất để nhóm chốt:** giúp người học so sánh hai địa điểm có nguồn trong hai lựa chọn ngày, hiểu cửa sổ nhìn thấy Mặt Trời/Trái Đất và giải thích một đánh đổi. Nối một luồng dữ liệu đến kết quả kiểm chứng được trước, rồi thêm 3D giúp hiểu chân trời. Đây là khuyến nghị cho 35 giờ, chưa phải quyết định chung, nhu cầu đã kiểm chứng hay phương án được chứng minh tốt nhất.
+
+Có thể dành 30 phút thử công cụ hiện có cho cùng một tác vụ, ghi chỗ người mới vướng và phần nhóm muốn giải thích rõ hơn. Không tự đổi đề đã đăng ký. Đối chiếu hướng đề: [NASA Lunar](https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/); lần rà 12/11 đọc được nội dung được lập chỉ mục, nhưng mở toàn trang vẫn lỗi 502.
 
 Một câu hỏi có thể khảo sát: khi hai công cụ cho kết quả khác nhau, người mới có nhận ra khác do định nghĩa hay cấu hình không? Đây mới là giả thuyết cần thử, chưa phải ý tưởng được chứng minh mới. [LOLA](https://science.nasa.gov/mission/lro/lola/) là nguồn dữ liệu; [Moon Trek](https://trek.nasa.gov/moon/) và [QuickMap](https://quickmap.lroc.asu.edu/) là các công cụ nên đối chiếu thêm.
 
@@ -100,6 +102,21 @@ Người chưa làm code có thể bắt đầu với Drive và kiểm tra bản
 
 Trước khi coi là xong, cùng kiểm tra bốn việc: máy khác mở được; số liệu truy được nguồn và đã đối chiếu; người xem hiểu kết quả còn thiếu gì; người nộp có quyền và lưu được bằng chứng nộp. Không tự đặt ngưỡng “hạ cánh an toàn” khi chưa có căn cứ.
 
-**Nguồn để mở đầu:** [đề NASA](https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/), [trang Hanoi](https://eventstem.com/spaceapps.html?lang=vi) và [SEPA](https://sepa.org.vn/en/spaceapps-hanoi-2026) để kiểm tra yêu cầu; [Horizons](https://ssd.jpl.nasa.gov/horizons/tutorial.html) để hiểu cách lấy kết quả. Danh mục đầy đủ và tình trạng từng nguồn nằm trong BOI_CANH_AI.md. Luật 2026, giấy phép và mã chọn lọc đã kiểm ngày 11/11. Đề gốc Lunar và trang Hanoi chưa truy cập lại được; không suy từ bản đối chiếu rằng mọi yêu cầu đã được xác minh.
+**Nguồn để mở đầu:** [đề NASA](https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/), [trang Hanoi](https://eventstem.com/spaceapps.html?lang=vi) và [SEPA](https://sepa.org.vn/en/spaceapps-hanoi-2026) để kiểm tra yêu cầu; [Horizons](https://ssd.jpl.nasa.gov/horizons/tutorial.html) để hiểu cách lấy kết quả. Danh mục đầy đủ và tình trạng từng nguồn nằm trong BOI_CANH_AI.md. Luật 2026, giấy phép và mã chọn lọc đã kiểm ngày 11/11. Nội dung đề NASA được lập chỉ mục đã đọc ngày 12/11, nhưng mở toàn trang Lunar vẫn lỗi 502; trang Hanoi chưa truy cập lại được. Không suy mọi yêu cầu đã được xác minh.
 
-**Bước tiếp theo của nhóm:** xác nhận phần đã ghi trên bảng, sửa chỗ QA chưa thống nhất, chốt nơi gặp/người dự phòng/người nộp. Hướng sản phẩm và công nghệ sẽ quyết định cùng nhau; chưa coi tài liệu này là phân công đã được đồng ý.
+**Bước tiếp theo của nhóm:** xác nhận phần đã ghi trên bảng, sửa chỗ QA chưa thống nhất, chốt nơi gặp/người dự phòng/người nộp. Sơn chọn frontend đã chuẩn bị là React + TypeScript + Vite; phạm vi sản phẩm, hợp đồng dữ liệu và cách ghép/backend vẫn cần thống nhất. Chưa coi tài liệu này là phân công đã được đồng ý.
+
+
+## 6 Chuẩn bị mới nhất để bắt đầu cùng phiên bản
+
+**Giao diện và trải nghiệm.** Sơn muốn web/app dùng trên điện thoại và máy tính, animation và 3D chân thực, cảm giác chỉn chu và không khí không gian. Đây là định hướng của Sơn, chưa phải danh sách tính năng nhóm đã duyệt. Ưu tiên tác vụ cốt lõi, nguồn/đơn vị/giới hạn rõ; 3D phục vụ giải thích. Nhạc và SFX chỉ thêm khi có ích, mặc định yên lặng và do người dùng bật. Tôn trọng giảm chuyển động; có nội dung đọc được khi 3D lỗi. Model đẹp không chứng minh phép tính đúng.
+
+**Công cụ đã chuẩn bị.** Mac/cloud đã có bằng chứng chạy bài stock riêng: cài theo lock, kiểm công cụ, lint/build, audit và browser. Safari và Chromium trên Mac đã qua bài 3D riêng 10 phút, có kiểm texture; Chromium từng có khựng khoảng 1,1 giây lúc máy chịu áp lực. Chưa kiểm sản phẩm Lunar, điện thoại thật hoặc server 24 giờ. Chi tiết, phiên bản và giới hạn: [FRONTEND_HANDOFF](https://github.com/justsomenewbie/space-apps-2026-preparation/blob/main/FRONTEND_HANDOFF.md).
+
+**Hosting không cần Mac bật liên tục.** Phương án nghiên cứu 12/11 là Cloudflare cho frontend/assets; thêm Railway nếu thật sự cần backend Python. Static nhỏ có thể dùng gói miễn phí trong hạn mức; dự toán có API nhỏ khoảng 5–10 USD/tháng hoặc 25–35 USD với backend nhỏ, trước thuế/domain, không phải trần hóa đơn. Chỉ thêm tài khoản/database khi nhu cầu được chốt. Chưa mua, deploy hoặc cam kết uptime. Nguồn giá, giới hạn, phương án khác và kiểm nghiệm thu: [HOSTING_PLAN](https://github.com/justsomenewbie/space-apps-2026-preparation/blob/main/HOSTING_PLAN.md).
+
+**AI chọn công cụ theo việc.** Thành viên chỉ cần nói mục tiêu; AI đọc [PLUGIN_ROUTING](https://github.com/justsomenewbie/space-apps-2026-preparation/blob/main/PLUGIN_ROUTING.md) và kiểm tool thật trong môi trường của mình. Bộ 30 workflow có phần chỉ là hướng dẫn và tính năng chưa kiểm; không phải 30 plugin đều chạy mọi lúc. Dùng việc nhỏ và review trước; GSD chỉ thêm khi cần quản lý nhiều giai đoạn. Không tự cài bộ Mac lên cloud hoặc bật capture lịch sử.
+
+**Bắt đầu chat mới.** Nói “Tiếp tục từ handoff hiện hành”. AI đọc AGENTS, HANDOFF và nguồn liên quan; khi có quyền đọc chat, chỉ đối chiếu lượt mới hoặc phần thiếu có ảnh hưởng. Sau việc lưu quyết định, bằng chứng, người đang giữ việc và trạng thái Git/cloud/Drive. Không hứa nhớ mọi chat hay đồng bộ nền. [PREPARATION_COVERAGE](https://github.com/justsomenewbie/space-apps-2026-preparation/blob/main/PREPARATION_COVERAGE.md) ghi phạm vi đã đọc và các mốc lịch sử.
+
+Word/PDF là bản đọc của kế hoạch này; bộ nguồn đầy đủ gồm cả chỉ dẫn, frontend, dữ liệu, hosting và công cụ nằm trong repo và ZIP trên Drive. Dùng mã PREP-2026-11-12 và bản kê SHA-256 đi kèm để nhận đúng bộ; bản tải cũ không tự thay đổi. Không coi việc đồng bộ tài liệu là triển khai hoặc nộp sản phẩm.
