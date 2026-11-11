@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 11 November 2026, Asia/Ho_Chi_Minh.
-Active editor: Codex root; publishing reviewed preparation pack. Other agents read only.
+Active editor: none. Reviewed content published; ownership released.
 
 ## Read first
 
@@ -29,7 +29,7 @@ GitHub visibility is public, explicitly authorized. Live Manage access: two coll
 
 Portable practice-tally has six files; five code files match the earlier unrelated exercise, three assertions passed again. Prior Mac browser groups passed; no new teammate rehearsal. Node24, six frontend skills, relay and Context Mode details/limits are in PLUGIN_ROUTING. Context Mode invoked this audit; no automatic whole-chat capture. No Fast/overage changes.
 
-Publishing on main from 613719f; remote verification and cloud refresh are pending. Only reviewed docs and practice files will be staged; unrelated untracked .DS_Store stays untouched. Existing cloud chat: Verify Space Apps cloud readiness, last verified 613719f on November 10; refresh safely, preserve scratch work.
+Mac/GitHub/cloud content snapshot **67975b9** verified November 11: 17 matching files; anonymous GitHub archive matched local bytes. Existing cloud chat Verify Space Apps cloud readiness fast-forwarded safely on branch work; clean, three scratch hashes unchanged. Root compared all 17 observed cloud blobs with local Git. This status note follows that snapshot; pull latest main and verify equality before new work. Untracked Mac .DS_Store remains untouched. No external outreach/deployment or settings changes beyond requested sharing.
 
 ## One next action
 

@@ -42,7 +42,11 @@ Cập nhật 11/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị
 
 **Đã xác minh:** GitHub Settings hiển thị Public sau yêu cầu trực tiếp của người dùng. Drive root liệt kê đủ ba thư mục và index khi chưa đăng nhập; Sheet hiển thị Chỉ xem. Word/PDF/index/AI đã upload tại ID cũ; tải HTTP không cookie/token đều trả 200 và khớp SHA-256 với bản local. File thử quyền cũng tải được. Bản kế hoạch có năm trang, đã xem toàn bộ; font nhúng không đổi hình ảnh trang đã duyệt.
 
-**Đang hoàn tất:** commit/push tài liệu và refresh cloud hiện có. Kết quả Git/cloud sẽ cập nhật sau khi có bằng chứng. Bằng chứng kiểm byte và ảnh công khai giữ tại thư mục sibling full-sync-2026-11-11; không đưa dữ liệu xác thực vào repo.
+**Bản nội dung đã phát hành và kiểm:** commit `67975b9fd2223eddb9a1a9c5046e4b6e32bdc035` trên main có 17 tệp. Push và ls-remote khớp; trang GitHub không đăng nhập hiển thị Public cùng README mới. ZIP tải không xác thực trả 200; cả 17 tệp khớp bản local. API metadata không xác thực chạm rate limit 403, nên không lấy API đó làm bằng chứng visibility.
+
+**Cloud đã đồng bộ bản nội dung:** chat hiện có Verify Space Apps cloud readiness, nhánh work, fast-forward từ 613719f tới 67975b9. HEAD/FETCH_HEAD/origin/main bằng nhau, cả 17 working blobs khớp commit; root đọc output và so độc lập với Git local. Working tree sạch, ba hash bài luyện scratch không đổi. Không cài/build/chạy rehearsal ở cloud. Bản ghi trạng thái này được commit sau snapshot trên; dùng main mới nhất, không ghim vào snapshot cũ.
+
+Bằng chứng kiểm byte, output cloud đã đối chiếu và ảnh công khai giữ tại thư mục sibling full-sync-2026-11-11. Không đưa dữ liệu xác thực vào repo. Bản sao nội dung không tự mang theo công cụ trên Mac hoặc toàn bộ lịch sử chat.
 
 GitHub public bảo đảm đường đọc, không tự cấp quyền viết. Trang Manage access sau đổi visibility ghi **hai collaborator, ba lời mời đang chờ**; chưa đủ năm đồng đội nhận lời mời. Repo history trước cập nhật có 16 commit/36 Markdown blobs: bounded scan không thấy token/private-key/điện thoại/email trong nội dung, nhưng commit metadata chứa email tác giả và một tên repo cũ có mã sinh viên. Không viết lại lịch sử; người dùng đã yêu cầu public repo. Không đưa ảnh lời mời/email vào commit mới.
 
