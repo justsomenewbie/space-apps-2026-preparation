@@ -35,9 +35,9 @@ Mac routing: 30 packs/469 paths. Both browsers passed 10-minute PBR/texture runs
 
 [HOSTING_PLAN.md](HOSTING_PLAN.md): Cloudflare/R2; optional Railway Python. Estimate $5–10 or $25–35/month before tax/domain, workload-dependent. Sources/limits checked Nov12; sibling `hosting-research-2026-11-12/`. No purchase/deployment; team adoption pending.
 
-Timing-only sync evidence: sibling `timing-sync-2026-11-11/`; superseded by the full preparation release below.
+Prior timing sync: sibling `timing-sync-2026-11-11/`.
 
-Review: sibling `direction-review-2026-11-12/REVIEW.md`.
+Review: BOI §5; Moon Trek/QuickMap UI observed, calculations untested.
 
 Default: follow AGENTS standing sync after preparation edits; verify GitHub/cloud/Drive/Word/PDF without reminders. Resume pending destinations; no background watcher.
 
