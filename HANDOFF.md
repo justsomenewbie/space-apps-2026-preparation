@@ -1,50 +1,36 @@
 # Current handoff
 
-Updated: 10 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Handoff backup/cloud sync verified; ownership released.
+Updated: 11 November 2026, Asia/Ho_Chi_Minh.
+Active editor: Codex root; publishing reviewed preparation pack. Other agents read only.
 
 ## Read first
 
-Read COMPETITION_RUNBOOK.md, PREPARATION.md section 11 and PLUGIN_ROUTING.md for dated evidence and workflow. Preserve concurrent AGENTS/RUNBOOK/routing edits.
+README links the shared pack. Read COMPETITION_RUNBOOK, PREPARATION §11, DATA_PREPARATION, BOI_CANH_AI and FRONTEND_HANDOFF. PREPARATION_COVERAGE records 15 NASA histories/77 turns, including the active audit; old chats do not automatically share memory. Mac originals/evidence: sibling `nasa-preparation-deliverables/full-sync-2026-11-11/`. Cloud lacks sibling files and Mac-installed tools.
 
-Six registered members; Nov 8 receipt records Lunar Landing Site Navigator. Nov 10 screenshot confirms files/workspace introduction sent. Scope, stack, owners and adoption remain open; seven Zalo accounts do not establish seven competitors.
+Six registered members; Lunar Landing Site Navigator confirmed. Scope/stack/data and individual acceptance remain open. AI context §1 preserves both unadopted proposals: Moon Plan B (two sites/five dates) and Lunar Workday (two sites/two dates, ordered science-then-transmission tasks). Neither novelty nor science is validated. No submission code/UI/assets/processed dataset created.
 
-User wants in-person work with Internet during official hours; location/arrival remain open. No overnight assumption. Explain collaboration for beginners.
+## Event evidence
 
-## Latest deliverables
+RUNBOOK cites caption plus all six Q&A images: THCS Trưng Vương, check-in 07:00 November 14–15, opening 08:15; meals self-funded. Team room/meeting/overnight arrangements unresolved. Portal opens 09:00 November 14; physical opening is separate.
 
-Current sibling directory `nasa-preparation-deliverables/nhom-va-ai-2026-11-10/` replaces the 11-page plan:
+BTC PDF IV.1 says before 11:00 November 15, VI.1 says 12:00; conflict unresolved. Global 23:59 is separate. Recommend freeze 09:00/submit 10:30; not organizer rules. Recheck November 13 guides.
 
-- `Ke_hoach_nhom.docx` and `.pdf`: four-page guide; source `Ke_hoach_nhom.md`.
-- `BOI_CANH_AI.md`: portable context and 21 sources. Section 5 acknowledges overlap; sections 6–7 are conditional references, not an agreed/distinct product.
-- `00 - ĐỌC TRƯỚC.txt`: Drive navigation and access instructions. Zalo drafts remain local.
+NASA Terms/FAQ reuse conditions and pinned CLPS MIT/PolarWindow Apache-2.0 selections are in DATA_PREPARATION/AI context. No code/data imported. Q5 framework exception is AI-focused; permission for early Lunar frontend remains unverified. Current task remains preparation only, regardless of calendar changes.
 
-Recorded checks: `qa/validation.json`; not rerun. Rebuild: build_human.py, embed_fonts.py, render. Originals preserved; teammate-device testing unverified.
+## Team and access
 
-## Evidence limits and deadlines
+Live Sheet: Chung integration/backend; Trang sources; Sơn + Thảo frontend; Minh + Trang QA; Lâm + Thảo content. G7 contradicts QA with Minh + Thảo. All statuses Chưa làm; preferences/results blank; assignments do not prove acceptance.
 
-Nov 10 chats: Thảo offers data organization; proposes maps, weather, trajectories, tracking and accounts. Self-report, not verified calculation ability or assignment. All pasted fragments were conversation, not build instructions.
+All ten Drive items now anyone-with-link reader, not discoverable in search, with owner plus five named writers. Root/folder listing is available without login. Word/PDF/index/AI updated at existing IDs. Five-page plan inspected on every page; embedded-font export preserved the reviewed layout. Original files backed up.
 
-Fresh [CLPS README](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/main/README.md) and [PolarWindow API](https://github.com/MdAhbab/PolarWindow/blob/main/docs/api.md)/lifecycle reads establish documented overlap: comparison, uncertainty, weather, trajectories, radiation, accounts and contact plans. Apps untested. NASA original unavailable; [challenge reproduction](https://hackathlone.com/challenges/lunar-landing-site-navigator) permits precomputed data and emphasizes Sun/Earth site/date comparison.
+GitHub visibility is public, explicitly authorized. Live Manage access: two collaborators, three pending invitations. Public read does not grant push. No contacts/invitation screenshots/raw transcripts added. History retains author email metadata and an old identifier; no history rewrite. Teammate-device testing remains unverified.
 
-User requested one concrete idea. Proposed **Lunar Workday**: compare site/date options by scheduling an ordered science-then-transmission sequence against visibility windows. Ordered science-task dependencies were not found in reviewed docs; absence/global novelty unproven. Proposed limit: two sites/two dates, bounded interval, explicit task assumptions. Data verification is an early event-time gate. Spatial touchdown-area sensitivity was rejected for this timeframe because terrain processing is unverified. No implementation/assets created; user acceptance pending.
+## Checks, tools and Git
 
-Fresh [SEPA read](https://sepa.org.vn/en/spaceapps-hanoi-2026): Nov 14–15, no early project work, Nov 13 guides, global 23:59 Nov 15; venue unannounced. NASA original timed out. Exact opening/reported 11:00 local cutoff unverified; blocked Hanoi route not retried. Freeze 09:00/submit 10:30 are recommendations.
+Portable practice-tally has six files; five code files match the earlier unrelated exercise, three assertions passed again. Prior Mac browser groups passed; no new teammate rehearsal. Node24, six frontend skills, relay and Context Mode details/limits are in PLUGIN_ROUTING. Context Mode invoked this audit; no automatic whole-chat capture. No Fast/overage changes.
 
-## Local state
-
-Verified Nov 10: Mac/GitHub/cloud at d7852ff; five matching blobs, clean checkouts, unchanged scratch hashes. Cloud chat `01a1ae73-95a6-7003-bdfd-63b7b3b3a0b6`. This status note follows that snapshot. Appendix A unchanged; sibling deliverables outside Git; Fast unchanged.
-
-Drive `1H-D22SV6i1RImJHcWxRqtgK2_TP3tn2S`: index, plan/task-board, AI-context and QA folders. Recorded five writers plus owner on uploaded coordination files, no public permission: `qa/drive-upload-2026-11-10.json`. RUNBOOK and PREPARATION now distinguish completed sharing from unverified teammate-device access; historical owner-only observations remain dated. No new permission change.
-
-Task board: https://docs.google.com/spreadsheets/d/1zqhG7NVRH-TdO6fr6e0n74d6S2r1--ji2UuySlJGZeA/edit . Recorded Nov 10 read: six names/lanes, preferences and assignments blank. Prior checks: `qa/task-board/verification.json`; teammate-device opening untested.
-
-Last GitHub access view: private, five invitations pending, zero accepted. Evidence: sibling `nasa-preparation-deliverables/github-invitations-2026-11-10.jpg`. No Zalo message sent by assistant.
-
-Bounded Nov 8–10 mailbox searches found no new team-code notice; other channels unverified. Rehearsal card blank; reuse eligibility unresolved. No installs/Drive edits/assignments.
-
-Source-learning note: sibling `nasa-preparation-deliverables/Doc_dung_nguon_lunar_2026-11-10.md`. Primary definitions reread; no calculations or science validation.
+Publishing on main from 613719f; remote verification and cloud refresh are pending. Only reviewed docs and practice files will be staged; unrelated untracked .DS_Store stays untouched. Existing cloud chat: Verify Space Apps cloud readiness, last verified 613719f on November 10; refresh safely, preserve scratch work.
 
 ## One next action
 
-Discuss Lunar Workday's ordered-task focus with the team; no scope or owners are agreed yet.
+Open README and confirm the QA owner with the team; do not build Lunar yet.

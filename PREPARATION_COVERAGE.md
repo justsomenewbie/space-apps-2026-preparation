@@ -1,0 +1,55 @@
+# Phạm vi đồng bộ và kiểm truy cập
+
+Cập nhật 11/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị, không chứng nhận nhóm đã làm sản phẩm, đồng ý mọi đề xuất hoặc đã mở file trên máy thật.
+
+## Những phần đã đối chiếu
+
+| Nhóm nội dung | Bản dùng chung | Trạng thái nội dung |
+|---|---|---|
+| Đề, lịch, phân công và cách phối hợp | [README](README.md), [kế hoạch](KE_HOACH_NHOM.md), [AI context](BOI_CANH_AI.md), [runbook](COMPETITION_RUNBOOK.md) | Sáu thành viên, Lunar đã đăng ký; Sheet đã có tên. Giữ nguyên mâu thuẫn QA C10/G7 và hạn 11:00/12:00, chưa tự chốt thay nhóm/BTC. |
+| Nguồn khoa học, dự án tương tự, luật và license | [DATA_PREPARATION](DATA_PREPARATION.md), AI context 5.1–6/8 | CLPS helper MIT là ứng viên Python; PolarWindow source notes Apache-2.0; Horizons/PDS-LOLA/NASA-LROC là nguồn chọn. Đã đọc nguồn/mã chọn lọc, chưa chạy app hoặc tạo dataset. |
+| Frontend, dữ liệu bàn giao và bài luyện | [FRONTEND_HANDOFF](FRONTEND_HANDOFF.md), [practice-tally](practice-tally/README.md) | Gói luyện 6 tệp được đưa vào repo; chỉ README đổi sang đường dẫn portable. Checker ba ca được chạy lại; browser tests cũ là bằng chứng Mac, không phải kiểm máy đồng đội. |
+| Công cụ, relay và Context Mode | [PLUGIN_ROUTING](PLUGIN_ROUTING.md), [AGENTS](AGENTS.md) | Ghi pin/cách chọn/giới hạn; Context Mode đã được gọi trong lượt này. Cài đặt/CLI/skill trên Mac không tự chuyển sang cloud hoặc tài khoản của người khác. |
+| Handoff, cloud và nguồn lịch sử | [HANDOFF](HANDOFF.md), [PREPARATION](PREPARATION.md) | Lịch sử được giữ có ngày; thông tin truy cập/cài đặt cũ không được coi là hiện tại. Không công khai bản ghi họp, ảnh lời mời chứa email hoặc toàn bộ chat riêng. |
+
+## Phạm vi rà chat Codex
+
+Đã duyệt inventory 66 chat local active, 37 archived; 5 cloud active và không có cloud archived. Lọc các lịch sử NASA, đọc actual turns và hết các cursor: **15 lịch sử, 77 lượt, 18 trang**. Mốc chụp kiểm từ 29/10 12:23:30 tới 11/11 14:24:38 giờ Hà Nội; gồm lượt audit đang chạy. Tổng trạng thái lúc đọc: 71 completed, 3 failed, 2 interrupted, 1 in progress. Thất bại/bị ngắt không tự được đánh dấu hoàn tất.
+
+| Tiêu đề nguồn hoặc trạng thái tiêu đề | ID | Số lượt |
+|---|---|---:|
+| Clarify the request | 01a1c405-ae08-71c1-92c1-4bd1ccf8ebd3 | 4 |
+| Tổng hợp tin nhắn và tài liệu NASA | 01a1c56d-5cc2-7fd3-aa63-484906eed8e0 | 3 |
+| Định hình ý tưởng app Mặt Trăng | 01a1c465-5ed0-7013-9c66-635e3222840e | 11 |
+| Find remaining work | 01a1c426-744a-7441-afbe-572edb5e9001 | 5 |
+| Review project next steps | 01a1c10b-59e7-7b23-b7ff-19171b760f5e | 11 |
+| Find the last request | 01a1861c-ed0b-79c3-b49e-3dbd5fdc7370 | 14 |
+| Đánh giá và cải tiến app CLPS, archived | 01a1c45d-cb91-7b61-8543-7bf4493851a1 | 2 |
+| Không có tiêu đề/turn trong lịch sử đọc, archived | 01a1c402-bf70-7ee1-8570-67a04bc45153 | 0 |
+| Tiêu đề inventory là prompt đính kèm Photo 1.jpg, archived; không chép đường dẫn ảnh riêng | 01a1c404-217e-7a92-8c23-bfb370fa87b6 | 1 |
+| Verify Space Apps cloud readiness | 01a1ae73-95a6-7003-bdfd-63b7b3b3a0b6 | 5 |
+| Set up space-apps-2026-preparation | 01a1ad1a-43cf-739d-906d-fe558fdca080 | 3 |
+| Tiêu đề null; lịch sử liên quan được tìm từ link | 01a1ae70-265e-75f7-9773-a4464f7d80c9 | 7 |
+| Review NASA project and install frontend… | 01a1c6c5-619d-73f3-ab69-fe9f158314b1 | 5 |
+| Đánh giá và cài plugin tự động | 01a1c701-e232-7bb1-b1d3-9d00b0a3aff7 | 1 |
+| Đánh giá dữ liệu mở từ trang NASA | 01a1c909-b49b-7ae2-8ca1-a41f4d13b597 | 5 |
+
+Đối chiếu thêm 12 lượt trong hai cloud chat project-tracker, tách khỏi 77 lượt NASA. Chúng không thiết lập quyết định nhóm mới. Không thu thập các chủ đề cá nhân khác vào repo. Tool outputs không được tải hàng loạt trong audit lịch sử; báo cáo runtime cũ được ghi là bằng chứng lịch sử, không phải chạy kiểm mới.
+
+## Kiểm truy cập và bản phát hành
+
+**Drive đã kiểm sau đổi quyền:** cả 10 mục hiện có (root, ba thư mục 01/02/99, index, Sheet, Word, PDF, AI context, file thử quyền) có anyone/reader, `allowFileDiscovery=false`, một owner và năm named writers. Bốn mục trước cho sửa công khai đã về reader. Việc mở root giúp người có link thấy các thư mục, không chỉ người chủ sở hữu. Tài liệu mới đưa vào root sẽ thừa hưởng quyền này; không đặt dữ liệu cá nhân ở đây.
+
+**Đã xác minh:** GitHub Settings hiển thị Public sau yêu cầu trực tiếp của người dùng. Drive root liệt kê đủ ba thư mục và index khi chưa đăng nhập; Sheet hiển thị Chỉ xem. Word/PDF/index/AI đã upload tại ID cũ; tải HTTP không cookie/token đều trả 200 và khớp SHA-256 với bản local. File thử quyền cũng tải được. Bản kế hoạch có năm trang, đã xem toàn bộ; font nhúng không đổi hình ảnh trang đã duyệt.
+
+**Đang hoàn tất:** commit/push tài liệu và refresh cloud hiện có. Kết quả Git/cloud sẽ cập nhật sau khi có bằng chứng. Bằng chứng kiểm byte và ảnh công khai giữ tại thư mục sibling full-sync-2026-11-11; không đưa dữ liệu xác thực vào repo.
+
+GitHub public bảo đảm đường đọc, không tự cấp quyền viết. Trang Manage access sau đổi visibility ghi **hai collaborator, ba lời mời đang chờ**; chưa đủ năm đồng đội nhận lời mời. Repo history trước cập nhật có 16 commit/36 Markdown blobs: bounded scan không thấy token/private-key/điện thoại/email trong nội dung, nhưng commit metadata chứa email tác giả và một tên repo cũ có mã sinh viên. Không viết lại lịch sử; người dùng đã yêu cầu public repo. Không đưa ảnh lời mời/email vào commit mới.
+
+## Còn cần xác nhận
+
+Phạm vi/stack và địa điểm dữ liệu; QA C10/G7; người ghép dự phòng/người nộp; chỗ gặp/phòng/qua đêm; hạn địa phương và hướng dẫn 13/11; máy thật của từng đồng đội và quyền push nếu họ cần. Các đề xuất Moon Plan B và Lunar Workday (AI context mục 1), kế hoạch demo và bài luyện chưa được chứng minh là nhóm đã áp dụng.
+
+Không có tự động đồng bộ mọi chat. Mỗi thay đổi tiếp theo cần cập nhật file chung/Drive và commit, rồi đưa bản mới cho AI hoặc pull về cloud. Bản cũ/ghi chú lịch sử vẫn tồn tại để tra nguồn, không phải một bộ chỉ dẫn cạnh tranh với bản hiện tại.
+
+**Bước tiếp dưới hai phút:** mở README và dùng đúng link tài liệu mới; xác nhận phần việc trên Sheet.

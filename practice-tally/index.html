@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Practice tally — async rehearsal</title>
+<style>
+* { box-sizing: border-box; }
+html { font-size: 100%; }
+body { font: 1.125rem/1.5 system-ui; max-width: 36rem; margin: 1rem auto; padding: 1rem; color: #172033; background: #f7fafc; overflow-wrap: anywhere; }
+h1 { font-size: 1.75rem; }
+button, select { font: inherit; padding: .65rem; max-width: 100%; min-height: 2.75rem; }
+select { display: block; width: 100%; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid #1256b7; outline-offset: 3px; }
+.actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+output { display: block; font-size: 2.5rem; font-variant-numeric: tabular-nums; margin: 1rem 0; }
+#error { color: #a51222; }
+</style>
+<main>
+  <h1>Bài tập đồng bộ bộ đếm</h1>
+  <p>Chỉ để luyện kiểm tra frontend. Dữ liệu giả lập, ngoài bài thi NASA.</p>
+  <label for="scenario">Kịch bản luyện tập</label>
+  <select id="scenario" aria-describedby="scenario-note">
+    <option value="success">Thành công</option>
+    <option value="zero">Giá trị bằng 0</option>
+    <option value="empty">Chưa có dữ liệu</option>
+    <option value="error">Lỗi máy chủ</option>
+    <option value="invalid">Dữ liệu trả về sai kiểu</option>
+    <option value="slow">Phản hồi chậm để kiểm tra hủy yêu cầu</option>
+    <option value="timeout">Quá thời gian chờ</option>
+    <option value="large">Giá trị nguyên lớn nhất được chấp nhận</option>
+  </select>
+  <p id="scenario-note">Thành công</p>
+  <div id="result" aria-busy="false">
+    <output id="count" aria-label="Giá trị bộ đếm" aria-live="off">0</output>
+  </div>
+  <p id="status" role="status">Sẵn sàng.</p>
+  <p id="error" role="alert"></p>
+  <div class="actions">
+    <button id="load" type="button">Tải bộ đếm</button>
+    <button id="retry" type="button" hidden>Thử lại</button>
+    <button id="add" type="button">Cộng một</button>
+    <button id="reset" type="button">Đặt lại</button>
+  </div>
+</main>
+<script type="module" src="./app.mjs"></script>
+</html>
