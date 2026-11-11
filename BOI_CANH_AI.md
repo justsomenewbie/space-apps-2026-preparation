@@ -1,6 +1,6 @@
 # Bối cảnh và cách hỗ trợ nhóm Lunar Landing Site Navigator
 
-Cập nhật ngày **11/11/2026**, giờ Hà Nội (UTC+07:00). Đây là bản để một thành viên đưa cho AI của mình; không cần đọc chat riêng của Sơn. **Chỉ chuẩn bị trước thi: đã chọn nguồn và phần có thể tận dụng ở mục 5.1–6; chưa tạo mã, UI, tài sản hay dataset bài nộp.** Các lựa chọn là đề xuất theo yêu cầu của Sơn, chưa thay quyết định phạm vi/công nghệ của cả nhóm. Bản kế hoạch Word/PDF đã được cập nhật cùng đợt 11/11; dùng link tại mục 3 để lấy bản mới.
+Cập nhật ngày **11/11/2026**, giờ Hà Nội (UTC+07:00). Đây là bản để một thành viên đưa cho AI của mình; không cần đọc chat riêng của Sơn. **Trước 00:00 ngày 14/11 chỉ chuẩn bị: đã chọn nguồn và phần có thể tận dụng ở mục 5.1–6; chưa tạo mã, UI, tài sản hay dataset bài nộp.** Các lựa chọn là đề xuất theo yêu cầu của Sơn, chưa thay quyết định phạm vi/công nghệ của cả nhóm. Mốc bắt đầu và hạn nộp đã được đính chính ngày 11/11; xem mục 2 và nguồn R31–R32.
 
 ## 1 Đọc trạng thái trước khi nhận việc
 
@@ -18,21 +18,22 @@ Khi được giao việc, dùng thông tin mới mà thành viên cung cấp đ�
 
 ## 2 Ranh giới sự kiện và lịch đề xuất
 
-**Luật dùng nguồn đã đọc lại ngày 11/11:** [Terms 2026](https://www.spaceappschallenge.org/legal/) và [FAQ 2026](https://www.spaceappschallenge.org/resources/participant-faqs/) là căn cứ ở mục 5.1. Lịch địa phương còn một điểm mâu thuẫn; không trình bày giờ dưới đây như đã được BTC giải thích hết.
+**Luật dùng nguồn đã đọc lại ngày 11/11:** [Terms 2026](https://www.spaceappschallenge.org/legal/) và [FAQ 2026](https://www.spaceappschallenge.org/resources/participant-faqs/) là căn cứ ở mục 5.1. Cập nhật cuối ngày: được làm toàn bộ dự án từ 00:00 ngày 14/11 theo đính chính của người dùng; timeline mới xác nhận hạn Hà Nội 11:00 ngày 15/11 [R31, R32].
 
 | Thông tin | Trạng thái | Cách dùng |
 |---|---|---|
 | Thi 14–15/11; không bắt đầu làm challenge sớm | FAQ NASA và SEPA đã đọc lại 11/11 [R02, R23] | Hiện chỉ đọc, chọn nguồn và phối hợp; chưa tạo mã, UI cuối hay dataset nộp |
-| Cổng nộp mở 09:00 ngày 14/11 | Ghi nhận trong hồ sơ rà luật ngày 11/11 [R28]; giờ mở cổng, không phải khai mạc; chưa đọc lại PDF trong lượt cập nhật này | Giữ mốc chưa triển khai trước 09:00; xác minh giờ được phép và nhận nhiệm vụ trước khi làm |
-| Nộp địa phương 15/11: 11:00 hoặc 12:00 | Theo hồ sơ đọc PDF BTC ngày 11/11: IV.1 ghi trước 11:00, VI.1 ghi 12:00 [R28]; chưa đọc lại PDF trong lượt này/chưa được BTC giải thích; trang Hanoi chưa đọc lại được [R03] | Theo mốc sớm hơn để chuẩn bị; cần BTC xác nhận, không tự chọn 12:00 |
+| Làm toàn bộ dự án từ 00:00 ngày 14/11 | Cẩm Chi trả lời 21:38:53 ngày 11/11; người dùng cung cấp và xác nhận [R31] | Hết giới hạn chỉ chuẩn bị từ mốc này: được làm code, UI, tài sản và xử lý dữ liệu bài nộp; không chờ khai mạc/09:00 |
+| Cổng nộp mở 09:00 ngày 14/11 | Trang 2 timeline mới đã đọc trực quan [R32] | Giờ mở cổng nộp, không giới hạn giờ bắt đầu làm |
+| Nộp địa phương 11:00 ngày 15/11 | Trang 2 timeline mới xác nhận 11:00 [R32]; thể lệ cũ vẫn mâu thuẫn 11:00/12:00 [R28] | Dùng 11:00; từ 00:00 ngày 14 đến hạn này là 35 giờ |
 | Nộp toàn cầu 23:59 ngày 15/11 | SEPA [R02]; khác hạn địa phương | Không kéo dài giờ nộp chấm địa phương |
 | Ngừng thêm tính năng 09:00; nộp mục tiêu 10:30 ngày 15/11 | Khuyến nghị phối hợp | Không gọi là luật BTC; điều chỉnh sớm hơn nếu thủ tục cần |
 
 Trang đề Lunar gốc vẫn chưa đọc được; bản HackAthlone chỉ để đối chiếu [R01]. SEPA dùng tên CLPS Lunar Mission Browser, hồ sơ nhóm ghi Lunar Landing Site Navigator; xác nhận đường dẫn khi nộp, không tự đăng ký lại. Hướng dẫn chấm 2025 là lịch sử [R04]. FAQ ghi hướng dẫn nộp/chấm 2026 dự kiến **13/11**, cần đọc khi công bố; chưa tự ấn định số slide, video, ngôn ngữ hay điều kiện mentor [R23]. Q&A địa phương về chuẩn bị framework nằm trong câu hỏi mô hình AI [R29]; chưa xác minh ngoại lệ cho việc làm sẵn frontend Lunar, nên không dùng nó để bỏ ranh giới chuẩn bị. Người dưới 18 đối chiếu quy định và tình trạng thật [R02].
 
-**Địa điểm và giờ đón tiếp:** Q3 của BTC, đã đọc trong hồ sơ 11/11, công bố THCS Trưng Vương, check-in từ 07:00 ngày 14–15/11 và khai mạc 08:15 ngày 14; tự túc ăn uống [R30]. Zoom cho đội online qua email. Đây là thông tin chung; chưa chứng minh nhóm được cấp phòng/chỗ qua đêm hoặc đã chốt điểm hẹn.
+**Địa điểm và giờ đón tiếp:** Q3 của BTC công bố THCS Trưng Vương và tự túc ăn uống [R30]. Timeline mới [R32] ghi check-in ngày 14 từ 07:00–08:15, khai mạc 08:15–09:00; check-in ngày 15 từ 07:30–08:00. Zoom cho đội online qua email. Đây là thông tin chung; chưa chứng minh nhóm được cấp phòng/chỗ qua đêm hoặc đã chốt điểm hẹn.
 
-Lịch nhóm đề xuất: trước giờ thi chốt nơi gặp, vai trò, quyền và bài đọc; sáng 14 sau giờ cho phép làm một trường hợp nhỏ có kiểm tra; chiều/tối 14 nối thành bản chung rồi mở rộng phần đã thống nhất; sáng 15 rà và nộp. Đầu ra ngày 14 là một bản chạy được, không phải sáu phần chưa ghép. Chiều 15 dành cho bước được BTC xác nhận; không mặc định còn được sửa bài chấm địa phương. Dành thời gian nghỉ và di chuyển theo lịch nhóm.
+Lịch nhóm đề xuất: trước giờ thi chốt nơi gặp, vai trò, quyền và bài đọc; từ 00:00 ngày 14 được làm đầy đủ, theo giờ làm/nghỉ nhóm thống nhất; làm một trường hợp nhỏ có kiểm tra; chiều/tối 14 nối thành bản chung rồi mở rộng phần đã thống nhất; sáng 15 rà và nộp. Đầu ra ngày 14 là một bản chạy được, không phải sáu phần chưa ghép. Chiều 15 dành cho bước được BTC xác nhận; không mặc định còn được sửa bài chấm địa phương. Dành thời gian nghỉ và di chuyển theo lịch nhóm.
 
 ## 3 Nơi làm việc và cách phối hợp giữa người với AI
 
@@ -246,8 +247,12 @@ R01/R03/R04/R14/R15 giữ trạng thái lịch sử được ghi bên dưới. N
 
 **R27 NASA Media Guidance** — Đã đọc điều kiện nội dung NASA, credit và ngoại lệ ảnh bên thứ ba/logo; chưa chọn asset cụ thể. https://www.nasa.gov/nasa-brand-center/images-and-media/
 
-**R28 Thể lệ BTC địa phương** — Link từ hồ sơ rà soát ngày 11/11: https://drive.google.com/file/d/1t_VmkD3v4rESUOwzjytbguesqA4OoIBe/view . Mốc 09:00 và mâu thuẫn IV.1/VI.1 ở mục 2 được giữ theo lần rà đó; chưa tải/đọc lại PDF trong lượt cập nhật file này. Không coi mâu thuẫn là đã được BTC giải thích.
+**R28 Thể lệ BTC địa phương** — Đọc lại nội dung PDF và Word qua Google Drive ngày 11/11: https://drive.google.com/file/d/1t_VmkD3v4rESUOwzjytbguesqA4OoIBe/view . IV.1 ghi cổng mở 09:00, nộp Hà Nội trước 11:00; VI.1 vẫn ghi 12:00. Dùng timeline mới [R32] để lập lịch; không sửa văn bản nguồn.
 
 **R29 Q&A BTC, câu 4–5** — Link ảnh từ hồ sơ đã đọc ngày 11/11: https://www.facebook.com/photo/?fbid=122175168200963685&set=pcb.122175168734963685 . Nội dung về framework nằm trong câu hỏi mô hình AI; chưa chứng minh ngoại lệ làm sẵn frontend Lunar.
 
 **R30 Q&A BTC, câu 3** — Địa điểm, check-in và khai mạc; đọc trong hồ sơ rà 11/11, chưa phải xác nhận phân bổ riêng cho nhóm. https://www.facebook.com/photo/?fbid=122175168122963685&set=pcb.122175168734963685
+
+**R31 Giờ bắt đầu** — Người dùng cung cấp Cẩm Chi, 11/11/2026 21:38:53: “Tính từ phút đầu tiên ngày 14 nhé ạ”, rồi đính chính được làm toàn bộ dự án từ 00:00 ngày 14/11, hết giới hạn chỉ chuẩn bị. Chat gốc chưa được xác thực độc lập.
+
+**R32 Timeline sự kiện.pdf** — Đọc trực quan cả 2 trang ngày 11/11; trang 2 ghi cổng mở 09:00 ngày 14, hạn Hà Nội 11:00 ngày 15, toàn cầu 23:59 ngày 15. https://drive.google.com/file/d/1m07k0x7akRQqZ7YQS71hJs_ITXxgOK7e/view

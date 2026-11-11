@@ -20,6 +20,6 @@ Git là bản có lịch sử cho tài liệu chuẩn bị; Sheet giữ phân c�
 
 Phạm vi sản phẩm, stack, dữ liệu/địa điểm cụ thể, người dự phòng và người bấm nộp vẫn chưa được xác nhận. Moon Plan B và các phương án trước là đề xuất, không phải quyết định nhóm. Chưa có buổi luyện trên máy đồng đội được ghi nhận. Chuẩn bị công cụ trên Mac của Sơn không đồng nghĩa đã có trên máy khác/cloud.
 
-FAQ/Terms 2026 giữ ranh giới không làm challenge sớm; hướng dẫn nộp/chấm dự kiến 13/11 phải đọc lại. Hạn địa phương 11:00/12:00 ngày 15/11 còn mâu thuẫn trong thể lệ đã đọc; mục tiêu 10:30 là khuyến nghị. Nguồn và tình trạng kiểm nằm trong BOI_CANH_AI mục 2/8. Không tự coi ghi chú cũ là luật mới.
+**Đính chính 11/11:** được làm toàn bộ dự án từ **00:00 ngày 14/11, giờ Hà Nội**, theo trao đổi người dùng cung cấp và xác nhận; hết giới hạn chỉ chuẩn bị từ mốc đó. [Timeline mới, trang 2](https://drive.google.com/file/d/1m07k0x7akRQqZ7YQS71hJs_ITXxgOK7e/view) xác nhận hạn Hà Nội **11:00 ngày 15/11**; 09:00 ngày 14 là mở cổng nộp. Mục tiêu 10:30 là khuyến nghị. Nguồn chi tiết: COMPETITION_RUNBOOK và BOI_CANH_AI mục 2/8.
 
 **Bước tiếp dưới hai phút:** mở bảng việc và xác nhận phần của mình; nếu C10/G7 còn mâu thuẫn, hỏi nhóm để chốt người QA.

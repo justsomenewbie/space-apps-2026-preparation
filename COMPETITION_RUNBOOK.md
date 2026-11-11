@@ -4,6 +4,10 @@ Updated 11 November 2026 (live-source reconciliation), Hanoi time. Team coordina
 
 ## Current source update — 11 November
 
+**Latest timing correction — supersedes older timing claims below:** full project work is permitted from **00:00 November 14, Hanoi (UTC+07:00)**. The user supplied Cẩm Chi’s November 11 21:38:53 reply “Tính từ phút đầu tiên ngày 14 nhé ạ” to a question about midnight versus after opening, then explicitly confirmed full implementation from midnight. The preparation-only restriction ends then; do not wait for the ceremony or portal. The original chat was not independently authenticated.
+
+**New primary document:** both pages of [Timeline sự kiện.pdf](https://drive.google.com/file/d/1m07k0x7akRQqZ7YQS71hJs_ITXxgOK7e/view) were visually read November 11 using Google Drive and local PDF rendering. Page 2: Nov 14 check-in 07:00–08:15, opening 08:15–09:00, portal 09:00, day-one wrap-up 17:00, teams submit a progress form; day-two announcement and venue locking 17:30–18:00. Nov 15 check-in 07:30–08:00, hackathon 08:00–11:00, **Hanoi deadline 11:00**, afternoon judging/awards, global deadline 23:59. The earlier rules Word/PDF were freshly read as text: IV.1 still says before 11:00 and VI.1 says 12:00. Use the new timeline’s 11:00; no source document was edited. Midnight work permission does not establish venue access or an overnight team commitment.
+
 **Full preparation/access update:** all 10 Drive items now have anyone-with-link reader access, with five named writers retained; Word/PDF, index and AI context were updated in place. GitHub was changed to public at the user's explicit request. README links the portable preparation pack and unrelated tally exercise. PREPARATION_COVERAGE records the 15-history/77-turn audit and verification limits; HANDOFF records current Git/cloud state. Earlier sharing paragraphs below are dated history, not current permissions. No Lunar implementation or processed submission dataset was created.
 
 **Earlier November 11 sharing snapshot, superseded below:** on the user's explicit request, `BOI_CANH_AI.md` was updated in place on Drive with the rules, pinned components, licenses and data-source choices from DATA_PREPARATION. [Folder 02](https://drive.google.com/drive/folders/1k7bv1WYQFrlkXx6xtKiiCkgYShXW3BBT) and [the existing file](https://drive.google.com/file/d/19SMq037jiJ9OnIXdfJWUOdafD3EIALDr/view) now have anyone-with-link **reader** access (`allowFileDiscovery=false`), retaining owner plus five named writers. Root-folder access was not widened. The public copy omits internal Sheet/root/private-repo links and corrects stale role/access statements; plan Word/PDF/index were not updated. Anonymous browser preview and folder listing succeeded; an unauthenticated HTTP download matched the final local/Drive bytes exactly (41,775 bytes). Evidence and originals: sibling `nasa-preparation-deliverables/ai-context-update-2026-11-11/`. This is public preparation documentation, not an early project implementation or submission.
@@ -59,18 +63,18 @@ One person may cover more than one lane; everyone should not build a separate ap
 
 ## 3. Event schedule and stop rules
 
-All times are Hanoi (UTC+07:00). **Use the reported local 11:00 cutoff conservatively until freshly verified.** The 09:00 freeze and 10:30 target below are recommendations, not organizer rules. Do not silently substitute global 23:59.
+All times are Hanoi (UTC+07:00). **Full implementation may start 00:00 Nov 14; local submission is due 11:00 Nov 15 per the new timeline.** Freeze 09:00/target 10:30 remain recommendations. Global 23:59 does not extend local judging.
 
 | Period | Outcome and guardrail |
 |---|---|
 | Nov 9–12 | Agree owners/availability, review source concepts, and have a teammate open the already-shared pack and run the existing unrelated rehearsal. Nov 10 file permissions are recorded in section 7; actual device access is unverified. Track the Nov 10 notice. No competition code, final visuals or processed submission datasets. |
-| Nov 13 | Read released challenge resources and submission/judging guides; verify actual start, local cutoff, mode, team code and pitch requirements. Update the checklist, scope ceiling and fallback. Check runtime, free disk and current AI allowance. |
-| Nov 14 morning, after the verified permitted start | Agree one outcome, source/data assumptions and interfaces. Start one complete path from input to visible result. If it is not runnable by early afternoon, remove scope instead of adding parallel features. |
+| Nov 13 | Read released challenge resources and submission/judging guides; check for changes to the recorded 00:00 start/11:00 local cutoff, mode, team code and pitch requirements. Update the checklist, scope ceiling and fallback. Check runtime, free disk and current AI allowance. |
+| From Nov 14 00:00, at the team’s agreed working hours | Agree one outcome, source/data assumptions and interfaces. Start one complete path from input to visible result. If it is not runnable by early afternoon, remove scope instead of adding parallel features. |
 | Nov 14 afternoon/evening | Integrate comparison only after the first path works. Review scientific samples, units, failure cases and the full combined application. Prepare the explanation and submission material alongside the work. Finish with a runnable baseline and planned rest. |
-| Nov 15 morning | Freeze features by 09:00 or earlier. Complete final checks, source/privacy/access review, exact submission fields and release recovery. Target local submission by 10:30, retaining a buffer before reported 11:00. |
+| Nov 15 morning | Freeze features by 09:00 or earlier. Complete final checks, source/privacy/access review, exact submission fields and release recovery. Target local submission by 10:30, retaining a buffer before the timeline’s 11:00 deadline. |
 | Nov 15 afternoon | Only confirmed judging/presentation and separate global-submission requirements before 23:59. Do not assume edits after the local cutoff will be eligible for local judging. |
 
-The previously observed 09:00 Saturday opening and reported 11:00 Sunday local cutoff give approximately 26 hours, not an unconditional 48-hour local build window. No nonstop overnight work or continuous assistant availability is assumed.
+The corrected 00:00 Saturday start to 11:00 Sunday local deadline spans **35 hours**. Portal opening at 09:00 does not delay implementation. No nonstop overnight work or continuous assistant availability is assumed.
 
 ## 4. Scientific reading leads, not a validated pipeline
 

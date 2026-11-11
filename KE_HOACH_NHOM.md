@@ -1,6 +1,8 @@
 # Kế hoạch phối hợp nhóm Lunar
 
-Cập nhật ngày 11/11/2026 · Giờ Hà Nội · Chỉ chuẩn bị trước thi
+Cập nhật 11/11/2026 · Giờ Hà Nội
+
+**Bắt đầu làm toàn bộ dự án: 00:00 ngày 14/11/2026. Hạn nộp Hà Nội: 11:00 ngày 15/11/2026.**
 
 Nhóm đã thống nhất đề Lunar Landing Site Navigator, chưa chốt ý tưởng sản phẩm hay bắt đầu làm. Dự kiến cả nhóm gặp trực tiếp và dành trọn thời gian làm việc trong đợt thi 14–15/11 nếu thu xếp được, vẫn dùng Internet. Chỗ gặp, giờ tập trung và các ngoại lệ còn cần chốt; lịch có nghỉ và không mặc định thức xuyên đêm.
 
@@ -85,12 +87,14 @@ Người chưa làm code có thể bắt đầu với Drive và kiểm tra bản
 | Khi nào | Cùng làm gì | Kết quả cần có |
 |---|---|---|
 | Trước giờ thi | Chốt chỗ gặp, vai trò, quyền truy cập; đọc nguồn và hướng dẫn BTC | Mỗi người biết bắt đầu ở đâu. Chỉ chuẩn bị, chưa làm sản phẩm dự thi |
-| Sáng 14/11, sau giờ cho phép | Chọn một trường hợp nhỏ, thống nhất file trao đổi, lấy và kiểm tra dữ liệu | Một kết quả có nguồn được bạn khác kiểm tra |
+| Từ 00:00 ngày 14/11, theo giờ làm/nghỉ nhóm thống nhất | Chọn một trường hợp nhỏ, thống nhất file trao đổi, lấy và kiểm tra dữ liệu | Một kết quả có nguồn được bạn khác kiểm tra |
 | Chiều và tối 14/11 | Nối các phần, mở rộng phần đã thống nhất, thử bản chung và chuẩn bị demo | Cuối ngày có bản chạy được; nghỉ theo lịch nhóm thống nhất |
 | Sáng 15/11 | Sửa lỗi, ngừng thêm tính năng theo mốc dự phòng, kiểm tra và nộp | Bản đã thử, link mở được, có bằng chứng nộp |
 | Chiều 15/11 | Thuyết trình hoặc làm bước tiếp theo đúng lịch BTC | Không coi đây là thời gian bù cho hạn nộp địa phương |
 
-**Lịch và điểm chưa rõ:** Q&A BTC đã được đọc ngày 11/11: tại THCS Trưng Vương, check-in từ 07:00 ngày 14–15/11, khai mạc 08:15 ngày 14; tự túc ăn uống. Đây là thông tin chung, chưa xác nhận chỗ ngồi hoặc việc qua đêm của nhóm. Cổng nộp mở 09:00 ngày 14/11, khác giờ khai mạc. Hồ sơ đọc thể lệ BTC có IV.1 ghi hạn trước 11:00, VI.1 ghi 12:00 ngày 15/11; mâu thuẫn chưa được BTC giải thích. Giữ mục tiêu ngừng thêm tính năng 09:00, nộp 10:30 ngày 15/11 theo mốc sớm hơn. Đây là khuyến nghị; hạn toàn cầu 23:59 không thay hạn địa phương. Hướng dẫn nộp/chấm dự kiến 13/11 cần đọc lại. Nguồn: [Q&A BTC](https://www.facebook.com/photo/?fbid=122175168122963685&set=pcb.122175168734963685), [thể lệ địa phương](https://drive.google.com/file/d/1t_VmkD3v4rESUOwzjytbguesqA4OoIBe/view), [FAQ NASA 2026](https://www.spaceappschallenge.org/resources/participant-faqs/).
+**Đính chính cuối ngày 11/11:** người dùng cung cấp câu trả lời của Cẩm Chi lúc 21:38:53 và xác nhận **từ 00:00 ngày 14/11 được làm toàn bộ dự án**, hết giới hạn chỉ chuẩn bị; chat gốc chưa xác thực độc lập. [Timeline mới, trang 2](https://drive.google.com/file/d/1m07k0x7akRQqZ7YQS71hJs_ITXxgOK7e/view) đã đọc trực quan xác nhận **hạn Hà Nội 11:00 ngày 15/11**, tức 35 giờ từ lúc được bắt đầu.
+
+**Lịch và điểm chưa rõ:** Q&A BTC đã được đọc ngày 11/11: tại THCS Trưng Vương, tự túc ăn uống. Theo timeline mới liên kết ở trên: check-in ngày 14 từ 07:00–08:15, khai mạc 08:15–09:00; check-in ngày 15 từ 07:30–08:00. Đây là thông tin chung, chưa xác nhận chỗ ngồi hoặc việc qua đêm của nhóm. Cổng nộp mở 09:00 ngày 14/11, khác giờ khai mạc. Hồ sơ đọc thể lệ BTC có IV.1 ghi hạn trước 11:00, VI.1 ghi 12:00 ngày 15/11; dùng timeline mới xác nhận 11:00 để lập lịch. Giữ mục tiêu ngừng thêm tính năng 09:00, nộp 10:30 ngày 15/11 theo mốc sớm hơn. Đây là khuyến nghị; hạn toàn cầu 23:59 không thay hạn địa phương. Hướng dẫn nộp/chấm dự kiến 13/11 cần đọc lại. Nguồn: [Q&A BTC](https://www.facebook.com/photo/?fbid=122175168122963685&set=pcb.122175168734963685), [thể lệ địa phương](https://drive.google.com/file/d/1t_VmkD3v4rESUOwzjytbguesqA4OoIBe/view), [FAQ NASA 2026](https://www.spaceappschallenge.org/resources/participant-faqs/).
 
 **Nếu chậm:** ưu tiên một luồng chạy được trước khi thêm phần khác. Đến giữa chiều 14/11 vẫn chưa nối được thì giảm phạm vi; cuối ngày vẫn chưa ghép được thì tập trung sửa và demo. Bản demo hạn chế phải nói rõ những yêu cầu chưa đáp ứng.
 

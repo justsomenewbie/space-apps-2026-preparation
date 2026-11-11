@@ -6,7 +6,7 @@ Cập nhật 11/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị
 
 | Nhóm nội dung | Bản dùng chung | Trạng thái nội dung |
 |---|---|---|
-| Đề, lịch, phân công và cách phối hợp | [README](README.md), [kế hoạch](KE_HOACH_NHOM.md), [AI context](BOI_CANH_AI.md), [runbook](COMPETITION_RUNBOOK.md) | Sáu thành viên, Lunar đã đăng ký; Sheet đã có tên. Giữ nguyên mâu thuẫn QA C10/G7 và hạn 11:00/12:00, chưa tự chốt thay nhóm/BTC. |
+| Đề, lịch, phân công và cách phối hợp | [README](README.md), [kế hoạch](KE_HOACH_NHOM.md), [AI context](BOI_CANH_AI.md), [runbook](COMPETITION_RUNBOOK.md) | Sáu thành viên, Lunar đã đăng ký; Sheet đã có tên. Bắt đầu làm đầy đủ 00:00 ngày 14/11 theo đính chính; timeline xác nhận hạn Hà Nội 11:00 ngày 15/11. Mâu thuẫn QA C10/G7 vẫn cần nhóm chốt. |
 | Nguồn khoa học, dự án tương tự, luật và license | [DATA_PREPARATION](DATA_PREPARATION.md), AI context 5.1–6/8 | CLPS helper MIT là ứng viên Python; PolarWindow source notes Apache-2.0; Horizons/PDS-LOLA/NASA-LROC là nguồn chọn. Đã đọc nguồn/mã chọn lọc, chưa chạy app hoặc tạo dataset. |
 | Frontend, dữ liệu bàn giao và bài luyện | [FRONTEND_HANDOFF](FRONTEND_HANDOFF.md), [practice-tally](practice-tally/README.md) | Gói luyện 6 tệp được đưa vào repo; chỉ README đổi sang đường dẫn portable. Checker ba ca được chạy lại; browser tests cũ là bằng chứng Mac, không phải kiểm máy đồng đội. |
 | Công cụ, relay và Context Mode | [PLUGIN_ROUTING](PLUGIN_ROUTING.md), [AGENTS](AGENTS.md) | Ghi pin/cách chọn/giới hạn; Context Mode đã được gọi trong lượt này. Cài đặt/CLI/skill trên Mac không tự chuyển sang cloud hoặc tài khoản của người khác. |
@@ -37,6 +37,8 @@ Cập nhật 11/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị
 Đối chiếu thêm 12 lượt trong hai cloud chat project-tracker, tách khỏi 77 lượt NASA. Chúng không thiết lập quyết định nhóm mới. Không thu thập các chủ đề cá nhân khác vào repo. Tool outputs không được tải hàng loạt trong audit lịch sử; báo cáo runtime cũ được ghi là bằng chứng lịch sử, không phải chạy kiểm mới.
 
 ## Kiểm truy cập và bản phát hành
+
+**Đồng bộ mốc giờ cuối ngày 11/11:** bộ hiện hành dùng 00:00 ngày 14/11/2026 để bắt đầu làm đầy đủ và 11:00 ngày 15/11 để nộp Hà Nội (giờ Hà Nội). Word/PDF 6 trang, AI context và index đã thay tại bốn ID Drive cũ; tải lại qua connector khớp SHA-256 từng file, quyền/thư mục giữ nguyên. Hai ô A4 của Sheet đã cập nhật; đọc lại xác nhận chỉ đổi giá trị hai ô, định dạng và ô lân cận giữ nguyên; cả hai tab hiển thị đúng khi mở không đăng nhập. Bản Word/PDF được render và xem toàn bộ, có review độc lập. Bằng chứng: `../nasa-preparation-deliverables/timing-sync-2026-11-11/`. Những lần xuất 5 trang và mốc giờ cũ bên dưới là lịch sử.
 
 **Drive đã kiểm sau đổi quyền:** cả 10 mục hiện có (root, ba thư mục 01/02/99, index, Sheet, Word, PDF, AI context, file thử quyền) có anyone/reader, `allowFileDiscovery=false`, một owner và năm named writers. Bốn mục trước cho sửa công khai đã về reader. Việc mở root giúp người có link thấy các thư mục, không chỉ người chủ sở hữu. Tài liệu mới đưa vào root sẽ thừa hưởng quyền này; không đặt dữ liệu cá nhân ở đây.
 

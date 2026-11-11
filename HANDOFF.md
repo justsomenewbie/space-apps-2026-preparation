@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 11 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Cloud preparation checks verified; documentation ownership released.
+Active editor: none. Timing documents and shared copies reviewed; ownership released.
 
 ## Read first
 
@@ -27,12 +27,12 @@ Cloud evidence: `/workspace/scratch/stack-verification-cgt9f487/`; Mac review: s
 
 ## Event and people
 
-Recorded venue THCS Trưng Vương; check-in 07:00, opening 08:15, portal 09:00 November 14. Team logistics unresolved. Local PDF conflicts: before 11:00 versus 12:00 November 15; global 23:59 is separate. Recommended freeze 09:00/submit 10:30 are not rules. Recheck November 13 guides; prework remains preparation/unrelated practice.
+Full implementation allowed **00:00 Nov 14 Hanoi**; preparation-only restrictions end then (user-confirmed Cẩm Chi reply). Timeline: portal 09:00 Nov 14; local deadline **11:00 Nov 15**, global 23:59; **35 hours** locally. Sources/logistics: runbook.
 
 Latest Sheet read: Chung integration/backend; Sơn + Thảo frontend; Trang sources; Minh + Trang QA versus G7 Minh + Thảo; Lâm + Thảo content. Other members' acceptance, QA, backups/submitter and human rehearsal remain open.
 
 ## Git and next action
 
-GitHub is public; no sharing, Drive or global settings changes this task. Mac `.DS_Store` stays untracked/untouched. Verify current Git before editing.
+Timing sync targets GitHub main; Drive Word/PDF (6 pages), AI context and index replaced in place, byte-verified; both Sheet A4 notes checked. Evidence: sibling `timing-sync-2026-11-11/`. Unrelated runtime edits remain local.
 
-Next: request the integration path and one response example using FRONTEND_HANDOFF's unsent draft.
+Next: use the midnight start when agreeing group working hours.
