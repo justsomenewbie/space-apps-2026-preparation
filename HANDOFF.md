@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 12 November 2026, Asia/Ho_Chi_Minh.
-Active editor: Codex preparation sync; reviewers read-only.
+Active editor: none. Preparation release reviewed; ownership released.
 
 ## Read first
 
@@ -35,12 +35,12 @@ Mac routing: 30 packs/469 paths. Both browsers passed 10-minute PBR/texture runs
 
 [HOSTING_PLAN.md](HOSTING_PLAN.md): Cloudflare/R2; optional Railway Python. Estimate $5–10 or $25–35/month before tax/domain, workload-dependent. Sources/limits checked Nov12; sibling `hosting-research-2026-11-12/`. No purchase/deployment; team adoption pending.
 
-Timing sync targets GitHub main; Drive Word/PDF (6 pages), AI context and index replaced in place, byte-verified; both Sheet A4 notes checked. Evidence: sibling `timing-sync-2026-11-11/`. Unrelated runtime edits remain local.
+Timing-only sync evidence: sibling `timing-sync-2026-11-11/`; superseded by the full preparation release below.
 
 Review: sibling `direction-review-2026-11-12/REVIEW.md`.
 
 Continuity: follow AGENTS startup/end checks and PREPARATION_COVERAGE chat checkpoints; select tools by task. This is on-demand reconciliation, not continuous capture.
 
-Release PREP-2026-11-12 assembles the latest instructions, frontend/tool/hosting notes, AI context and human-plan source. User authorized GitHub, existing cloud checkout and Drive/Word/PDF synchronization. Destination verification is in progress; prior confirmed GitHub/cloud states are in PREPARATION_COVERAGE. Evidence: sibling `preparation-sync-2026-11-12/`.
+Release **PREP-2026-11-12**: content checkpoint `b596ed1` verified on GitHub and cloud `work`; all 23 cloud blobs/SHA-256 values matched, scratch unchanged. Drive's four existing files plus source ZIP/manifest downloaded byte-identically; original permissions/parents preserved. Word/PDF: six pages visually reviewed, source text and 22 hyperlinks matched. Status note follows; the [Drive manifest](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view) identifies the exact encompassing delivery commit. Only `.DS_Store` is excluded locally; Mac tool installations remain host-specific. Evidence: sibling `preparation-sync-2026-11-12/`.
 
 Next: agree one demo outcome and obtain the implementation repo/branch (2 minutes).

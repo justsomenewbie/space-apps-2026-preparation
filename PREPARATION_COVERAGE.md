@@ -2,7 +2,19 @@
 
 Cập nhật 12/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị, không chứng nhận nhóm đã làm sản phẩm, đồng ý mọi đề xuất hoặc đã mở file trên máy thật.
 
-## Checkpoint tiếp nối chat — 12/11/2026
+## Bộ chuẩn bị đã đối chiếu ngày 12 tháng 11
+
+Người dùng yêu cầu đồng bộ toàn bộ ghi chú/chỉ dẫn mới nhất lên GitHub, cloud hiện có và Drive/Word/PDF. Bộ **PREP-2026-11-12** bổ sung frontend/mobile/3D/audio, hosting, routing, tiếp nối chat và trạng thái hướng sản phẩm; giữ nguyên các lựa chọn chưa được nhóm chốt. Word/PDF là bản đọc của KE_HOACH_NHOM.md, ZIP mang đủ 23 file nguồn repo. Không xuất .DS_Store, chat riêng hoặc bằng chứng sibling thô.
+
+**Checkpoint nội dung đã kiểm:** `b596ed195683bba167c98096843f922d18c3c419`. GitHub main/HEAD khớp; ZIP tải không đăng nhập khớp toàn bộ 23 file. Cloud `/workspace/space-apps-2026-preparation`, nhánh `work`, đã fast-forward an toàn; cả 23 Git blob và SHA-256 được root so độc lập, checkout sạch, ba hash scratch cũ giữ nguyên. Code/lock/checker không đổi nên không chạy lại bộ test ứng dụng. Báo cáo cloud: chat Verify Space Apps cloud readiness, host durable, lượt `01a1cc49-72c4-73ee-aae5-bc70e811718f`.
+
+**Drive đã tải lại và so byte:** bốn ID Word/PDF/bối cảnh/index giữ nguyên; thêm [ZIP đầy đủ](https://drive.google.com/file/d/1DH3ftueW2DX1OEemJ5V1QFuCHfz52El-/view) và [bản kê commit/SHA-256](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view) trong thư mục 02. Cả sáu file tải lại khớp SHA-256. Quyền/parents của bốn file cũ không đổi; hai file mới nhận quyền reader theo link, năm writer và một owner của thư mục. Không đổi bảng phân công hoặc quyền chia sẻ.
+
+**Word/PDF:** cùng nguồn ngày 12/11, 6 trang đã render và xem toàn bộ; 91 khối nội dung DOCX khớp nguồn, văn bản PDF khớp sau chuẩn hóa khoảng trắng/Unicode, 22 URL đích giữ đủ. Root chạy lại verifier và xem sáu trang. Chưa mở bằng Microsoft Word hoặc điện thoại thật. Nguồn khoa học/ngân sách vẫn có ngày kiểm và giới hạn riêng; đây là kiểm đồng bộ, không phải xác minh khoa học mới.
+
+Ghi chú trạng thái này được commit sau checkpoint nội dung; bản kê Drive ghi **commit giao cuối cùng**, bao gồm ghi chú. Dùng commit/hash ở bản kê để đối chiếu bản hiện hành; các SHA/số file cũ bên dưới là lịch sử. Evidence Mac: `../nasa-preparation-deliverables/preparation-sync-2026-11-12/`; không coi đường dẫn Mac là có trên cloud. Việc đồng bộ một phiên bản không tạo capture lịch sử, cập nhật nền, cài tool Mac lên cloud, deployment hoặc bài nộp.
+
+## Checkpoint tiếp nối chat trước lượt đồng bộ — 12/11/2026
 
 AGENTS yêu cầu đối chiếu thay đổi khi bắt đầu/kết thúc công việc; không có capture hoặc đồng bộ nền. Lượt này đọc user/final messages của **6 lượt gần nhất được chọn trong 4 chat**, đối chiếu với file hiện hành; không phải rà hết lịch sử. Inventory local được đọc một trang 50 mục; không rà lại archived hay toàn bộ các host. Các trang cũ chưa đọc vẫn là khoảng trống, không được tính đã bao phủ chỉ vì đọc lượt mới nhất. Mốc 15 lịch sử/77 lượt bên dưới giữ nguyên tính lịch sử.
 
