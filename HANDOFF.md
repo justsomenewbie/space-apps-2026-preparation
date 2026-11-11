@@ -39,7 +39,7 @@ Timing-only sync evidence: sibling `timing-sync-2026-11-11/`; superseded by the 
 
 Review: sibling `direction-review-2026-11-12/REVIEW.md`.
 
-Continuity: follow AGENTS startup/end checks and PREPARATION_COVERAGE chat checkpoints; select tools by task. This is on-demand reconciliation, not continuous capture.
+Default: follow AGENTS standing sync after preparation edits; verify GitHub/cloud/Drive/Word/PDF without reminders. Resume pending destinations; no background watcher.
 
 Release **PREP-2026-11-12**: content checkpoint `b596ed1` verified on GitHub and cloud `work`; all 23 cloud blobs/SHA-256 values matched, scratch unchanged. Drive's four existing files plus source ZIP/manifest downloaded byte-identically; original permissions/parents preserved. Word/PDF: six pages visually reviewed, source text and 22 hyperlinks matched. Status note follows; the [Drive manifest](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view) identifies the exact encompassing delivery commit. Only `.DS_Store` is excluded locally; Mac tool installations remain host-specific. Evidence: sibling `preparation-sync-2026-11-12/`.
 

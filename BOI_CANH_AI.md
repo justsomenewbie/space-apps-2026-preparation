@@ -75,6 +75,8 @@ Khi bắt đầu chat, đối chiếu các lượt mới hoặc phần thiếu l
 
 Mốc 15 lịch sử/77 lượt là audit cũ ngày 11/11; lượt 12/11 chỉ đọc sáu lượt chọn trong bốn chat và ghi rõ khoảng trống. Bài kiểm assistant không có lịch sử chat đã phục hồi được timing, quyết định mở, routing và sync state; không chứng minh nhớ hoàn hảo hay tích hợp mọi app. Các check chạy lúc AI làm việc, không có capture hoặc đồng bộ nền. Bản Word/PDF là bản đọc kế hoạch; ZIP trên Drive giữ toàn bộ nguồn repo, bản kê SHA-256 xác định phiên bản. Không đưa chat riêng hoặc credentials vào bộ chung.
 
+**Mặc định do Sơn yêu cầu ngày 12/11:** sau mỗi việc làm thay đổi ghi chú/chỉ dẫn chuẩn bị, AI phải đồng bộ GitHub, checkout cloud hiện có và Drive/Word/PDF, rồi đối chiếu commit, nguồn và hash trước khi báo xong; không chờ Sơn nhắc lại ở chat mới. Đây là quyền thường trực trong phạm vi các đích hiện có, gồm liên hệ chat cloud để đồng bộ an toàn; giữ nguyên quyền chia sẻ và công việc của người khác. Làm theo mục “Standing preparation sync” trong AGENTS. Word/PDF chỉ cần xuất lại khi KE_HOACH_NHOM.md đổi; nếu nguồn không đổi, kiểm hash nguồn và bản xuất đang giữ. Nếu thiếu công cụ/quyền hoặc có xung đột, hoàn tất phần an toàn, ghi rõ đích còn chờ và tiếp tục ở phiên liên quan sau; không tự nhận đã khớp. Không có tiến trình đồng bộ nền.
+
 ## 4 Nhận một nhiệm vụ và bàn giao
 
 Nếu thành viên chỉ đưa file này mà chưa giao việc: xác nhận ngắn đã hiểu trạng thái, hỏi họ muốn nhận phần nào. Không tự chạy dự án. Nếu đã giao rõ, không hỏi lại toàn bộ kế hoạch; đọc đầu vào có sẵn và tiến hành đúng phần được giao, trong giai đoạn cho phép. Thiếu thông tin chỉ hỏi câu ảnh hưởng trực tiếp đến việc đó.
