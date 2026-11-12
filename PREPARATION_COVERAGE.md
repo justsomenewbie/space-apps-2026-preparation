@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Điều chỉnh phạm vi có điều kiện — 12 November 2026
+
+Trong chat 01a1cf43-a87a-7a91-b926-bc62cf39b3ec, sau bản 92f1c50, Sơn yêu cầu bỏ loại cứng xếp hạng/an toàn/năng lượng khi chưa biết bộ BTC; cập nhật Word/PDF và kiểm mọi đích đồng bộ hiện có. Kế hoạch mục 1 chuyển sang xét so mức phù hợp theo tiêu chí sau khi Trang/Chung kiểm dữ liệu và mô hình, có owner/cách kiểm/thời gian; mục 4 làm rõ giới hạn của phần lõi. Có thể tận dụng sản phẩm địa hình/bóng đổ BTC đã kiểm, không mặc định tự dựng mô phỏng hoàn chỉnh. Không hứa kết quả vận hành hoặc mở rộng vượt mốc khóa tính năng. BOI_CANH_AI ghi cùng nguyên tắc; sơ đồ và các cảnh báo suy luận còn phù hợp.
+
+Inventory 30 chat gần đây không cho thấy editor NASA khác active. Đọc yêu cầu và kết quả cuối của lượt gần nhất Vẽ kiến trúc web app (01a1cf3a-4c22-7da3-a8a4-615ff25b35d2), Auto-use project tools (01a1ce76-3587-7cd0-901d-37c5f2797a89) và cloud (01a1cf81-89d7-757c-b4e7-01a06e5aeff9); không có quyết định mới ngoài checkpoint. Không coi tool logs chưa mở hoặc lịch sử archived/Zalo là đã rà. Phân công không đổi; Sheet không sửa, không đọc lại. Tin nhóm vẫn chỉ được soạn.
+
+Sáu file Drive bản trước được tải lại và khớp từng byte với release 92f1c50; ZIP đủ 29 nguồn khớp manifest. GitHub main cùng SHA; cloud đã được kiểm qua output thực tế ở lượt trước. Bản xuất/kiểm/sync mới dùng Documents, Drive và reviewer độc lập; bằng chứng cuối ở sibling moon-plan-b-conditional-scope-2026-11-12/ cùng manifest Drive. Tại checkpoint này việc xuất/kiểm/sync đang thực hiện; biên nhận ngoài repo ghi kết quả cuối để tránh vòng lặp commit. Chưa có dataset BTC để kiểm khả thi phần mở rộng; không tạo sản phẩm thi.
+
 ## Sửa kế hoạch theo dữ liệu BTC — 12 November 2026
 
 Yêu cầu tiếp theo của Sơn trong chat 01a1cf43-a87a-7a91-b926-bc62cf39b3ec: sửa kế hoạch, lấy dữ liệu BTC làm chính, nguồn ngoài bổ sung, chưa có dữ liệu thì không khóa địa điểm/ngày; xuất lại Word/PDF và đồng bộ như cũ. Quy tắc này là chỉ dẫn lập kế hoạch của người dùng, không gán thành điều khoản BTC chưa được xác minh. Thể lệ địa phương được đọc lại đầy đủ qua Drive ngay trước yêu cầu sửa: IV.4 yêu cầu NASA/đối tác; Phụ lục 2 cho nguồn ngoài có điều kiện. Chưa có nội dung dataset BTC để kiểm.

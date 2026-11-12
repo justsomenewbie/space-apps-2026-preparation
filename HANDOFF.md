@@ -1,13 +1,13 @@
 # Current handoff
 
 Updated: 12 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none; BTC-primary plan and exports reviewed, ownership released. Delivery verification underway.
+Active editor: none; conditional-scope sources and exports reviewed, ownership released. Delivery verification underway.
 
 ## Read first
 
 README → COMPETITION_RUNBOOK → FRONTEND_HANDOFF → DATA_PREPARATION. PREPARATION §11 and PREPARATION_COVERAGE retain dated decisions and chat checkpoints. Mac tools/evidence do not transfer through Git.
 
-Six registered members; Lunar confirmed. Moon Plan B remains the concrete plan for approval. The user now requires BTC data as primary input and outside data only as justified supplements; do not fix sites, dates, cadence or height before inspecting the actual dataset. Trang/Chung record the validated domain/configuration; frontend reads that manifest. No BTC dataset contents or submission code/science results are available.
+Six registered members; Lunar confirmed. Moon Plan B remains the concrete plan for approval. BTC data is primary; outside sources supplement verified gaps. Do not fix sites/dates/configuration before inspecting the dataset. Trang/Chung record the validated manifest. The latest user correction keeps criteria-based extensions open: require adequate data/model, reviewer, owner and time without delaying the core or feature freeze. No BTC contents or science results are available.
 
 ## Frontend and tools
 
@@ -33,6 +33,6 @@ Organizer email received Nov11 19:38 Hanoi was fully read Nov12: matching six me
 
 [Architecture](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md), HTML/preview and [theory](docs/architecture-proposal/THEORY_PRIMER.md) now align with BTC-first input. The ideal-horizon model applies only to compatible quantities; no silent external-only fallback. The shared architecture chat and current user message confirm mentor/group drafts remain unsent, with no approval inferred.
 
-Last verified GitHub/cloud/Drive release: 32cc63b6822cb0cad504d1dfdabdc2f72f4df050, 29 sources, six Drive downloads, scratch preserved. Current task revises source priorities and regenerates Word/PDF plus the architecture preview. Final commit/readbacks: Drive manifest and sibling moon-plan-b-btc-data-2026-11-12/. Preserve .DS_Store, security work, sharing and cloud scratch.
+Last verified GitHub/cloud/Drive release: 92f1c50ebd6e345128495b79ce333c6de6b56ddb, 29 sources, six Drive downloads, scratch preserved. Current task removes premature hard scope exclusions and regenerates Word/PDF; the architecture remains compatible. Final commit/readbacks: Drive manifest and sibling moon-plan-b-conditional-scope-2026-11-12/. Preserve .DS_Store, security work, sharing and cloud scratch.
 
-Next action under two minutes: read plan §3 for the data-priority and dataset-inspection rule, then use §7 for role approval. No implementation before Nov14 00:00.
+Next action under two minutes: read plan §1 for conditional extensions; §3 retains BTC priority and dataset inspection. No implementation before Nov14 00:00.

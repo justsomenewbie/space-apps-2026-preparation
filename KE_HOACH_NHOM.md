@@ -19,9 +19,11 @@ Người dùng chính là sinh viên, người học STEM và người xem lần
 | Hướng cân nhắc | Quyết định của kế hoạch | Lý do |
 |---|---|---|
 | Bản đồ Mặt Trăng nhiều lớp và globe 3D | Dùng globe nhẹ làm phần dẫn đường | Moon Trek và QuickMap đã có nhiều công cụ khảo sát; chỉ thêm globe không tạo giá trị đủ rõ |
-| Xếp hạng nơi đáp an toàn hoặc tối ưu năng lượng | Loại khỏi bản thi | Cần địa hình, sai số, thiết bị và điều kiện nhiệm vụ vượt quá bằng chứng hiện có |
+| Xếp hạng nơi đáp an toàn hoặc tối ưu năng lượng | Chưa đưa vào lõi; xét bổ sung sau khi kiểm dữ liệu BTC | Chưa biết bộ BTC có gì; chỉ so mức phù hợp theo tiêu chí có đủ dữ liệu, mô hình và cách kiểm |
 | So sánh tác động của việc lùi ngày | Chọn làm lõi Moon Plan B | Có tác vụ cụ thể, dữ liệu hữu hạn, đầu ra đo được và đường kiểm chứng vừa sức |
-| Mô phỏng địa hình và bóng đổ hoàn chỉnh | Để ngoài phạm vi giao lần này | Sai hệ tọa độ, mốc cao độ hoặc che khuất sẽ làm hỏng kết luận khoa học |
+| Mô phỏng địa hình và bóng đổ hoàn chỉnh | Không mặc định tự dựng; có thể dùng sản phẩm BTC đã kiểm | Cần xác nhận hệ tọa độ, mốc cao độ, định nghĩa che khuất và phạm vi áp dụng |
+
+**Điều kiện mở rộng:** sau khi nhận dữ liệu BTC, Trang và Chung đánh giá phần so sánh có thể bổ sung, ghi tiêu chí, dữ liệu/mô hình, giả định, giới hạn, người phụ trách và cách Minh kiểm lại. Nhóm chỉ đưa vào bản thi khi đủ bằng chứng và thời gian, không làm chậm luồng lõi hoặc vượt mốc khóa tính năng. Nếu chưa đủ thì ghi rõ chưa hỗ trợ; không loại trước vì chưa biết dữ liệu, cũng không nhận là “an toàn” hay “tối ưu” vượt phạm vi đã kiểm.
 
 [SYNEXIS](https://synexiss.site/explorer) đã công bố góc Sun/Earth, cửa sổ thời gian và so sánh kịch bản. [CLPS Browser](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/main/README.md) cũng mô tả so sánh và timeline. Vì vậy, nhóm trình bày tác vụ, độ rõ ràng và bằng chứng kiểm thử của mình; không tuyên bố đầu tiên, chính xác hơn hoặc dễ dùng hơn khi chưa có phép thử. Các trang này mới được đọc ở mức nội dung công bố, chưa được kiểm chứng chất lượng tính toán.
 
@@ -80,7 +82,7 @@ Các lần đổi dấu chỉ xác định sự kiện trong ngoặc thời gian
 
 Nếu một khoảng đang dương bị cắt ở cuối cửa sổ, ghi “khoảng bị cắt tại cuối cửa sổ; chưa xác định lúc kết thúc”; chỉ ghi tiếp diễn khi dữ liệu sau đó xác nhận. Sự kiện đúng tại đầu mút được ghi là sự kiện, không phải khoảng tiếp diễn. Nếu không thấy lần lặn trong toàn miền khảo sát, ghi đúng giới hạn miền; không suy ra nhìn thấy mãi mãi. Nếu thiếu dữ liệu trước một ứng viên, không khẳng định đó là phương án sớm nhất. Trường hợp không có phương án đạt phải phân biệt rõ với dữ liệu chưa đủ để đánh giá.
 
-**Giới hạn luôn hiện ngay cạnh kết quả:** chân trời lý tưởng chưa xét núi/hố che khuất, đĩa thiên thể và nhật thực. Nếu dữ liệu BTC đã xét một hiệu ứng, chỉ ghi có xét khi metadata và kiểm tra xác nhận. Không tính cấu hình pin/tải/pin lưu trữ, antenna/trạm mặt đất/link budget, độ dốc và an toàn hạ cánh. Địa hình có thể đổi kết luận so sánh; không đưa ra “địa điểm tốt nhất”. [NASA SVS](https://svs.gsfc.nasa.gov/4930/) minh họa vai trò địa hình; [NASA về nguồn điện](https://www.nasa.gov/smallsat-institute/sst-soa/power-subsystems/) và [liên lạc](https://www.nasa.gov/smallsat-institute/sst-soa/soa-communications/) cho thấy cần thêm thông số thiết bị để kết luận vận hành.
+**Giới hạn luôn hiện ngay cạnh kết quả:** chân trời lý tưởng chưa xét núi/hố che khuất, đĩa thiên thể và nhật thực. Nếu dữ liệu BTC đã xét một hiệu ứng, chỉ ghi có xét khi metadata và kiểm tra xác nhận. Phần lõi hiện chưa tính cấu hình pin/tải/pin lưu trữ, antenna/trạm mặt đất/link budget, độ dốc và an toàn hạ cánh; phần bổ sung phải qua điều kiện mở rộng ở mục 1. Địa hình có thể đổi kết luận so sánh; không suy “địa điểm tốt nhất” từ riêng các chỉ số hình học. [NASA SVS](https://svs.gsfc.nasa.gov/4930/) minh họa vai trò địa hình; [NASA về nguồn điện](https://www.nasa.gov/smallsat-institute/sst-soa/power-subsystems/) và [liên lạc](https://www.nasa.gov/smallsat-institute/sst-soa/soa-communications/) cho thấy cần thêm thông số thiết bị để kết luận vận hành.
 
 ## 5 Kiến trúc và cách giao việc kỹ thuật
 
