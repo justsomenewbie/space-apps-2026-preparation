@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 12 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none; conditional-scope sources and exports reviewed, ownership released. Delivery verification underway.
+Active editor: none; automatic-tool sources reviewed, ownership released. Delivery verification underway.
 
 ## Read first
 
@@ -13,11 +13,11 @@ Six registered members; Lunar confirmed. Moon Plan B remains the concrete plan f
 
 Sơn chooses frontend: prepared React + TypeScript + Vite/npm/CSS. Coordinate contracts/integration with Chung; prefer frontend/ in the shared repo. URL/branch unknown. FRONTEND_HANDOFF §6 records unrelated practice and tested minimatch 11.0.7 cross-major exception; recheck when dependencies change.
 
-PLUGIN_ROUTING records task selection and real verification limits. Visual/browser/relay runtime evidence is Mac-only; no provider quota, filesystem sandbox or automatic cloud installation is implied.
+User requires automatic tool selection without reminders. Read TOOL_SELECTION_CHECKLIST + PLUGIN_ROUTING: all functional areas, 30 packs and 7 visual routes; invoke applicable workflows and record alternatives/gaps. Nine Blender tools now exposed; bridge not rerun. Runtime evidence is Mac-only; no provider quota or cloud installation implied.
 
 ## Security — 12 November
 
-[SECURITY_PREPARATION](SECURITY_PREPARATION.md) records nine compared tool groups. Gitleaks 8.30.1 and OSV-Scanner 2.7.1 installed on Mac with official digest/version and detection checks. Gitleaks current tree/31 available commits: no matches. OSV/npm practice lock: 193 packages, zero advisory findings. Codex Security completed offline static audit of snapshot 91b3644: 27 text files, independent baseline/model and root validation; no reportable findings. PNG/OS metadata payloads, dependency implementation, live services and future app not audited.
+[SECURITY_PREPARATION](SECURITY_PREPARATION.md) retains nine tool groups and bounded audit results: Gitleaks tree/31 commits no matches; OSV/npm practice lock 193 packages no advisories; Codex Security snapshot 91b3644, 27 text files, no reportable findings. Gitleaks 8.30.1 and OSV 2.7.1 versions rechecked. PNG/OS metadata, dependency implementation, services and future app remain unaudited.
 
 AGENTS selects secret checks before publication, advisory checks on dependencies and full/diff source review as appropriate. Mac commands: ~/.codex/workflows/security-tools/LOCAL_USE.md. Routing is during work, not a watcher/CI/hook. Daybreak access not granted to account; scan still completed. Permissions unchanged.
 
@@ -33,6 +33,6 @@ Organizer email received Nov11 19:38 Hanoi was fully read Nov12: matching six me
 
 [Architecture](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md), HTML/preview and [theory](docs/architecture-proposal/THEORY_PRIMER.md) now align with BTC-first input. The ideal-horizon model applies only to compatible quantities; no silent external-only fallback. The shared architecture chat and current user message confirm mentor/group drafts remain unsent, with no approval inferred.
 
-Last verified GitHub/cloud/Drive release: 92f1c50ebd6e345128495b79ce333c6de6b56ddb, 29 sources, six Drive downloads, scratch preserved. Current task removes premature hard scope exclusions and regenerates Word/PDF; the architecture remains compatible. Final commit/readbacks: Drive manifest and sibling moon-plan-b-conditional-scope-2026-11-12/. Preserve .DS_Store, security work, sharing and cloud scratch.
+Baseline GitHub/cloud/Drive release: 8c5325162c465160c58fe4290a280b337fbb67bf, 29 sources, six Drive files, scratch preserved. Current task adds durable automatic-selection coverage and requested local memory. Plan source unchanged; retain/verify Word/PDF. Final commit/readbacks: Drive manifest and sibling automatic-tool-selection-2026-11-12/. Publication/cloud/Drive verification pending at this source checkpoint. Preserve .DS_Store, sharing and scratch.
 
-Next action under two minutes: read plan §1 for conditional extensions; §3 retains BTC priority and dataset inspection. No implementation before Nov14 00:00.
+Next action under two minutes: read TOOL_SELECTION_CHECKLIST “Apply on every task”; use its coverage line for the next assigned task. No implementation before Nov14 00:00.

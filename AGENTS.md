@@ -42,7 +42,7 @@ Identify the actual runtime before acting. Mac paths, installed apps and disk ob
 
 The user should be able to say “Continue from the current handoff” without naming tools or requesting a full chat audit.
 
-1. Read `PLUGIN_ROUTING.md` for the task, discover the relevant current tools, and read/use the selected skill. Distinguish installed, available, invoked and verified; report a missing capability and use a suitable fallback.
+1. Read `PLUGIN_ROUTING.md` and `TOOL_SELECTION_CHECKLIST.md` for the task, discover the relevant current tools, and read/use the selected skill. Apply the full functional/30-pack/visual coverage map automatically; record used routes, alternatives and material gaps with reasons. Distinguish installed, available, invoked and verified; report a missing capability and use a suitable fallback.
 2. At session start, use available chat-list/read tools to compare relevant project chats with the checkpoints in `PREPARATION_COVERAGE.md`. Read new or unreviewed relevant turns, including older pages when a decision needs them. Listing summaries alone are not a review. Record inaccessible histories and coverage gaps; do not reread every chat by default or message other chats merely to inspect them.
 3. Reconcile decisions into their owning file: event workflow in `COMPETITION_RUNBOOK.md`, frontend in `FRONTEND_HANDOFF.md`, sources in `DATA_PREPARATION.md`, tools in `PLUGIN_ROUTING.md`. Check the live Sheet when assignments matter. Keep proposals, user decisions and independently verified results distinct; resolve consequential conflicts before dependent work.
 4. After each bounded task, update the reviewed chat/turn checkpoint and `HANDOFF.md`: outcome, evidence, owner, next action, local changes, published Git SHA, last confirmed cloud SHA and pending shared-copy updates. Verify authorized sync at its destination; a save or commit alone is not a push, cloud refresh or Drive update.
@@ -83,6 +83,10 @@ Codex handles ambiguous analysis, shared decisions, integration, and review. Gem
 Use the existing checkout sequentially by default; both assistants read the same files. Do not add a CLI, duplicate checkout, local model, container image, dependency stack, or bulk dataset merely for coordination. Before a substantial download/install, inspect available space and justify the required footprint. Keep source URLs plus small selected evidence; do not cache entire OSDR/DONKI archives. Keep reproducible source separate from disposable build output, and inspect actual paths/sizes before proposing cleanup. Never delete app state, credentials, caches or user files without the user's explicit cleanup authorization. App history/cache growth is outside this Markdown workflow and must be measured separately.
 
 ## Plugin and skill routing
+
+### Complete automatic selection — user instruction, 12 November
+
+The user reviewed the full tool inventory and explicitly asked to use the tools automatically and not forget any. Follow [TOOL_SELECTION_CHECKLIST.md](TOOL_SELECTION_CHECKLIST.md) at session start and when task categories change: cover every applicable functional area, including its QA/security/delivery checks; invoke the selected workflow without waiting for a tool name. For alternatives, unrelated tools or unavailable capabilities record the selection/reason instead of silently omitting the area or running redundant services. Keep the compact coverage evidence with the task handoff. Existing scope, timing, permissions and standing preparation sync remain in force; this is durable task routing, not background execution or automatic cross-host installation.
 
 ### Security checks — automatic selection, 12 November
 

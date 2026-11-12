@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Tự chọn đầy đủ công cụ — 12 November 2026
+
+Trong chat **Clarify start-time actions** `01a1cfdb-7ebd-7d91-b53c-e04167de3674`, sau bài giả định “now is the time, start” và bản rà toàn bộ công cụ, Sơn yêu cầu tự dùng các workflow và không quên mục nào. Thêm TOOL_SELECTION_CHECKLIST: đủ mảng chức năng, 7 đường visual và 30 gói; chọn theo việc, đọc/use skill thực tế, ghi lựa chọn/thay thế/gap và kiểm độc lập. AGENTS, PLUGIN_ROUTING, BOI_CANH_AI và README trỏ về một checklist. Yêu cầu nhớ được ghi thêm trong local memory extension; không sao chép account metadata lên Git.
+
+Inventory 15 chat gần đây: không thấy editor NASA khác active. Đã đọc yêu cầu/kết quả lượt mới nhất chat kế hoạch trong phần kiểm đầu phiên này; cùng checkpoint conditional scope, không suy thành nhóm đã duyệt. Các chat kiến trúc/tool không có cập nhật mới trong inventory; không rà lại archived/Zalo hoặc coi tool logs chưa mở là đã đọc. Không thay vai trò nên không đọc lại Sheet. Mốc kiểm trước: GitHub/cloud/Drive release 8c5325162c465160c58fe4290a280b337fbb67bf, 29 nguồn; biên nhận cloud trước được đọc khi đồng bộ lượt này.
+
+Rà metadata: 2,421 tool definitions, 951 file SKILL.md gồm cache trùng phiên bản, đủ 469 đường index; reviewer đọc 30 gói/27 LOCAL_USE. Kiểm version/path/hash được phân biệt với kiểm thực thi; không chạy lại browser/render/science/security audit. Chín tool Blender hiện công bố trong chat này, không chứng minh bridge vừa chạy. Reviewer riêng kiểm toàn diff/checklist; secret scan trước commit. KE_HOACH_NHOM không đổi nên giữ Word/PDF và kiểm source/export hash. Biên nhận vận chuyển cuối ở sibling `automatic-tool-selection-2026-11-12/`; tại checkpoint source này sync đang thực hiện, không coi save/commit là đã hoàn tất mọi đích.
+
 ## Điều chỉnh phạm vi có điều kiện — 12 November 2026
 
 Trong chat 01a1cf43-a87a-7a91-b926-bc62cf39b3ec, sau bản 92f1c50, Sơn yêu cầu bỏ loại cứng xếp hạng/an toàn/năng lượng khi chưa biết bộ BTC; cập nhật Word/PDF và kiểm mọi đích đồng bộ hiện có. Kế hoạch mục 1 chuyển sang xét so mức phù hợp theo tiêu chí sau khi Trang/Chung kiểm dữ liệu và mô hình, có owner/cách kiểm/thời gian; mục 4 làm rõ giới hạn của phần lõi. Có thể tận dụng sản phẩm địa hình/bóng đổ BTC đã kiểm, không mặc định tự dựng mô phỏng hoàn chỉnh. Không hứa kết quả vận hành hoặc mở rộng vượt mốc khóa tính năng. BOI_CANH_AI ghi cùng nguyên tắc; sơ đồ và các cảnh báo suy luận còn phù hợp.

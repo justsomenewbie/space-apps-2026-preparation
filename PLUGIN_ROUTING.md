@@ -1,5 +1,11 @@
 # NASA plugin and skill routing
 
+## Complete automatic selection — user instruction, 12 November
+
+Use [TOOL_SELECTION_CHECKLIST](TOOL_SELECTION_CHECKLIST.md) at session start and when the task category changes. Sơn reviewed the complete inventory and asked for automatic use without forgetting any workflow. The checklist covers every functional area, all seven visual routes and all 30 catalog packs. Select and invoke applicable workflows; record used/alternative/not-applicable/unavailable with evidence or a reason. Check required QA, science, security and delivery alongside implementation. No plugin name or slash command is needed. Existing adequate tools and simpler solutions take precedence among alternatives; unrelated calls do not improve coverage.
+
+The 12 November metadata/path audit found 2,421 exposed definitions, 951 physical skill files including caches, and all 469 indexed local workflow paths. These overlap and do not prove runtime/account access. Nine Blender tools are now exposed in this session, superseding the older session-specific absence below; the bridge was not rerun. Private raw metadata remains outside public sources; the portable checklist keeps only the selection map and evidence limits. Mac runtime installation, provider spending, recording and publication are not enabled by this instruction.
+
 ## Security readiness — 12 November
 
 [SECURITY_PREPARATION](SECURITY_PREPARATION.md) records nine compared tool groups and automatic task triggers. Existing Codex Security completed a static audit of the preparation snapshot; Gitleaks 8.30.1 and OSV-Scanner 2.7.1 were added on this Mac with official release SHA-256 checks and functional tests. Current tree/31 available commits produced no secret match; the 193-package practice lock produced no OSV/npm advisory findings. These are bounded results, not app certification. Read `/Users/nns/.codex/workflows/security-tools/LOCAL_USE.md` for actual commands and limits. No new account, CI, hook, deployment, paid service or permission relaxation; cloud receives guidance, not Mac executables.
