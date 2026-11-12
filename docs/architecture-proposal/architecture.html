@@ -26,11 +26,11 @@
 <body>
 <main>
   <h1>Kiến trúc web app để nhóm trao đổi</h1>
-  <p><strong>Bản đề xuất · 12/11/2026 · Chưa triển khai.</strong> Giả định bản đầu chỉ hỗ trợ một số địa điểm và khoảng thời gian có kết quả đã kiểm. Nhóm chưa chốt chỉ số, miền dữ liệu hoặc nhánh API.</p>
+  <p><strong>Bản đề xuất · 12/11/2026 · Chưa triển khai.</strong> Dữ liệu BTC là chính; nguồn ngoài bổ sung có căn cứ. Điểm, ngày và cấu hình lấy từ bản kê đã kiểm sau khi nhận dữ liệu. Nhánh API là tham khảo lịch sử, ngoài bản thi hiện tại.</p>
   <div class="diagram-container" tabindex="0" role="region" aria-label="Sơ đồ kiến trúc, có thể cuộn ngang trên màn hình nhỏ">
     <svg viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="architecture-title architecture-desc">
       <title id="architecture-title">Kiến trúc web app đề xuất</title>
-      <desc id="architecture-desc">Nguồn khoa học được xử lý và kiểm theo lô rồi phát hành lên hosting cho frontend trình duyệt; API theo yêu cầu là nhánh tùy chọn.</desc>
+      <desc id="architecture-desc">Dữ liệu BTC là đầu vào chính, nguồn ngoài bổ sung khi cần; xử lý và kiểm theo lô rồi phát hành lên hosting cho frontend. Điểm và ngày theo bản kê đã kiểm; nhánh API nằm ngoài bản thi hiện tại.</desc>
       <defs>
         <marker id="arch-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#4f5d75"/></marker>
         <marker id="arch-start" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto"><polygon points="8 0,0 3,8 6" fill="#4f5d75"/></marker>
@@ -51,23 +51,23 @@
       <path d="M800 496 H852 Q860 496 860 488 V280 Q860 272 868 272 H920" class="arrow optional" marker-start="url(#arch-start)"/>
 
       <rect x="216" y="352" width="120" height="24" fill="#f5f5f5"/>
-      <text x="224" y="369" class="tag">LẤY CÓ NGUỒN</text>
+      <text x="224" y="369" class="tag">KIỂM NGUỒN</text>
       <rect x="804" y="184" width="112" height="24" fill="#f5f5f5"/>
       <text x="860" y="201" text-anchor="middle" class="tag">HTTPS</text>
       <rect x="1096" y="352" width="124" height="24" fill="#f5f5f5"/>
       <text x="1104" y="369" class="tag">CHỌN / XEM</text>
 
       <rect x="40" y="160" width="320" height="160" rx="6" fill="#ececec" stroke="#4f5d75"/>
-      <text x="64" y="196" class="tag">NGUỒN KHOA HỌC</text>
-      <text x="64" y="232" class="name">NASA / JPL</text>
-      <text x="64" y="264" class="detail">Horizons: hình học theo thời gian</text>
-      <text x="64" y="288" class="detail">LOLA: địa hình, nếu chỉ số cần</text>
+      <text x="64" y="196" class="tag">ĐẦU VÀO CHÍNH</text>
+      <text x="64" y="232" class="name">Dữ liệu BTC</text>
+      <text x="64" y="264" class="detail">Tệp · trường · metadata đã kiểm</text>
+      <text x="64" y="288" class="detail">Nguồn ngoài: bổ sung có căn cứ</text>
 
       <rect x="40" y="420" width="320" height="160" rx="6" fill="#ffffff" stroke="#2d3142"/>
       <text x="64" y="456" class="tag">BACKEND THEO LÔ</text>
       <text x="64" y="492" class="name">Chuẩn hóa → tính → kiểm</text>
       <text x="64" y="524" class="detail">Đơn vị · tọa độ · thời gian · lỗi</text>
-      <text x="64" y="548" class="detail">Chạy sau giờ được phép bắt đầu</text>
+      <text x="64" y="548" class="detail">BTC và bổ sung ghi riêng</text>
 
       <rect x="480" y="160" width="320" height="160" rx="6" fill="#f8e9e3" stroke="#bf4520" stroke-width="2"/>
       <text x="504" y="196" class="tag">HOSTING</text>
@@ -76,7 +76,7 @@
       <text x="504" y="288" class="detail">Nguồn · giả định · phạm vi kiểm</text>
 
       <rect x="480" y="420" width="320" height="160" rx="6" fill="#ececec" stroke="#4f5d75" stroke-dasharray="5 4"/>
-      <text x="504" y="456" class="tag">API HOSTED — TÙY CHỌN</text>
+      <text x="504" y="456" class="tag">API — NGOÀI BẢN THI</text>
       <text x="504" y="492" class="name">Tính theo đầu vào mới</text>
       <text x="504" y="524" class="detail">Dùng dữ liệu / thư viện đã kiểm</text>
       <text x="504" y="548" class="detail">Giới hạn đầu vào, trả lỗi rõ</text>
@@ -93,20 +93,20 @@
       <text x="944" y="524" class="detail">Chọn địa điểm và thời gian hỗ trợ</text>
       <text x="944" y="548" class="detail">Máy tính / điện thoại cần kiểm thật</text>
 
-      <text x="40" y="628" class="detail">Mặc định: phục vụ kết quả đã kiểm. Chỉ thêm API nếu tập kết quả lưu không đáp ứng đầu vào cần thiết.</text>
-      <text x="40" y="656" class="detail">Browser không gọi trực tiếp Horizons; API tùy chọn không được coi là proxy để bỏ qua điều khoản nguồn.</text>
+      <text x="40" y="628" class="detail">Bản thi: xử lý dữ liệu BTC theo lô, phát kết quả đã kiểm. Điểm và ngày theo miền dữ liệu thực nhận.</text>
+      <text x="40" y="656" class="detail">Nhánh API nét đứt là tham khảo lịch sử. Browser không gọi trực tiếp Horizons.</text>
       <text x="40" y="684" class="detail">3D không quyết định kết quả khoa học. Web vẫn cần build/deploy; người xem không cần bộ cài Windows riêng.</text>
       <line x1="40" y1="724" x2="1240" y2="724" stroke="#bfc0c0"/>
       <line x1="40" y1="756" x2="88" y2="756" class="arrow"/>
       <text x="104" y="760" class="tag">LUỒNG TỐI THIỂU ĐỀ XUẤT</text>
       <line x1="480" y1="756" x2="528" y2="756" class="arrow optional"/>
-      <text x="544" y="760" class="tag">NHÁNH TÙY CHỌN</text>
+      <text x="544" y="760" class="tag">THAM KHẢO NGOÀI BẢN THI</text>
       <text x="920" y="760" class="tag">12/11/2026 · CHƯA TRIỂN KHAI</text>
     </svg>
   </div>
   <p><strong>Luồng người dùng:</strong> mở link → chọn tình huống hỗ trợ → tải kết quả đúng phiên bản → xem bảng/biểu đồ → mở nguồn và giới hạn. Khi thiếu dữ liệu hoặc lỗi mạng, báo rõ và cho thử lại; không biến dữ liệu thiếu thành 0.</p>
-  <p><a href="ARCHITECTURE_PROPOSAL.md">Đọc thuyết minh, cơ sở lý thuyết và bốn quyết định cần chốt</a>. Tài liệu kèm theo có liên kết nguồn JPL SSD API, Horizons và LOLA PGDA 78. Sơ đồ tự hiển thị mà không tải font hoặc tài nguyên mạng.</p>
-  <p>Giả định trình bày: sơ đồ tĩnh, nền sáng, font hệ thống sẵn có; không phải bộ nhận diện hoặc giao diện sản phẩm. Nội dung là đề xuất của Codex; chưa có thuật toán, dataset hay deployment được kiểm.</p>
+  <p><a href="ARCHITECTURE_PROPOSAL.md">Đọc thuyết minh, cơ sở lý thuyết và kế hoạch Moon Plan B</a>. Tài liệu kèm theo có liên kết nguồn JPL SSD API, Horizons và LOLA PGDA 78. Sơ đồ tự hiển thị mà không tải font hoặc tài nguyên mạng.</p>
+  <p>Giả định trình bày: sơ đồ tĩnh, nền sáng, font hệ thống sẵn có; không phải bộ nhận diện hoặc giao diện sản phẩm. Nội dung là đề xuất chuẩn bị; tin nhắn nhóm/mentor chưa gửi. Chưa có dataset BTC, mô hình hoặc deployment được kiểm.</p>
 </main>
 </body>
 </html>

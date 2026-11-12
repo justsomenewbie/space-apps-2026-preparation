@@ -1,5 +1,16 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Sửa kế hoạch theo dữ liệu BTC — 12 November 2026
+
+Yêu cầu tiếp theo của Sơn trong chat 01a1cf43-a87a-7a91-b926-bc62cf39b3ec: sửa kế hoạch, lấy dữ liệu BTC làm chính, nguồn ngoài bổ sung, chưa có dữ liệu thì không khóa địa điểm/ngày; xuất lại Word/PDF và đồng bộ như cũ. Quy tắc này là chỉ dẫn lập kế hoạch của người dùng, không gán thành điều khoản BTC chưa được xác minh. Thể lệ địa phương được đọc lại đầy đủ qua Drive ngay trước yêu cầu sửa: IV.4 yêu cầu NASA/đối tác; Phụ lục 2 cho nguồn ngoài có điều kiện. Chưa có nội dung dataset BTC để kiểm.
+
+Inventory 15 chat gần đây: chỉ chat hiện tại active ở checkout. Đọc lại lượt gần nhất của Vẽ kiến trúc web app (01a1cf3a-4c22-7da3-a8a4-615ff25b35d2) và Auto-use project tools (01a1ce76-3587-7cd0-901d-37c5f2797a89), không có quyết định mới so với checkpoint trước. Reviewer mở được chat chia sẻ do Sơn cung cấp trong Chrome (URL giữ ngoài repo) và đọc các tin nhắn hiển thị: cùng chat kiến trúc, bản nháp mentor/nhóm chưa gửi; người dùng xác nhận lại tại chat này. Không mở tool logs thu gọn hoặc rà toàn bộ archived/Zalo. Không gửi tin nhóm/mentor.
+
+Kế hoạch sửa xuyên suốt luồng sử dụng, phiếu kiểm dữ liệu, thuật toán có điều kiện đại lượng, schema/bản kê, lịch nhận dữ liệu, nghiệm thu, fallback và demo. Bỏ mặc định hai tọa độ/tháng khảo sát, số dòng/lưới cố định; nguồn bổ sung phải có lý do và kiểm tương thích. Không lấy nội suy làm độ chính xác mới hoặc dùng dữ liệu ngoài thay bộ chính mà vẫn nhận đã đạt. HTML/PNG sơ đồ, owning notes và AI context được đồng bộ về cùng nguyên tắc. Vai trò giữ nguyên đề xuất; không đổi Sheet nên không đọc lại Sheet trong lượt này.
+
+Base 32cc63b đã được root xác minh đủ GitHub/cloud/Drive trong lượt trước. Bản xuất mới và bằng chứng review/render/readback thuộc sibling moon-plan-b-btc-data-2026-11-12/. Quy trình Documents và browser render được tái dùng; các kiểm và vận chuyển cuối ghi ở biên nhận ngoài repo cùng manifest Drive, tránh vòng lặp commit. Tại checkpoint này công việc xuất/kiểm/sync đang thực hiện; không coi là hoàn tất chỉ từ việc lưu Markdown.
+
+
 ## Kế hoạch Moon Plan B để nhóm duyệt — 12 November 2026
 
 Sơn yêu cầu một kế hoạch chi tiết theo hướng tốt nhất để nhóm chốt, không một danh sách câu hỏi/chờ đề xuất. KE_HOACH_NHOM đã được viết lại thành một phương án cụ thể: hai điểm có nguồn, miền thời gian/tiêu chí hữu hạn, thuật toán tham chiếu, kiến trúc, vai trò, lịch, nghiệm thu và demo. Các vai trò là đề xuất của bản mới, không nâng thành việc từng người đã nhận. Sheet hai tab đọc lại, modified 2026-11-11T15:11:45.403Z; không chỉnh Sheet.

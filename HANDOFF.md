@@ -1,13 +1,13 @@
 # Current handoff
 
 Updated: 12 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none; Moon Plan B planning reviewed, ownership released. Delivery verification underway.
+Active editor: none; BTC-primary plan and exports reviewed, ownership released. Delivery verification underway.
 
 ## Read first
 
 README → COMPETITION_RUNBOOK → FRONTEND_HANDOFF → DATA_PREPARATION. PREPARATION §11 and PREPARATION_COVERAGE retain dated decisions and chat checkpoints. Mac tools/evidence do not transfer through Git.
 
-Six registered members; Lunar Landing Site Navigator confirmed. The user requested one detailed, decisive plan for team approval. [Moon Plan B](KE_HOACH_NHOM.md) is now the concrete recommendation: two sourced reference points, 72-hour comparisons, a 30-day/15-minute batch, finite 3/6/12-hour lesson criteria and future-date selection. This records a recommendation, not team adoption. No Lunar submission code/UI/assets/processed dataset exists here.
+Six registered members; Lunar confirmed. Moon Plan B remains the concrete plan for approval. The user now requires BTC data as primary input and outside data only as justified supplements; do not fix sites, dates, cadence or height before inspecting the actual dataset. Trang/Chung record the validated domain/configuration; frontend reads that manifest. No BTC dataset contents or submission code/science results are available.
 
 ## Frontend and tools
 
@@ -31,8 +31,8 @@ Organizer email received Nov11 19:38 Hanoi was fully read Nov12: matching six me
 
 ## Architecture, sources and delivery
 
-[Architecture](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md) and [theory](docs/architecture-proposal/THEORY_PRIMER.md) provide background; the new plan specifies the proposed model/algorithm, interface, owners, gates and demo. Two independent reviewers checked content. Science/app validation remains event work. [Resource review](docs/resource-review-2026-11-12.md) retains terrain/license gaps; terrain is outside this plan's release scope.
+[Architecture](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md), HTML/preview and [theory](docs/architecture-proposal/THEORY_PRIMER.md) now align with BTC-first input. The ideal-horizon model applies only to compatible quantities; no silent external-only fallback. The shared architecture chat and current user message confirm mentor/group drafts remain unsent, with no approval inferred.
 
-Base release: 5e6076e65ac6e3722bcb67db9ebf8114e25ee8f9; security chat completed sync and cloud reported 29 matching files. This task changes preparation Markdown and regenerates the human plan Word/PDF. Final commit/readbacks: Drive manifest and sibling moon-plan-b-final-2026-11-12/. Preserve .DS_Store, security work, sharing and cloud scratch; no group message sent.
+Last verified GitHub/cloud/Drive release: 32cc63b6822cb0cad504d1dfdabdc2f72f4df050, 29 sources, six Drive downloads, scratch preserved. Current task revises source priorities and regenerates Word/PDF plus the architecture preview. Final commit/readbacks: Drive manifest and sibling moon-plan-b-btc-data-2026-11-12/. Preserve .DS_Store, security work, sharing and cloud scratch.
 
-Next action under two minutes: read the role/output row in plan §7 and record acceptance or one concrete adjustment. Keep implementation before Nov14 00:00 out of scope.
+Next action under two minutes: read plan §3 for the data-priority and dataset-inspection rule, then use §7 for role approval. No implementation before Nov14 00:00.

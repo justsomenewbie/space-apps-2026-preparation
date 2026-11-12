@@ -1,6 +1,6 @@
 # Cơ sở lý thuyết cho kiến trúc Lunar web app
 
-**Áp dụng cụ thể ngày 12/11:** [kế hoạch Moon Plan B](../../KE_HOACH_NHOM.md) mục 3–4 chọn mô hình chân trời tham chiếu và quy tắc xử lý để nhóm duyệt. Primer này giải thích kiến thức nền; các câu chưa chọn mô hình bên dưới mô tả phạm vi primer lúc soạn. Đặc tả bằng văn bản chưa phải kiểm định khoa học hoặc triển khai trước giờ thi.
+**Áp dụng theo bản sửa ngày 12/11:** [kế hoạch Moon Plan B](../../KE_HOACH_NHOM.md) mục 3–4 dùng dữ liệu BTC làm chính, nguồn ngoài bổ sung; địa điểm/ngày/cấu hình được chọn sau kiểm bộ thực nhận. Primer giải thích kiến thức nền của NASA/JPL, không gán frame, UTC, góc cao hoặc mô hình Horizons cho dữ liệu BTC chưa biết. Quy tắc chân trời tham chiếu chỉ dùng khi đại lượng tương thích. Đây là kế hoạch kiểm, chưa phải dataset đã xử lý hoặc mô hình đã xác thực.
 
 Ngày đọc nguồn: 12/11/2026, giờ Hà Nội. **Tài liệu học và thảo luận; chưa phải mô hình đã triển khai hoặc kiểm định.** Thời gian đọc dự kiến: 8 phút. Đọc cùng [sơ đồ kiến trúc](ARCHITECTURE_PROPOSAL.md) và [phiếu nguồn dữ liệu](../../DATA_PREPARATION.md).
 

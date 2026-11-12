@@ -24,7 +24,7 @@ Git là bản có lịch sử cho tài liệu chuẩn bị; Sheet giữ phân c�
 
 ## Phương án nhóm đọc và duyệt
 
-[Moon Plan B](KE_HOACH_NHOM.md) chọn hai điểm có nguồn NASA, so cửa sổ 72 giờ khi lùi ngày và tìm ngày tiếp theo trong bộ dữ liệu đã kiểm. Bản đầy đủ có kiến trúc, quy tắc tính, nguồn, đầu ra từng người, lịch 14–15/11, nghiệm thu và demo. Đây là một phương án cụ thể để nhóm duyệt, không phải biên bản đã thống nhất. Sheet vẫn giữ trạng thái thực tế; chưa có buổi luyện máy đồng đội được ghi nhận.
+[Moon Plan B](KE_HOACH_NHOM.md) dùng dữ liệu BTC làm chính, nguồn ngoài bổ sung có căn cứ để so lịch gốc/hoãn/ngày tiếp theo. Địa điểm, ngày, thời lượng và độ phân giải được chọn sau kiểm dữ liệu thực nhận; frontend lấy lựa chọn từ bản kê đã kiểm. Bản đầy đủ giữ kiến trúc, thuật toán tham chiếu, đầu ra từng người, lịch 14–15/11, nghiệm thu và demo. Đây là phương án để nhóm duyệt, không phải biên bản đã thống nhất. Sheet giữ trạng thái thực tế; các tin nhắn nhóm/mentor soạn ở chat liên quan vẫn chưa gửi.
 
 Email BTC đọc ngày 12/11 đã xác nhận đúng đội sáu người/Lunar, có mã đội, thi trực tiếp và lối vào cổng Lý Thường Kiệt tại THCS Trưng Vương. Mã đội và thư riêng không được đưa lên repo.
 

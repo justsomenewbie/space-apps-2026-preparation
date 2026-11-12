@@ -1,10 +1,10 @@
 # Kiến trúc web app — bản đề xuất để nhóm trao đổi
 
-**Bản cụ thể mới hơn ngày 12/11:** [Moon Plan B](../../KE_HOACH_NHOM.md) mục 2–6 ấn định hướng đề xuất: hai điểm, lịch gốc/hoãn/ngày tiếp theo, Python theo lô → JSON có phiên bản → React/Vite trên hosting tĩnh. Nhánh API nét đứt trong sơ đồ dưới không thuộc bản giao này. Mô hình/thuật toán đã được mô tả trong kế hoạch để nhóm duyệt; chưa được triển khai/kiểm định. Nội dung dưới giữ vai trò sơ đồ nền và lịch sử thảo luận.
+**Bản sửa theo dữ liệu ngày 12/11:** [Moon Plan B](../../KE_HOACH_NHOM.md) mục 2–6 dùng bộ BTC làm nguồn chính, nguồn ngoài bổ sung có căn cứ; Python theo lô → JSON có phiên bản → React/Vite tĩnh. Địa điểm/ngày/cấu hình được chọn theo metadata và miền phủ thực nhận, không khóa trước. Mục tiêu là so lịch gốc/hoãn/ngày tiếp theo; nhánh API nét đứt không thuộc bản giao hiện tại. Mô hình tham chiếu có điều kiện dữ liệu, chưa được triển khai/kiểm định. Các đoạn thảo luận cũ dưới đây giữ vai trò lịch sử, kế hoạch mới là hướng thực hiện.
 
 Ngày 12/11/2026, giờ Hà Nội. **Đề xuất chuẩn bị, chưa được cả nhóm chốt và chưa triển khai.**
 
-**Phạm vi trả lời mentor:** đã có đề xuất nền tảng, sơ đồ thành phần, tương tác và luồng dữ liệu. Mục 4 dẫn bản giải thích lý thuyết, ví dụ giả định và kế hoạch kiểm chứng có nguồn. Đây là đề xuất để trao đổi; mô hình toán, thuật toán và kết quả kiểm định chưa có.
+**Phạm vi trao đổi mentor:** đã có sơ đồ thành phần, tương tác, luồng dữ liệu và mục 4 giải thích lý thuyết. Các tin nhắn dự thảo trong chat chia sẻ chưa gửi theo xác nhận của Sơn; không ghi nhận mentor/nhóm đã duyệt. Kế hoạch hiện tại mô tả mô hình tham chiếu có điều kiện, chưa có kết quả kiểm định.
 
 ![Sơ đồ kiến trúc đề xuất](architecture-preview.png)
 
@@ -18,26 +18,27 @@ Tách hai việc: **backend xử lý khoa học theo lô** tạo kết quả có
 
 ## 2. Sơ đồ thành phần
 
-Mở [sơ đồ trực quan](architecture.html). Đường liền là luồng tối thiểu đề xuất; đường đứt là nhánh API chỉ thêm khi có nhu cầu. Các mũi tên chính mô tả đường dữ liệu/kết quả; thao tác người dùng được giải thích ở mục 3.
+Mở [sơ đồ trực quan](architecture.html). Đường liền là luồng tối thiểu đề xuất; đường đứt là nhánh API tham khảo lịch sử, ngoài bản thi Moon Plan B hiện tại. Các mũi tên chính mô tả đường dữ liệu/kết quả; thao tác người dùng được giải thích ở mục 3.
 
 ```mermaid
 flowchart LR
-    S["Nguồn NASA/JPL<br/>ephemerides; địa hình nếu cần"] --> P["Backend xử lý theo lô<br/>chuẩn hóa → tính → kiểm"]
+    S["Dữ liệu BTC là chính<br/>kiểm metadata và miền phủ"] --> P["Backend xử lý theo lô<br/>chuẩn hóa → tính → kiểm"]
+    X["Nguồn ngoài bổ sung<br/>có lý do và kiểm tương thích"] --> P
     P --> H["Hosting<br/>frontend + kết quả có phiên bản"]
     H --> F["Frontend trong trình duyệt<br/>React · TypeScript · Vite"]
     U["Người dùng<br/>máy tính / điện thoại"] --> F
-    P -. "bản dữ liệu đã kiểm" .-> A["API hosted — tùy chọn<br/>chỉ khi cần tính đầu vào mới"]
+    P -. "bản dữ liệu đã kiểm" .-> A["API — ngoài bản thi<br/>tham khảo cho đầu vào mới"]
     F -. "đầu vào" .-> A
     A -. "kết quả + metadata hoặc lỗi" .-> F
 ```
 
 | Thành phần | Trách nhiệm và đầu ra |
 | --- | --- |
-| Nguồn | Ephemerides từ Horizons; địa hình LOLA nếu chỉ số cần và vùng có dữ liệu phù hợp. Giữ URL, phiên bản, request/header và bản gốc. Không dùng texture 3D làm dữ liệu độ cao. |
+| Nguồn | Bộ BTC là chính, có tệp/trường tham gia xử lý hoặc xác định đầu vào. Nguồn ngoài như Horizons/LOLA chỉ bổ sung khoảng thiếu có lý do và kiểm tương thích. Giữ URL, phiên bản, metadata và hash; chưa khóa địa điểm/ngày. |
 | Backend xử lý theo lô | Lấy tập nhỏ theo điều khoản nguồn; thống nhất tọa độ, thời gian, đơn vị; thực hiện phép tính đã chọn; kiểm mẫu và dữ liệu thiếu. Xuất kết quả + metadata + báo cáo kiểm. Chỉ thực hiện sau giờ được phép bắt đầu. |
 | Hosting | Phục vụ bản build, kết quả và tài nguyên có quyền sử dụng qua HTTPS; phiên bản frontend và dữ liệu phải tương thích. Cloudflare là ứng viên từ HOSTING_PLAN, chưa chốt nhà cung cấp/gói hoặc deploy. Mac không phải máy chủ public. |
 | Frontend | Cho chọn trong miền được hỗ trợ; tải đúng phiên bản; hiển thị bảng/biểu đồ, nguồn và giới hạn. 3D là lớp minh họa tùy tác vụ; vẫn đọc được kết quả khi 3D lỗi. |
-| API hosted, có điều kiện | Chỉ thêm khi cần xử lý đầu vào chưa có kết quả lưu. Kiểm đầu vào và giới hạn khối lượng; dùng dữ liệu/thư viện đã kiểm; trả kết quả cùng metadata hoặc lỗi rõ. Không phải proxy mặc định tới Horizons. Stack backend do bên tích hợp cùng nhóm chọn. |
+| API hosted, ngoài bản thi hiện tại | Chỉ thêm khi cần xử lý đầu vào chưa có kết quả lưu. Kiểm đầu vào và giới hạn khối lượng; dùng dữ liệu/thư viện đã kiểm; trả kết quả cùng metadata hoặc lỗi rõ. Không phải proxy mặc định tới Horizons. Stack backend do bên tích hợp cùng nhóm chọn. |
 
 JPL hiện yêu cầu một request mỗi lần, tái sử dụng kết quả khi phù hợp, backoff, User-Agent hợp lệ và kiểm phiên bản; chính sách không cho nhúng API vào website. **Không vẽ browser gọi trực tiếp Horizons, không coi thêm proxy là đã giải quyết điều khoản.** Nhánh API của nhóm chỉ dùng nguồn đã xác minh được phép sử dụng theo cách đó. [JPL SSD API policy, đọc 12/11](https://ssd-api.jpl.nasa.gov/doc/index.php).
 
