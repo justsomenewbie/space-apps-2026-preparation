@@ -1,5 +1,9 @@
 # NASA plugin and skill routing
 
+## Music rights research — 13 November
+
+User requires permission for copyrighted images/music/code. [Research note](docs/media-rights-2026-11-13.md) compares NCS, original synthesis, ACE-Step, ElevenLabs and MusicGen; these are researched options, not generated/cleared assets. Select the simplest existing audio tools at event time after rights checks. No local music-model install is justified merely by finding an MIT repo. ElevenLabs capability metadata was exposed, but its read-only `creative_get_flow_node_types` call returned unavailable in this chat. Drive fetch/metadata calls likewise returned unavailable; this does not establish revoked account access. Record destination verification separately and use a safe available fallback; do not claim connector availability from inventory alone.
+
 ## Complete automatic selection — user instruction, 12 November
 
 Use [TOOL_SELECTION_CHECKLIST](TOOL_SELECTION_CHECKLIST.md) at session start and when the task category changes. Sơn reviewed the complete inventory and asked for automatic use without forgetting any workflow. The checklist covers every functional area, all seven visual routes and all 30 catalog packs. Select and invoke applicable workflows; record used/alternative/not-applicable/unavailable with evidence or a reason. Check required QA, science, security and delivery alongside implementation. No plugin name or slash command is needed. Existing adequate tools and simpler solutions take precedence among alternatives; unrelated calls do not improve coverage.

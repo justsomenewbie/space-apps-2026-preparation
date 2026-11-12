@@ -12,6 +12,8 @@ Căn cứ: `NASAChallenge202611.pptx` ở chat “Review NASA project and instal
 
 ## 1. Năm nhóm dữ liệu cần chuẩn bị
 
+**Quyền ảnh/nhạc/mã — chỉ dẫn Sơn 13/11:** chỉ dùng khi có quyền phù hợp mục đích thực tế, giữ nguồn/license/ghi công; credit hoặc repo công khai chưa đủ. Xem [bản rà NCS, AI music, NASA imagery và code](docs/media-rights-2026-11-13.md). Tách quyền code/model/input/output và quyền nhúng app/demo/phát khi chấm/phân phối repo. Chưa chọn track, cài model hoặc tạo asset; ưu tiên đề xuất tự tạo âm thanh ngắn trong giờ thi, không dùng sample ngoài chưa rõ quyền.
+
 | Nhóm | Nguồn và cách lấy khi được triển khai | Dùng cho việc gì; giới hạn cần giữ |
 | --- | --- | --- |
 | **Vị trí Mặt Trời và Trái Đất theo thời gian** | [Horizons tutorial](https://ssd.jpl.nasa.gov/horizons/tutorial.html), [manual](https://ssd.jpl.nasa.gov/horizons/manual.html), [API](https://ssd-api.jpl.nasa.gov/doc/horizons.html). Xuất bảng observer cho vị trí/ngày đã chốt; giữ nguyên header và kết quả gốc. | Nguồn ứng viên cho góc phương vị/góc cao. Đây là ephemerides tính từ mô hình; góc cao trên mặt phẳng tiếp tuyến chưa xét núi che khuất. |

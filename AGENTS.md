@@ -86,6 +86,8 @@ Each task specifies goal, allowed files, inputs/outputs, acceptance examples, an
 
 ## Evidence and efficient AI use
 
+**Copyright instruction, 13 November:** do not use copyrighted images, music or code without permission covering the actual use. Public licences may provide permission; credit alone, GitHub visibility, “royalty-free” wording and AI generation do not. Follow `docs/media-rights-2026-11-13.md`: record item/source/version, permission and credits; distinguish code, weights, inputs and output rights. Check app/demo/judging/repository distribution and competition compatibility separately; preserve third-party licences. Carry this into the English product instructions and credits at kickoff. NCS and AI tools are candidates, not cleared assets. No licence purchase/contact or final asset generation before authorized event work is implied.
+
 Label statements as verified, recommended, assumed, or unresolved. Cite scientific and event claims; keep measured data, model assumptions, and game-balancing values distinct. Reuse dated research only when still applicable. No fabricated test passes, safety coefficients, capabilities, quotas, or token-saving claims.
 
 Codex handles ambiguous analysis, shared decisions, integration, and review. Gemini/Antigravity gets small independently checkable tasks. Do trivial deterministic work locally. Send only relevant context; avoid repeated full-chat prompts. Do not let a failing worker loop indefinitely: after two unsuccessful review rounds, narrow or reassign the task; after three failed fixes, follow the user's stop rule. Record AI contributions for submission disclosure. Use only verified tool flags/models, preserve default safeguards, and do not enable paid overages automatically.
