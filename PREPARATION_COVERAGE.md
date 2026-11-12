@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Bảo mật và chọn công cụ tự động — 12 November 2026
+
+Trong chat **Vẽ kiến trúc web app** `01a1ce65-2dad-7231-91a0-42a4373ea4b6`, user xác nhận chưa gửi tin mentor và yêu cầu tìm/cài công cụ bảo mật, tự dùng theo tác vụ. Đã xem inventory 20 chat gần đây; chỉ chat hiện tại active trong project, cloud sync idle. Đọc lại lượt gần nhất Auto-use project tools `01a1ce76-3587-7cd0-901d-37c5f2797a89`, checkpoint không đổi; không nhận đã rà toàn bộ lịch sử. Không thay phân công nên không mở lại Sheet.
+
+Codex Security Standard đã seal audit snapshot `91b3644`: 27 text files, PNG/OS metadata loại khỏi phân tích payload; baseline và kiến trúc độc lập, root xác minh luồng chính; 0 findings đủ bằng chứng. Gitleaks quét cây hiện tại/31 commit có sẵn không có match; OSV/npm kiểm lockfile 193 package, trả 0 lỗ hổng. Mẫu giả Gitleaks và fixture OSV có advisory kiểm đường phát hiện; không phải pentest/đo coverage. Hai CLI thêm trên Mac khớp digest release; SkillGuard kiểm hướng dẫn, không kiểm binary. Không đổi quyền/account/CI/hooks hoặc triển khai trước giờ.
+
+Chín nhóm lựa chọn/nguồn và trigger nằm ở SECURITY_PREPARATION; AGENTS/PLUGIN_ROUTING/BOI/README được nối. Scan gốc và chứng cứ tool ở kho Codex Security ngoài repo; hướng dẫn/runtime pin ở Mac security-tools. Sync đang thực hiện khi ghi: commit cuối/readback tại manifest Drive và sibling `security-preparation-2026-11-12/sync/`. Giữ nguyên KE_HOACH_NHOM, Word/PDF, code và diagram. Lần tiếp theo đọc kết quả cuối/lượt mới của chat này, không mặc định xem mọi lượt đã được rà.
+
 Cập nhật 12/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị, không chứng nhận nhóm đã làm sản phẩm, đồng ý mọi đề xuất hoặc đã mở file trên máy thật.
 
 ## Rà tài nguyên độc lập — 12/11/2026

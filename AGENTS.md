@@ -84,6 +84,10 @@ Use the existing checkout sequentially by default; both assistants read the same
 
 ## Plugin and skill routing
 
+### Security checks — automatic selection, 12 November
+
+Read `SECURITY_PREPARATION.md` for checks without requiring a tool name. Before commit/publication inspect the diff and run available secret checks with redaction; on dependency/lockfile changes run advisory checks; for security-sensitive code inspect actual trust boundaries and use the installed Codex Security full/diff workflow as appropriate. Before admitting a skill/plugin use Agent SkillGuard. Resolve this Mac's pinned commands from `/Users/nns/.codex/workflows/security-tools/LOCAL_USE.md`; on another host verify availability. Preserve timing/authorization. Do not upload private package metadata without applicable authorization, validate credentials against services, weaken safeguards, or apply blanket suppressions/forced upgrades. Report actual scope and unresolved findings. This routing runs while an assistant works, not as a background scanner or installed CI.
+
 The user explicitly requested on 9 November 2026 that useful NASA plugins be available and selected automatically from ordinary language. Read `PLUGIN_ROUTING.md` when a task involves source research, notebooks, maps/charts, interface work, QA, documents or Git collaboration. Use the relevant installed workflow without waiting for the user to name a plugin. Read its actual skill instructions before using it; do not merely list a tool as a substitute for invoking it. Say briefly what was used and what was actually verified.
 
 This is task routing, not permission to build before the permitted start, connect a new account, grant persistent access, publish beyond the standing preparation-sync scope, spend money, or relax safeguards. Use existing capabilities first. Installed, available in this session, invoked, and independently verified are different states. If a skill is missing from the session catalog, inspect the relevant local skill path from the routing note and report any execution limitation honestly. Do not copy a plugin into the repository just to make its name appear.

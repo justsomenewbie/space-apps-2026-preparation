@@ -20,6 +20,8 @@ Git là bản có lịch sử cho tài liệu chuẩn bị; Sheet giữ phân c�
 
 Đọc [bản rà tài nguyên 12/11](docs/resource-review-2026-11-12.md): Atlas/NavLunar, SVS, metadata PGDA/PDS và các việc đọc nguồn có thể tiếp tục độc lập.
 
+Đọc [chuẩn bị bảo mật](SECURITY_PREPARATION.md): kết quả audit repo, hai công cụ mới đã kiểm và khi nào AI tự dùng; chưa phải chứng nhận bảo mật ứng dụng.
+
 ## Những điều chưa chốt
 
 Phạm vi sản phẩm, backend/hợp đồng dùng chung, dữ liệu/địa điểm cụ thể, người dự phòng và người bấm nộp vẫn chưa được xác nhận. Moon Plan B và các phương án trước là đề xuất, không phải quyết định nhóm. Chưa có buổi luyện trên máy đồng đội được ghi nhận. Chuẩn bị công cụ trên Mac của Sơn không đồng nghĩa đã có trên máy khác/cloud.

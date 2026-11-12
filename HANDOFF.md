@@ -1,44 +1,36 @@
 # Current handoff
 
 Updated: 12 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none; resource notes reviewed, ownership released. Delivery verification underway.
+Active editor: none; security preparation reviewed, ownership released. Delivery verification underway.
 
 ## Read first
 
-README → COMPETITION_RUNBOOK → FRONTEND_HANDOFF → DATA_PREPARATION. PREPARATION §11 and PREPARATION_COVERAGE preserve dated evidence. Mac tools and sibling evidence do not transfer through Git.
+README → COMPETITION_RUNBOOK → FRONTEND_HANDOFF → DATA_PREPARATION. PREPARATION §11 and PREPARATION_COVERAGE retain dated decisions and chat checkpoints. Mac tools/evidence do not transfer through Git.
 
-Six registered members; Lunar Landing Site Navigator confirmed. Product unchosen (user, Nov12); implementation repo/branch, data contract and accepted individual outputs remain open. Moon Plan B/Lunar Workday are unadopted proposals. No Lunar submission code/UI/assets/processed dataset exists here.
+Six registered members; Lunar Landing Site Navigator confirmed. Product, implementation repo/branch, data contract and accepted individual outputs remain open. Moon Plan B/Lunar Workday are unadopted proposals. No Lunar submission code/UI/assets/processed dataset exists here.
 
 ## Frontend and tools
 
-Sơn chooses frontend: prepared React + TypeScript + Vite/npm/CSS. Coordinate contracts/integration with Chung; prefer `frontend/` in the shared repo. URL/branch unknown; no separate frontend repo created.
+Sơn chooses frontend: prepared React + TypeScript + Vite/npm/CSS. Coordinate contracts/integration with Chung; prefer frontend/ in the shared repo. URL/branch unknown. FRONTEND_HANDOFF §6 records unrelated practice and tested minimatch 11.0.7 cross-major exception; recheck when dependencies change.
 
-FRONTEND_HANDOFF §6 records stock-practice checks and scoped minimatch 11.0.7 repair. Generic manifests/checker: `practice-stack-lock/`, without app source. Recheck the cross-major exception after upstream adoption.
+PLUGIN_ROUTING records task selection and real verification limits. Visual/browser/relay runtime evidence is Mac-only; no provider quota, filesystem sandbox or automatic cloud installation is implied.
 
-PLUGIN_ROUTING records automatic Mac selection and tested tool limits. Manim LaTeX/Blender MCP selected checks passed; GUI restart and cloud transfer are not implied. Read the routing note before using Mac runtimes. No cloud tools installed.
+## Security — 12 November
 
-## Cloud verification
+[SECURITY_PREPARATION](SECURITY_PREPARATION.md) records nine compared tool groups. Gitleaks 8.30.1 and OSV-Scanner 2.7.1 installed on Mac with official digest/version and detection checks. Gitleaks current tree/31 available commits: no matches. OSV/npm practice lock: 193 packages, zero advisory findings. Codex Security completed offline static audit of snapshot 91b3644: 27 text files, independent baseline/model and root validation; no reportable findings. PNG/OS metadata payloads, dependency implementation, live services and future app not audited.
 
-Application-tested checkpoint: `8d2f61e`, branch `work`. Tally, stock install, tooling, lint/build, zero-finding audits and six browser groups passed then. FRONTEND_HANDOFF §6 preserves runtime/source hashes and actual limits. No Lunar/backend/science/teammate/deployment claim.
-
-Verified delivery before this task: `4563fb89b4937888eaf3c956d9f62c94cf734f44`, matching GitHub/cloud/Drive, 27 source files; cloud scratch preserved. Final delivery commit and transport verification belong in the Drive manifest and external receipts below.
+AGENTS selects secret checks before publication, advisory checks on dependencies and full/diff source review as appropriate. Mac commands: ~/.codex/workflows/security-tools/LOCAL_USE.md. Routing is during work, not a watcher/CI/hook. Daybreak access not granted to account; scan still completed. Permissions unchanged.
 
 ## Event and people
 
-Full implementation allowed **00:00 Nov 14 Hanoi**; preparation-only restriction ends then (user-confirmed Cẩm Chi reply). Local deadline **11:00 Nov 15**, global 23:59. Sources/logistics: runbook.
+Full implementation allowed **00:00 Nov 14 Hanoi**; preparation-only restriction ends then (user-confirmed organizer reply). Local deadline **11:00 Nov 15**, global 23:59. Details: runbook.
 
-Sheet reread Nov12; modified `2026-11-11T15:11:45.403Z`. Owners/statuses unchanged; QA C10 says Minh + Trang, G7 Minh + Thảo. Acceptance, backup/submitter and rehearsal remain open.
+Last Sheet read Nov12: QA C10 says Minh + Trang, G7 Minh + Thảo. Acceptance, backup/submitter and rehearsal open; no assignment change in this task.
 
-## Architecture proposal — 12 November
+## Architecture, sources and delivery
 
-[Proposal](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md) covers platform, components, user/data flow; [theory primer](docs/architecture-proposal/THEORY_PRIMER.md) explains concepts, hypothetical examples and a verification plan with primary sources. A mathematical model, algorithm and science validation remain open. Finite supported inputs are an assumption; runtime API is conditional. Diagram/document checks passed; no app/science validation or team adoption.
+[Architecture proposal](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md) and [theory primer](docs/architecture-proposal/THEORY_PRIMER.md) explain proposed flows/concepts; model, algorithm and science validation remain open. [Resource review](docs/resource-review-2026-11-12.md) preserves unresolved reuse rights, SVS illustration limits and PDS label/time questions.
 
-## Resource review and delivery — 12 November
+Previous verified release: 91b3644769a44679976863d80af15162bdc9200d, GitHub/cloud/Drive, 28 source files, scratch preserved. Current delivery commit/readbacks belong in Drive release manifest and sibling security-preparation-2026-11-12/sync/. Only preparation docs changed; code, diagram and human plan unchanged. Preserve .DS_Store, sharing and cloud scratch; no group message sent.
 
-[Resource review](docs/resource-review-2026-11-12.md) covers three gaps: Atlas/NavLunar source/license/methods; SVS metadata/credits; PGDA/PDS label/units/access. Atlas pinned, reuse grant still unverified; NavLunar source/license and route-shadow description unresolved. SVS remains illustration, not arbitrary-site ground truth. Earth label has inconsistent latitude metadata; raster not tested or corrected. BOI R13/R14 now match the dated limited UI observation.
-
-Only preparation Markdown changed; plan, theory primer, diagram and code unchanged. Reviewers check source findings and final diff; no science API/calculation/dataset/media download, app clone/run or asset selection.
-
-Delivery in progress at authoring. Final commit: [Drive manifest](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view); transport evidence: sibling `resource-audit-2026-11-12/sync/`. Verify GitHub/cloud/source ZIP, AI context/index and retained Word/PDF hashes. Exclude existing `.DS_Store`; preserve sharing/scratch. No background sync.
-
-Next independent task: read PDS catalog/docs to resolve label time/latitude semantics; acceptance in review §5. In 2 minutes, open that queue and identify the two label URLs. Product decisions are not a prerequisite for this reading.
+Next action under two minutes: open SECURITY_PREPARATION and, once known, record implementation repo/owner so checks target the actual app. Source-reading queue in resource review remains independent of team decisions.

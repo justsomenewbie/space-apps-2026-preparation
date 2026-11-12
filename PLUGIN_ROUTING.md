@@ -1,5 +1,9 @@
 # NASA plugin and skill routing
 
+## Security readiness — 12 November
+
+[SECURITY_PREPARATION](SECURITY_PREPARATION.md) records nine compared tool groups and automatic task triggers. Existing Codex Security completed a static audit of the preparation snapshot; Gitleaks 8.30.1 and OSV-Scanner 2.7.1 were added on this Mac with official release SHA-256 checks and functional tests. Current tree/31 available commits produced no secret match; the 193-package practice lock produced no OSV/npm advisory findings. These are bounded results, not app certification. Read `/Users/nns/.codex/workflows/security-tools/LOCAL_USE.md` for actual commands and limits. No new account, CI, hook, deployment, paid service or permission relaxation; cloud receives guidance, not Mac executables.
+
 Updated 12 November 2026. This is environment preparation, not competition code, scientific results or a final UI design. Preserve all boundaries in AGENTS.md. The new installation record below supersedes the older no-install snapshot.
 
 ## How to use
