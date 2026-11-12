@@ -1,13 +1,13 @@
 # Current handoff
 
 Updated: 13 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none; rights sources reviewed, ownership released. Delivery pending.
+Source editing complete; no reserved editor. Rights/music-test chat: `01a1d0e9-0c4c-7e80-b766-7eac127e6daa`. Final transport verification belongs in the receipt below.
 
 ## Read first
 
 README → COMPETITION_RUNBOOK → KE_HOACH_NHOM → FRONTEND_HANDOFF → DATA_PREPARATION. Read TOOL_SELECTION_CHECKLIST/PLUGIN_ROUTING and PREPARATION_COVERAGE. Mac runtimes do not transfer through Git.
 
-Six registered members; Lunar confirmed. Moon Plan B remains the plan for group approval. Core: compare dates at one site, sites over the same UTC interval, and Sun/Earth positions above/below the horizon, before automatic Plan B/globe. Per Sơn, BTC data arrives during competition; contents unknown. BTC is primary; assess compatible outside supplements before selecting configuration or reducing core. No dataset/results validated; conditional extensions retain their gates.
+Six registered members; Lunar confirmed. Moon Plan B awaits group approval. Prioritize date/site comparisons and Sun/Earth horizon positions over automatic Plan B/globe. BTC data arrives during competition; contents unknown. Assess compatible supplements before reducing core. No science results validated; extensions retain their gates.
 
 ## Start and English submission
 
@@ -21,16 +21,16 @@ Runbook/plan §10: eight fields, ≤7 slides OR ≤30-second video, separate Fin
 
 ## Rights instruction — November 13
 
-No copyrighted images/music/code without permission for the actual use. A public licence can supply permission; attribution alone cannot. Read `docs/media-rights-2026-11-13.md` and carry this into English product instructions/credits. NASA images need per-item rights checks; pinned MIT/Apache code candidates remain usable within their terms. Original short instrumental/synthesis is recommended; NCS/AI music are unselected candidates. No asset/model download, generation, purchase or licence request. ElevenLabs capability call unavailable; account/runtime unverified.
+No copyrighted images/music/code without permission for actual use. Carry `docs/media-rights-2026-11-13.md` into English product instructions/credits. User selected legally reusable NASA/agency/public images and relevant licensed code for event time; check each item. Backend helpers are optional for frontend. ACE-Step passed an unrelated 20-second test on this M4 Pro/24 GiB Mac: 62 seconds initialization, 60 seconds generation/save, verified stereo WAV/MP3. Memory-heavy; longer songs/quality/originality untested. No submission soundtrack or paid plan selected. ElevenLabs discovery works; account/export/team rights remain unverified.
 
 ## People and technical boundaries
 
-Sơn owns frontend choice: prepared React/TypeScript/Vite/npm/CSS. Coordinate integration/contracts with Chung. Sheet QA conflict remains; plan proposes Minh overall QA, Trang science, Thảo UX, Lâm submission/Sơn backup. Role acceptance and Team Owner rights are not proven. Organizer email confirms six members/Lunar, code received and in-person check-in; private details stay outside Git.
+Sơn owns frontend choice: prepared React/TypeScript/Vite/npm/CSS. Coordinate contracts with Chung. Role acceptance and the Sheet QA conflict remain in FRONTEND_HANDOFF; verify before assigning. Team Owner rights are unproven; private organizer evidence stays outside Git.
 
 Security/runtime limits remain in SECURITY_PREPARATION/FRONTEND_HANDOFF, including the minimatch exception. Architecture/theory remain proposals; drafts unsent.
 
 ## Delivery
 
-Baseline **84a93ab31da94378cd78f4c144903f315bd71fb2**: previous GitHub/cloud receipt matched; six Drive baseline files freshly byte-matched. Current rights notes affect Markdown only; plan source unchanged, retain 15-page Word/PDF and verify hashes. Drive connector unavailable; browser preview opened, uploads pending. Final SHA/review/transport evidence: sibling `nasa-preparation-deliverables/media-rights-2026-11-13/`. Do not call partial sync complete. Code/locks/assets and .DS_Store preserved.
+Baseline **937941556cec96779e55adcefd5d9bf849c8e16e**: GitHub/cloud and six Drive files matched; all six freshly byte-matched this turn. Markdown-only changes; unchanged plan retains reviewed 15-page Word/PDF hashes. New-release sync is pending at this source checkpoint; final commit/cloud/Drive evidence belongs in sibling `nasa-preparation-deliverables/music-test-2026-11-13/FINAL_VERIFICATION.json`. Models/audio remain in local music-tools; .DS_Store preserved.
 
-Next action under two minutes: read the music-options table; no download/payment needed.
+Next action under two minutes: listen to the local 20-second cafe-test preview before considering paid music.
