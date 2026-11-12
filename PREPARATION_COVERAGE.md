@@ -2,6 +2,14 @@
 
 Cập nhật 12/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị, không chứng nhận nhóm đã làm sản phẩm, đồng ý mọi đề xuất hoặc đã mở file trên máy thật.
 
+## Bổ sung cơ sở lý thuyết — 12/11/2026
+
+Tiếp nối chat **Vẽ kiến trúc web app**, `01a1ce65-2dad-7231-91a0-42a4373ea4b6`: phát triển khoảng trống mục 4 thành `docs/architecture-proposal/THEORY_PRIMER.md`, gồm giải thích, ví dụ giả định và kế hoạch kiểm khái niệm. Đọc NASA/JPL/LOLA/NAIF/MDN; hai reviewer độc lập đọc toàn bộ primer và đối chiếu nguồn thuộc phần được giao. Làm rõ AIRLESS trong DATA_PREPARATION; cập nhật các liên kết/trạng thái hiện hành. Không chọn phạm vi, chỉ số, mô hình, ngưỡng, trọng số hoặc hợp đồng; chưa kiểm khoa học.
+
+Inventory 15 chat gần đây đã được so ở đầu lượt; không có editor khác đang sửa checkout. Không rà toàn bộ lịch sử/host hoặc đọc lại trang cũ. Checkpoint kiến trúc bên dưới mô tả trạng thái lịch sử; phần lý thuyết nay có tài liệu giải thích nhưng mô hình toán và kiểm định vẫn mở. Không gửi tin cho nhóm hoặc chat giao việc; chỉ cloud sync được standing authorization cho phép.
+
+Bản trước đã hoàn tất: `65d77ddd21d0d5cb139b37c6133c00a524ff7742`, 26 nguồn GitHub/cloud khớp và sáu Drive readback khớp; bằng chứng tại sibling `architecture-proposal-2026-11-12/sync/FINAL_VERIFICATION.json`. Bản mới đang giao khi ghi checkpoint; commit cuối và hash tại manifest Drive cùng `theory-preparation-2026-11-12/sync/`. KE_HOACH_NHOM không đổi: giữ export Word/PDF đã review, kiểm hash. Không coi kiểm tài liệu/đồng bộ là kiểm app. Lượt đang chạy khi ghi; lần sau đọc phần hoàn tất và các lượt mới liên quan.
+
 ## Checkpoint kiến trúc đề xuất và kiểm mức bao phủ — 12/11/2026
 
 Chat **Vẽ kiến trúc web app**, `01a1ce65-2dad-7231-91a0-42a4373ea4b6`: người dùng cung cấp yêu cầu mentor, chọn soạn sơ đồ đề xuất, sau đó hỏi đã trả lời hết và tự dùng công cụ chưa. Đối chiếu từng yêu cầu với cả Markdown/HTML: nền tảng, kiến trúc, tương tác, luồng dữ liệu có đề xuất; cơ sở lý thuyết mới là khung có nguồn, chưa hoàn thiện mô hình/ví dụ/phương pháp kiểm. Reviewer đọc hai file độc lập; mũi tên trả kết quả Mermaid đã sửa. HTML self-check/geometry pass; root xem ảnh 1280×800, kiểm không tràn trang 1440/390 px và print. Không kiểm sản phẩm hoặc khoa học.

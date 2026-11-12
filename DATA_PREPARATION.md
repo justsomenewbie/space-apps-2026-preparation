@@ -1,8 +1,10 @@
 # Chuẩn bị dữ liệu và nguồn tái sử dụng — Lunar
 
-Cập nhật 11/11/2026, giờ Hà Nội. **Đã kiểm luật 2026 và chọn nguồn/phần tái sử dụng ở mục 3. Chưa tạo dataset hay mã bài nộp.** Đây là đề xuất kỹ thuật theo yêu cầu của Sơn; chưa thay quyết định stack/phạm vi của nhóm.
+Cập nhật 12/11/2026, giờ Hà Nội. **Đã kiểm luật 2026 và chọn nguồn/phần tái sử dụng ở mục 3. Chưa tạo dataset hay mã bài nộp.** Đây là đề xuất kỹ thuật theo yêu cầu của Sơn; chưa thay quyết định stack/phạm vi của nhóm.
 
 Căn cứ: `NASAChallenge202611.pptx` ở chat “Review NASA project and install frontend…”, nhất là slide 9–11, 25–26; cùng mục 5–8 của `BOI_CANH_AI.md` bản 10/11. Đã đối chiếu file gốc và đọc lại ảnh năm slide liên quan. Slide khuyên dùng ephemerides, DEM, địa điểm có nguồn và kết quả tái lập; chữ “bắt buộc” trong slide chưa được xác nhận là luật thi. [Thông báo Space Apps 2026](https://www.spaceappschallenge.org/blog/explore-the-next-frontier-at-the-2026-nasa-space-apps-challenge/) xác nhận dùng dữ liệu mở NASA/đối tác. Trang đề gốc và trang Hà Nội vẫn lỗi trong lần kiểm tra này; giữ giới hạn chuẩn bị của RUNBOOK.
+
+Đọc [cơ sở lý thuyết tiếng Việt](docs/architecture-proposal/THEORY_PRIMER.md) để phân biệt hình học quan sát, địa hình, chiếu sáng, điện và liên lạc; có ví dụ giả định và kế hoạch kiểm. Tài liệu không chọn mô hình hay xác nhận độ chính xác khoa học.
 
 ## 1. Năm nhóm dữ liệu cần chuẩn bị
 
@@ -35,6 +37,8 @@ Căn cứ: `NASAChallenge202611.pptx` ở chat “Review NASA project and instal
 | Loại kết quả | `EPHEM_TYPE=OBSERVER`, `QUANTITIES=4`, `APPARENT=AIRLESS`; đọc ý nghĩa azimuth/elevation trong header. |
 | Thời gian | Start/stop/step phải do nhóm chọn; `TIME_TYPE=UT`, `TIME_ZONE=+00:00` là ứng viên để trao đổi nhất quán. |
 | Bản lưu | Giữ request, ngày lấy, header, raw response, phiên bản và checksum. JSON API chứa bảng trong `result`, không phải sẵn các hàng số JSON; kiểm `error` và `signature.version`. |
+
+**Làm rõ ngày 12/11:** `AIRLESS` không biến tọa độ biểu kiến thành tọa độ hình học không hiệu chỉnh. `APPARENT` chọn hiệu chỉnh khúc xạ khí quyển cho observer bề mặt Trái Đất; mục số 4 vẫn là azimuth/elevation biểu kiến. Đọc ý nghĩa đại lượng và header, không suy từ tên tùy chọn. [Horizons API](https://ssd-api.jpl.nasa.gov/doc/horizons.html), [manual](https://ssd.jpl.nasa.gov/horizons/manual.html#apparent-azimuth--elevation-az-el-).
 
 Với tọa độ bề mặt Mặt Trăng, manual dùng kinh Đông dương, vĩ Bắc dương, cao độ **km trên ellipsoid tham chiếu**, hệ mean-Earth DE421; không trộn với principal-axis. Góc azimuth/elevation theo độ; với ngày hiện đại UT của Horizons là UTC. Hệ trục vị trí và phiên bản ephemeris động lực học là hai thông tin khác nhau. Đọc header thực tế trước khi đổi đơn vị hoặc ghép DEM. [Horizons manual](https://ssd.jpl.nasa.gov/horizons/manual.html)
 

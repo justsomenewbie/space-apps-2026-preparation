@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 12 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Architecture source reviewed; source ownership released. Delivery receipts remain outside this file.
+Active editor: none; theory documentation editing complete, delivery checks underway.
 
 ## Read first
 
@@ -21,7 +21,7 @@ PLUGIN_ROUTING records 30-pack routing and seven visual tools with automatic Mac
 
 Application-tested checkpoint: `8d2f61e`, branch `work`. Tally, stock install, tooling, lint/build, zero-finding audits and six browser groups passed then. FRONTEND_HANDOFF §6 preserves runtime/source hashes and actual limits. No Lunar/backend/science/teammate/deployment claim.
 
-Verified base: `c22ba558f4695cb6073f5a006e6806bfbf083150`, matching the previous GitHub/cloud/Drive delivery, 23 source files; cloud scratch preserved. Final delivery commit and transport verification belong in the Drive manifest and external receipts below.
+Verified delivery before this task: `65d77ddd21d0d5cb139b37c6133c00a524ff7742`, matching GitHub/cloud/Drive, 26 source files; cloud scratch preserved. Final delivery commit and transport verification belong in the Drive manifest and external receipts below.
 
 ## Event and people
 
@@ -31,11 +31,13 @@ Latest Sheet read: Chung integration/backend; Sơn + Thảo frontend; Trang sour
 
 ## Architecture proposal — 12 November
 
-[Proposal](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md) covers platform, components, user/data flow; theory is a sourced outline, not a completed mathematical model. Finite supported inputs are an assumption; runtime API is conditional. Diagram/document checks passed; no app/science validation or team adoption.
+[Proposal](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md) covers platform, components, user/data flow; [theory primer](docs/architecture-proposal/THEORY_PRIMER.md) explains concepts, hypothetical examples and a verification plan with primary sources. A mathematical model, algorithm and science validation remain open. Finite supported inputs are an assumption; runtime API is conditional. Diagram/document checks passed; no app/science validation or team adoption.
 
 ## Delivery and next action
 
-This architecture task adds three documentation artifacts and updates five notes; KE_HOACH_NHOM is unchanged. Base GitHub/local: `333d1ab3ee6c3fff913c02fbe59a0c1253047919`. Prior tool-sync cloud delivery is reported complete; current architecture delivery is in progress. Exact release commit and final transport verification: [Drive manifest](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view) and sibling `architecture-proposal-2026-11-12/sync/`. Verify GitHub/cloud/source ZIP/AI context/index and retained Word/PDF hashes. `.DS_Store` excluded; no background sync. PREPARATION_COVERAGE records selected reviewed turns and remaining theory work.
+This task adds the theory primer, clarifies AIRLESS in DATA_PREPARATION and updates linked notes. KE_HOACH_NHOM, diagram and code are unchanged. Independent read-only source reviews cover JPL/MDN/NAIF and NASA/LOLA; root reviews the diff and local links. No scientific requests, calculations or dataset downloads.
+
+Release delivery is in progress at authoring. The [Drive manifest](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view) identifies the final commit; sibling `theory-preparation-2026-11-12/sync/` holds destination readback/hash evidence. Verify GitHub/cloud/all source ZIP bytes, AI context/index and retained Word/PDF. `.DS_Store` excluded; no background sync. PREPARATION_COVERAGE records selected reviewed histories and limits.
 
 HOSTING_PLAN remains a recommendation, not a deployment. BOI §5 records observed Moon Trek/QuickMap controls, not validated calculations.
 

@@ -4,7 +4,7 @@ Cập nhật 11/11/2026. Đây là tài liệu chuẩn bị và các ô cần nh
 
 ### Kiến trúc đề xuất — 12/11
 
-[Sơ đồ và thuyết minh](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md) trả lời yêu cầu mentor về nền tảng, backend/frontend, tương tác và luồng dữ liệu. Giả định miền lựa chọn hữu hạn: xử lý theo lô → kết quả có phiên bản → frontend; API hosted chỉ thêm khi cần đầu vào mới. Đây chưa phải scope hay hợp đồng đã được nhóm chốt. Khung lý thuyết có nguồn vẫn cần phát triển thành giải thích mô hình/phương pháp kiểm; không coi sơ đồ là đã kiểm khoa học.
+[Sơ đồ và thuyết minh](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md) trả lời yêu cầu mentor về nền tảng, backend/frontend, tương tác và luồng dữ liệu. Giả định miền lựa chọn hữu hạn: xử lý theo lô → kết quả có phiên bản → frontend; API hosted chỉ thêm khi cần đầu vào mới. Đây chưa phải scope hay hợp đồng đã được nhóm chốt. Đã có [giải thích lý thuyết, ví dụ giả định và kế hoạch kiểm](docs/architecture-proposal/THEORY_PRIMER.md); chưa có mô hình toán/thuật toán được chọn hoặc kiểm khoa học.
 
 ### Tầm nhìn người dùng — ghi nhận 11/11, yêu cầu chuẩn bị
 

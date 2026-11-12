@@ -2,7 +2,7 @@
 
 Ngày 12/11/2026, giờ Hà Nội. **Đề xuất chuẩn bị, chưa được cả nhóm chốt và chưa triển khai.**
 
-**Phạm vi trả lời mentor:** đã có đề xuất nền tảng, sơ đồ thành phần, tương tác và luồng dữ liệu. Mục 4 mới là khung lý thuyết có nguồn; chưa phải bản giải thích mô hình toán, ví dụ và phương pháp kiểm hoàn chỉnh. Không báo đã hoàn tất toàn bộ yêu cầu của mentor.
+**Phạm vi trả lời mentor:** đã có đề xuất nền tảng, sơ đồ thành phần, tương tác và luồng dữ liệu. Mục 4 dẫn bản giải thích lý thuyết, ví dụ giả định và kế hoạch kiểm chứng có nguồn. Đây là đề xuất để trao đổi; mô hình toán, thuật toán và kết quả kiểm định chưa có.
 
 ![Sơ đồ kiến trúc đề xuất](architecture-preview.png)
 
@@ -57,17 +57,17 @@ JPL hiện yêu cầu một request mỗi lần, tái sử dụng kết quả kh
 | Độ tin cậy | Giả định, độ phân giải, độ bất định được biết, phạm vi kiểm mẫu; không tự bịa biên sai số nếu nguồn không cung cấp. |
 | Hành vi giao tiếp | Ví dụ thành công/rỗng/lỗi, response cũ, timeout/retry, giới hạn kích thước; frontend và backend cùng xác nhận. |
 
-## 4. Khung cơ sở lý thuyết — còn cần phát triển
+## 4. Cơ sở lý thuyết và cách kiểm
 
-| Chủ đề | Cần giải thích được | Giới hạn phải giữ |
-| --- | --- | --- |
-| Client/server | Trình duyệt hiển thị và nhận thao tác; server/hosting gửi mã và dữ liệu; backend xử lý theo lô khác API theo request. [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview) | Web vẫn cần build/deploy và kiểm trình duyệt; chưa có bằng chứng chạy đa thiết bị/24 giờ. |
-| Ephemerides và hình học quan sát | Vị trí observer, thiên thể mục tiêu, hệ tọa độ, thời gian, góc phương vị/góc cao. [Horizons tutorial](https://ssd.jpl.nasa.gov/horizons/tutorial.html), [manual](https://ssd.jpl.nasa.gov/horizons/manual.html) | Góc cao trên chân trời lý tưởng chưa xét núi che khuất; không tự suy ra công suất điện hay chất lượng đường truyền. |
-| Địa hình số | DEM là dữ liệu cao độ; đọc projection/frame, mốc cao độ, đơn vị, NoData, độ phân giải và nội suy. [LOLA PGDA 78](https://pgda.gsfc.nasa.gov/products/78), [README](https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/README) | Kích thước pixel không phải độ chính xác. Frame gắn với DE421 và phiên bản ephemeris là hai trường cần phân biệt; phải kiểm tương thích trước khi ghép. |
-| Chiếu sáng / tầm nhìn | Nếu chọn chỉ số có xét địa hình, phải xác định đường chân trời địa hình, cao độ observer, hình học thiên thể và cách lấy mẫu; kiểm trường hợp biên. [LOLA PGDA 78](https://pgda.gsfc.nasa.gov/products/78) | Chưa thiết kế hoặc kiểm thuật toán. Ảnh ánh sáng đẹp không xác nhận vùng được chiếu sáng; nhìn thấy Trái Đất không xác nhận liên lạc được. |
-| So sánh có bằng chứng | Chỉ so các kịch bản có chỉ số, đơn vị và giả định tương thích; công khai nguồn và giới hạn. | Đây là nguyên tắc thiết kế đề xuất. Chưa có trọng số xếp hạng, ngưỡng an toàn hay kết luận “điểm hạ cánh tốt nhất”. |
+Đọc [bản giải thích tiếng Việt — khoảng 8 phút](THEORY_PRIMER.md). Nội dung gồm:
 
-Đã đọc lại chính sách JPL, Horizons tutorial, PGDA 78 và MDN ngày 12/11. Các chi tiết tọa độ trong DATA_PREPARATION có ngày đọc riêng; trước triển khai phải đọc header/product thực tế. Chưa tải dataset hoặc chạy phép tính khoa học.
+1. Client/server và vì sao giao diện chạy đúng chưa chứng minh dữ liệu đúng.
+2. Observer/target, hệ quy chiếu, mốc cao độ, thời gian và đơn vị; ý nghĩa tọa độ biểu kiến và `AIRLESS`.
+3. Ephemeris so với DEM; chân trời lý tưởng so với địa hình che khuất; pixel so với độ bất định.
+4. Chiếu sáng so với đủ điện; thấy Trái Đất so với khả năng liên lạc thực tế.
+5. Kế hoạch kiểm khái niệm: metadata, đối chiếu có cùng định nghĩa, mức độc lập của nguồn và giới hạn kết luận.
+
+Nguồn NASA/JPL/LOLA/NAIF/MDN được dẫn tại từng khẳng định và đọc lại ngày 12/11. Ví dụ là giả định để học. Đã bổ sung phần giải thích và kế hoạch kiểm, **chưa chọn/kiểm mô hình toán, chạy thuật toán hoặc tạo dataset**. Trước triển khai vẫn phải đọc header/product thực tế.
 
 ## 5. Bốn quyết định để nhóm chốt
 
