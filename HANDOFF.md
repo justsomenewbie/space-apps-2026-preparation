@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 12 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Visual-tool repair/restart checks reviewed; ownership released.
+Active editor: none. Architecture source reviewed; source ownership released. Delivery receipts remain outside this file.
 
 ## Read first
 
@@ -29,9 +29,13 @@ Full implementation allowed **00:00 Nov 14 Hanoi**; preparation-only restriction
 
 Latest Sheet read: Chung integration/backend; Sơn + Thảo frontend; Trang sources; Minh + Trang QA versus G7 Minh + Thảo; Lâm + Thảo content. Accepted outputs, backups/submitter and human rehearsal remain open.
 
+## Architecture proposal — 12 November
+
+[Proposal](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md) covers platform, components, user/data flow; theory is a sourced outline, not a completed mathematical model. Finite supported inputs are an assumption; runtime API is conditional. Diagram/document checks passed; no app/science validation or team adoption.
+
 ## Delivery and next action
 
-This task changes four Markdown notes; KE_HOACH_NHOM is unchanged. Standing sync covers GitHub, existing cloud and Drive ZIP/manifest/AI context, retaining hash-verified Word/PDF. At authoring delivery is in progress; encompassing commit is in the [Drive manifest](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view). Final receipts: `~/.codex/workflows/visual-tools/evidence/followup-sync-drive/` and `evidence/followup-root/`; no background watcher. `.DS_Store` remains excluded. PREPARATION_COVERAGE records the separately saved, unadopted architecture proposal awaiting its own reconciliation/sync.
+This architecture task adds three documentation artifacts and updates five notes; KE_HOACH_NHOM is unchanged. Base GitHub/local: `333d1ab3ee6c3fff913c02fbe59a0c1253047919`. Prior tool-sync cloud delivery is reported complete; current architecture delivery is in progress. Exact release commit and final transport verification: [Drive manifest](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view) and sibling `architecture-proposal-2026-11-12/sync/`. Verify GitHub/cloud/source ZIP/AI context/index and retained Word/PDF hashes. `.DS_Store` excluded; no background sync. PREPARATION_COVERAGE records selected reviewed turns and remaining theory work.
 
 HOSTING_PLAN remains a recommendation, not a deployment. BOI §5 records observed Moon Trek/QuickMap controls, not validated calculations.
 

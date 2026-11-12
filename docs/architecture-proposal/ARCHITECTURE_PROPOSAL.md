@@ -1,0 +1,81 @@
+# Kiến trúc web app — bản đề xuất để nhóm trao đổi
+
+Ngày 12/11/2026, giờ Hà Nội. **Đề xuất chuẩn bị, chưa được cả nhóm chốt và chưa triển khai.**
+
+**Phạm vi trả lời mentor:** đã có đề xuất nền tảng, sơ đồ thành phần, tương tác và luồng dữ liệu. Mục 4 mới là khung lý thuyết có nguồn; chưa phải bản giải thích mô hình toán, ví dụ và phương pháp kiểm hoàn chỉnh. Không báo đã hoàn tất toàn bộ yêu cầu của mentor.
+
+![Sơ đồ kiến trúc đề xuất](architecture-preview.png)
+
+## 1. Hướng đề xuất
+
+Làm **web app responsive mở bằng đường link** trên trình duyệt máy tính/điện thoại. Frontend dùng React + TypeScript + Vite đã được chuẩn bị cho Sơn. Web vẫn có bước build frontend; người xem không cần bộ cài Windows riêng. Khả năng chạy trên từng thiết bị phải kiểm bằng sản phẩm thật. [MDN client/server](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview), [Vite production build](https://vite.dev/guide/build.html).
+
+**Giả định để vẽ:** bản đầu cho người dùng xem một số địa điểm và khoảng thời gian có dữ liệu đã kiểm. Chỉ số khoa học, địa điểm, thời gian và kiểu so sánh còn chờ nhóm chọn. Ví dụ “một địa điểm ở hai thời điểm” hoặc “hai địa điểm trong cùng khoảng thời gian” là hai lựa chọn trao đổi, chưa phải hai tính năng bắt buộc.
+
+Tách hai việc: **backend xử lý khoa học theo lô** tạo kết quả có phiên bản; **frontend** đọc và giải thích kết quả. Với tập lựa chọn hữu hạn, có thể phục vụ kết quả dạng tệp từ hosting, chưa cần API chạy thường trực. Nếu nhóm cần tính theo đầu vào mới, thêm một API hosted dùng dữ liệu/thư viện đã được kiểm. Cách tách này là khuyến nghị kỹ thuật, không phải yêu cầu của NASA.
+
+## 2. Sơ đồ thành phần
+
+Mở [sơ đồ trực quan](architecture.html). Đường liền là luồng tối thiểu đề xuất; đường đứt là nhánh API chỉ thêm khi có nhu cầu. Các mũi tên chính mô tả đường dữ liệu/kết quả; thao tác người dùng được giải thích ở mục 3.
+
+```mermaid
+flowchart LR
+    S["Nguồn NASA/JPL<br/>ephemerides; địa hình nếu cần"] --> P["Backend xử lý theo lô<br/>chuẩn hóa → tính → kiểm"]
+    P --> H["Hosting<br/>frontend + kết quả có phiên bản"]
+    H --> F["Frontend trong trình duyệt<br/>React · TypeScript · Vite"]
+    U["Người dùng<br/>máy tính / điện thoại"] --> F
+    P -. "bản dữ liệu đã kiểm" .-> A["API hosted — tùy chọn<br/>chỉ khi cần tính đầu vào mới"]
+    F -. "đầu vào" .-> A
+    A -. "kết quả + metadata hoặc lỗi" .-> F
+```
+
+| Thành phần | Trách nhiệm và đầu ra |
+| --- | --- |
+| Nguồn | Ephemerides từ Horizons; địa hình LOLA nếu chỉ số cần và vùng có dữ liệu phù hợp. Giữ URL, phiên bản, request/header và bản gốc. Không dùng texture 3D làm dữ liệu độ cao. |
+| Backend xử lý theo lô | Lấy tập nhỏ theo điều khoản nguồn; thống nhất tọa độ, thời gian, đơn vị; thực hiện phép tính đã chọn; kiểm mẫu và dữ liệu thiếu. Xuất kết quả + metadata + báo cáo kiểm. Chỉ thực hiện sau giờ được phép bắt đầu. |
+| Hosting | Phục vụ bản build, kết quả và tài nguyên có quyền sử dụng qua HTTPS; phiên bản frontend và dữ liệu phải tương thích. Cloudflare là ứng viên từ HOSTING_PLAN, chưa chốt nhà cung cấp/gói hoặc deploy. Mac không phải máy chủ public. |
+| Frontend | Cho chọn trong miền được hỗ trợ; tải đúng phiên bản; hiển thị bảng/biểu đồ, nguồn và giới hạn. 3D là lớp minh họa tùy tác vụ; vẫn đọc được kết quả khi 3D lỗi. |
+| API hosted, có điều kiện | Chỉ thêm khi cần xử lý đầu vào chưa có kết quả lưu. Kiểm đầu vào và giới hạn khối lượng; dùng dữ liệu/thư viện đã kiểm; trả kết quả cùng metadata hoặc lỗi rõ. Không phải proxy mặc định tới Horizons. Stack backend do bên tích hợp cùng nhóm chọn. |
+
+JPL hiện yêu cầu một request mỗi lần, tái sử dụng kết quả khi phù hợp, backoff, User-Agent hợp lệ và kiểm phiên bản; chính sách không cho nhúng API vào website. **Không vẽ browser gọi trực tiếp Horizons, không coi thêm proxy là đã giải quyết điều khoản.** Nhánh API của nhóm chỉ dùng nguồn đã xác minh được phép sử dụng theo cách đó. [JPL SSD API policy, đọc 12/11](https://ssd-api.jpl.nasa.gov/doc/index.php).
+
+## 3. Người dùng và luồng dữ liệu
+
+1. **Mở link:** hosting gửi frontend; ứng dụng đọc danh mục địa điểm/thời gian/chỉ số được hỗ trợ và phiên bản dữ liệu.
+2. **Chọn tình huống:** người dùng chọn trong miền đã có dữ liệu; giao diện ghi rõ múi giờ. Chọn ngoài miền phải báo chưa hỗ trợ, không tự suy ra kết quả.
+3. **Lấy kết quả:** frontend tải gói tương ứng; nếu nhánh API được chọn thì gửi đầu vào đã thống nhất và backend kiểm lại. Khi đổi lựa chọn, bỏ response cũ; hiển thị đang tải/lỗi/thử lại.
+4. **Đọc kết quả:** bảng/biểu đồ và nguồn xuất hiện cùng đơn vị, thời gian, giả định, cảnh báo dữ liệu thiếu. Chỉ mở so sánh A/B nếu nhóm chọn luồng đó; không tự gán điểm “an toàn”.
+5. **Kiểm chứng:** người xem mở nguồn và phương pháp. Nhóm truy lại được phiên bản dữ liệu và phép xử lý đã sinh ra kết quả; lỗi mạng không được biến thành giá trị 0 hoặc kết quả cũ không ghi nhãn.
+
+**Hợp đồng bàn giao cần chốt trước khi tách việc** — đây là yêu cầu thông tin, chưa ấn định endpoint hay schema:
+
+| Nhóm thông tin | Nội dung cần thống nhất |
+| --- | --- |
+| Đầu vào | ID/vị trí địa điểm, miền được hỗ trợ, quy ước tọa độ/cao độ; thời điểm hoặc khoảng thời gian và bước lấy mẫu. |
+| Kết quả | Tên/ý nghĩa từng chỉ số, đơn vị, giá trị hợp lệ; phân biệt số 0, thiếu/NoData, kết quả một phần và lỗi. |
+| Truy vết | Phiên bản hợp đồng, nguồn và sản phẩm, ngày lấy, hệ quy chiếu, thang thời gian, checksum, phiên bản phương pháp. |
+| Độ tin cậy | Giả định, độ phân giải, độ bất định được biết, phạm vi kiểm mẫu; không tự bịa biên sai số nếu nguồn không cung cấp. |
+| Hành vi giao tiếp | Ví dụ thành công/rỗng/lỗi, response cũ, timeout/retry, giới hạn kích thước; frontend và backend cùng xác nhận. |
+
+## 4. Khung cơ sở lý thuyết — còn cần phát triển
+
+| Chủ đề | Cần giải thích được | Giới hạn phải giữ |
+| --- | --- | --- |
+| Client/server | Trình duyệt hiển thị và nhận thao tác; server/hosting gửi mã và dữ liệu; backend xử lý theo lô khác API theo request. [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview) | Web vẫn cần build/deploy và kiểm trình duyệt; chưa có bằng chứng chạy đa thiết bị/24 giờ. |
+| Ephemerides và hình học quan sát | Vị trí observer, thiên thể mục tiêu, hệ tọa độ, thời gian, góc phương vị/góc cao. [Horizons tutorial](https://ssd.jpl.nasa.gov/horizons/tutorial.html), [manual](https://ssd.jpl.nasa.gov/horizons/manual.html) | Góc cao trên chân trời lý tưởng chưa xét núi che khuất; không tự suy ra công suất điện hay chất lượng đường truyền. |
+| Địa hình số | DEM là dữ liệu cao độ; đọc projection/frame, mốc cao độ, đơn vị, NoData, độ phân giải và nội suy. [LOLA PGDA 78](https://pgda.gsfc.nasa.gov/products/78), [README](https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/README) | Kích thước pixel không phải độ chính xác. Frame gắn với DE421 và phiên bản ephemeris là hai trường cần phân biệt; phải kiểm tương thích trước khi ghép. |
+| Chiếu sáng / tầm nhìn | Nếu chọn chỉ số có xét địa hình, phải xác định đường chân trời địa hình, cao độ observer, hình học thiên thể và cách lấy mẫu; kiểm trường hợp biên. [LOLA PGDA 78](https://pgda.gsfc.nasa.gov/products/78) | Chưa thiết kế hoặc kiểm thuật toán. Ảnh ánh sáng đẹp không xác nhận vùng được chiếu sáng; nhìn thấy Trái Đất không xác nhận liên lạc được. |
+| So sánh có bằng chứng | Chỉ so các kịch bản có chỉ số, đơn vị và giả định tương thích; công khai nguồn và giới hạn. | Đây là nguyên tắc thiết kế đề xuất. Chưa có trọng số xếp hạng, ngưỡng an toàn hay kết luận “điểm hạ cánh tốt nhất”. |
+
+Đã đọc lại chính sách JPL, Horizons tutorial, PGDA 78 và MDN ngày 12/11. Các chi tiết tọa độ trong DATA_PREPARATION có ngày đọc riêng; trước triển khai phải đọc header/product thực tế. Chưa tải dataset hoặc chạy phép tính khoa học.
+
+## 5. Bốn quyết định để nhóm chốt
+
+1. **Một đầu ra demo:** người dùng chọn gì và cần nhận lại kết luận nào? Chọn một luồng trước, không mặc định phải có cả hai kiểu so sánh.
+2. **Miền dữ liệu:** những địa điểm, khoảng thời gian và chỉ số nào được hỗ trợ, ai kiểm nguồn/phép tính?
+3. **Cách chạy:** tệp kết quả có phiên bản có đủ không; chỉ cần API nếu câu trả lời là không. Ngân sách/nhà cung cấp bàn sau khi biết tải thực.
+4. **Đường tích hợp:** repo/branch, người chốt hợp đồng và một ví dụ đầu vào → đầu ra có nguồn. Các phân công trên Sheet cần người nhận xác nhận; bản này không thay phân công.
+
+**Câu trình bày 30 giây:** “Nhóm em đề xuất web app mở bằng trình duyệt. Phần xử lý dữ liệu lấy nguồn có trích dẫn, chuẩn hóa và kiểm kết quả rồi phát hành theo phiên bản. Frontend cho chọn địa điểm/thời gian trong phạm vi hỗ trợ, xem kết quả và nguồn; 3D giúp minh họa. Nếu cần tính đầu vào mới, nhóm mới thêm API. Phạm vi và hợp đồng dữ liệu đang chờ thống nhất.”
+
+Nguồn yêu cầu: đoạn trao đổi mentor 12/11 do người dùng cung cấp trong chat, chưa xác thực độc lập. Không công khai nguyên văn hội thoại riêng. Kiến trúc là suy luận/khuyến nghị của Codex dựa trên HANDOFF, FRONTEND_HANDOFF, DATA_PREPARATION và HOSTING_PLAN; chưa phải quyết định toàn nhóm. Dùng Diagram Design, Context Mode và reviewer độc lập cho tài liệu. Bản sơ đồ là tài liệu chuẩn bị, không phải UI/art của bài nộp. Chưa viết code sản phẩm, deploy hoặc gửi tin cho nhóm.

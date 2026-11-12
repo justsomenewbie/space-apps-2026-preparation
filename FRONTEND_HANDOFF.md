@@ -2,6 +2,10 @@
 
 Cập nhật 11/11/2026. Đây là tài liệu chuẩn bị và các ô cần nhóm xác nhận, không phải thiết kế/UI/code cho bài nộp. Không tự chuyển ô trống thành quyết định đã thống nhất. Sheet lần đọc gần nhất ghi Sơn + Thảo frontend, Chung integration/backend; việc nhận đầu ra cụ thể của các thành viên khác vẫn cần xác nhận. Người dùng làm rõ trong chat ngày 11/11 rằng Sơn phụ trách chuẩn bị/chọn frontend; không chờ Chung chọn framework thay Sơn. Hợp đồng dữ liệu và cách ghép vẫn cần phối hợp với người tích hợp.
 
+### Kiến trúc đề xuất — 12/11
+
+[Sơ đồ và thuyết minh](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md) trả lời yêu cầu mentor về nền tảng, backend/frontend, tương tác và luồng dữ liệu. Giả định miền lựa chọn hữu hạn: xử lý theo lô → kết quả có phiên bản → frontend; API hosted chỉ thêm khi cần đầu vào mới. Đây chưa phải scope hay hợp đồng đã được nhóm chốt. Khung lý thuyết có nguồn vẫn cần phát triển thành giải thích mô hình/phương pháp kiểm; không coi sơ đồ là đã kiểm khoa học.
+
 ### Tầm nhìn người dùng — ghi nhận 11/11, yêu cầu chuẩn bị
 
 **Người dùng xác nhận:** website/app dùng được trên điện thoại và máy tính, có animation và 3D chân thực, cảm giác cao cấp; giao Codex đề xuất các chi tiết còn lại. Đây là định hướng của Sơn, chưa phải phạm vi/thiết kế đã được toàn nhóm chốt. Việc triển khai vẫn theo ranh giới thời gian trong COMPETITION_RUNBOOK.

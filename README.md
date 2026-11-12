@@ -16,6 +16,8 @@
 
 Git là bản có lịch sử cho tài liệu chuẩn bị; Sheet giữ phân công/trạng thái đang thay đổi. **Mặc định do Sơn yêu cầu ngày 12/11:** mỗi khi sửa ghi chú/chỉ dẫn chuẩn bị, AI đồng bộ GitHub, cloud hiện có và Drive/Word/PDF, kiểm đúng commit/hash trước khi báo xong; không cần nhắc lại ở chat mới. Xem quy trình và quyền thường trực tại [AGENTS](AGENTS.md#standing-preparation-sync--user-instruction-12-november-2026). Word/PDF xuất từ KE_HOACH_NHOM.md; nguồn không đổi thì kiểm lại bản xuất đang giữ. Cập nhật HANDOFF, ghi rõ đích còn chờ nếu bị chặn. Đây là việc AI thực hiện trong phiên, không phải đồng bộ nền. Không dùng Drive để đồng bộ code đang sửa, không cho hai AI ghi cùng checkout.
 
+Đọc [kiến trúc web app đề xuất](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md): sơ đồ, luồng người dùng/dữ liệu và khung lý thuyết có nguồn. Đây là bản để trao đổi; lý thuyết chi tiết và phạm vi nhóm còn mở.
+
 ## Những điều chưa chốt
 
 Phạm vi sản phẩm, backend/hợp đồng dùng chung, dữ liệu/địa điểm cụ thể, người dự phòng và người bấm nộp vẫn chưa được xác nhận. Moon Plan B và các phương án trước là đề xuất, không phải quyết định nhóm. Chưa có buổi luyện trên máy đồng đội được ghi nhận. Chuẩn bị công cụ trên Mac của Sơn không đồng nghĩa đã có trên máy khác/cloud.

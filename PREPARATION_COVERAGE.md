@@ -2,6 +2,14 @@
 
 Cập nhật 12/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị, không chứng nhận nhóm đã làm sản phẩm, đồng ý mọi đề xuất hoặc đã mở file trên máy thật.
 
+## Checkpoint kiến trúc đề xuất và kiểm mức bao phủ — 12/11/2026
+
+Chat **Vẽ kiến trúc web app**, `01a1ce65-2dad-7231-91a0-42a4373ea4b6`: người dùng cung cấp yêu cầu mentor, chọn soạn sơ đồ đề xuất, sau đó hỏi đã trả lời hết và tự dùng công cụ chưa. Đối chiếu từng yêu cầu với cả Markdown/HTML: nền tảng, kiến trúc, tương tác, luồng dữ liệu có đề xuất; cơ sở lý thuyết mới là khung có nguồn, chưa hoàn thiện mô hình/ví dụ/phương pháp kiểm. Reviewer đọc hai file độc lập; mũi tên trả kết quả Mermaid đã sửa. HTML self-check/geometry pass; root xem ảnh 1280×800, kiểm không tràn trang 1440/390 px và print. Không kiểm sản phẩm hoặc khoa học.
+
+Đã đọc user/final messages của hai lượt **Auto-use project tools** đến `01a1ce76-3587-7cd0-901d-37c5f2797a89`, xác nhận chat idle và HANDOFF thả ownership trước khi sửa. Checkpoint trước đó giữ nguyên tính lịch sử; không rà lại mọi chat hoặc trang cũ. Tự chọn và dùng Diagram Design, Context Mode, nguồn web chính thức, browser và reviewer; không dùng mọi công cụ đã cài. Đồng bộ dùng Git/Google Drive/cloud chat theo standing authorization.
+
+Nguồn sơ đồ được tích hợp vào `docs/architecture-proposal/`, liên kết từ README/FRONTEND_HANDOFF/BOI_CANH_AI. Base lúc tiếp tục `333d1ab3ee6c3fff913c02fbe59a0c1253047919`; KE_HOACH_NHOM không đổi. Đợt này đang đồng bộ khi ghi checkpoint; manifest Drive và sibling `architecture-proposal-2026-11-12/sync/` ghi commit cuối, readback/hash từng đích. Không công khai nguyên văn trao đổi riêng. Lượt này chưa hoàn tất khi ghi; đọc câu trả lời cuối ở lần tiếp theo.
+
 ## Checkpoint sửa LaTeX và kiểm khởi động lại — 12/11/2026
 
 Chat **Auto-use project tools**, `01a1ce61-d690-7233-b703-0291e3019dd8`, lượt đang xử lý `01a1ce76-3587-7cd0-901d-37c5f2797a89`: Sơn yêu cầu sửa phần LaTeX còn thiếu, kiểm Blender MCP sau restart và giữ tự chọn công cụ. Default-template equations, lỗi TeX không hợp lệ, render lại độc lập và so 120 frame đã pass. Ba Codex app-server mới phát hiện 6 skill cùng 9 tool Blender MCP; hai lệnh get_addon_status/get_scene_info chạy thành công, kể cả sau khi restart Blender và mở lại scene đã lưu. Yêu cầu cảnh 3D và video phương trình không gọi tên tool đều tự chọn đúng, tạo file và được kiểm thực tế. Không restart GUI ChatGPT, không khẳng định native tool đã xuất hiện trong chat này; local stdio đã kiểm được. Chi tiết/giới hạn trong PLUGIN_ROUTING.
