@@ -18,6 +18,8 @@ Git là bản có lịch sử cho tài liệu chuẩn bị; Sheet giữ phân c�
 
 Đọc [kiến trúc web app đề xuất](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md): sơ đồ, luồng người dùng/dữ liệu và [giải thích lý thuyết](docs/architecture-proposal/THEORY_PRIMER.md) có nguồn, ví dụ giả định, kế hoạch kiểm. Đây là bản để trao đổi; phạm vi nhóm, mô hình và kiểm định còn mở.
 
+Đọc [bản rà tài nguyên 12/11](docs/resource-review-2026-11-12.md): Atlas/NavLunar, SVS, metadata PGDA/PDS và các việc đọc nguồn có thể tiếp tục độc lập.
+
 ## Những điều chưa chốt
 
 Phạm vi sản phẩm, backend/hợp đồng dùng chung, dữ liệu/địa điểm cụ thể, người dự phòng và người bấm nộp vẫn chưa được xác nhận. Moon Plan B và các phương án trước là đề xuất, không phải quyết định nhóm. Chưa có buổi luyện trên máy đồng đội được ghi nhận. Chuẩn bị công cụ trên Mac của Sơn không đồng nghĩa đã có trên máy khác/cloud.

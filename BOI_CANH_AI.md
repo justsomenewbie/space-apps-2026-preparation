@@ -146,11 +146,11 @@ Terms và FAQ được đọc đầy đủ qua Exa; reviewer độc lập lấy 
 | --- | --- | --- |
 | [CLPS Lunar Mission Browser](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser) | **Chọn ứng viên mã ưu tiên:** [build_windows()](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/7f2cd2756c3667abe2bc4ee78f8eb2a179956b57/backend/lunar-core/src/lunar_core/windows.py), nếu nhóm dùng Python; chỉ dùng thư viện chuẩn. [visibility.py](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/7f2cd2756c3667abe2bc4ee78f8eb2a179956b57/backend/lunar-core/src/lunar_core/visibility.py) **chỉ đọc phương pháp**, chưa mượn vì phụ thuộc `HorizontalPosition` và quy ước mép Mặt Trời/tâm Trái Đất. | LICENSE **MIT**, pin `7f2cd2756c3667abe2bc4ee78f8eb2a179956b57`; giữ copyright/permission notice. Không chuyển stack chỉ để lấy helper. [Catalog](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/7f2cd2756c3667abe2bc4ee78f8eb2a179956b57/backend/lunar-core/src/lunar_core/catalog/sites.json) ghi **tọa độ mẫu tùy ý**, loại khỏi nguồn điểm đáp thật. Chưa chạy app/tests. |
 | [PolarWindow](https://github.com/MdAhbab/PolarWindow) | **Chọn cách ghi nguồn** từ [data-sources.md](https://github.com/MdAhbab/PolarWindow/blob/84075e5f36f49ccf22b7100ae3f68a4ac02e62d1/docs/data-sources.md): nguồn/ngày đọc, điều chưa xác nhận, phân biệt loại tọa độ. **Dự phòng** [rankLabel()](https://github.com/MdAhbab/PolarWindow/blob/84075e5f36f49ccf22b7100ae3f68a4ac02e62d1/frontend/src/lib/rank.ts) khi nhóm có TypeScript và hợp đồng xếp hạng thật; chưa lấy UI/schema/bảng dữ liệu. | LICENSE **Apache-2.0**, pin `84075e5f36f49ccf22b7100ae3f68a4ac02e62d1`; giữ license/ghi công, đánh dấu tệp sửa, giữ NOTICE nếu có. Cây repo đã kiểm không có NOTICE. Stack/dữ liệu đầy đủ khá rộng; README tự báo lần tải đầu khoảng 1,2 GB, chưa đo/chạy. |
-| [Lunar South Pole Operations Atlas](https://sighmon.com/space/) | Cách đặt nguồn/sai số cạnh số liệu, phân biệt trung bình dài hạn với timeline và báo vùng thiếu dữ liệu. | Trang mô tả cả timeline có địa hình 14 ngày, tách khỏi số trung bình dài hạn. [Repo công khai](https://github.com/sighmon/space) chưa xác minh được giấy phép áp dụng cho phần Atlas; hiện chỉ dùng để đọc/đối chiếu. |
-| [NavLunar](https://navlunar.com/about) | Khám phá nguồn, đọc phương pháp, xem cách giải thích đường đi và điều kiện ánh sáng. | Chưa tìm được giấy phép/source repo của chính NavLunar. Mô tả trang chủ và About về xét bóng địa hình cho tuyến đường chưa nhất quán; chưa kiểm hành vi. Không dùng kết quả như chuẩn số độc lập. |
+| [Lunar South Pole Operations Atlas](https://sighmon.com/space/) | Cách đặt nguồn/sai số cạnh số liệu, phân biệt trung bình dài hạn với timeline và báo vùng thiếu dữ liệu. | Pin `67f91d64304d6c8ced399d73a77530b9909c70f2` đọc 12/11: cây repo không có LICENSE/COPYING/NOTICE, chưa tìm được lời cấp phép trong tài liệu/tệp đã kiểm. Chỉ tham khảo; chưa chọn sao chép. Chi tiết source/phương pháp và giới hạn ở bản rà tài nguyên. |
+| [NavLunar](https://navlunar.com/about) | Khám phá nguồn, đọc phương pháp, xem cách giải thích đường đi và điều kiện ánh sáng. | Đọc lại 12/11: chưa xác định repo/license chính thức. Trang chủ nói có bóng địa hình dọc tuyến, About Routing vẫn ghi chân trời trơn; chưa thử để phân xử. Không dùng như chuẩn số độc lập. |
 | [Moon Trek](https://trek.nasa.gov/moon/jpl/config/textAbout.html) / QuickMap | Công cụ đối chiếu và tìm metadata của lớp nền. | Công cụ hiển thị không phải một dataset duy nhất. Cần về đúng sản phẩm gốc để xác định phiên bản, frame, quyền dùng; không tự suy giấy phép từ việc xem được trên web. |
 
-Hai LICENSE được đọc qua GitHub connector. Liên kết cố định: [CLPS LICENSE](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/7f2cd2756c3667abe2bc4ee78f8eb2a179956b57/LICENSE), [PolarWindow LICENSE](https://github.com/MdAhbab/PolarWindow/blob/84075e5f36f49ccf22b7100ae3f68a4ac02e62d1/LICENSE). Giấy phép repo không tự bao trùm ảnh/dữ liệu bên thứ ba, dependency hay logo. Khi thực sự dùng, ghi tác giả/repo, commit/file, license, phần sửa, phần nhóm làm và kết quả kiểm vào hồ sơ; hiện chưa có thành phần được tích hợp để khai là đã sử dụng.
+[Rà tài nguyên 12/11](https://github.com/justsomenewbie/space-apps-2026-preparation/blob/main/docs/resource-review-2026-11-12.md) ghi pin/source, phạm vi SVS, bất nhất label PDS và hàng đợi độc lập. Hai LICENSE được đọc qua GitHub connector. Liên kết cố định: [CLPS LICENSE](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/7f2cd2756c3667abe2bc4ee78f8eb2a179956b57/LICENSE), [PolarWindow LICENSE](https://github.com/MdAhbab/PolarWindow/blob/84075e5f36f49ccf22b7100ae3f68a4ac02e62d1/LICENSE). Giấy phép repo không tự bao trùm ảnh/dữ liệu bên thứ ba, dependency hay logo. Khi thực sự dùng, ghi tác giả/repo, commit/file, license, phần sửa, phần nhóm làm và kết quả kiểm vào hồ sơ; hiện chưa có thành phần được tích hợp để khai là đã sử dụng.
 
 **Kiểm cần làm trong giờ thi:** với `build_windows()`, xác nhận thời gian tăng nghiêm ngặt, cùng quy ước múi giờ, `range_end` sau mẫu cuối và độ dài khớp; kiểm rỗng, một mẫu, đổi trạng thái, cửa sổ chạm biên. Hàm chưa tự kiểm hết đầu vào đó. `rankLabel()` chỉ diễn đạt backend: nếu dùng phải kiểm cờ đồng hạng/giới hạn/sai số và bản dịch, không coi đây là thuật toán xếp hạng đã kiểm định.
 
@@ -209,7 +209,7 @@ Hồ sơ nộp phải khớp hướng dẫn 2026 mới nhất: vấn đề, ngư
 
 ## 8 Nguồn và tình trạng kiểm chứng
 
-R01/R03/R04/R14/R15 giữ trạng thái lịch sử được ghi bên dưới. Ngày 11/11 đã kiểm lại nguồn dữ liệu chọn ở mục 6, luật 2026, LICENSE và mã chọn lọc hai repo; đây không phải kiểm runtime, toàn bộ đường tải hay kết quả khoa học. Mọi phần “chọn” vẫn là ứng viên cho giờ thi, không phải đã tích hợp hoặc nhóm đã chốt. URL pin ở mục 5.1 xác định đúng phiên bản đọc; link nhánh main bên dưới có thể thay đổi.
+R01/R03/R04 giữ trạng thái lịch sử. R06/R07/R12–R15/R18/R19 có bổ sung đọc tài liệu hoặc hòa giải bằng chứng ngày 12/11; các nguồn khác không tự được tính đã mở lại. Ngày 11/11 đã kiểm lại nguồn dữ liệu chọn ở mục 6, luật 2026, LICENSE và mã chọn lọc hai repo; đây không phải kiểm runtime, toàn bộ đường tải hay kết quả khoa học. Mọi phần “chọn” vẫn là ứng viên cho giờ thi, không phải đã tích hợp hoặc nhóm đã chốt. URL pin ở mục 5.1 xác định đúng phiên bản đọc; link nhánh main bên dưới có thể thay đổi.
 ### Đề và sự kiện
 
 **R01 Bản đối chiếu đề tại HackAthlone** — Đọc được; mô tả nhu cầu so sánh site và date. Trang gốc NASA vẫn lỗi 502 trong lần kiểm tra. Link đọc: https://hackathlone.com/challenges/lunar-landing-site-navigator . Link gốc cần xác nhận: https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/ .
@@ -224,9 +224,9 @@ R01/R03/R04/R14/R15 giữ trạng thái lịch sử được ghi bên dưới. N
 
 **R05 NASA Science LOLA** — Đọc được; nguồn gốc thiết bị và sản phẩm. https://science.nasa.gov/mission/lro/lola/
 
-**R06 PGDA 78** — Đã đọc trang sản phẩm và README trực tiếp 11/11; chưa tải raster. https://pgda.gsfc.nasa.gov/products/78 ; https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/README
+**R06 PGDA 78** — Trang sản phẩm/README đã đọc 11/11; đọc lại HTML/README ngày 12/11, xác nhận XYZI dùng km, khác bộ 90. Chưa tải raster. https://pgda.gsfc.nasa.gov/products/78 ; https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/README
 
-**R07 PGDA 90** — Đọc được; DEM và các sản phẩm cực nam. Trang yêu cầu dẫn Barker et al. 2023, DOI 10.3847/PSJ/acf3e1; DOI bộ dữ liệu 10.60903/gsfcpgda-lola-spole. https://pgda.gsfc.nasa.gov/products/90
+**R07 PGDA 90** — Đọc lại 12/11: manifest phân biệt loại lớp/vùng phủ; XYZI dùng mét. Chưa thử tải raster/COG theo vùng. Trang yêu cầu dẫn Barker et al. 2023, DOI 10.3847/PSJ/acf3e1; DOI bộ dữ liệu 10.60903/gsfcpgda-lola-spole. https://pgda.gsfc.nasa.gov/products/90
 
 **R08 Horizons Tutorial** — Đọc được; học thao tác và xuất bảng. https://ssd.jpl.nasa.gov/horizons/tutorial.html
 
@@ -236,23 +236,23 @@ R01/R03/R04/R14/R15 giữ trạng thái lịch sử được ghi bên dưới. N
 
 **R11 JPL SSD API policy** — Đọc được; giới hạn truy vấn và cách tích hợp. https://ssd-api.jpl.nasa.gov/doc/index.php
 
-**R12 PGDA 69 Lunar Polar Illumination** — Đọc được; trung bình dài hạn, không thay dự báo một ngày. https://pgda.gsfc.nasa.gov/products/69
+**R12 PGDA 69 Lunar Polar Illumination** — Đọc lại 12/11 cùng hai label Solar/Earth V1.05; Earth label có giới hạn vĩ độ bất nhất, quan hệ START/STOP với khoảng trung bình chưa rõ. Xem bản rà tài nguyên; chưa kiểm raster. Trung bình dài hạn không thay dự báo một ngày. https://pgda.gsfc.nasa.gov/products/69
 
 ### Công cụ và dự án để đối chiếu
 
-**R13 Moon Trek** — Công cụ NASA/JPL; đọc mô tả chức năng, chưa đo thao tác thực tế. https://trek.nasa.gov/moon/ ; mô tả: https://trek.nasa.gov/moon/jpl/config/textAbout.html
+**R13 Moon Trek** — Đã quan sát điều khiển vị trí/ngày/nguồn ngày 12/11, mức heuristic AI; điểm tạm cuối không phải Shackleton. Không gửi Sun Angle, chưa có kết quả khoa học hoặc thử người dùng; xem mục 5. https://trek.nasa.gov/moon/ ; mô tả: https://trek.nasa.gov/moon/jpl/config/textAbout.html
 
-**R14 LROC QuickMap** — Đã đọc trang nhà phát triển và ví dụ; chưa kiểm thử tương tác. Công cụ: https://quickmap.lroc.asu.edu/ ; giới thiệu: https://www.actgate.com/examples/lroc-quickmap ; tác vụ mẫu: https://lroc-examples.quickmap.io/ ; bóng đổ 3D: https://www.actgate.com/post/july-2024-quickmap-release .
+**R14 LROC QuickMap** — Đã quan sát tìm kiếm, projection/3D, ngày và form Sun/Earth ngày 12/11; observer vẫn là camera, không gửi Compute Visibility. Chưa hoàn tất luồng kết quả hoặc kiểm khoa học; xem mục 5. Công cụ: https://quickmap.lroc.asu.edu/ ; giới thiệu: https://www.actgate.com/examples/lroc-quickmap ; tác vụ mẫu: https://lroc-examples.quickmap.io/ ; bóng đổ 3D: https://www.actgate.com/post/july-2024-quickmap-release .
 
-**R15 NASA SVS mô phỏng tại cực nam** — Đã đọc mô tả Sun/Earth và bóng địa hình; không phải dữ liệu cho mọi site/date. https://svs.gsfc.nasa.gov/5228/ ; ví dụ bổ sung: https://svs.gsfc.nasa.gov/4944/ .
+**R15 NASA SVS mô phỏng tại cực nam** — Rà trang gốc, credits và captions 12/11; đã ghi phạm vi cảnh/thời lượng, metadata còn thiếu và nhạc bên thứ ba trong bản rà tài nguyên. Chỉ minh họa, chưa đủ làm chuẩn số cho mọi site/date. https://svs.gsfc.nasa.gov/5228/ ; ví dụ bổ sung: https://svs.gsfc.nasa.gov/4944/ .
 
 **R16 CLPS Lunar Mission Browser công khai** — README đọc 10/11; LICENSE MIT và mã chọn lọc đọc 11/11, xem pin tại 5.1; chưa chạy kiểm tra. https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/main/README.md
 
 **R17 PolarWindow** — Đọc lại README tác giả ngày 10/11: so sánh địa điểm, nguồn, cửa sổ liên lạc, offline và báo cáo. LICENSE Apache-2.0 và tệp chọn lọc đọc 11/11, xem pin tại 5.1; chưa chạy thuật toán/kết quả. https://github.com/MdAhbab/PolarWindow/blob/main/README.md
 
-**R18 Lunar South Pole Operations Atlas** — Đọc trang tự mô tả so sánh các vùng cực nam cùng nguồn và giới hạn; chưa kiểm thử phép tính. https://sighmon.com/space/
+**R18 Lunar South Pole Operations Atlas** — Đọc source/tài liệu chọn lọc 12/11 tại pin 67f91d6, chưa xác minh được giấy phép áp dụng hoặc build website; chưa kiểm phép tính. Chi tiết mục 5.1/bản rà tài nguyên. https://sighmon.com/space/
 
-**R19 NavLunar** — Đọc trang tự mô tả công cụ lập kế hoạch đường đi, địa hình và ánh sáng; chưa kiểm thử chức năng. https://navlunar.com/
+**R19 NavLunar** — Đọc lại homepage/About 12/11; mô tả bóng tuyến đường còn mâu thuẫn, repo/license chính thức chưa tìm được. Test/độ chính xác là tác giả tự báo; chưa kiểm chức năng. https://navlunar.com/
 
 
 **R20 PolarWindow system design** — Đọc tài liệu tác giả ngày 10/11 qua GitHub connector: đổi ngày, chọn khoảng và lịch quan sát. Chưa kiểm thử tính năng. https://github.com/MdAhbab/PolarWindow/blob/main/docs/system-design.md

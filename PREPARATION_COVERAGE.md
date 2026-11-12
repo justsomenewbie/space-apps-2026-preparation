@@ -2,6 +2,16 @@
 
 Cập nhật 12/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị, không chứng nhận nhóm đã làm sản phẩm, đồng ý mọi đề xuất hoặc đã mở file trên máy thật.
 
+## Rà tài nguyên độc lập — 12/11/2026
+
+Base local/GitHub và Drive manifest được kiểm lại: `4563fb89b4937888eaf3c956d9f62c94cf734f44`; cloud checkpoint cùng commit là lượt `01a1ceb5-1697-7178-a0cb-59de118eb85c` đã đọc output ở phiên trước. Drive AI context/nguồn kế hoạch/Word/PDF baseline được tải lại và so hash. Sheet hai tab được đọc lại, modified `2026-11-11T15:11:45.403Z`; vẫn Chưa làm và QA C10/G7 chưa thống nhất. Không sửa Sheet.
+
+Inventory 30 chat gần đây được đối chiếu; không thấy editor NASA khác active. Đọc lượt mới nhất Auto-use project tools `01a1ce76-3587-7cd0-901d-37c5f2797a89`, hai lượt nguồn điều phối `01a1cec8-2108-73d5-a30c-789cea823560` và `01a1cec6-0885-74df-a289-9d986d34c4ff`. Chat hiện tại có yêu cầu soạn tin cho mentor và tiếp nối rà tài nguyên; tin nhắn chỉ được soạn, không gửi nhóm. Không rà lại mọi trang/host/archived, không coi inventory là đã đọc lịch sử.
+
+Đối chiếu KE_HOACH_NHOM, toàn danh mục BOI R01–R32, DATA_PREPARATION, THEORY_PRIMER và bằng chứng quan sát giao diện. Chỉ mở lại nguồn liên quan ba gap ưu tiên; không báo tất cả nguồn ngoài đã được xác minh mới. `docs/resource-review-2026-11-12.md` giữ findings/URL/pin, phần chưa biết, giới hạn truy cập và hàng đợi có acceptance. BOI R13/R14 được sửa cho khớp quan sát 12/11; không nâng thành kiểm kết quả/người dùng.
+
+Chỉ Markdown chuẩn bị thay đổi; KE_HOACH_NHOM, primer, diagram và code giữ nguyên. Sync đang chạy khi ghi; manifest và sibling `resource-audit-2026-11-12/sync/` ghi commit/readback cuối. Không gửi tin cho chat giao việc; chỉ cloud sync theo standing authorization. Lượt hiện tại đang chạy khi ghi; lần sau đọc kết quả cuối và các lượt mới liên quan.
+
 ## Bổ sung cơ sở lý thuyết — 12/11/2026
 
 Tiếp nối chat **Vẽ kiến trúc web app**, `01a1ce65-2dad-7231-91a0-42a4373ea4b6`: phát triển khoảng trống mục 4 thành `docs/architecture-proposal/THEORY_PRIMER.md`, gồm giải thích, ví dụ giả định và kế hoạch kiểm khái niệm. Đọc NASA/JPL/LOLA/NAIF/MDN; hai reviewer độc lập đọc toàn bộ primer và đối chiếu nguồn thuộc phần được giao. Làm rõ AIRLESS trong DATA_PREPARATION; cập nhật các liên kết/trạng thái hiện hành. Không chọn phạm vi, chỉ số, mô hình, ngưỡng, trọng số hoặc hợp đồng; chưa kiểm khoa học.
