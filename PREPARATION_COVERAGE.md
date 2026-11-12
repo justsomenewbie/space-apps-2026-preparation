@@ -2,7 +2,15 @@
 
 Cập nhật 12/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị, không chứng nhận nhóm đã làm sản phẩm, đồng ý mọi đề xuất hoặc đã mở file trên máy thật.
 
-## Checkpoint cài công cụ hình ảnh/video — 12/11/2026
+## Checkpoint sửa LaTeX và kiểm khởi động lại — 12/11/2026
+
+Chat **Auto-use project tools**, `01a1ce61-d690-7233-b703-0291e3019dd8`, lượt đang xử lý `01a1ce76-3587-7cd0-901d-37c5f2797a89`: Sơn yêu cầu sửa phần LaTeX còn thiếu, kiểm Blender MCP sau restart và giữ tự chọn công cụ. Default-template equations, lỗi TeX không hợp lệ, render lại độc lập và so 120 frame đã pass. Ba Codex app-server mới phát hiện 6 skill cùng 9 tool Blender MCP; hai lệnh get_addon_status/get_scene_info chạy thành công, kể cả sau khi restart Blender và mở lại scene đã lưu. Yêu cầu cảnh 3D và video phương trình không gọi tên tool đều tự chọn đúng, tạo file và được kiểm thực tế. Không restart GUI ChatGPT, không khẳng định native tool đã xuất hiện trong chat này; local stdio đã kiểm được. Chi tiết/giới hạn trong PLUGIN_ROUTING.
+
+Đã đọc lượt duy nhất của **Vẽ kiến trúc web app**, `01a1ce65-2dad-7231-91a0-42a4373ea4b6`, đến `01a1ce65-3078-72a3-bcf2-7e2108d8802b`: user yêu cầu sơ đồ kiến trúc đề xuất; chat lưu HTML/Markdown ở sibling `nasa-preparation-deliverables/architecture-proposal-2026-11-12/`, báo chưa sync vì checkout đang có chủ sở hữu. Đây là đề xuất chưa được nhóm thông qua, chưa được lượt sửa tool này tích hợp hay xác minh kỹ thuật. Cần đối chiếu và sync trong tác vụ kiến trúc tiếp theo; không tự biến thành quyết định stack. Inventory gần đây không thay cho rà toàn bộ chat; các trang cũ không được đọc lại ở lượt này.
+
+Base đã kiểm: `c22ba558f4695cb6073f5a006e6806bfbf083150`, 23 file ở lần giao trước. Lượt này chỉ sửa bốn Markdown notes, giữ KE_HOACH_NHOM và Word/PDF. Lúc viết đang thực hiện standing sync; commit giao cuối nằm trong Drive manifest, readback/transport receipts ở `~/.codex/workflows/visual-tools/evidence/followup-sync-drive/` và `evidence/followup-root/`. Runtime/video/scene ở Mac không nằm trong Git/ZIP và không tự chuyển sang cloud. Đọc phần hoàn tất lượt này ở lần tiếp theo; không có watcher/capture nền.
+
+## Checkpoint cài công cụ hình ảnh/video — 12/11/2026 (lịch sử trước lượt sửa)
 
 Chat **Auto-use project tools**, `01a1ce61-d690-7233-b703-0291e3019dd8`, local: yêu cầu cài bảy công cụ từ ảnh và tự chọn khi phù hợp. Đã đọc hai lượt mới nhất của **Clarify project tool readiness** đến `01a1cc74-aadb-7e30-8178-bcaf093853c9`, hai lượt của **Review attached file** đến checkpoint đã có `01a1cc22-3fa3-7c23-9a46-d7b752a03321`, và một lượt cloud `01a1cc80-41ef-75f2-9358-94a178ae69e0`. Đọc user/final messages và đối chiếu repo; các trang cũ hơn không được rà lại. Inventory một trang gần đây không phải audit toàn bộ lịch sử.
 

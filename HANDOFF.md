@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 12 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Visual-tool preparation reviewed; ownership released.
+Active editor: none. Visual-tool repair/restart checks reviewed; ownership released.
 
 ## Read first
 
@@ -15,13 +15,13 @@ Sơn chooses frontend: prepared React + TypeScript + Vite/npm/CSS. Coordinate co
 
 FRONTEND_HANDOFF §6 records stock-practice checks and scoped minimatch 11.0.7 repair. Generic manifests/checker: `practice-stack-lock/`, without app source. Recheck the cross-major exception after upstream adoption.
 
-PLUGIN_ROUTING records 30-pack routing, browser/3D endurance evidence and the new seven-tool setup. HyperFrames/Remotion/FFmpeg reused; three.js/GSAP/ManimGL/Blender MCP installed with scoped runtimes and automatic Mac selection. Local renders/browser checks passed; optional Manim LaTeX packages remain blocked by mirror verification/access. Read `~/.codex/workflows/visual-tools/LOCAL_USE.md` for exact paths/tests. New MCP discovery may require a fresh session. No tools were installed on cloud.
+PLUGIN_ROUTING records 30-pack routing and seven visual tools with automatic Mac selection. Manim default LaTeX now renders; use `~/.codex/workflows/visual-tools/manim/run`. Independent equation/video checks passed. An unnamed-tool 3D request selected Blender and saved PNG/.blend; native MCP calls passed across fresh Codex app-server processes and Blender restart. Main ChatGPT GUI restart was not tested; this chat lacks native Blender exposure, but the documented local MCP route works. Read `~/.codex/workflows/visual-tools/LOCAL_USE.md`. No cloud tools installed.
 
 ## Cloud verification
 
 Application-tested checkpoint: `8d2f61e`, branch `work`. Tally, stock install, tooling, lint/build, zero-finding audits and six browser groups passed then. FRONTEND_HANDOFF §6 preserves runtime/source hashes and actual limits. No Lunar/backend/science/teammate/deployment claim.
 
-Latest cloud report read at this task's start: `ec26986d5a52c4399cd132f7e2b6bb0365937547`, all 23 blobs clean; scratch preserved. That is also this edit's verified Git base. Final delivery commit and transport verification belong in the Drive manifest and external receipts below.
+Verified base: `c22ba558f4695cb6073f5a006e6806bfbf083150`, matching the previous GitHub/cloud/Drive delivery, 23 source files; cloud scratch preserved. Final delivery commit and transport verification belong in the Drive manifest and external receipts below.
 
 ## Event and people
 
@@ -31,7 +31,7 @@ Latest Sheet read: Chung integration/backend; Sơn + Thảo frontend; Trang sour
 
 ## Delivery and next action
 
-This task changes four Markdown notes; human-plan source KE_HOACH_NHOM is unchanged. Standing sync covers GitHub, existing cloud and Drive ZIP/manifest/AI context, retaining hash-verified Word/PDF. At authoring the new delivery is in progress; exact encompassing commit is in the [Drive manifest](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view). Final receipts: `~/.codex/workflows/visual-tools/evidence/sync-drive/` and `evidence/root/`; no background watcher. `.DS_Store` remains excluded.
+This task changes four Markdown notes; KE_HOACH_NHOM is unchanged. Standing sync covers GitHub, existing cloud and Drive ZIP/manifest/AI context, retaining hash-verified Word/PDF. At authoring delivery is in progress; encompassing commit is in the [Drive manifest](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view). Final receipts: `~/.codex/workflows/visual-tools/evidence/followup-sync-drive/` and `evidence/followup-root/`; no background watcher. `.DS_Store` remains excluded. PREPARATION_COVERAGE records the separately saved, unadopted architecture proposal awaiting its own reconciliation/sync.
 
 HOSTING_PLAN remains a recommendation, not a deployment. BOI §5 records observed Moon Trek/QuickMap controls, not validated calculations.
 
