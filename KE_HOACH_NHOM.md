@@ -104,7 +104,11 @@ Chung giữ nguồn dữ liệu thô, script xử lý và kết quả kiểm tro
 | Kịch bản và kết quả | Miền phủ, ngày hợp lệ, thời lượng chung, các khoảng, chỉ số, ngoặc sự kiện, tập H/trạng thái | Toàn cửa sổ phải nằm trong miền đã kiểm; không tính thiếu thành 0 |
 | Tái hiện lựa chọn | Điểm, ngày gốc, ngày hoãn, tiêu chí H, phiên bản dữ liệu | Giới hạn đầu vào; link sai hiển thị lỗi hữu ích |
 
-Repo sản phẩm dự kiến đặt tên moon-plan-b, một repo chung, Chung giữ tích hợp; Sơn làm frontend và giữ bản build dự phòng. Tạo repo và cấu hình hosting trong giờ thi theo quyền tài khoản của nhóm. Việc đưa kế hoạch chuẩn bị lên GitHub hiện có không tự triển khai sản phẩm hoặc mở dịch vụ trả phí. Nếu chưa có quyền hosting phù hợp, giữ bản build chạy local và video dự phòng; Lâm ghi rõ giới hạn truy cập trong hồ sơ, không gắn link hỏng.
+**Sơn chốt ngày 12/11: một repo sản phẩm riêng**, dùng chung cho frontend, backend/script dữ liệu, tests và tài liệu tiếng Anh. Repo hiện tại giữ chuẩn bị/điều phối. Tên moon-plan-b còn là đề xuất; URL/owner/branch/quyền ghi được ghi khi bắt đầu. Vai trò Chung tích hợp, Sơn frontend/build dự phòng vẫn là phân công đề xuất.
+
+**Từ 00:00 ngày 14/11 khi bắt đầu:** kiểm checkout/Git/runtime/ownership; chuyển chỉ dẫn sang AGENTS.md và HANDOFF.md tiếng Anh trước task đầu. Giữ English từ bản đầu, mốc thi/nộp, nguồn/AI, đơn vị/giới hạn khoa học, review, bảo mật và tự chọn công cụ. Dẫn nguồn chuẩn bị theo commit, sửa đường dẫn/đích, kiểm tool từng máy; không chuyển tài liệu riêng/bài luyện hoặc tự mở rộng quyền đồng bộ. Ghi URL/owner/branch ở cả hai handoff.
+
+Tạo repo/hosting trong giờ thi theo quyền tài khoản của nhóm; cập nhật này chỉ ghi kế hoạch. Không tự mở dịch vụ trả phí. Nếu thiếu quyền hosting, giữ build local/video dự phòng; Lâm ghi giới hạn truy cập, không gắn link hỏng. Checklist chuyển giao đầy đủ nằm trong AGENTS và COMPETITION_RUNBOOK.
 
 **GitHub dùng trong hồ sơ thi cũng cần tiếng Anh:** README chính, hướng dẫn chạy/build/test và tái hiện dữ liệu, phương pháp, giới hạn, nguồn/license và đóng góp AI do team viết đều dùng tiếng Anh. Giữ nguyên dữ liệu, license và attribution gốc bên thứ ba; thêm giải thích tiếng Anh khi cần. Repo chuẩn bị hiện tại và tin nhắn điều phối tiếng Việt không thay thế tài liệu sản phẩm. Khi được dẫn trong bài nộp, repo phải đọc được không cần đăng nhập; quyền đọc không đồng nghĩa quyền push.
 
@@ -144,7 +148,7 @@ Các mốc dữ liệu giả định BTC đã cấp đầu vào để nhóm ki�
 
 | Giờ Hà Nội | Việc cần xong | Cách kiểm |
 |---|---|---|
-| 00:00–01:30 rồi nghỉ đến 06:00 | Chung/Sơn mở repo nếu làm ca sớm; Trang kiểm bộ BTC nếu đã phát hành. Khi chưa có dữ liệu thật, fixture giả chỉ dùng thử kỹ thuật, không làm số liệu demo. Ca sớm là phần đệm | Lưu checkpoint và nhãn fixture, không mở rộng scope hoặc thức xuyên đêm |
+| 00:00–01:30 rồi nghỉ đến 06:00 | Chung/Sơn mở repo sản phẩm riêng nếu làm ca sớm, chuyển và kiểm chỉ dẫn tiếng Anh trước task đầu; Trang kiểm bộ BTC nếu đã phát hành. Fixture giả chỉ dùng thử kỹ thuật, không làm số liệu demo. Ca sớm là phần đệm | Ghi URL/owner/branch, checkpoint và nhãn fixture; không mở rộng scope hoặc thức xuyên đêm |
 | 07:00–09:00 | Check-in 07:00–08:15 và khai mạc 08:15–09:00; giữ máy/bản dự phòng | Không lên lịch mốc code bắt buộc trong nghi thức |
 | 09:00–12:00 | Kiểm bộ BTC/chốt bản kê 09:30; một luồng dữ liệu thật 10:30; mở rộng so điểm/ngày trong miền hợp lệ trước 12:00 | Trang đọc raw/metadata; Minh truy kết quả về BTC và mở bản chung |
 | 13:00–17:00 | Nghỉ ăn 12:00–13:00; hoàn thành so ngày và Plan B 15:00, kiểm khoa học/UX 16:00, bản demo ổn định và báo cáo tiến độ 17:00 | Các ca chấp nhận mục 9 chạy trên bản tích hợp |

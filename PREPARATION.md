@@ -448,6 +448,10 @@ After reading the new page's 09:00 scheduled-opening wording, the user explicitl
 
 The linked NASA submission guide returned a crawler SSL error; no logged-in portal or Team Owner access was inspected. The prior editor's completed turn was read before taking ownership; existing preparation changes were preserved. KE_HOACH_NHOM §7–11 now aligns roles, schedule, early submission, English acceptance, exact fields, demo/judging and source requirements. Word/PDF are regenerated from that source; final rendering and destination checks are recorded outside the released sources in sibling `submission-guide-2026-11-12/` and the Drive release manifest. COMPETITION_RUNBOOK holds the full current checklist; older Nov 13 guide expectations above are dated history.
 
+### Separate product repository — user decision, 12 November 2026
+
+After asking whether the preparation repository would hold the competition project, Sơn explicitly selected **one separate shared product repository** and requested plan/GitHub/cloud/Drive updates. At the user's event kickoff from **00:00 November 14 Hanoi**, carry applicable instructions into English product AGENTS/HANDOFF before implementation and keep the project in English from the first version. Frontend, backend/data scripts, tests and product documentation share that repo; this repository retains preparation/internal Vietnamese coordination. The proposed name `moon-plan-b` and actual URL/owner/base branch/write access remain unconfirmed. Adapt paths/destinations, link reviewed preparation sources by commit, verify host tools and preserve source/AI/science/review/security requirements. Existing preparation-sync authorization does not transfer to unrelated destinations. No new product repo, competition code or scheduled midnight execution was created in this update. Release evidence is in sibling `separate-project-repo-2026-11-12/` and the existing Drive manifest.
+
 ## Appendix A — portable practice files
 
 These are the entire unrelated exercise, using only browser and Node built-ins. Do not reuse it as a prebuilt competition component.

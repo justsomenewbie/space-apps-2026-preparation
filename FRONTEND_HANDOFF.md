@@ -46,7 +46,7 @@ Tính sẵn sàng 24/7 là mục tiêu, không phải cam kết uptime 100%. Ch�
 
 | Mục | Câu trả lời của nhóm / người xác nhận |
 | --- | --- |
-| Source chính: URL repo, thư mục frontend, branch nền, người ghép cuối | URL/branch chưa có trong nguồn đã đọc. Khuyến nghị dùng thư mục `frontend/` trong repo tích hợp chung, không tạo repo riêng chỉ để chuẩn bị. Sơn chọn cách làm frontend; thống nhất đường bàn giao với người ghép. |
+| Source chính: URL repo, thư mục frontend, branch nền, người ghép cuối | Sơn chốt ngày 12/11: một repo sản phẩm riêng, chung cho frontend/backend/data/tests; kho hiện tại chỉ chuẩn bị. Tên `moon-plan-b` còn là đề xuất, URL/owner/branch/quyền ghi chưa xác nhận. Khuyến nghị `frontend/` trong repo chung; không tách repo riêng cho frontend. Từ 00:00 ngày 14/11, chuyển chỉ dẫn hiện hành sang AGENTS/HANDOFF tiếng Anh, kiểm runtime/ownership và ghi đường bàn giao trước task đầu. |
 | Stack và phiên bản: framework, package manager, lockfile, Node, lệnh dev/check/build/preview | Mặc định Codex chuẩn bị cho phần của Sơn: React + TypeScript + Vite, npm và Node 24 LTS có sẵn. Đây là lựa chọn chuẩn bị frontend, không tự áp đặt stack backend hoặc ghi thành đồng thuận toàn nhóm. Bản thử stock riêng và kết quả thực tế được ghi ở mục 6. |
 | Một luồng người dùng đầu tiên và tiêu chí hoàn thành, sau khi được phép bắt đầu | Chưa chốt; không tạo layout/logic Lunar trước giờ được phép. |
 | Ai cung cấp kết quả, ai review khoa học, ai QA frontend; thứ tự bàn giao | Chưa xác nhận; phân công ghi trong Sheet không thay thế việc nhận bàn giao. |

@@ -31,6 +31,12 @@ Five criteria, each 1–10: **Impact, Creativity, Validity, Relevance, Presentat
 
 SEPA also states timely submitters receive electronic participation certificates, local awards occur November 15, and selected teams become Global Nominees. This is published eligibility information, not proof of submission, an award or nomination. Team acceptance, mentor/guardian details and actual portal access remain separate checks.
 
+## Separate project repository — user decision, 12 November
+
+Sơn confirmed one separate shared repository for the actual project; this repository remains the preparation and internal-coordination archive. The product repo holds frontend, backend/data scripts, tests and English documentation together. The proposed name `moon-plan-b`, actual URL, owner, base branch and write access are not yet confirmed. This decision does not establish team acceptance of every proposed role or product feature.
+
+At the user's event kickoff, from **00:00 November 14 Hanoi**, establish the product checkout, inspect its existing files/Git/runtime/ownership, then carry the relevant current instructions into English `AGENTS.md` and `HANDOFF.md` before implementation. Include the English-first rule, event/submission checklist, science/source/AI requirements, task ownership/review, security and tool-selection rules; link preparation sources at the reviewed commit. Adapt paths and destinations, verify host capabilities and omit private evidence/unrelated exercises. Existing preparation-sync authorization remains scoped to preparation. Record the actual product URL, owner and branch in both handoffs. No product repo or automatic midnight task is created by this preparation update.
+
 ## Current source update — 11 November
 
 **Concrete plan and data correction — 12 November:** [KE_HOACH_NHOM](KE_HOACH_NHOM.md) retains Moon Plan B, roles, architecture and timed gates. The user now directs BTC-provided data as the primary input, with outside sources only as justified supplements; locations, dates, cadence and model configuration follow inspection of the actual dataset. No specific BTC dataset contents are known. The local rules IV.4 require NASA/partner data or scientific resources, not proof of an unknown organizer pack. This is a user planning requirement, not a newly verified competition clause. Group/mentor messages in the shared architecture chat remain unsent; no adoption is inferred. Preparation-only timing remains unchanged.
@@ -63,7 +69,7 @@ The live [task board](https://docs.google.com/spreadsheets/d/1zqhG7NVRH-TdO6fr6e
 
 **Latest recorded ownership:** the Sheet records Chung for integration/backend and Sơn + Thảo for frontend; other members' acceptance of concrete outputs and backups remain unverified. The user clarified November 11 that Sơn owns frontend preparation/framework choice, so Chung's framework approval is not a prerequisite. Shared interfaces, units and integration changes still need coordination. FRONTEND_HANDOFF records the prepared frontend default and actual unrelated-practice checks.
 
-**Not yet settled:** final product scope, canonical implementation repo/branch and shared data contract; individual availability and accepted outputs; actual teammate access and human rehearsal; room/overnight arrangements; actual judging slot, guardian arrangements and allowed mentor contributions. The team code is received. Fields, language, demo limits and judging duration are now specified in the November 12 guide above; portal access has not been tested. Requested organizer support is not proof it has been allocated.
+**Not yet settled:** final product scope, the separate implementation repo's name/URL/owner/base branch and shared data contract; individual availability and accepted outputs; actual teammate access and human rehearsal; room/overnight arrangements; actual judging slot, guardian arrangements and allowed mentor contributions. The separate-repo decision is confirmed by Sơn. The team code is received. Fields, language, demo limits and judging duration are now specified in the November 12 guide above; portal access has not been tested. Requested organizer support is not proof it has been allocated.
 
 | Source | Evidence and next use |
 |---|---|

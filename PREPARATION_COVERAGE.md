@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Repo sản phẩm riêng — 12 November 2026
+
+Lượt `01a1d037-0c84-7840-9cac-0dd26d723bc0`, chat `01a1cfed-8c7b-7431-876b-d1a15d2525ad`: Sơn chốt dùng một repo riêng cho toàn bộ sản phẩm, cập nhật kế hoạch và đồng bộ ba đích; chuyển chỉ dẫn khi bắt đầu 00:00 ngày 14/11, dùng English từ bản đầu. Quyết định tách repo đã xác nhận; tên/URL/owner/branch/quyền ghi và việc nhận vai vẫn chưa xác nhận. Không tạo repo sản phẩm trong lượt chuẩn bị này.
+
+Inventory 30 chat: không thấy editor NASA khác đang chạy; đọc hai lượt gần nhất của Clarify start-time actions đến `01a1cfe8-8d09-7072-a23c-9a6c6f67daa8`, không có quyết định mới so với checkpoint. Cloud receipt `01a1d00f-a72c-763e-8042-71f352257e87` được đọc. Các chat kế hoạch/kiến trúc không có timestamp mới so với lượt trước; không rà lại archived/Zalo hoặc Sheet vì không đổi vai trò. Base `d1a3f8f1e19534d18dd7836f7fdfac79a038b28c`; GitHub/local và sáu file Drive đã tải/so từng byte với bản trước. `.DS_Store` giữ ngoài commit.
+
+Coverage: điều phối | Codex chat/Git + reviewer chỉ đọc | dùng; tài liệu | Documents, builder/checker hiện có | dùng, đổi kế hoạch nên xuất và kiểm mọi trang Word/PDF; giao bản | GitHub/cloud chat/Drive hiện có | dùng theo quyền thường trực, giữ ID/quyền và kiểm hash/readback; bảo mật | Gitleaks | quét trước phát hành; code/lock/science/UI/3D/SEO/provider | không áp dụng, chỉ đổi tài liệu; CodeGraph | không có index; Context Mode/phương pháp quản lý khác | không cần cho diff nhỏ và phép so hash cục bộ. Dùng lại workflow đã đọc, không cài thêm hoặc nhập skill mới. Bằng chứng cuối ở sibling `separate-project-repo-2026-11-12/` và manifest Drive; tại checkpoint nguồn này sync đang thực hiện.
+
 ## Hướng dẫn nộp và tiếng Anh — 12 November 2026
 
 Chat hiện tại `01a1cfed-8c7b-7431-876b-d1a15d2525ad`: Sơn cung cấp URL SEPA, sau đó yêu cầu đợi editor trước xong, cập nhật kế hoạch và đồng bộ GitHub/cloud/Drive; giữ 00:00 ngày 14 và ghi nhớ English khi triển khai, gồm GitHub bài nộp. Đã đọc toàn bài SEPA qua Exa, HTTP trực tiếp thành công; link hướng dẫn NASA lỗi SSL, chưa kiểm cổng đăng nhập. Hướng dẫn đã được đưa vào runbook/kế hoạch và các chỉ dẫn khởi động/frontend/nguồn. Giữ tiếng Việt cho tài liệu điều phối, không dịch lịch sử hoặc thay license bên thứ ba; chưa làm sản phẩm dự thi.

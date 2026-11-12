@@ -37,7 +37,9 @@ Email BTC đọc ngày 12/11 đã xác nhận đúng đội sáu người/Lunar,
 
 ## Bộ chuẩn bị ngày 12 tháng 11
 
-Mã bộ: **PREP-2026-11-12**. Đọc [HANDOFF](HANDOFF.md) và [AGENTS](AGENTS.md) để tiếp tục; [FRONTEND_HANDOFF](FRONTEND_HANDOFF.md) có stack do Sơn chọn, định hướng mobile/3D/audio và giới hạn bài thử; [HOSTING_PLAN](HOSTING_PLAN.md) có phương án chạy độc lập Mac; [PLUGIN_GUIDE_REVIEW](PLUGIN_GUIDE_REVIEW.md) và [PLUGIN_ROUTING](PLUGIN_ROUTING.md) có cách chọn công cụ. Kế hoạch mới là đặc tả đề xuất để duyệt; repo triển khai, quyền và việc nhận vai được ghi khi thực hiện.
+Mã bộ: **PREP-2026-11-12**. Đọc [HANDOFF](HANDOFF.md) và [AGENTS](AGENTS.md) để tiếp tục; [FRONTEND_HANDOFF](FRONTEND_HANDOFF.md) có stack do Sơn chọn, định hướng mobile/3D/audio và giới hạn bài thử; [HOSTING_PLAN](HOSTING_PLAN.md) có phương án chạy độc lập Mac; [PLUGIN_GUIDE_REVIEW](PLUGIN_GUIDE_REVIEW.md) và [PLUGIN_ROUTING](PLUGIN_ROUTING.md) có cách chọn công cụ. Kế hoạch mới là đặc tả đề xuất để duyệt; quyền và việc nhận vai được ghi khi thực hiện.
+
+**Quyết định repo ngày 12/11:** Sơn chọn một repo riêng, chung cho sản phẩm thực; repo này giữ tài liệu chuẩn bị. Khi bắt đầu từ 00:00 ngày 14/11, mang chỉ dẫn hiện hành sang AGENTS/HANDOFF của repo sản phẩm và dùng tiếng Anh từ bản đầu. Chưa tạo repo mới; tên/URL/owner/branch còn cần ghi khi khởi động. Xem runbook và kế hoạch mục 5 cho các bước chuyển giao; không tự sao chép quyền, runtime Mac hoặc tài liệu riêng.
 
 Drive giữ Word/PDF xuất từ KE_HOACH_NHOM.md, BOI_CANH_AI.md cùng nguồn Git và ZIP đầy đủ của commit phát hành. File 00 ĐỌC TRƯỚC trên Drive trỏ tới bản kê commit/SHA-256. Mỗi lần sửa phải đối chiếu đúng commit và hash, không suy bản tải cũ tự thay đổi. Công cụ được cài trên Mac và bằng chứng sibling không tự nằm trong ZIP.
 
