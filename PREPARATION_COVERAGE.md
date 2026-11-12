@@ -1,5 +1,18 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Kế hoạch Moon Plan B để nhóm duyệt — 12 November 2026
+
+Sơn yêu cầu một kế hoạch chi tiết theo hướng tốt nhất để nhóm chốt, không một danh sách câu hỏi/chờ đề xuất. KE_HOACH_NHOM đã được viết lại thành một phương án cụ thể: hai điểm có nguồn, miền thời gian/tiêu chí hữu hạn, thuật toán tham chiếu, kiến trúc, vai trò, lịch, nghiệm thu và demo. Các vai trò là đề xuất của bản mới, không nâng thành việc từng người đã nhận. Sheet hai tab đọc lại, modified 2026-11-11T15:11:45.403Z; không chỉnh Sheet.
+
+Rà inventory 40 chat gần đây và các lượt liên quan trong Vẽ kiến trúc web app đến 01a1cf3a-4c22-7da3-a8a4-615ff25b35d2, Auto-use project tools đến 01a1ce76-3587-7cd0-901d-37c5f2797a89; đọc user/final/commentary liên quan, không coi tool logs chưa đọc là đã rà. Đợi chat bảo mật hoàn tất và thả ownership trước khi sửa checkout. Base 5e6076e65ac6e3722bcb67db9ebf8114e25ee8f9 được giữ; cloud báo cùng mốc, lượt 01a1cf4d-b9c1-7451-9d8b-91e22d6be737. Không rà lại toàn bộ lịch sử/archived/Zalo.
+
+Hai reviewer đọc trọn kế hoạch, kiểm nguồn NASA/JPL, đối thủ mới SYNEXIS và logic. Đã sửa ngưỡng H thành tập 3/6/12 giờ để đồng nhất batch/frontend, bỏ đề cử ngày quá khứ, phân biệt mẫu kẹp biên và sự kiện thật, kiểm quyền nộp khi portal mở. Quy mô 30 ngày/2.881 mẫu/chuỗi/28 ngày bắt đầu được kiểm bằng phép đếm, không phải dataset đã tải. NASA challenge có nội dung lập chỉ mục; mở toàn văn challenge/FAQ/Terms còn 502. Bản sao Athlone dùng đối chiếu, kiểm lại hướng dẫn ngày 13.
+
+Tìm email có giới hạn ngày 11–12/11 trên hai tài khoản; đọc đầy đủ một email BTC khớp sáu thành viên/Lunar nhận 11/11 19:38 Hà Nội. Mã đội đã có; thi trực tiếp, Trưng Vương/cổng Lý Thường Kiệt và 07:00 check-in được xác nhận. Không có đổi deadline trong email; raw/mã đội giữ riêng, không public. Không đọc sơ đồ địa điểm hoặc nhóm Zalo.
+
+Word/PDF được xuất lại từ nguồn mới, 11 trang A4; root và worker xem đủ 11 trang, kiểm 78 khối nội dung và 18 URL đích. Documents, Humanizer, Context Mode, web chính thức, Gmail/Drive và reviewer được dùng; Gitleaks kiểm trước commit. Chưa chạy khoa học/app, kiểm máy Word/điện thoại thật hoặc chứng minh tính mới/UX. Bằng chứng và bản xuất tại sibling moon-plan-b-final-2026-11-12/. Sync đang thực hiện khi ghi; commit cuối và từng hash ở manifest Drive cùng biên nhận ngoài repo, không lặp commit để ghi vận chuyển. Code, lockfile và ảnh/sơ đồ cũ giữ nguyên.
+
+
 ## Bảo mật và chọn công cụ tự động — 12 November 2026
 
 Trong chat **Vẽ kiến trúc web app** `01a1ce65-2dad-7231-91a0-42a4373ea4b6`, user xác nhận chưa gửi tin mentor và yêu cầu tìm/cài công cụ bảo mật, tự dùng theo tác vụ. Đã xem inventory 20 chat gần đây; chỉ chat hiện tại active trong project, cloud sync idle. Đọc lại lượt gần nhất Auto-use project tools `01a1ce76-3587-7cd0-901d-37c5f2797a89`, checkpoint không đổi; không nhận đã rà toàn bộ lịch sử. Không thay phân công nên không mở lại Sheet.

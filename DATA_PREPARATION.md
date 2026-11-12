@@ -1,5 +1,7 @@
 # Chuẩn bị dữ liệu và nguồn tái sử dụng — Lunar
 
+**Đặc tả đề xuất Moon Plan B ngày 12/11:** [kế hoạch mục 3–4](KE_HOACH_NHOM.md) chọn tọa độ Odysseus từ NASA LRO và Athena từ NASA PDS, cao độ mô hình 0 km, Horizons Sun/Earth center, 14/11–14/12/2026 UTC, lưới 15 phút, cửa sổ 72 giờ và tiêu chí bài tập 3/6/12 giờ. Đây là lựa chọn cụ thể để nhóm duyệt, thay các trường chưa chọn trong phiếu đọc bên dưới; chưa tạo request chạy, dataset hoặc kết quả khoa học. Terrain/PGDA không nằm trên đường giao bản thi này. Nguồn mới: [PDS Athena 1.0](https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn%3Anasa%3Apds%3Acontext%3Ainstrument_host%3Aspacecraft.clps_to_prime1_athena&version=1.0), đã đọc 12/11.
+
 Cập nhật 12/11/2026, giờ Hà Nội. **Đã kiểm luật 2026 và chọn nguồn/phần tái sử dụng ở mục 3. Chưa tạo dataset hay mã bài nộp.** Đây là đề xuất kỹ thuật theo yêu cầu của Sơn; chưa thay quyết định stack/phạm vi của nhóm.
 
 Căn cứ: `NASAChallenge202611.pptx` ở chat “Review NASA project and install frontend…”, nhất là slide 9–11, 25–26; cùng mục 5–8 của `BOI_CANH_AI.md` bản 10/11. Đã đối chiếu file gốc và đọc lại ảnh năm slide liên quan. Slide khuyên dùng ephemerides, DEM, địa điểm có nguồn và kết quả tái lập; chữ “bắt buộc” trong slide chưa được xác nhận là luật thi. [Thông báo Space Apps 2026](https://www.spaceappschallenge.org/blog/explore-the-next-frontier-at-the-2026-nasa-space-apps-challenge/) xác nhận dùng dữ liệu mở NASA/đối tác. Trang đề gốc và trang Hà Nội vẫn lỗi trong lần kiểm tra này; giữ giới hạn chuẩn bị của RUNBOOK.

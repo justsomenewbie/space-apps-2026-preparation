@@ -1,5 +1,7 @@
 # Frontend — phiếu chốt để bắt đầu đúng giờ
 
+**Phương án cụ thể ngày 12/11:** [Moon Plan B](KE_HOACH_NHOM.md), mục 2/5/6/9, chọn React + TypeScript + Vite, dữ liệu JSON tính theo lô, hai điểm tham chiếu, cửa sổ 72 giờ, tiêu chí chọn 3/6/12 giờ và bảng/biểu đồ có fallback khi 3D lỗi. Python xử lý dữ liệu trước khi phát hành; không gọi JPL trực tiếp từ trình duyệt và không cần API thường trực cho tập lựa chọn này. Bản kế hoạch điền lựa chọn đề xuất thay các ô để ngỏ bên dưới; không coi là nhóm đã phê duyệt hoặc đã có schema/code/kiểm app.
+
 Cập nhật 11/11/2026. Đây là tài liệu chuẩn bị và các ô cần nhóm xác nhận, không phải thiết kế/UI/code cho bài nộp. Không tự chuyển ô trống thành quyết định đã thống nhất. Sheet lần đọc gần nhất ghi Sơn + Thảo frontend, Chung integration/backend; việc nhận đầu ra cụ thể của các thành viên khác vẫn cần xác nhận. Người dùng làm rõ trong chat ngày 11/11 rằng Sơn phụ trách chuẩn bị/chọn frontend; không chờ Chung chọn framework thay Sơn. Hợp đồng dữ liệu và cách ghép vẫn cần phối hợp với người tích hợp.
 
 ### Kiến trúc đề xuất — 12/11

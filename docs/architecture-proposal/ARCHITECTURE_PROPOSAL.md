@@ -1,5 +1,7 @@
 # Kiến trúc web app — bản đề xuất để nhóm trao đổi
 
+**Bản cụ thể mới hơn ngày 12/11:** [Moon Plan B](../../KE_HOACH_NHOM.md) mục 2–6 ấn định hướng đề xuất: hai điểm, lịch gốc/hoãn/ngày tiếp theo, Python theo lô → JSON có phiên bản → React/Vite trên hosting tĩnh. Nhánh API nét đứt trong sơ đồ dưới không thuộc bản giao này. Mô hình/thuật toán đã được mô tả trong kế hoạch để nhóm duyệt; chưa được triển khai/kiểm định. Nội dung dưới giữ vai trò sơ đồ nền và lịch sử thảo luận.
+
 Ngày 12/11/2026, giờ Hà Nội. **Đề xuất chuẩn bị, chưa được cả nhóm chốt và chưa triển khai.**
 
 **Phạm vi trả lời mentor:** đã có đề xuất nền tảng, sơ đồ thành phần, tương tác và luồng dữ liệu. Mục 4 dẫn bản giải thích lý thuyết, ví dụ giả định và kế hoạch kiểm chứng có nguồn. Đây là đề xuất để trao đổi; mô hình toán, thuật toán và kết quả kiểm định chưa có.
