@@ -1,46 +1,38 @@
 # Current handoff
 
 Updated: 12 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none. Preparation release reviewed; ownership released.
+Active editor: none. Visual-tool preparation reviewed; ownership released.
 
 ## Read first
 
-README → COMPETITION_RUNBOOK → FRONTEND_HANDOFF → DATA_PREPARATION. PREPARATION §11 and PREPARATION_COVERAGE preserve dated evidence; the 15-history/77-turn audit is historical. Mac sibling evidence and installed tools do not transfer through Git.
+README → COMPETITION_RUNBOOK → FRONTEND_HANDOFF → DATA_PREPARATION. PREPARATION §11 and PREPARATION_COVERAGE preserve dated evidence. Mac tools and sibling evidence do not transfer through Git.
 
-Six registered members; Lunar Landing Site Navigator confirmed. Product unchosen (user, Nov12); implementation repo/branch, data contract and accepted individual outputs remain open. Moon Plan B/Lunar Workday are unadopted proposals, not validated science. No Lunar submission code/UI/assets/processed dataset exists here.
+Six registered members; Lunar Landing Site Navigator confirmed. Product unchosen (user, Nov12); implementation repo/branch, data contract and accepted individual outputs remain open. Moon Plan B/Lunar Workday are unadopted proposals. No Lunar submission code/UI/assets/processed dataset exists here.
 
-## Frontend preparation
+## Frontend and tools
 
 Sơn chooses frontend: prepared React + TypeScript + Vite/npm/CSS. Coordinate contracts/integration with Chung; prefer `frontend/` in the shared repo. URL/branch unknown; no separate frontend repo created.
 
-FRONTEND_HANDOFF §6 records Mac stock-practice checks and the scoped minimatch 11.0.7 repair. Generic manifests/checker: `practice-stack-lock/`, without app source. The tested cross-major exception needs removal/recheck after upstream adoption. Mac evidence: sibling `readiness-gaps-2026-11-11/` and `dev-tool-fix-2026-11-11/`.
+FRONTEND_HANDOFF §6 records stock-practice checks and scoped minimatch 11.0.7 repair. Generic manifests/checker: `practice-stack-lock/`, without app source. Recheck the cross-major exception after upstream adoption.
 
-## Cloud verification — latest
+PLUGIN_ROUTING records 30-pack routing, browser/3D endurance evidence and the new seven-tool setup. HyperFrames/Remotion/FFmpeg reused; three.js/GSAP/ManimGL/Blender MCP installed with scoped runtimes and automatic Mac selection. Local renders/browser checks passed; optional Manim LaTeX packages remain blocked by mirror verification/access. Read `~/.codex/workflows/visual-tools/LOCAL_USE.md` for exact paths/tests. New MCP discovery may require a fresh session. No tools were installed on cloud.
 
-Tested checkpoint: `8d2f61e`, chat **Verify Space Apps cloud readiness**, `/workspace/space-apps-2026-preparation`, branch `work`. All 21 blobs matched Git; clean checkout and scratch hashes preserved. Latest reported documentation sync is below.
+## Cloud verification
 
-At that tested checkpoint, tally, clean stock install, tooling check, lint/build, both audits (zero findings) and six production-browser groups passed. FRONTEND_HANDOFF §6 preserves Linux runtime, source hashes, Python Playwright fallback, original sandbox failures and supported escalation. Owned preview stopped. No Lunar/backend/science, teammate, deploy/offline or assistive-speech claim.
+Application-tested checkpoint: `8d2f61e`, branch `work`. Tally, stock install, tooling, lint/build, zero-finding audits and six browser groups passed then. FRONTEND_HANDOFF §6 preserves runtime/source hashes and actual limits. No Lunar/backend/science/teammate/deployment claim.
 
-Cloud evidence: `/workspace/scratch/stack-verification-cgt9f487/`; Mac review: sibling `cloud-frontend-check-2026-11-11/`. Scratch evidence is not a durable backup. This documentation note follows the tested checkpoint; code/lock are unchanged.
+Latest cloud report read at this task's start: `ec26986d5a52c4399cd132f7e2b6bb0365937547`, all 23 blobs clean; scratch preserved. That is also this edit's verified Git base. Final delivery commit and transport verification belong in the Drive manifest and external receipts below.
 
 ## Event and people
 
-Full implementation allowed **00:00 Nov 14 Hanoi**; preparation-only restrictions end then (user-confirmed Cẩm Chi reply). Timeline: portal 09:00 Nov 14; local deadline **11:00 Nov 15**, global 23:59; **35 hours** locally. Sources/logistics: runbook.
+Full implementation allowed **00:00 Nov 14 Hanoi**; preparation-only restriction ends then (user-confirmed Cẩm Chi reply). Local deadline **11:00 Nov 15**, global 23:59. Sources/logistics: runbook.
 
-Latest Sheet read: Chung integration/backend; Sơn + Thảo frontend; Trang sources; Minh + Trang QA versus G7 Minh + Thảo; Lâm + Thảo content. Other members' acceptance, QA, backups/submitter and human rehearsal remain open.
+Latest Sheet read: Chung integration/backend; Sơn + Thảo frontend; Trang sources; Minh + Trang QA versus G7 Minh + Thảo; Lâm + Thảo content. Accepted outputs, backups/submitter and human rehearsal remain open.
 
-## Git and next action
+## Delivery and next action
 
-Mac routing: 30 packs/469 paths. Both browsers passed 10-minute PBR/texture runs. Separate correctness/memory-lifecycle checks passed; motion polling fixed. Chromium had a 1.112 s hitch under host pressure. Evidence: sibling `3d-endurance-2026-11-12/README.md`. Physical-phone/24-hour/server tests remain open.
+This task changes four Markdown notes; human-plan source KE_HOACH_NHOM is unchanged. Standing sync covers GitHub, existing cloud and Drive ZIP/manifest/AI context, retaining hash-verified Word/PDF. At authoring the new delivery is in progress; exact encompassing commit is in the [Drive manifest](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view). Final receipts: `~/.codex/workflows/visual-tools/evidence/sync-drive/` and `evidence/root/`; no background watcher. `.DS_Store` remains excluded.
 
-[HOSTING_PLAN.md](HOSTING_PLAN.md): Cloudflare/R2; optional Railway Python. Estimate $5–10 or $25–35/month before tax/domain, workload-dependent. Sources/limits checked Nov12; sibling `hosting-research-2026-11-12/`. No purchase/deployment; team adoption pending.
-
-Prior timing sync: sibling `timing-sync-2026-11-11/`.
-
-Review: BOI §5; Moon Trek/QuickMap UI observed, calculations untested.
-
-Default: follow AGENTS standing sync after preparation edits; verify GitHub/cloud/Drive/Word/PDF without reminders. Resume pending destinations; no background watcher.
-
-Release **PREP-2026-11-12**: content checkpoint `b596ed1` verified on GitHub and cloud `work`; all 23 cloud blobs/SHA-256 values matched, scratch unchanged. Drive's four existing files plus source ZIP/manifest downloaded byte-identically; original permissions/parents preserved. Word/PDF: six pages visually reviewed, source text and 22 hyperlinks matched. Status note follows; the [Drive manifest](https://drive.google.com/file/d/1cfy-cKRFtT5KeONptrX3-brU-iKroF_m/view) identifies the exact encompassing delivery commit. Only `.DS_Store` is excluded locally; Mac tool installations remain host-specific. Evidence: sibling `preparation-sync-2026-11-12/`.
+HOSTING_PLAN remains a recommendation, not a deployment. BOI §5 records observed Moon Trek/QuickMap controls, not validated calculations.
 
 Next: agree one demo outcome and obtain the implementation repo/branch (2 minutes).

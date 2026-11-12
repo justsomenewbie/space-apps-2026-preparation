@@ -2,6 +2,8 @@
 
 Cập nhật ngày **12/11/2026**, bộ chuẩn bị **PREP-2026-11-12**, giờ Hà Nội (UTC+07:00). Đây là bản để một thành viên đưa cho AI của mình; không cần đọc chat riêng của Sơn. **Trước 00:00 ngày 14/11 chỉ chuẩn bị: đã chọn nguồn và phần có thể tận dụng ở mục 5.1–6; chưa tạo mã, UI, tài sản hay dataset bài nộp.** Các lựa chọn là đề xuất theo yêu cầu của Sơn, chưa thay quyết định phạm vi/công nghệ của cả nhóm. Mốc bắt đầu và hạn nộp đã được đính chính ngày 11/11; xem mục 2 và nguồn R31–R32.
 
+**Công cụ hình ảnh/video trên Mac, cập nhật 12/11:** Sơn yêu cầu tự chọn theo công việc: HyperFrames, Remotion, three.js, GSAP, ManimGL, Blender MCP và FFmpeg. Đã cài hoặc dùng lại bản có sẵn, thêm routing toàn cục và kiểm bài mẫu không liên quan đề thi; xem [PLUGIN_ROUTING](https://github.com/justsomenewbie/space-apps-2026-preparation/blob/main/PLUGIN_ROUTING.md) để biết phiên bản và giới hạn. Riêng LaTeX trong Manim còn thiếu gói do lỗi mirror; chưa được coi là chạy được. Việc này không chốt stack dự thi, không cài tool lên cloud/máy thành viên và không cho phép làm sản phẩm trước mốc đã thống nhất.
+
 ## 1 Đọc trạng thái trước khi nhận việc
 
 **Đã xác nhận qua người dùng:** nhóm gồm Chung, Trang, Lâm, Minh, Sơn, Thảo; đã đăng ký và thống nhất đề tài Lunar Landing Site Navigator. Chưa có sản phẩm dự thi. Sơn đã tìm nguồn và chuẩn bị tài liệu riêng; không được tính đó là công việc cả nhóm đã làm. Ngày 10/11, Sơn đã gửi tài liệu và tin giới thiệu workspace vào nhóm Zalo; chưa xác nhận mọi người đã đọc.

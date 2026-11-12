@@ -14,6 +14,18 @@ Use CodeGraph first when the implementation repository has an index; this prepar
 
 Current audit: Context Mode MCP index/search succeeded on this file. `ctx_doctor` still reports D3 host-config/hook mismatch and D4 legacy-entry warning; this is not a clean full-integration pass. The documented installation deliberately omits automatic approval and capture hooks. No setup/upgrade or permission change was applied. Selected local GSD/gstack/relay files were checked against their recorded hashes; this does not rerun browsers/models or prove account quota. Evidence: sibling `nasa-preparation-deliverables/continuity-readiness-2026-11-12/`. Follow AGENTS continuity checks instead of promising perfect recall.
 
+## Seven visual tools — 12 November 2026
+
+The user requested the seven screenshot tools and selection without a named invocation. On the Mac, read `/Users/nns/.codex/skills/visual-tools/SKILL.md`, then `/Users/nns/.codex/workflows/visual-tools/LOCAL_USE.md` and only the selected runtime/skill. Global AGENTS now routes ordinary animation/video/3D/media requests. Prefer the existing project stack or CSS for simple effects; installation does not choose the NASA stack.
+
+Reuse HyperFrames 0.9.17, Remotion 4.0.542 and FFmpeg 8.1.1. Added scoped three.js 0.187.0, GSAP 3.15.1, ManimGL 1.7.2 (`3b1b/manim`), Blender 4.5.16 LTS and MCP for Blender 2.2.7. Blender is registered as a stdio MCP using an isolated on-demand profile, localhost only, restricted Python mode and telemetry off. New MCP exposure may require a fresh session/app restart; configuration discovery is not the same as a tool being available in an already-running chat.
+
+Fresh unrelated checks: both video engines rendered 1080p H.264 with checked scene timing; FFmpeg encoded/decoded video and audio; three.js/GSAP rendered WebGL motion, respected reduced motion and passed ScrollTrigger checks. Manim rendered Text/shapes at 854×480/30 fps. Blender's synthetic scene/create/render/save and MCP checks have their own receipt. Root independently repeated browser and video/pixel checks; evidence and exact verification limits are in the Mac guide. No submission code/assets/dataset was made.
+
+**Pending optional feature:** Manim LaTeX equations. A scoped TinyTeX archive passed its checksum, but required packages remain absent after three metadata/access failures; no verification bypass. Use Text/shapes or report the dependency gap when equations matter. Complex production scenes, cloud rendering, other machines and paid providers are not verified.
+
+The routing skill and five adapted official GSAP skills passed metadata validation and SkillGuard with zero active findings; this is not a security certificate. Review corrected upstream examples and provenance before upgrades. Independent ordinary-language routing cases passed through the saved paths; perfect future model selection and restarted-app MCP exposure were not tested. Upstream: [HyperFrames](https://github.com/heygen-com/hyperframes), [Remotion](https://github.com/remotion-dev/remotion), [three.js](https://github.com/mrdoob/three.js), [GSAP](https://github.com/greensock/GSAP), [ManimGL](https://github.com/3b1b/manim), [Blender MCP](https://github.com/ahujasid/mcp-for-blender), [FFmpeg](https://github.com/FFmpeg/FFmpeg). Runtime evidence is local under `~/.codex/workflows/visual-tools/evidence/`, not in Git/Drive. Mac tools do not automatically install in cloud or other apps.
+
 ## Tasks and routes
 
 ### Job-based selection from the 30-plugin guide — 11 November

@@ -2,6 +2,14 @@
 
 Cập nhật 12/11/2026. Đây là bản đối chiếu tài liệu chuẩn bị, không chứng nhận nhóm đã làm sản phẩm, đồng ý mọi đề xuất hoặc đã mở file trên máy thật.
 
+## Checkpoint cài công cụ hình ảnh/video — 12/11/2026
+
+Chat **Auto-use project tools**, `01a1ce61-d690-7233-b703-0291e3019dd8`, local: yêu cầu cài bảy công cụ từ ảnh và tự chọn khi phù hợp. Đã đọc hai lượt mới nhất của **Clarify project tool readiness** đến `01a1cc74-aadb-7e30-8178-bcaf093853c9`, hai lượt của **Review attached file** đến checkpoint đã có `01a1cc22-3fa3-7c23-9a46-d7b752a03321`, và một lượt cloud `01a1cc80-41ef-75f2-9358-94a178ae69e0`. Đọc user/final messages và đối chiếu repo; các trang cũ hơn không được rà lại. Inventory một trang gần đây không phải audit toàn bộ lịch sử.
+
+Base local/Git được kiểm: `ec26986d5a52c4399cd132f7e2b6bb0365937547`; báo cáo cloud cùng commit đã đọc, 23 file. Thay đổi lượt này: PLUGIN_ROUTING, BOI_CANH_AI, HANDOFF và checkpoint này. KE_HOACH_NHOM không đổi nên giữ Word/PDF và kiểm hash, không render lại. Lúc viết checkpoint, đồng bộ bản mới đang được thực hiện theo standing authorization; bản kê Drive ghi commit giao cuối. Bằng chứng vận chuyển cuối được giữ ngoài nguồn phát hành tại `~/.codex/workflows/visual-tools/evidence/sync-drive/` và `evidence/root/`, tránh vòng lặp commit ghi trạng thái.
+
+Cài đặt Mac, cấu hình MCP và video/ảnh mẫu ở `~/.codex/workflows/visual-tools/` không nằm trong ZIP và không tự sang cloud. Core renders đã được kiểm theo PLUGIN_ROUTING; LaTeX tùy chọn còn pending. Lần sau chỉ cần đọc phần hoàn tất của chat này và các lượt mới có ảnh hưởng; không suy ra đã có capture/đồng bộ nền.
+
 ## Bộ chuẩn bị đã đối chiếu ngày 12 tháng 11
 
 Người dùng yêu cầu đồng bộ toàn bộ ghi chú/chỉ dẫn mới nhất lên GitHub, cloud hiện có và Drive/Word/PDF. Bộ **PREP-2026-11-12** bổ sung frontend/mobile/3D/audio, hosting, routing, tiếp nối chat và trạng thái hướng sản phẩm; giữ nguyên các lựa chọn chưa được nhóm chốt. Word/PDF là bản đọc của KE_HOACH_NHOM.md, ZIP mang đủ 23 file nguồn repo. Không xuất .DS_Store, chat riêng hoặc bằng chứng sibling thô.
