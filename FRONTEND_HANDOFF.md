@@ -71,12 +71,14 @@ Frontend xác nhận hiểu bằng cách giải thích lại một ví dụ đ�
 ## 3. Điều kiện nhận một phần frontend sau thời điểm được phép
 
 1. Một luồng nhỏ chạy từ đầu vào đến kết quả thật theo hợp đồng; có loading/empty/error/retry, xử lý hủy/thay request và không hiển thị kết quả cũ sai ngữ cảnh.
-2. Label/bàn phím/focus dùng được; thông báo trạng thái rõ; kiểm tiếng Việt, chuỗi dài, giá trị biên, màn hình 320 CSS px và tăng chữ 200%. Không suy từ kiểm tự động ra chứng nhận accessibility.
+2. Label/bàn phím/focus dùng được; thông báo trạng thái rõ; kiểm tiếng Anh, chuỗi dài, giá trị biên, màn hình 320 CSS px và tăng chữ 200%. Chỉ kiểm thêm tiếng Việt nếu có nội dung song ngữ được chọn. Không suy từ kiểm tự động ra chứng nhận accessibility.
 3. Chạy lệnh check/build của repo và mở bản preview của chính build đó; kiểm URL trực tiếp/reload/tài nguyên/base path theo host thực tế. Không coi dev server chạy được là production build đã đạt.
 4. Reviewer đọc diff đầy đủ, kiểm tích hợp với backend, ghi kết quả/giới hạn/AI contributions; mỗi checkout một người ghi. Chỉ merge/publish trong phạm vi đã được giao và được phép.
 5. Bàn giao gồm commit hoặc diff rõ ràng, file được phép thay, hợp đồng/version, lệnh chạy, kết quả kiểm và một việc tiếp theo. Không ghi “done” nếu chỉ có ảnh/mock hoặc report của worker.
 
 ### QA website và SEO — ghi nhận 11/11, thực hiện trên sản phẩm thật sau giờ được phép
+
+**Ngôn ngữ bài thi — xác nhận 12/11:** theo [hướng dẫn SEPA](https://sepa.org.vn/en/nasa-space-apps-hanoi-2026-submission-guide.htm) và yêu cầu Sơn, làm UI, nhãn biểu đồ/đơn vị, loading/error/empty states, mô tả accessibility, nguồn/giới hạn và trang in bằng **tiếng Anh từ bản đầu**. README, hướng dẫn chạy/tái hiện và tài liệu team viết trong GitHub được dẫn khi nộp cũng bằng tiếng Anh; giữ nguyên license/nguồn gốc bên thứ ba. Không để đến cuối mới dịch hoặc mặc định người chấm hiểu ghi chú tiếng Việt. Tài liệu phối hợp này giữ tiếng Việt. Mốc bắt đầu vẫn 00:00 ngày 14/11; chưa tạo UI/code dự thi trong cập nhật này.
 
 Ưu tiên do Codex đề xuất từ checklist 20 mục người dùng gửi; **không phải tiêu chí chấm thi đã được BTC xác nhận**. Chỉ ghi kế hoạch ở giai đoạn này:
 

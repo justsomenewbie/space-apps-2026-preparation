@@ -1,6 +1,35 @@
 # NASA Lunar competition runbook
 
-Updated 11 November 2026 (live-source reconciliation), Hanoi time. Team coordination and source-reading plan, not a competition solution. Read `AGENTS.md` and `HANDOFF.md` first. `PREPARATION.md` section 11 preserves dated evidence; the latest verified changes below supersede older snapshots in this runbook.
+Updated 12 November 2026 (submission-guide reconciliation), Hanoi time. Team coordination and source-reading plan, not a competition solution. Read `AGENTS.md` and `HANDOFF.md` first. `PREPARATION.md` section 11 preserves dated evidence; the latest verified changes below supersede older snapshots in this runbook.
+
+## Current submission guide — 12 November
+
+The [SEPA Hanoi submission guide](https://sepa.org.vn/en/nasa-space-apps-hanoi-2026-submission-guide.htm), published November 12, was read in full through Exa; direct HTTP retrieval also succeeded. Its linked NASA guide returned a crawler SSL error, so the facts below are attributed to the local organizer guide, not a fresh authenticated-portal inspection. It resolves the older unknown fields, demo limits, language and judging duration.
+
+**Start remains 00:00 November 14 Hanoi.** After reviewing this page, the user explicitly reaffirmed the organizer-confirmed midnight permission. SEPA describes the scheduled hackathon opening at 09:00 after the ceremony; do not replace the recorded midnight permission with that wording. Portal opening remains 09:00. Local submission is **11:00 November 15**; global submission **23:59** is separate. Freeze 09:00 and final local resubmission target 10:30 are team recommendations.
+
+**English from the first product version:** the guide requires English in the form and all linked materials. The user requires this to be remembered at implementation start, including the submitted GitHub repository. Team-authored UI, chart labels, accessibility/error text, demo/slides, printable reports, README, setup/reproduction, methods/limitations, source credits and AI disclosure must therefore be in English. Preserve original third-party data/license text; explain it in English. Vietnamese internal coordination and this preparation repo may remain Vietnamese and are not the product submission documentation. Vietnamese video narration is permitted with English subtitles. Live judging may be in Vietnamese or English.
+
+| NASA form field | Required content from the guide |
+|---|---|
+| Project Name | Short project name |
+| High-Level Summary | What was built, the challenge problem and why it matters |
+| Project Demo | Link to up to seven slides including title, or video up to 30 seconds |
+| Final Project | Separate link to the actual app/repository/design or other product |
+| Project Details | How it works, technology, benefits and objectives |
+| Use of AI | Tools and actual purposes; do not write No AI used for this team's AI-assisted work |
+| NASA Data / Partner Data | Name and link of at least one NASA/Space Agency Partner dataset actually used |
+| References | All external libraries, images, music, articles and AI tools |
+
+**Submission procedure:** the Team Owner logs in, opens team → Project → Edit, fills the fields, confirms reading the guide and agreeing to the challenge terms, and confirms original team work with external resources credited, then clicks Submit. Check the team page actually says submitted. Verify all six members appear under Members and are registered for Hanoi, and that one of the 14 official challenges is selected; do not repeat registration or add members without a real mismatch. New members cannot be added after submissions close. Lâm submitter/Sơn backup remains a proposed work assignment, not proof either is Team Owner or has permission; do not share credentials.
+
+**Submit early on the morning of November 15**, even if the first truthful version is incomplete; avoid unsupported completion claims. Edit and click Submit again after every change before 11:00. Early submission replaces the old advice to wait for a complete final version. Check every linked Drive/YouTube/GitHub/app resource anonymously/incognito; the guide requires anyone-with-link access. Preserve the release commit, dataset version and submission receipt. Keep the 10:30 final local target; the guide allows global improvements until 23:59 but does not establish how post-11:00 edits affect local judging, so retain the locally submitted snapshot.
+
+**Demo and live presentation are different deliverables.** Team recommendation: seven English slides covering title/team/challenge, problem, solution, NASA data/processing, real demo/results, impact/next steps, team/references; a 30-second video is the alternative and may be hosted Unlisted on YouTube or accessible Drive. A longer rehearsal or backup recording does not qualify as the submitted video. Judges allow **15 minutes total**, recommend a **5–7-minute presentation**, and ask teams to arrive **10 minutes early**. Individual slots will be sent separately; judging is scheduled 11:00–15:00 and awards 16:30. Actual team slot remains unconfirmed.
+
+Five criteria, each 1–10: **Impact, Creativity, Validity, Relevance, Presentation**. Prepare evidence for usefulness, original contribution, scientific feasibility, direct challenge/NASA-data relevance and clear explanation; do not invent scores. Core work must be developed during the two hackathon days, outside resources/AI credited, and copyright/privacy respected. No birth dates, home addresses, phone numbers or identifying under-18 photos without parental consent. The local photo-consent clause does not resolve the stricter global condition on recognizable under-18 names/voices/likenesses recorded in PREPARATION; verify it before including such media. The local guide says submitted projects are open source and Apache 2.0 applies by default if none is selected; verify actual portal terms and third-party compatibility before choosing a product license. This update does not relicense existing preparation or third-party files.
+
+SEPA also states timely submitters receive electronic participation certificates, local awards occur November 15, and selected teams become Global Nominees. This is published eligibility information, not proof of submission, an award or nomination. Team acceptance, mentor/guardian details and actual portal access remain separate checks.
 
 ## Current source update — 11 November
 
@@ -34,7 +63,7 @@ The live [task board](https://docs.google.com/spreadsheets/d/1zqhG7NVRH-TdO6fr6e
 
 **Latest recorded ownership:** the Sheet records Chung for integration/backend and Sơn + Thảo for frontend; other members' acceptance of concrete outputs and backups remain unverified. The user clarified November 11 that Sơn owns frontend preparation/framework choice, so Chung's framework approval is not a prerequisite. Shared interfaces, units and integration changes still need coordination. FRONTEND_HANDOFF records the prepared frontend default and actual unrelated-practice checks.
 
-**Not yet settled:** final product scope, canonical implementation repo/branch and shared data contract; individual availability and accepted outputs; actual teammate access and human rehearsal; team-specific logistics/code and overnight arrangements; final submission fields, pitch timing, guardian arrangements and allowed mentor contributions. Requested organizer support is not proof it has been allocated. The general venue/check-in announcement is recorded above; it does not settle team-specific logistics.
+**Not yet settled:** final product scope, canonical implementation repo/branch and shared data contract; individual availability and accepted outputs; actual teammate access and human rehearsal; room/overnight arrangements; actual judging slot, guardian arrangements and allowed mentor contributions. The team code is received. Fields, language, demo limits and judging duration are now specified in the November 12 guide above; portal access has not been tested. Requested organizer support is not proof it has been allocated.
 
 | Source | Evidence and next use |
 |---|---|
@@ -72,10 +101,10 @@ All times are Hanoi (UTC+07:00). **Full implementation may start 00:00 Nov 14; l
 | Period | Outcome and guardrail |
 |---|---|
 | Nov 9–12 | Agree owners/availability, review source concepts, and have a teammate open the already-shared pack and run the existing unrelated rehearsal. Nov 10 file permissions are recorded in section 7; actual device access is unverified. Track the Nov 10 notice. No competition code, final visuals or processed submission datasets. |
-| Nov 13 | Read released challenge resources and submission/judging guides; check for changes to the recorded 00:00 start/11:00 local cutoff, mode, team code and pitch requirements. Update the checklist, scope ceiling and fallback. Check runtime, free disk and current AI allowance. |
+| Nov 13 | Recheck new challenge resources and NASA/local guide revisions against the November 12 checklist above. Retain the user-confirmed 00:00 start and 11:00 local cutoff; verify Team Owner and any released judging slot. Check runtime, free disk and current AI allowance. |
 | From Nov 14 00:00, at the team’s agreed working hours | Agree one outcome, source/data assumptions and interfaces. Start one complete path from input to visible result. If it is not runnable by early afternoon, remove scope instead of adding parallel features. |
 | Nov 14 afternoon/evening | Integrate comparison only after the first path works. Review scientific samples, units, failure cases and the full combined application. Prepare the explanation and submission material alongside the work. Finish with a runnable baseline and planned rest. |
-| Nov 15 morning | Freeze features by 09:00 or earlier. Complete final checks, source/privacy/access review, exact submission fields and release recovery. Target local submission by 10:30, retaining a buffer before the timeline’s 11:00 deadline. |
+| Nov 15 morning | Submit an early truthful version, freeze features by 09:00 or earlier, then complete English/source/privacy/access checks. Click Submit after each edit. Target the final local resubmission by 10:30, with a buffer before 11:00. |
 | Nov 15 afternoon | Only confirmed judging/presentation and separate global-submission requirements before 23:59. Do not assume edits after the local cutoff will be eligible for local judging. |
 
 The corrected 00:00 Saturday start to 11:00 Sunday local deadline spans **35 hours**. Portal opening at 09:00 does not delay implementation. No nonstop overnight work or continuous assistant availability is assumed.

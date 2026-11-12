@@ -32,6 +32,8 @@ Email BTC đọc ngày 12/11 đã xác nhận đúng đội sáu người/Lunar,
 
 **Bước tiếp dưới hai phút:** đọc dòng nhiệm vụ tại mục 7 của kế hoạch và phản hồi nhận việc hoặc một điều chỉnh cụ thể.
 
+**Hướng dẫn nộp đã đọc ngày 12/11:** [SEPA](https://sepa.org.vn/en/nasa-space-apps-hanoi-2026-submission-guide.htm); checklist ở [runbook](COMPETITION_RUNBOOK.md) và kế hoạch mục 10. Sơn xác nhận tiếp tục bắt đầu **00:00 ngày 14/11**. Từ bản đầu, sản phẩm dự thi, trang nộp, slide/demo, báo cáo xuất và tài liệu GitHub được dẫn trong hồ sơ phải bằng **tiếng Anh**. README/cách chạy/nguồn/giới hạn/AI của repo sản phẩm cũng thuộc phạm vi đó. Repo này là kho chuẩn bị, tài liệu điều phối tiếng Việt được giữ; không coi đây là repo bài nộp. Demo tối đa 7 slide gồm bìa hoặc video 30 giây; Team Owner nộp sớm sáng 15 và bấm Submit lại sau mỗi lần sửa, hoàn tất trước 11:00.
+
 
 ## Bộ chuẩn bị ngày 12 tháng 11
 

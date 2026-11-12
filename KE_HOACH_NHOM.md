@@ -8,6 +8,8 @@ Bản này ấn định hướng sản phẩm, quy trình chọn dữ liệu, c�
 
 **Bắt đầu triển khai từ 00:00 ngày 14/11/2026. Nộp Hà Nội trước 11:00 ngày 15/11; mục tiêu của nhóm là 10:30.** Giờ làm việc dưới đây dùng giờ Hà Nội. Thời gian bên trong sản phẩm dùng UTC và luôn có nhãn. Trước giờ bắt đầu chỉ đọc nguồn, học lý thuyết và chuẩn bị công cụ.
 
+**Bổ sung hướng dẫn nộp ngày 12/11:** [SEPA](https://sepa.org.vn/en/nasa-space-apps-hanoi-2026-submission-guide.htm) đã công bố định dạng, ngôn ngữ và cách chấm; chi tiết ở mục 10. Sơn tái xác nhận mốc 00:00 sau khi đọc bài này. Sản phẩm, hồ sơ và tài liệu team viết được dẫn khi nộp phải bằng **tiếng Anh ngay từ bản đầu**; kế hoạch điều phối này giữ tiếng Việt. Sáng 15 nộp bản đầu sớm, sau đó sửa và bấm Submit lại; 10:30 là mục tiêu hoàn tất bản nộp địa phương.
+
 ## 1 Sản phẩm và lý do chọn hướng này
 
 Người dùng chính là sinh viên, người học STEM và người xem lần đầu tìm hiểu kế hoạch hoạt động trên Mặt Trăng. Mục tiêu là trong một phiên khoảng hai phút, họ chọn điểm tham chiếu, thử lùi ngày, đọc được phần thay đổi và giải thích vì sao một phương án đạt hoặc không đạt tiêu chí bài tập. Giáo viên có thể dùng cùng một tình huống để thảo luận. Chuyên gia có thể xem nguồn và giả định; phiên bản thi không phục vụ điều hành nhiệm vụ thật.
@@ -42,6 +44,8 @@ H là yêu cầu bài tập do người dùng chọn, không phải tiêu chuẩ
 **Dùng dữ liệu BTC cung cấp trong luồng xử lý chính.** Nguồn ngoài chỉ bổ sung đại lượng, metadata hoặc phép đối chiếu còn thiếu sau khi đã kiểm bộ chính. Mỗi kết quả phải truy được tệp/trường BTC đã tham gia tạo kết quả hoặc xác định đầu vào; chỉ đưa tên BTC vào phần credit không đủ. Hiện chưa có nội dung bộ dữ liệu thực nhận để xác nhận địa điểm, ngày, định dạng hay khả năng hỗ trợ phép so sánh.
 
 Đây là yêu cầu lập kế hoạch Sơn xác nhận ngày 12/11. [Thể lệ Hà Nội](https://drive.google.com/file/d/1t_VmkD3v4rESUOwzjytbguesqA4OoIBe/view), IV.4, yêu cầu ít nhất một nguồn dữ liệu mở hoặc tài nguyên khoa học của NASA/đối tác; Phụ lục 2 quy định điều kiện tài nguyên ngoài. Không diễn giải điều khoản này thành bằng chứng đã có một bộ BTC cụ thể. Nguồn bổ sung phải đáp ứng quyền dùng, phân phối và trích dẫn.
+
+Hướng dẫn nộp SEPA ngày 12/11 yêu cầu tên và link ít nhất một dataset NASA hoặc Space Agency Partner ở trường NASA Data / Partner Data. Trang/Chung truy rõ nguồn NASA/đối tác trong bộ BTC hoặc phần bổ sung thực dùng; chỉ ghi “dữ liệu BTC” chưa đủ để hoàn thành trường này. Không thêm tên nguồn chưa tham gia sản phẩm.
 
 **Trang và Chung hoàn thành phiếu dữ liệu trước 09:30 ngày 14**, nếu BTC đã phát hành bộ đầu vào. Phiếu ghi nơi nhận/phiên bản/hash, cấu trúc, ý nghĩa đại lượng, đơn vị, hệ tọa độ và mốc cao độ, thang thời gian, phạm vi địa điểm/ngày, độ phân giải, giá trị thiếu và quyền dùng. Ghi rõ dữ liệu nào là quan trắc, dữ liệu mô hình hoặc sản phẩm tổng hợp; không suy loại này thành loại khác. Nếu bộ dữ liệu chưa được cấp, ghi trạng thái đó và áp dụng cổng cắt phạm vi ở mục 9.
 
@@ -102,9 +106,13 @@ Chung giữ nguồn dữ liệu thô, script xử lý và kết quả kiểm tro
 
 Repo sản phẩm dự kiến đặt tên moon-plan-b, một repo chung, Chung giữ tích hợp; Sơn làm frontend và giữ bản build dự phòng. Tạo repo và cấu hình hosting trong giờ thi theo quyền tài khoản của nhóm. Việc đưa kế hoạch chuẩn bị lên GitHub hiện có không tự triển khai sản phẩm hoặc mở dịch vụ trả phí. Nếu chưa có quyền hosting phù hợp, giữ bản build chạy local và video dự phòng; Lâm ghi rõ giới hạn truy cập trong hồ sơ, không gắn link hỏng.
 
+**GitHub dùng trong hồ sơ thi cũng cần tiếng Anh:** README chính, hướng dẫn chạy/build/test và tái hiện dữ liệu, phương pháp, giới hạn, nguồn/license và đóng góp AI do team viết đều dùng tiếng Anh. Giữ nguyên dữ liệu, license và attribution gốc bên thứ ba; thêm giải thích tiếng Anh khi cần. Repo chuẩn bị hiện tại và tin nhắn điều phối tiếng Việt không thay thế tài liệu sản phẩm. Khi được dẫn trong bài nộp, repo phải đọc được không cần đăng nhập; quyền đọc không đồng nghĩa quyền push.
+
 Tối đa hai luồng code đồng thời: dữ liệu/tích hợp của Chung và frontend của Sơn. Mỗi máy lấy cùng commit hợp đồng; người dùng nhiều AI phải ghi rõ file được sửa. Mọi đổi đơn vị, schema, dependency và phép tính qua Chung trước khi ghép; người khác tự chạy kiểm tra, không lấy lời AI báo xong làm bằng chứng.
 
 ## 6 Giao diện và nội dung demo
+
+Sơn/Thảo viết toàn bộ UI bài thi bằng **tiếng Anh từ đầu**: nhãn, biểu đồ, đơn vị/thời gian, thông báo loading/empty/error, mô tả cho công cụ hỗ trợ đọc, nguồn/giới hạn và bản in. Các câu tiếng Việt trong kế hoạch mô tả ý nghĩa cần giữ, không phải nội dung để chép nguyên vào app. Lâm chuẩn bị slide/trang nộp bằng tiếng Anh; khi thuyết trình trực tiếp có thể nói Việt hoặc Anh. Video nói Việt phải có phụ đề Anh.
 
 Màn hình chính gồm phần chọn tình huống, hai thẻ so sánh và timeline đồng bộ. Desktop đặt hai phương án cạnh nhau; mobile xếp dọc với ngày/điểm và thanh điều khiển luôn đọc được. Màu vàng cho Sun, xanh cho Earth, thêm nhãn và kiểu nét để không phụ thuộc màu. Timeline hiển thị đúng đại lượng hoặc khoảng thời gian trong bản kê; chỉ vẽ góc cao/phương vị khi nguồn có dữ liệu tương thích. Hai phương án dùng cùng trục/định nghĩa; mốc chân trời 0° chỉ dùng cho mô hình góc cao tương ứng.
 
@@ -122,15 +130,15 @@ Bảng này cụ thể hóa các vai trò đã có trên Sheet thành phương �
 |---|---|---|
 | Chung | Cùng Trang kiểm bộ BTC và chốt bản kê/hợp đồng trước 09:30 ngày 14; một luồng có dữ liệu BTC thật trước 10:30; pack so sánh trong miền hợp lệ trước 12:00; release 20:30 | Trang kiểm nghĩa dữ liệu; Minh chạy lại; Sơn giữ build dự phòng |
 | Sơn và Thảo | Sơn làm UI, timeline, so sánh và globe; Thảo làm nhãn, nguồn, mobile/keyboard và trang in. Demo lõi 15:00, bản ổn định 17:00 ngày 14 | Minh thử luồng; Trang đối chiếu số hiển thị |
-| Trang | Phiếu kiểm dữ liệu BTC, khoảng thiếu và lý do bổ sung trước 09:30; bảng mẫu kiểm độc lập trước 12:00; ledger nguồn/license/AI trước 20:00 ngày 14 | Chung đối chiếu tệp/metadata; Minh kiểm tái hiện |
+| Trang | Phiếu kiểm dữ liệu BTC, khoảng thiếu và lý do bổ sung trước 09:30; bảng mẫu kiểm độc lập trước 12:00; nguồn NASA/đối tác, license và AI bằng tiếng Anh trước 20:00 ngày 14 | Chung đối chiếu tệp/metadata; Minh kiểm tái hiện |
 | Minh | Bộ ca biên, lỗi dữ liệu và kiểm bản chung trước 16:00 ngày 14; ba lượt thử người dùng và biên bản lỗi trước 20:00; kiểm cuối sáng 15 | Chung/Sơn sửa đúng phạm vi; Minh chạy lại |
-| Lâm | Kịch bản 3 phút trước 16:00 ngày 14; bản nháp hồ sơ/slide trước 20:00; nộp chính 10:30 ngày 15, Sơn dự phòng có quyền đăng nhập đã kiểm | Thảo rà lời thoại; Trang rà khẳng định khoa học; cả nhóm duyệt hồ sơ |
+| Lâm | Kịch bản trình bày 5–7 phút trước 16:00 ngày 14; hồ sơ và tối đa 7 slide tiếng Anh trước 20:00; cùng Team Owner nộp bản đầu sớm sáng 15, bản cuối mục tiêu 10:30; Sơn hỗ trợ dự phòng | Thảo rà tiếng Anh/lời thoại; Trang rà khoa học; Team Owner kiểm quyền nộp |
 
-Các mốc dữ liệu giả định BTC đã cấp đầu vào để nhóm kiểm; nếu chưa có thì Trang ghi tình trạng và Lâm xác nhận kênh phát hành, áp dụng mục 9, không tự thay bằng bộ ngoài. Ngày 13, Lâm/Sơn kiểm tài khoản, hướng dẫn và những quyền đã mở. Từ 09:00–09:30 ngày 14, khi cổng mở, hai người kiểm thao tác được cổng cho phép và ghi người nộp/dự phòng vào phiếu release. Nếu cổng chỉ cho một người nộp, dùng đúng tài khoản có quyền; không nộp thử hồ sơ chưa hoàn thiện. Phương án phân công không phải bằng chứng đã được cấp quyền.
+Các mốc dữ liệu giả định BTC đã cấp đầu vào để nhóm kiểm; nếu chưa có thì Trang ghi tình trạng đó và áp dụng mục 9, không tự thay bằng bộ ngoài. Ngày 13, Lâm/Sơn xác định Team Owner và quyền đã mở; từ 09:00–09:30 ngày 14 kiểm cổng thực tế và ghi vào phiếu release. Team Owner là người bấm Submit theo hướng dẫn; phân công Lâm không tự chứng minh Lâm giữ quyền đó. Sơn chuẩn bị file/checklist dự phòng trong quyền được cấp, không chia sẻ mật khẩu. Sáng 15 nộp một bản đầu trung thực kể cả chưa hoàn thiện, rồi cập nhật trước hạn; không nhận tính năng chưa chạy là đã hoàn thành.
 
 ## 8 Lịch thực hiện theo đầu ra
 
-**Ngày 12 và 13 tháng 11:** nhóm đọc và duyệt phương án này; Trang đọc nguồn; Chung/Sơn kiểm công cụ bằng bài luyện không liên quan; Minh kiểm quyền đọc và cách lấy bản chung; Lâm đọc hướng dẫn nộp/chấm dự kiến công bố ngày 13, ghi thời lượng pitch và định dạng bắt buộc. Nhóm ghi giờ gặp, địa điểm làm tối và ngoại lệ tham gia vào bảng điều phối. Không tạo sẵn code, UI, dữ liệu xử lý hay tài sản bài thi.
+**Ngày 12 và 13 tháng 11:** nhóm đọc và duyệt phương án này; Trang đọc nguồn; Chung/Sơn kiểm công cụ bằng bài luyện không liên quan; Minh kiểm quyền đọc và cách lấy bản chung; Lâm đọc checklist SEPA ngày 12/11 ở mục 10 và kiểm hướng dẫn NASA/thông báo mới ngày 13. Nhóm ghi Team Owner, giờ gặp, nơi làm tối và ngoại lệ tham gia vào bảng điều phối. Không tạo sẵn code, UI, dữ liệu xử lý hay tài sản bài thi.
 
 ### Ngày 14 tháng 11
 
@@ -146,13 +154,13 @@ Các mốc dữ liệu giả định BTC đã cấp đầu vào để nhóm ki�
 
 | Giờ Hà Nội | Việc cần xong | Cách kiểm |
 |---|---|---|
-| 06:30–08:00 | Kiểm bản lưu, ăn sáng/di chuyển; check-in 07:30–08:00 | Lâm/Sơn kiểm lại quyền nộp và link |
+| 06:30–08:00 | Kiểm bản lưu; Team Owner nộp bản đầu sớm khi đã điền trung thực các ô bắt buộc; ăn sáng/di chuyển, check-in 07:30–08:00 | Lâm/Sơn kiểm link và trạng thái submitted; giữ biên nhận |
 | 08:00–09:00 | Sửa lỗi ảnh hưởng demo; khóa tính năng 09:00 | Minh xác nhận lỗi nghiêm trọng đã hết hoặc đã cắt nhánh lỗi |
-| 09:00–10:00 | Chạy checklist cuối, quay video dự phòng, ghi release commit và phiên bản dataset | Mở link không đăng nhập và trên máy thứ hai |
-| 10:00–10:30 | Rà trường hồ sơ/credit/AI và nộp Hà Nội | Lâm lưu biên nhận; Sơn đối chiếu bản đã nộp |
-| 10:30–11:00 và buổi chiều | 30 phút đệm trước hạn Hà Nội; chiều trình bày và hoàn tất yêu cầu global trước 23:59 | Không dùng hạn global để kéo dài thời gian nộp địa phương |
+| 09:00–10:00 | Kiểm tiếng Anh, giới hạn demo, link, nguồn/AI; ghi release commit và phiên bản dataset | Mở ẩn danh và trên máy thứ hai; video nộp nếu chọn phải ≤30 giây |
+| 10:00–10:30 | Rà hồ sơ và bấm Submit lại để chốt bản địa phương | Lâm lưu biên nhận; Sơn đối chiếu bản mới nhất đã submitted |
+| 10:30–11:00 và sau đó | 30 phút đệm; chấm trong 11:00–15:00 theo slot BTC, đến sớm 10 phút; trao giải 16:30; hạn global 23:59 | Giữ snapshot bài địa phương; không dùng hạn global để kéo dài hạn Hà Nội |
 
-Mốc 00:00 dựa trên lời Cẩm Chi do Sơn cung cấp và xác nhận; chat gốc chưa được xác thực độc lập. Hạn Hà Nội và lịch tại trường lấy từ [timeline sự kiện trang 2](https://drive.google.com/file/d/1m07k0x7akRQqZ7YQS71hJs_ITXxgOK7e/view), đã được đọc trực quan trong hồ sơ chuẩn bị. Lâm kiểm thông báo mới ngày 13 và trước giờ nộp; thay đổi của BTC được ưu tiên. 35 giờ là khoảng lịch từ lúc được bắt đầu tới hạn nộp, không phải 35 giờ làm liên tục.
+Mốc 00:00 dựa trên lời Cẩm Chi do Sơn cung cấp, được Sơn tái xác nhận ngày 12/11 sau khi đọc hướng dẫn mới; chat gốc chưa được xác thực độc lập. Bài SEPA mô tả khai mạc/bắt đầu theo lịch 09:00; kế hoạch giữ quyền làm từ 00:00, không chờ giờ mở cổng. Hạn Hà Nội có trong [timeline trang 2](https://drive.google.com/file/d/1m07k0x7akRQqZ7YQS71hJs_ITXxgOK7e/view) và hướng dẫn mới. Lâm kiểm các thay đổi chính thức và slot riêng của đội. 35 giờ là khoảng lịch, không phải 35 giờ làm liên tục.
 
 ## 9 Điều kiện nghiệm thu và cắt phạm vi
 
@@ -162,7 +170,7 @@ Mốc 00:00 dựa trên lời Cẩm Chi do Sơn cung cấp và xác nhận; chat
 | Logic khoảng và Plan B | Kiểm all-above, all-below, đổi dấu, đúng 0°, phương vị 359°→1°, chạm hai đầu, thiếu/trùng/lệch timestamp; dữ liệu ngày gốc không trở thành ngày dự phòng quá khứ; không có kết quả/sát ngưỡng phải báo đúng | Các test tổng hợp ghi rõ dữ liệu giả để kiểm thuật toán, tách khỏi dataset demo; Trang/Minh kiểm tay ít nhất một phép giao khoảng |
 | Độ nhạy số | Kiểm biên và ứng viên sát mọi H đã phát hành; so dữ liệu mịn hơn khi nguồn hỗ trợ. Không đủ phân xử thì giữ trạng thái không kết luận, không lấy nội suy thay bằng chứng | Bảng độ phân giải/ngoặc sự kiện/sai khác; giữ giới hạn nguồn, không suy thành độ chính xác địa hình |
 | Trải nghiệm và truy cập | Desktop/mobile, bàn phím, giảm chuyển động, WebGL lỗi, link sai, dữ liệu không tải; ba người chưa làm phần đó thử tìm thay đổi và nêu một giới hạn trong 2 phút | Thời gian, lỗi hiểu và mức trợ giúp thực; mục tiêu 3/3 hoàn thành, thất bại thì sửa nhãn/luồng |
-| Release và hồ sơ | Build/lint/test đạt, không secret, audit dependency theo workflow đã có, nguồn/license/AI đủ; link mở không đăng nhập, máy thứ hai đọc được, có video và bản local dự phòng | Commit, dataset ID/hash, kết quả kiểm, link và biên nhận nộp |
+| Release và hồ sơ | Build/lint/test đạt, không secret, audit dependency; UI/README/hồ sơ/link tài liệu tiếng Anh; demo ≤7 slide gồm bìa hoặc ≤30 giây; nguồn NASA/đối tác, license/AI đủ; mở link ẩn danh | Commit, dataset ID/hash, checklist ngôn ngữ/định dạng, bản local dự phòng và trạng thái submitted sau lần sửa cuối |
 
 **Các cổng cắt phạm vi đã chọn:**
 
@@ -174,23 +182,49 @@ Mốc 00:00 dựa trên lời Cẩm Chi do Sơn cung cấp và xác nhận; chat
 
 ## 10 Kịch bản trình bày và hồ sơ nộp
 
-Kịch bản nội bộ dài 3 phút; Lâm rút theo thời lượng trong hướng dẫn BTC mới nhất, dự kiến công bố ngày 13, và kiểm lại khi cổng mở. Mọi con số trong demo lấy từ bản đã kiểm, không viết trước kết quả thắng/thua.
+Theo [hướng dẫn SEPA ngày 12/11](https://sepa.org.vn/en/nasa-space-apps-hanoi-2026-submission-guide.htm), demo nộp là **tối đa 7 slide kể cả bìa hoặc video tối đa 30 giây**. Kế hoạch chọn 7 slide tiếng Anh; video là phương án thay thế, không phải thêm một yêu cầu bắt buộc. Buổi chấm riêng dài **15 phút gồm trình bày và hỏi đáp**, BTC khuyến nghị nói **5–7 phút** bằng Việt hoặc Anh; đến sớm 10 phút. Slot cụ thể của đội chưa được xác nhận. Mọi con số lấy từ bản đã kiểm, không viết trước kết quả thắng/thua.
 
 | Thời lượng | Nội dung trình bày |
 |---|---|
-| 0:00–0:25 | Nêu tình huống: một nhiệm vụ học tập bị lùi ngày, cần biết cửa sổ Sun/Earth thay đổi thế nào |
-| 0:25–1:10 | Mở một điểm đã kiểm, lịch gốc và lịch hoãn trong miền hợp lệ; kéo cùng đồng hồ, giải thích kết quả thật trên biểu đồ và chỉ số |
-| 1:10–1:55 | Dùng tiêu chí H giờ để tìm ngày tiếp theo; nếu không có ngày đạt hoặc lịch hoãn đã đạt, giải thích chính kết quả đó. So điểm thứ hai nếu pack hỗ trợ; nếu thiếu thì nêu giới hạn |
-| 1:55–2:35 | Chỉ tệp/trường BTC tham gia kết quả, phần nguồn ngoài bổ sung, cấu hình và giới hạn; cho thấy cách tái hiện |
-| 2:35–3:00 | Mở bản so sánh lưu được, nói người học có thể hiểu điều gì và báo kết quả thử người dùng thực tế |
+| 0:00–1:00 | Giới thiệu đội/đề và tình huống học tập bị lùi ngày; nêu người dùng và vấn đề |
+| 1:00–3:00 | Mở lịch gốc/hoãn trong miền đã kiểm, giải thích chênh lệch; tìm Plan B theo H, so điểm thứ hai nếu có dữ liệu |
+| 3:00–4:30 | Chỉ dataset NASA/đối tác, tệp/trường BTC và phần bổ sung; giải thích mô hình, giới hạn và cách tái hiện |
+| 4:30–6:00 | Mở bản so sánh lưu được; báo đúng kết quả thử người dùng, tác động và bước tiếp; phần còn lại dành hỏi đáp |
 
 Trang/Chung chọn mặc định sau khi kiểm dữ liệu: điểm đầu tiên theo ID đã chuẩn hóa và cặp ngày tăng dần đầu tiên đủ phủ cho cùng thời lượng, ghi trong bản kê. Nếu cần minh họa chuyển tiếp chân trời, dùng trường hợp đầu tiên theo thứ tự ngày thỏa điều kiện đó và ghi lý do; không coi là bằng chứng mọi ngày đều cải thiện. Không ấn định địa điểm/ngày trước khi nhận dữ liệu. Nếu kết quả không đổi đáng kể, trình bày đúng điều đó.
 
-Bộ nộp gồm web/demo, repo tái hiện, mô tả bài toán và phương pháp, danh mục nguồn/credit/license/đóng góp AI, video/slide theo đúng yêu cầu cổng. README ghi cách dựng lại từ raw và hash; dữ liệu giả cho test tách khỏi dữ liệu khoa học; mọi công cụ bên thứ ba giữ giấy phép. Không sao chép app Atlas/NavLunar khi quyền tái sử dụng chưa rõ. GitHub và Drive chuẩn bị là nơi nhóm đọc tài liệu; hồ sơ thi dùng release riêng sau giờ bắt đầu.
+**Bố cục 7 slide đề xuất:** tên sản phẩm/đội/đề; vấn đề; giải pháp; dữ liệu NASA và xử lý; demo/kết quả; tác động/bước tiếp; thành viên/nguồn. Link nguồn và danh mục đầy đủ đặt trong repo tiếng Anh. Nếu chọn video, hiển thị sản phẩm hoạt động và tên dữ liệu NASA, không quá 30 giây; giọng Việt có phụ đề Anh; YouTube Unlisted hoặc Drive mở theo link. Video dự phòng dài hơn chỉ dùng hỗ trợ diễn tập, không thay video đúng giới hạn.
+
+### Các ô trên trang nộp NASA
+
+| Ô hồ sơ | Nội dung team chuẩn bị bằng tiếng Anh |
+|---|---|
+| Project Name | Tên ngắn của sản phẩm |
+| High-Level Summary | Đã làm gì, giải quyết phần nào của đề và vì sao hữu ích |
+| Project Demo | Link bộ slide tối đa 7 trang hoặc video tối đa 30 giây |
+| Final Project | Link riêng tới sản phẩm thực hoặc repo có thể tái hiện |
+| Project Details | Cách hoạt động, công nghệ, lợi ích và mục tiêu |
+| Use of AI | Từng công cụ thực dùng như ChatGPT/Codex/Gemini và công việc đã hỗ trợ; không ghi No AI used |
+| NASA Data / Partner Data | Tên/link ít nhất một dataset NASA hoặc Space Agency Partner thực dùng |
+| References | Toàn bộ thư viện, ảnh, nhạc, bài viết, AI và tài nguyên bên ngoài; giữ credit/license |
+
+### Nộp và kiểm bản đã nộp
+
+Team Owner đăng nhập NASA, mở trang đội → Project → Edit, điền hồ sơ, đánh dấu hai xác nhận đã đọc hướng dẫn và đồng ý điều khoản cuộc thi, cùng xác nhận công trình của đội có ghi mọi tài nguyên ngoài, rồi bấm **Submit**. Kiểm trang đội hiển thị đã submitted; email/Zalo không phải kênh nhận bài. Kiểm đủ sáu người ở Members và đăng ký Hanoi, cùng đề đã chọn trong 14 đề chính thức; không đăng ký lại khi chưa có sai lệch. Sau đóng cổng không thêm thành viên.
+
+Sáng 15 nộp bản đầu sớm kể cả còn thiếu tính năng, mô tả trung thực trạng thái; mỗi lần sửa phải **bấm Submit lại**, hoàn tất trước 11:00. Mục tiêu bản cuối là 10:30. Mở mọi link bằng cửa sổ ẩn danh: app/GitHub/Drive/YouTube phải cho người có link đọc không cần đăng nhập. Lưu commit, dataset ID/hash, URL và biên nhận/trạng thái sau lần sửa cuối. SEPA cho phép cải thiện tới hạn global 23:59; giữ snapshot bản chấm Hà Nội, không mặc định sửa sau 11:00 được tính vào chấm địa phương.
+
+### Tiêu chí chấm và điều kiện nguồn
+
+Năm tiêu chí, mỗi tiêu chí 1–10 điểm: **Impact, Creativity, Validity, Relevance, Presentation**. Lâm/Trang chuẩn bị bằng chứng về người được giúp, đóng góp riêng, cơ sở khoa học/khả thi, mức bám đề và vai trò dữ liệu NASA, cùng câu chuyện/demo rõ; không tự chấm điểm hoặc nhận kết quả chưa kiểm.
+
+Lõi sản phẩm làm trong hai ngày hackathon. Ghi nguồn/AI đầy đủ, kiểm quyền ảnh/nhạc/code, không đưa ngày sinh, địa chỉ nhà, số điện thoại hoặc ảnh nhận diện người dưới 18 chưa có đồng ý của phụ huynh vào sản phẩm. Điều kiện ảnh có đồng ý phụ huynh của SEPA không tự giải quyết quy định global chặt hơn về tên/giọng/hình nhận diện người dưới 18 đã ghi trong PREPARATION; kiểm trước khi đưa vào bài. Theo SEPA, dự án nộp là nguồn mở và mặc định Apache 2.0 nếu đội không chọn; Chung kiểm điều khoản cổng và tính tương thích của các license trước phát hành, không tự đổi license bên thứ ba. README tiếng Anh ghi cách dựng lại từ raw/hash, tách fixture test khỏi dữ liệu khoa học. Không sao chép Atlas/NavLunar khi quyền chưa rõ. GitHub/Drive chuẩn bị không thay release bài thi được làm sau giờ bắt đầu.
+
+SEPA thông báo chứng nhận điện tử cho người nộp đúng hạn, giải địa phương ngày 15 và lựa chọn Global Nominees; đây là thông tin điều kiện, không phải nhóm đã nộp hoặc đã nhận giải.
 
 ## 11 Nguồn kiểm tra và quyết định để nhóm duyệt
 
-Ngày 12/11 đã đối chiếu đề NASA qua nội dung được lập chỉ mục, bản sao HackAthlone, tài liệu JPL, nguồn vị trí NASA, sản phẩm đối chiếu, bảng phân công và thể lệ địa phương. Bản sửa theo chỉ dẫn Sơn dùng dữ liệu BTC làm chính, nguồn ngoài bổ sung và bỏ địa điểm/ngày khóa trước; chưa kiểm nội dung bộ BTC. Trang NASA challenge/FAQ mở toàn văn gặp lỗi 502 trong lượt kiểm; Lâm kiểm lại bản chính và hướng dẫn dự kiến công bố ngày 13. Không coi kế hoạch là kết quả mô phỏng hoặc nhu cầu người dùng đã chứng minh.
+Ngày 12/11 đã đối chiếu đề NASA qua nội dung được lập chỉ mục, bản sao HackAthlone, tài liệu JPL, nguồn vị trí NASA, sản phẩm đối chiếu, bảng phân công và thể lệ địa phương. Bản sửa theo chỉ dẫn Sơn giữ dữ liệu BTC chính, nguồn ngoài bổ sung và không khóa địa điểm/ngày; chưa kiểm nội dung bộ BTC. Hướng dẫn SEPA ngày 12/11 được đọc toàn văn qua Exa và truy cập HTTP trực tiếp thành công. Link hướng dẫn NASA trong bài gặp lỗi SSL khi lấy qua Exa; chưa kiểm form đăng nhập hoặc quyền Team Owner. Các giới hạn nộp ở mục 10 được dẫn theo SEPA; Lâm kiểm bản chính/thông báo mới khi có. Không coi kế hoạch là kết quả mô phỏng hoặc nhu cầu người dùng đã chứng minh.
 
 | Nhóm nguồn | Dùng vào việc gì |
 |---|---|
@@ -198,6 +232,7 @@ Ngày 12/11 đã đối chiếu đề NASA qua nội dung được lập chỉ m
 | [Đề NASA](https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/) và [HackAthlone](https://hackathlone.com/challenges/lunar-landing-site-navigator) | Đối chiếu mục tiêu địa điểm/ngày/thiên thể; bản NASA quyết định yêu cầu |
 | [Horizons manual](https://ssd.jpl.nasa.gov/horizons/manual.html), [API](https://ssd-api.jpl.nasa.gov/doc/horizons.html), [API policy](https://ssd-api.jpl.nasa.gov/doc/index.php); nguồn vị trí NASA ở mục 3 và [LOLA PGDA](https://pgda.gsfc.nasa.gov/products/78) | Tài liệu/nguồn bổ sung theo khoảng thiếu đã xác định; kiểm tương thích trước khi dùng, không thay bộ chính |
 | [Timeline Hà Nội](https://drive.google.com/file/d/1m07k0x7akRQqZ7YQS71hJs_ITXxgOK7e/view), [FAQ](https://www.spaceappschallenge.org/resources/participant-faqs/), [Terms](https://www.spaceappschallenge.org/legal/) | Lịch, điều kiện nộp, ghi nguồn và khai báo AI; kiểm lại thông báo mới |
+| [Hướng dẫn nộp SEPA ngày 12/11](https://sepa.org.vn/en/nasa-space-apps-hanoi-2026-submission-guide.htm) | Ô hồ sơ, tiếng Anh, demo 7 slide hoặc 30 giây, Team Owner/Submit, 15 phút chấm và năm tiêu chí; người dùng giữ mốc 00:00 |
 | [Kiến trúc đã soạn](https://github.com/justsomenewbie/space-apps-2026-preparation/blob/main/docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md) và [cơ sở lý thuyết](https://github.com/justsomenewbie/space-apps-2026-preparation/blob/main/docs/architecture-proposal/THEORY_PRIMER.md) | Giải thích nền; các lựa chọn cụ thể của phiên bản Moon Plan B nằm trong kế hoạch này |
 
 **Nhóm duyệt cùng một gói:** Moon Plan B, dữ liệu BTC làm chính, nguồn ngoài bổ sung có căn cứ, mục tiêu so hai điểm và nhiều ngày trong miền thực hỗ trợ, xử lý theo lô, tiêu chí bài tập minh bạch, web React/Vite, phân công mục 7 và lịch mục 8. Địa điểm/ngày/cấu hình được quyết theo phiếu kiểm dữ liệu, không khóa trước. Tiêu chuẩn hoàn thành là phép so sánh truy được nguồn, giải thích được và mở lại được; có demo ngày đầu và hồ sơ nộp trước hạn Hà Nội.

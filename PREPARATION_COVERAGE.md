@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Hướng dẫn nộp và tiếng Anh — 12 November 2026
+
+Chat hiện tại `01a1cfed-8c7b-7431-876b-d1a15d2525ad`: Sơn cung cấp URL SEPA, sau đó yêu cầu đợi editor trước xong, cập nhật kế hoạch và đồng bộ GitHub/cloud/Drive; giữ 00:00 ngày 14 và ghi nhớ English khi triển khai, gồm GitHub bài nộp. Đã đọc toàn bài SEPA qua Exa, HTTP trực tiếp thành công; link hướng dẫn NASA lỗi SSL, chưa kiểm cổng đăng nhập. Hướng dẫn đã được đưa vào runbook/kế hoạch và các chỉ dẫn khởi động/frontend/nguồn. Giữ tiếng Việt cho tài liệu điều phối, không dịch lịch sử hoặc thay license bên thứ ba; chưa làm sản phẩm dự thi.
+
+Inventory 15 chat và lượt hoàn tất `01a1cfe8-8d09-7072-a23c-9a6c6f67daa8` của **Clarify start-time actions** `01a1cfdb-7ebd-7d91-b53c-e04167de3674` được đọc; trạng thái idle, HANDOFF thả ownership. Base GitHub/Drive là `50c0add99d68c8ae799e82b1c46723d8e9dd4b45`, 30 nguồn. Không rà lại toàn bộ archived/Zalo; phân công vẫn là đề xuất, không sửa Sheet hoặc tự xác nhận Team Owner. Giữ `.DS_Store` ngoài commit.
+
+Coverage: nghiên cứu | Exa + HTTP | dùng | toàn văn SEPA; điều phối | Codex chat/Git + reviewer chỉ đọc | dùng | hết xung đột editor; tài liệu | Documents + builder/checker có sẵn | dùng | Word/PDF 14 trang từ nguồn mới, kiểm đủ từng trang/93 khối/20 URL; bảo mật | Gitleaks | dùng, không phát hiện leak | không đổi code/lock/trust boundary nên không chạy lại app/advisory audit; giao bản | Git/Drive/cloud chat hiện có | dùng theo quyền thường trực | exact commit/hash/readback; visual/3D/SEO/provider | không áp dụng | chỉ tài liệu chuẩn bị, không app/deploy. Không cần thêm runtime hoặc phương pháp quản lý khác. Bằng chứng cuối ở sibling `submission-guide-2026-11-12/`, bản kê Drive ghi commit phát hành; checkpoint này không tự chứng minh sync đã xong.
+
 ## Tự chọn đầy đủ công cụ — 12 November 2026
 
 Trong chat **Clarify start-time actions** `01a1cfdb-7ebd-7d91-b53c-e04167de3674`, sau bài giả định “now is the time, start” và bản rà toàn bộ công cụ, Sơn yêu cầu tự dùng các workflow và không quên mục nào. Thêm TOOL_SELECTION_CHECKLIST: đủ mảng chức năng, 7 đường visual và 30 gói; chọn theo việc, đọc/use skill thực tế, ghi lựa chọn/thay thế/gap và kiểm độc lập. AGENTS, PLUGIN_ROUTING, BOI_CANH_AI và README trỏ về một checklist. Yêu cầu nhớ được ghi thêm trong local memory extension; không sao chép account metadata lên Git.

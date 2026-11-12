@@ -440,6 +440,14 @@ This is a planning recommendation, not a team-approved allocation or permission 
 
 **Next action under two minutes:** choose one rehearsal volunteer and confirm who will integrate the team's work. No names are assigned by this document.
 
+### Submission guide and English deliverables — 12 November 2026
+
+The user supplied [SEPA's November 12 submission guide](https://sepa.org.vn/en/nasa-space-apps-hanoi-2026-submission-guide.htm). Full Exa text was read and direct HTTP returned 200. It confirms local 11:00 November 15/global 23:59, Team Owner submission, English form and linked materials, demo up to seven slides including title or 30-second video, at least one named/linked NASA/partner dataset, AI and external-resource disclosure, and 15 minutes of judging including Q&A with 5–7 minutes recommended presentation. The guide recommends an early truthful submission on November 15 and clicking Submit again after edits; the 10:30 final local target remains a team recommendation.
+
+After reading the new page's 09:00 scheduled-opening wording, the user explicitly retained **00:00 November 14 Hanoi** based on the previously supplied organizer confirmation. No new authentication of the private organizer chat is claimed. The user also requires the English rule to persist at implementation start, including the submitted GitHub repository. AGENTS/runbook/frontend/AI context now require English UI, team-authored README/reproduction/method/limits/sources/AI, slide/demo and report exports from the first version. Vietnamese coordination and preparation sources remain Vietnamese; third-party originals/licenses are preserved. No competition code, UI or data processing was produced.
+
+The linked NASA submission guide returned a crawler SSL error; no logged-in portal or Team Owner access was inspected. The prior editor's completed turn was read before taking ownership; existing preparation changes were preserved. KE_HOACH_NHOM §7–11 now aligns roles, schedule, early submission, English acceptance, exact fields, demo/judging and source requirements. Word/PDF are regenerated from that source; final rendering and destination checks are recorded outside the released sources in sibling `submission-guide-2026-11-12/` and the Drive release manifest. COMPETITION_RUNBOOK holds the full current checklist; older Nov 13 guide expectations above are dated history.
+
 ## Appendix A — portable practice files
 
 These are the entire unrelated exercise, using only browser and Node built-ins. Do not reuse it as a prebuilt competition component.

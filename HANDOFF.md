@@ -1,38 +1,30 @@
 # Current handoff
 
 Updated: 12 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none; automatic-tool sources reviewed, ownership released. Delivery verification underway.
+Active editor: none; submission-guide sources reviewed and frozen, ownership released. Destination verification underway.
 
 ## Read first
 
-README → COMPETITION_RUNBOOK → FRONTEND_HANDOFF → DATA_PREPARATION. PREPARATION §11 and PREPARATION_COVERAGE retain dated decisions and chat checkpoints. Mac tools/evidence do not transfer through Git.
+README → COMPETITION_RUNBOOK → KE_HOACH_NHOM → FRONTEND_HANDOFF → DATA_PREPARATION. Read TOOL_SELECTION_CHECKLIST/PLUGIN_ROUTING and relevant newer chat turns. PREPARATION_COVERAGE records bounded review checkpoints; Mac tools/evidence do not transfer through Git.
 
-Six registered members; Lunar confirmed. Moon Plan B remains the concrete plan for approval. BTC data is primary; outside sources supplement verified gaps. Do not fix sites/dates/configuration before inspecting the dataset. Trang/Chung record the validated manifest. The latest user correction keeps criteria-based extensions open: require adequate data/model, reviewer, owner and time without delaying the core or feature freeze. No BTC contents or science results are available.
+Six registered members; Lunar confirmed. Moon Plan B remains the plan for group approval. BTC data is primary, outside sources supplement verified gaps; inspect actual data before choosing sites/dates/configuration. Conditional extensions require adequate data/model, reviewer, owner and time. No BTC contents or scientific results have been validated.
 
-## Frontend and tools
+## Start and English submission
 
-Sơn chooses frontend: prepared React + TypeScript + Vite/npm/CSS. Coordinate contracts/integration with Chung; prefer frontend/ in the shared repo. URL/branch unknown. FRONTEND_HANDOFF §6 records unrelated practice and tested minimatch 11.0.7 cross-major exception; recheck when dependencies change.
+User reaffirmed **00:00 November 14 Hanoi** after reading the November 12 SEPA guide. Do not replace midnight permission with the guide's 09:00 scheduled opening/portal time. Local cutoff **11:00 November 15**, global **23:59**; feature freeze 09:00/final local target 10:30 are recommendations.
 
-User requires automatic tool selection without reminders. Read TOOL_SELECTION_CHECKLIST + PLUGIN_ROUTING: all functional areas, 30 packs and 7 visual routes; invoke applicable workflows and record alternatives/gaps. Nine Blender tools now exposed; bridge not rerun. Runtime evidence is Mac-only; no provider quota or cloud installation implied.
+**English from the first product version**, including UI/chart/error/accessibility text, slide/demo, reports and team-authored linked GitHub README, reproduction, method/limitations, sources and AI disclosure. Preserve third-party originals/licenses. This preparation repo and internal coordination remain Vietnamese; the product repo/branch is still unconfirmed. Carry the rule into that checkout when assigned; no early implementation.
 
-## Security — 12 November
+Runbook and plan §10 specify eight fields, ≤7 demo slides including title OR ≤30-second video, separate Final Project link, NASA/partner dataset, references/AI, anonymous links and Team Owner submission. Submit an early truthful version on November 15; click Submit again after each edit. Live judging: 15 minutes with Q&A, recommended 5–7-minute talk, arrive 10 minutes early. Vietnamese live speech is allowed; Vietnamese video needs English subtitles. Actual judging slot/portal access and global under-18 media condition remain unverified.
 
-[SECURITY_PREPARATION](SECURITY_PREPARATION.md) retains nine tool groups and bounded audit results: Gitleaks tree/31 commits no matches; OSV/npm practice lock 193 packages no advisories; Codex Security snapshot 91b3644, 27 text files, no reportable findings. Gitleaks 8.30.1 and OSV 2.7.1 versions rechecked. PNG/OS metadata, dependency implementation, services and future app remain unaudited.
+## People and technical boundaries
 
-AGENTS selects secret checks before publication, advisory checks on dependencies and full/diff source review as appropriate. Mac commands: ~/.codex/workflows/security-tools/LOCAL_USE.md. Routing is during work, not a watcher/CI/hook. Daybreak access not granted to account; scan still completed. Permissions unchanged.
+Sơn owns frontend choice: prepared React/TypeScript/Vite/npm/CSS. Coordinate integration/contracts with Chung. Sheet QA conflict remains; plan proposes Minh overall QA, Trang science, Thảo UX, Lâm submission/Sơn backup. Role acceptance and Team Owner rights are not proven. Organizer email confirms six members/Lunar, code received and in-person check-in; private details stay outside Git.
 
-## Event and people
+Security/runtime limits remain in SECURITY_PREPARATION and FRONTEND_HANDOFF §6, including the tested minimatch exception. Architecture/theory remain proposals; group/mentor drafts are unsent. No new science, product or provider test is claimed.
 
-Full implementation allowed **00:00 Nov 14 Hanoi**; preparation-only restriction ends then (user-confirmed organizer reply). Local deadline **11:00 Nov 15**, global 23:59. Details: runbook.
+## Delivery
 
-Sheet reread Nov12: original QA C10/G7 conflict remains. The plan assigns Minh overall QA, Trang science, Thảo UX; proposes Lâm submission/Sơn backup. Acceptance and portal permissions are not proven; Sheet unchanged.
+Baseline release **50c0add99d68c8ae799e82b1c46723d8e9dd4b45**: GitHub and six Drive downloads/source hashes rechecked. Ten Markdown sources reviewed; Word/PDF regenerated, all 14 pages inspected, 93 content blocks and 20 link targets checked. Gitleaks current-tree scan: no leaks found. Unrelated code/locks/assets and .DS_Store preserved. Final release SHA, exact cloud check and Drive readbacks belong in the manifest and sibling `submission-guide-2026-11-12/`, not inferred from a commit. At this source checkpoint delivery is pending.
 
-Organizer email received Nov11 19:38 Hanoi was fully read Nov12: matching six members/Lunar, in-person, team code received, Trưng Vương entrance Lý Thường Kiệt, check-in 07:00 Nov14. Code/private message retained outside Git. No new deadline in that email.
-
-## Architecture, sources and delivery
-
-[Architecture](docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md), HTML/preview and [theory](docs/architecture-proposal/THEORY_PRIMER.md) now align with BTC-first input. The ideal-horizon model applies only to compatible quantities; no silent external-only fallback. The shared architecture chat and current user message confirm mentor/group drafts remain unsent, with no approval inferred.
-
-Baseline GitHub/cloud/Drive release: 8c5325162c465160c58fe4290a280b337fbb67bf, 29 sources, six Drive files, scratch preserved. Current task adds durable automatic-selection coverage and requested local memory. Plan source unchanged; retain/verify Word/PDF. Final commit/readbacks: Drive manifest and sibling automatic-tool-selection-2026-11-12/. Publication/cloud/Drive verification pending at this source checkpoint. Preserve .DS_Store, sharing and scratch.
-
-Next action under two minutes: read TOOL_SELECTION_CHECKLIST “Apply on every task”; use its coverage line for the next assigned task. No implementation before Nov14 00:00.
+Next action under two minutes: read plan §10 and identify the existing Team Owner without changing registration.
