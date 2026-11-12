@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Làm rõ lõi đề bài và dữ liệu nhận khi thi — 12 November 2026
+
+Chat `01a1cf43-a87a-7a91-b926-bc62cf39b3ec`: Sơn cung cấp nhận xét AI khác và bản chép toàn văn NASA challenge, hỏi có sửa file không, rồi xác nhận đến lúc thi mới có dữ liệu BTC và được bổ sung nguồn ngoài. Đã đọc hai bản chép; ý kiến AI là đầu vào phản biện, không coi là nguồn chính thức. Kế hoạch làm rõ so cùng điểm/khác ngày, khác điểm/cùng UTC và vị trí Mặt Trời/Trái Đất so với chân trời là lõi ưu tiên; tìm Plan B tự động/globe sau lõi. Không biến toàn bộ danh sách tính năng gợi ý của NASA thành bắt buộc. Không khóa điểm/ngày hay giả định bộ BTC chứa/thiếu đại lượng nào; phải xét nguồn bổ sung tương thích trước khi giảm lõi và ghi đúng phần chưa đạt nếu dữ liệu kết hợp vẫn thiếu.
+
+Đối chiếu inventory gần đây và đọc lượt mới của Clarify start-time actions `01a1cfdb-7ebd-7d91-b53c-e04167de3674` đến `01a1d098-d1f3-75a1-af2f-66b5892eba4a`: khởi động ở chat mới vẫn đọc handoff/kiểm giờ và công cụ, không có sửa nguồn mới. Đã đọc quyết định repo riêng/English ở chat `01a1cfed-8c7b-7431-876b-d1a15d2525ad`, lượt `01a1d037-0c84-7840-9cac-0dd26d723bc0`; giữ nguyên SEPA/English/repo riêng. Base `c564dcad0d976c7362616378600e081e07a7bd76`; sáu Drive baseline tải lại và khớp từng byte. Không đổi vai trò nên không đọc/sửa Sheet; không rà lại toàn bộ archived/Zalo hoặc gửi nhóm/mentor.
+
+Coverage: tài liệu | Documents/builder/checker hiện có | dùng, Word/PDF 15 trang, 96 khối/20 URL; điều phối | Codex chat/Git và reviewer chỉ đọc | dùng, root là editor duy nhất; giao bản | GitHub/cloud chat/Drive | quyền thường trực, giữ ID/quyền, kiểm commit/hash/readback; bảo mật | Gitleaks | quét trước phát hành; code/science/app/3D/SEO/provider | không áp dụng, chưa có sản phẩm hoặc dữ liệu thực nhận. Sơ đồ có luồng tương thích nên giữ HTML/PNG. Dùng lại workflow đã đọc, không cài thêm. Bằng chứng cuối tại sibling `moon-plan-b-core-comparison-2026-11-12/` và manifest Drive; tại checkpoint này độc lập kiểm/sync đang thực hiện, không coi xuất file là hoàn tất giao bản.
+
 ## Repo sản phẩm riêng — 12 November 2026
 
 Lượt `01a1d037-0c84-7840-9cac-0dd26d723bc0`, chat `01a1cfed-8c7b-7431-876b-d1a15d2525ad`: Sơn chốt dùng một repo riêng cho toàn bộ sản phẩm, cập nhật kế hoạch và đồng bộ ba đích; chuyển chỉ dẫn khi bắt đầu 00:00 ngày 14/11, dùng English từ bản đầu. Quyết định tách repo đã xác nhận; tên/URL/owner/branch/quyền ghi và việc nhận vai vẫn chưa xác nhận. Không tạo repo sản phẩm trong lượt chuẩn bị này.

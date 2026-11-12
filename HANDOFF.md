@@ -1,13 +1,13 @@
 # Current handoff
 
 Updated: 12 November 2026, Asia/Ho_Chi_Minh.
-Active editor: none; separate-repo sources reviewed and frozen, ownership released. Destination verification pending.
+Active editor: none; core-comparison preparation sources reviewed and frozen, ownership released. Destination verification pending.
 
 ## Read first
 
 README → COMPETITION_RUNBOOK → KE_HOACH_NHOM → FRONTEND_HANDOFF → DATA_PREPARATION. Read TOOL_SELECTION_CHECKLIST/PLUGIN_ROUTING and relevant newer chat turns. PREPARATION_COVERAGE records bounded review checkpoints; Mac tools/evidence do not transfer through Git.
 
-Six registered members; Lunar confirmed. Moon Plan B remains the plan for group approval. BTC data is primary, outside sources supplement verified gaps; inspect actual data before choosing sites/dates/configuration. Conditional extensions require adequate data/model, reviewer, owner and time. No BTC contents or scientific results have been validated.
+Six registered members; Lunar confirmed. Moon Plan B remains the plan for group approval. Core: compare dates at one site, sites over the same UTC interval, and Sun/Earth positions above/below the horizon, before automatic Plan B/globe. Per Sơn, BTC data arrives during competition; contents unknown. BTC is primary; assess compatible outside supplements before selecting configuration or reducing core. No dataset/results validated. Conditional extensions retain data/model/reviewer/owner/time gates.
 
 ## Start and English submission
 
@@ -27,6 +27,6 @@ Security/runtime limits remain in SECURITY_PREPARATION and FRONTEND_HANDOFF §6,
 
 ## Delivery
 
-Baseline **d1a3f8f1e19534d18dd7836f7fdfac79a038b28c**: GitHub/six Drive files/cloud matched. Nine Markdown sources reviewed; Word/PDF regenerated, all 14 pages inspected, 95 blocks/20 links verified; 45 local links resolve. Gitleaks: no leaks found. Code/locks/assets and .DS_Store preserved. Final release SHA and destination readbacks belong in the Drive manifest and sibling `separate-project-repo-2026-11-12/`. At this source checkpoint delivery is pending.
+Baseline **c564dcad0d976c7362616378600e081e07a7bd76**: GitHub/six Drive files/cloud matched; six Drive files freshly downloaded and byte-matched. Nine Markdown sources updated; Word/PDF regenerated to 15 pages, 96 blocks/20 links checked. Final release SHA, independent review and destination readbacks belong in the Drive manifest and sibling `moon-plan-b-core-comparison-2026-11-12/`. At this source checkpoint delivery is pending. Code/locks/assets and .DS_Store preserved; no new science/app test claimed.
 
-Next action under two minutes: agree the separate product repo's name and owner with Chung.
+Next action under two minutes: read plan §2–3 and share the plan/diagram draft for group approval.

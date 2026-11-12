@@ -1,6 +1,6 @@
 # Kiến trúc web app — bản đề xuất để nhóm trao đổi
 
-**Bản sửa theo dữ liệu ngày 12/11:** [Moon Plan B](../../KE_HOACH_NHOM.md) mục 2–6 dùng bộ BTC làm nguồn chính, nguồn ngoài bổ sung có căn cứ; Python theo lô → JSON có phiên bản → React/Vite tĩnh. Địa điểm/ngày/cấu hình được chọn theo metadata và miền phủ thực nhận, không khóa trước. Mục tiêu là so lịch gốc/hoãn/ngày tiếp theo; nhánh API nét đứt không thuộc bản giao hiện tại. Mô hình tham chiếu có điều kiện dữ liệu, chưa được triển khai/kiểm định. Các đoạn thảo luận cũ dưới đây giữ vai trò lịch sử, kế hoạch mới là hướng thực hiện.
+**Bản sửa theo dữ liệu ngày 12/11:** [Moon Plan B](../../KE_HOACH_NHOM.md) mục 2–6 dùng bộ BTC làm nguồn chính, nguồn ngoài bổ sung có căn cứ; Python theo lô → JSON có phiên bản → React/Vite tĩnh. Theo Sơn, bộ BTC đến lúc thi mới có; điểm/ngày/cấu hình được chọn theo miền phủ đã kiểm của bộ thực nhận và nguồn bổ sung. Lõi là so cùng điểm/khác ngày, khác điểm/cùng UTC và vị trí Mặt Trời/Trái Đất so với chân trời; ưu tiên trước tìm Plan B tự động và globe trang trí. Nhánh API nét đứt không thuộc bản giao hiện tại. Mô hình tham chiếu có điều kiện dữ liệu, chưa được triển khai/kiểm định. Sơ đồ luồng dữ liệu vẫn phù hợp; các đoạn thảo luận cũ dưới đây là lịch sử, kế hoạch mới là hướng thực hiện.
 
 Ngày 12/11/2026, giờ Hà Nội. **Đề xuất chuẩn bị, chưa được cả nhóm chốt và chưa triển khai.**
 
@@ -12,7 +12,7 @@ Ngày 12/11/2026, giờ Hà Nội. **Đề xuất chuẩn bị, chưa được c
 
 Làm **web app responsive mở bằng đường link** trên trình duyệt máy tính/điện thoại. Frontend dùng React + TypeScript + Vite đã được chuẩn bị cho Sơn. Web vẫn có bước build frontend; người xem không cần bộ cài Windows riêng. Khả năng chạy trên từng thiết bị phải kiểm bằng sản phẩm thật. [MDN client/server](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview), [Vite production build](https://vite.dev/guide/build.html).
 
-**Giả định để vẽ:** bản đầu cho người dùng xem một số địa điểm và khoảng thời gian có dữ liệu đã kiểm. Chỉ số khoa học, địa điểm, thời gian và kiểu so sánh còn chờ nhóm chọn. Ví dụ “một địa điểm ở hai thời điểm” hoặc “hai địa điểm trong cùng khoảng thời gian” là hai lựa chọn trao đổi, chưa phải hai tính năng bắt buộc.
+**Giả định ban đầu để vẽ — lịch sử:** sơ đồ từng để mở lựa chọn so một điểm ở hai thời điểm hoặc hai điểm trong cùng khoảng thời gian. Kế hoạch hiện tại đã đưa cả hai kiểu so sánh vào lõi dự kiến; địa điểm, thời gian và cấu hình cụ thể vẫn phụ thuộc dữ liệu thực nhận cùng nguồn bổ sung đã kiểm.
 
 Tách hai việc: **backend xử lý khoa học theo lô** tạo kết quả có phiên bản; **frontend** đọc và giải thích kết quả. Với tập lựa chọn hữu hạn, có thể phục vụ kết quả dạng tệp từ hosting, chưa cần API chạy thường trực. Nếu nhóm cần tính theo đầu vào mới, thêm một API hosted dùng dữ liệu/thư viện đã được kiểm. Cách tách này là khuyến nghị kỹ thuật, không phải yêu cầu của NASA.
 
