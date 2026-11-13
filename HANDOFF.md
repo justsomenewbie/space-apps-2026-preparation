@@ -1,31 +1,27 @@
 # Current handoff
 
-Updated: 13 November 2026, Asia/Ho_Chi_Minh. Sole editor for this release: architecture chat `01a1ce65-2dad-7231-91a0-42a4373ea4b6`; independent reviewers and resource-list chat are read-only. Release ownership after verified transport.
+Updated: 13 November 2026, Asia/Ho_Chi_Minh. Sole editor for this release: role-preparation chat `01a1d459-0d40-7c33-9f6b-e415dbfc851d`; reviewers read-only. Release ownership after verified transport.
 
-## Read first
+## Start here
 
-README → COMPETITION_RUNBOOK → KE_HOACH_NHOM → FRONTEND_HANDOFF → DATA_PREPARATION; also TOOL_SELECTION_CHECKLIST/PLUGIN_ROUTING and PREPARATION_COVERAGE. Mac runtimes do not transfer through Git.
+README → docs/roles/README → relevant role kit; then COMPETITION_RUNBOOK, KE_HOACH_NHOM, FRONTEND_HANDOFF, DATA_PREPARATION and TOOL_SELECTION_CHECKLIST/PLUGIN_ROUTING. PREPARATION_COVERAGE records reviewed turns. Mac runtimes do not transfer through Git.
 
-## Current direction and source evidence
+## Current outcome and direction
 
-Six members; Lunar registered. **Sơn delegated the direction/plan on November 13:** retain Moon Plan B; **Horizons supplies main Sun/Earth ephemerides**, sourced site coordinates, batch Python → versioned JSON → React/TypeScript/Vite static web. QuickMap/Moon Trek support lookup/cross-check; CSA supplies context. Do not wait for an unconfirmed separate organizer pack. This supersedes November 12 BTC-first assumptions, not the requirement to review additional official releases.
+User requested six role kits, explicitly without personal assignments. docs/roles contains integration, sources/science, backend/data, frontend/UX, QA/validation and demo/submission: reading routes, preparation today, event tasks, outputs, checks and shared handoffs. Existing plan owns scope/schedule/proposed assignments. Live Sheet read November 13: registration preferences empty; QA C10/G7 still differ. No Sheet edit or role acceptance inferred. Teammate-device readiness remains unverified.
 
-Both site/date comparisons and Sun/Earth timeline come first. Plan §1 owns editable priorities; ground-level views are conditional after the core, with above-site fallback. SpaceEngine is interaction inspiration only. Source/rights/frame/detail/device checks and demo/rehearsal/submission gates apply. No scientific request, dataset, application or device performance validated. Role acceptance and data contract remain unresolved; selected direction is not evidence of unanimous team approval.
+Sơn's November 13 delegation selects Moon Plan B: Horizons main Sun/Earth source, sourced locations, offline Python → versioned JSON → static React/TypeScript/Vite. QuickMap/Moon Trek support lookup/cross-check; CSA provides context. Do not wait for an unconfirmed organizer pack. Both site/date comparisons and timeline precede automatic Plan B and conditional ground-level views; above-site fallback. Plan §1/9 owns priorities and data/device/time gates. No dataset, scientific request or app validated; contract and actual configurations remain open.
 
-`docs/official-challenge-check-2026-11-13.md` records direct HTTP reads of full challenge/Resources, current FAQ and NASA guides. Publication metadata does not identify changed passages. Preserve raw-source evidence outside the repo.
+## Event, product and disclosure
 
-## Start, submission and rights
+Start 00:00 November 14 Hanoi; portal 09:00. Local cutoff 11:00 November 15; global 23:59 separately. Recommended November 14 gates: source/contract 09:30, real flow 10:30, comparison pack 12:00, core 15:00, stable demo 17:00, release 20:30. November 15 freeze 09:00, final local target 10:30; submit an early truthful version and resubmit after edits.
 
-Start **00:00 November 14 Hanoi**; 09:00 is scheduled portal opening. Local cutoff **11:00 November 15**, global **23:59**. Recommended gates: source/contract 09:30, real flow 10:30, comparison pack 12:00, release 20:30 on November 14; freeze 09:00/final local target 10:30 on November 15.
+Use one separate shared product repository; URL/owner/branch/access remain unknown. At kickoff carry English AGENTS/HANDOFF, exact preparation commit and verified host tools. All team-authored product/submission/linked materials English from first version. Keep private evidence/practice out. Preparation-sync authorization does not authorize product deployment.
 
-Product UI, documentation, reports and submission materials must be English from their first version. Use one separate shared product repo; URL/owner/branch/access remain unknown. At kickoff carry applicable English AGENTS/HANDOFF, link the exact preparation commit and verify host tools. Exclude private evidence/practice. Preparation sync permissions do not authorize product publication.
-
-NASA Global Award requires a NASA resource actually used. Disclose SI contributions, visible generated-image/video marks and descriptive-text/metadata attribution for generated audio/code/data; no NASA branding in generated content. **SI solution-idea restriction remains unresolved for the AI-assisted proposal history; do not conceal it or assert eligibility.** NASA prohibits under-18 media/likeness in demo/final. NASA 1–5 versus SEPA 1–10 remains unresolved. Team Owner is planned submitter; verify account permissions. Save Progress is not Submit for Judging; retain confirmation and resubmit after edits.
-
-Exact-use licences and credits remain mandatory. Prepared security, raster/CRS and synthetic tool labs have scoped evidence in owning files; no Lunar validation or automatic cloud installation.
+NASA Global Award needs a NASA resource actually used. Preserve exact-use rights, licences, source and AI history. Generated image/video marks and audio/code/data descriptive/metadata attribution apply; no NASA branding in generated content. SI solution-idea wording remains unresolved for AI-assisted proposal history: do not conceal it or assert eligibility. Under-18 likeness prohibited in demo/final. NASA/SEPA judging scales differ. Verify Team Owner permissions; Save Progress is not Submit for Judging. Demo ≤7 slides or ≤30 seconds; retain confirmation and local snapshot. Details: docs/official-challenge-check-2026-11-13.md and runbook.
 
 ## Delivery
 
-Prior verified GitHub/cloud release: `d7a81d3596f4a67bd593c02c3956a885578e380b`. This source checkpoint leaves transport pending. Final commit, cloud hashes, regenerated plan/export verification and all six Drive readbacks belong in sibling `nasa-preparation-deliverables/official-challenge-review-2026-11-13/FINAL_VERIFICATION.json`. Preserve `.DS_Store`.
+Prior verified GitHub/cloud release: `38582b9c12caf49c4f73345eca876ad67c7ac174`. Role-kit transport pending at source checkpoint. Final commit/cloud hashes/six Drive readbacks: sibling `nasa-preparation-deliverables/role-kits-2026-11-13/FINAL_VERIFICATION.json`. Human-plan source unchanged; retain Word/PDF with hash verification. Preserve `.DS_Store`.
 
-Next action under two minutes: read your proposed assignment in plan §7 and confirm or amend it.
+Next action under two minutes: open one role kit and record the first output you can own.
