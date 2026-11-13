@@ -35,11 +35,12 @@ Các vai có thể làm song song việc không phụ thuộc nhau. Việc phụ
 
 ## Mẫu bàn giao chung
 
-Mẫu ghi việc, chưa phải schema sản phẩm. Khi có sản phẩm, điền bằng tiếng Anh trong repo sản phẩm; chỉ ghi `PASS` khi có bằng chứng.
+Mẫu ghi việc, chưa phải schema sản phẩm. Trước khi nhận task, dùng [checklist chốt đầu vào](CHECKPOINTS.md) để phân biệt phần nhóm xác nhận hôm nay, phần chốt từ dữ liệu trong giờ thi và phần cần kiểm tài khoản/BTC. Khi có sản phẩm, điền bằng tiếng Anh trong repo sản phẩm; chỉ ghi `PASS` khi có bằng chứng.
 
 ```text
-Role / accepted owner / independent reviewer:
-Goal / permitted files / inputs needed:
+Role / accepted owner / receiving role / independent reviewer:
+Acceptance evidence from owner, recipient and reviewer / deadline (Hanoi):
+Goal / permitted files / exact input path, version, commit or hash / dependencies:
 Output path or URL / commit / dataset version and hash:
 Reproduction steps / expected result / observed result / evidence:
 Status (not started | in progress | blocked | ready for review | verified):

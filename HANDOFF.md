@@ -8,7 +8,7 @@ README → docs/roles/README → relevant role kit; then COMPETITION_RUNBOOK, KE
 
 ## Current outcome and direction
 
-User requested six role kits, explicitly without personal assignments. docs/roles contains integration, sources/science, backend/data, frontend/UX, QA/validation and demo/submission: reading routes, preparation today, event tasks, outputs, checks and shared handoffs. Existing plan owns scope/schedule/proposed assignments. Live Sheet read November 13: registration preferences empty; QA C10/G7 still differ. No Sheet edit or role acceptance inferred. Teammate-device readiness remains unverified.
+User requested six role kits, explicitly without personal assignments. docs/roles contains integration, sources/science, backend/data, frontend/UX, QA/validation and demo/submission: reading routes, preparation today, event tasks, outputs, checks and shared handoffs. Task-start follow-up adds docs/roles/CHECKPOINTS: accepted owner/recipient/reviewer, deadline, exact input version and unresolved decision evidence. Frontend/hosting stale status now distinguishes selected flow, conditional method and static Cloudflare from unvalidated implementation. Existing plan owns scope/schedule/proposed assignments. Live Sheet read November 13: registration preferences empty; QA C10/G7 still differ. No Sheet edit or role acceptance inferred. Teammate-device readiness remains unverified.
 
 Sơn's November 13 delegation selects Moon Plan B: Horizons main Sun/Earth source, sourced locations, offline Python → versioned JSON → static React/TypeScript/Vite. QuickMap/Moon Trek support lookup/cross-check; CSA provides context. Do not wait for an unconfirmed organizer pack. Both site/date comparisons and timeline precede automatic Plan B and conditional ground-level views; above-site fallback. Plan §1/9 owns priorities and data/device/time gates. No dataset, scientific request or app validated; contract and actual configurations remain open.
 
@@ -22,6 +22,6 @@ NASA Global Award needs a NASA resource actually used. Preserve exact-use rights
 
 ## Delivery
 
-Prior verified GitHub/cloud release: `38582b9c12caf49c4f73345eca876ad67c7ac174`. Role-kit transport pending at source checkpoint. Final commit/cloud hashes/six Drive readbacks: sibling `nasa-preparation-deliverables/role-kits-2026-11-13/FINAL_VERIFICATION.json`. Human-plan source unchanged; retain Word/PDF with hash verification. Preserve `.DS_Store`.
+Prior verified GitHub/cloud release: `295f4edba284fc00b6d80b815b02bd5d1c689a86`. Task-checkpoint transport pending at source checkpoint. Final commit/cloud hashes/six Drive readbacks: sibling `nasa-preparation-deliverables/task-checkpoints-2026-11-13/FINAL_VERIFICATION.json`. Human-plan source unchanged; retain Word/PDF with hash verification. Preserve `.DS_Store`.
 
-Next action under two minutes: open one role kit and record the first output you can own.
+Next action under two minutes: record deadline, exact input version and receiving reviewer for one task.

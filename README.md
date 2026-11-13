@@ -37,7 +37,7 @@ Email BTC đọc ngày 12/11 đã xác nhận đúng đội sáu người/Lunar,
 
 ## Bộ chuẩn bị cập nhật ngày 13 tháng 11
 
-Mã bộ: **PREP-2026-11-13-ROLE-KITS**. Đọc [HANDOFF](HANDOFF.md) và [AGENTS](AGENTS.md) để tiếp tục; [FRONTEND_HANDOFF](FRONTEND_HANDOFF.md) có stack do Sơn chọn, định hướng mobile/3D/audio và giới hạn bài thử; [HOSTING_PLAN](HOSTING_PLAN.md) có phương án chạy độc lập Mac; [PLUGIN_GUIDE_REVIEW](PLUGIN_GUIDE_REVIEW.md) và [PLUGIN_ROUTING](PLUGIN_ROUTING.md) có cách chọn công cụ. Kế hoạch mới là đặc tả đề xuất để duyệt; quyền và việc nhận vai được ghi khi thực hiện.
+Mã bộ: **PREP-2026-11-13-TASK-CHECKPOINTS**. Đọc [HANDOFF](HANDOFF.md) và [AGENTS](AGENTS.md) để tiếp tục; [FRONTEND_HANDOFF](FRONTEND_HANDOFF.md) có stack do Sơn chọn, định hướng mobile/3D/audio và giới hạn bài thử; [HOSTING_PLAN](HOSTING_PLAN.md) có phương án chạy độc lập Mac; [PLUGIN_GUIDE_REVIEW](PLUGIN_GUIDE_REVIEW.md) và [PLUGIN_ROUTING](PLUGIN_ROUTING.md) có cách chọn công cụ. Kế hoạch mới là đặc tả đề xuất để duyệt; quyền và việc nhận vai được ghi khi thực hiện.
 
 **Quyết định repo ngày 12/11:** Sơn chọn một repo riêng, chung cho sản phẩm thực; repo này giữ tài liệu chuẩn bị. Khi bắt đầu từ 00:00 ngày 14/11, mang chỉ dẫn hiện hành sang AGENTS/HANDOFF của repo sản phẩm và dùng tiếng Anh từ bản đầu. Chưa tạo repo mới; tên/URL/owner/branch còn cần ghi khi khởi động. Xem runbook và kế hoạch mục 5 cho các bước chuyển giao; không tự sao chép quyền, runtime Mac hoặc tài liệu riêng.
 

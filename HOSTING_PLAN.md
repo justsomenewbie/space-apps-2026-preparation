@@ -2,13 +2,15 @@
 
 Researched **12 November 2026, Hanoi time**. Status: **recommended preparation plan**, not a purchased service, deployed app, capacity benchmark or team-approved backend decision. Prices below are USD/month before tax unless stated otherwise. Recheck the actual account quote before subscribing.
 
-## Recommended setup
+**Decision reconciliation, 13 November:** [KE_HOACH_NHOM §5](KE_HOACH_NHOM.md) selects static Cloudflare hosting for Moon Plan B, with offline Python producing versioned JSON. The event plan excludes a live API, database and paid backend. The research alternatives and illustrative budgets below remain dated reference material; they are not selected dependencies or spending approval. Account/project, deploy and rollback access, hostname, actual asset needs and device/recovery checks remain unresolved. Use the [task-start checkpoints](docs/roles/CHECKPOINTS.md) to record those facts without reopening the selected architecture.
 
-**Use Cloudflare Workers Static Assets for the prepared React/TypeScript/Vite frontend, and R2 Standard for larger 3D/data/audio assets. Add Workers Paid only when a lightweight API is needed. Add Railway Pro in Singapore only if the agreed calculations require a Python/native-library backend.**
+## November 12 options retained for reference
 
-This is the best-value fit I recommend for the currently known requirements: phone/computer access, realistic interactive 3D, optional music/SFX, and availability independent of the development Mac. It is not a measured claim that one provider is fastest. The final product, traffic and data contract remain unchosen.
+The research considered Cloudflare Workers Static Assets for the frontend, R2 Standard for larger assets, Workers Paid for a lightweight API, and Railway Pro Singapore for a hosted Python/native-library backend. Only static Cloudflare is selected in the current event plan; R2 depends on actual asset needs, and a live API/backend would require an authorized scope change.
 
-| Part | Initial choice | When it earns its cost |
+This November 12 recommendation considered phone/computer access, interactive 3D, optional music/SFX and availability independent of the development Mac. It is not a measured provider comparison. The November 13 plan now selects Moon Plan B and static Cloudflare; traffic, exact assets and the data contract still need evidence. Optional services below require a concrete need and an authorized scope change.
+
+| Part | Researched option | When it earns its cost |
 |---|---|---|
 | Website and application code | Workers Static Assets: $0 for ordinary asset serving | Needed from the first public release; no continuously running server required. |
 | Models, textures, data and optional audio | R2 Standard: usage-based, with a free allowance | Use for files above the static-asset limit, media needing byte ranges, or independently updated assets. Small ordinary assets can stay with the frontend. |
@@ -137,6 +139,6 @@ Upgrade only after evidence: required libraries/peak memory exceed Worker limits
 
 Used Matt Pocock's **research** workflow for primary-source investigation and **web-launch-review** for the planned deployment acceptance checks. Three independent research streams covered Cloudflare, paid backends/database and Vercel/Netlify. Root reread the key pricing/limits, calculated examples and reviewed the saved plan. The Mac evidence folder is `../nasa-preparation-deliverables/hosting-research-2026-11-12/`; that sibling folder is not included automatically in Git/cloud checkouts. This file preserves the portable recommendation and source links.
 
-Remaining: final product/data contract, actual workload, agreed billing ceiling, account availability, domain, deployment, media/device checks and observed uptime. No packages, services, accounts or paid plans were activated; no source code, processed datasets, deployment, commit or push was created by this hosting research.
+Remaining: exact data contract/assets/workload, account/project and deploy/rollback access, hostname, any explicitly approved spending ceiling, deployment, media/device/recovery checks and observed uptime. Moon Plan B/static Cloudflare is the selected direction; no paid service or domain purchase is authorized by these estimates. This research activated no packages, services, accounts or paid plans and produced no application code, processed dataset or deployment. Documentation publication is tracked separately in HANDOFF and the release manifest.
 
-Next action (under two minutes): read the recommended setup and starting budget above; when the team chooses its core calculation, select the matching static/API/Python tier.
+Next action (under two minutes): record which account owner can verify Cloudflare project access and deployment/rollback permissions; leave access unverified until checked.
