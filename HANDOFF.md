@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 13 November 2026, Asia/Ho_Chi_Minh.
-Source editing complete; no reserved editor. Requirements chat: `01a1d30c-eb2c-7901-b75e-8ac42a538615`. Final transport evidence belongs in the receipt below.
+Source editing complete; no reserved editor. Latest review chat: `01a1d33d-3c05-70e2-9559-3990d375198f`. Final transport evidence belongs in the receipt below.
 
 ## Read first
 
@@ -9,7 +9,9 @@ README → COMPETITION_RUNBOOK → KE_HOACH_NHOM → FRONTEND_HANDOFF → DATA_P
 
 Six registered members; Lunar confirmed. Moon Plan B awaits group approval. **Editable team proposal:** plan §1.1–1.3 owns Must-haves/Should-haves. Core comparisons, Sun/Earth timeline, explainable results, provenance and usable English delivery precede optional features. Sơn prefers smooth Moon-to-site **ground-level** views if data/time allow, with **above-site fallback**. Source/rights/frame/detail/device checks and core/demo/rehearsal/submission gates apply. The team may revise/add/remove/reprioritize. SpaceEngine is interaction inspiration only. BTC contents remain unknown; assess compatible supplements before reducing core. No science results validated.
 
-**Mac tool preparation verified:** isolated Rasterio 1.5.2/GDAL 3.12.2 and PyProj 3.8.0/PROJ 9.8.1, eight hashed pins, nine synthetic checks independently rerun, pip/OSV checks. DATA_PREPARATION owns paths, evidence and limits. About 171 MiB including retained wheels; no global changes. Real lunar datasets/native-library coverage/browser/phones remain untested. No app, scene or lunar processing; no duplicate cloud installation.
+**Mac tool preparation verified:** isolated Rasterio/GDAL and PyProj/PROJ, eight pins, nine independently repeated synthetic checks, pip/OSV checks. DATA_PREPARATION owns versions, paths and limits. Real lunar datasets/native-library coverage/browser/phones remain untested. No app or lunar processing; no cloud installation.
+
+**Diorama:** FRONTEND_HANDOFF pins the source review at `c790df5`. Selective orbit/reset and visual-QA reference recommended; whole pixel/toon workflow mismatches the realistic view. It supplies no lunar terrain or globe-to-ground navigation. No installation, execution, asset copying, performance or full security tests; not team adoption.
 
 ## Start and English submission
 
@@ -29,6 +31,6 @@ Sơn owns frontend choice; React/TypeScript/Vite/npm/CSS prepared. Coordinate co
 
 ## Delivery
 
-Last verified GitHub/cloud release: **3f6fdf9dbe35f40d97c1d9ac306c6172fd7e0b35**, receipt `nasa-preparation-deliverables/app-requirements-2026-11-13/FINAL_VERIFICATION.json`. Ground-level proposal and toolkit notes are complete locally; regenerated Word/PDF have 18 reviewed pages. At this source checkpoint, new transport is pending. Final released commit, cloud/source hashes and six Drive readbacks belong in sibling `nasa-preparation-deliverables/ground-level-proposal-2026-11-13/FINAL_VERIFICATION.json`. Preserve `.DS_Store`.
+Last verified GitHub/cloud release: **e9076ff0ce987b6ab18d50410469db107fd8b1ce**, sibling receipt `nasa-preparation-deliverables/ground-level-proposal-2026-11-13/FINAL_VERIFICATION.json`. Four-file Diorama reference update awaits transport at this source checkpoint; unchanged plan/AI/18-page Word/PDF require retained-hash checks. Released SHA, cloud/source hashes and six Drive readbacks belong in sibling `nasa-preparation-deliverables/diorama-review-2026-11-13/FINAL_VERIFICATION.json`. Preserve `.DS_Store`.
 
-Next action under two minutes: read plan §1.3 and mark one condition the team should revise.
+Next action under two minutes: open the Diorama orbit reference in FRONTEND_HANDOFF and consider its reset/inspection interaction for the proposed site view.

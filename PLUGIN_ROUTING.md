@@ -1,5 +1,9 @@
 # NASA plugin and skill routing
 
+## Diorama source review — 13 November
+
+Research/review | GitHub connector + web + independent read-only reviewer | used | pinned README, license, tree, orbit/camera and QA documentation; visual-tools/local guide and active Ponytail selected the existing three.js route. Continuity | Codex chat list/read + local handoff | used | latest ground-level planning turn checked. No CodeGraph index; bounded native reads/structured filtering suffice. No skill admitted, installed or executed, so SkillGuard admission scan and runtime/dependency tests are deferred until actual adoption. Other visual/provider, UI, science, document-render and launch tools have no requested artifact to test. Delivery | full diff, independent review, redacted Gitleaks, existing Git/cloud/Drive | selected | optional source reference only; unchanged plan/AI context/Word/PDF retained and hash-verified. Final transport receipt: sibling `diorama-review-2026-11-13/FINAL_VERIFICATION.json`. Source review does not certify security, performance, scientific validity or external asset rights.
+
 ## Ground-level proposal and missing terrain tools — 13 November
 
 Sơn prefers ground-level if data/time permit, with above-site fallback; KE_HOACH_NHOM §1.3 keeps this as an editable Should-have after core checks. Used the visual-tools workflow/local guide and GSAP guidance for readiness planning, existing official SpaceEngine/NASA source research, native inventory and read-only reviewers. Added only the missing scoped Rasterio/PyProj environment outside the repositories; DATA_PREPARATION owns versions, commands, nine independently rerun synthetic checks, rights/hash evidence and limits. OSV covered eight Python pins, not every bundled native dependency; Gitleaks was redacted. No new skill admission, so no new SkillGuard admission scan; existing security workflow applies to packages.

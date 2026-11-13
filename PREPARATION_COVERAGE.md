@@ -1,5 +1,9 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Diorama optional reference — 13 November 2026
+
+Current chat **Review Diorama GitHub Repo**, `01a1d33d-3c05-70e2-9559-3990d375198f`, reviewed through Sơn's repository link and question whether it helps. Listed 12 recent chats; read the latest two **Define app and web requirements** turns through `01a1d32a-e914-7cb1-8ac4-d4f343a21c22`, confirming conditional ground-level preference and above-site fallback. No new assignment decision; Sheet and older unrelated histories not re-audited. Prior release `e9076ff0ce987b6ab18d50410469db107fd8b1ce` has the complete ground-level receipt. FRONTEND_HANDOFF owns the pinned Diorama source assessment: selective orbit/QA reference, not whole-skill adoption or a change to product scope. No installation, execution, asset copying or early implementation. PLUGIN_ROUTING records tools and limits. Human plan, AI context and reviewed Word/PDF are unchanged. Current release transport is pending at this source checkpoint; actual Git/cloud and six Drive readbacks belong in sibling `diorama-review-2026-11-13/FINAL_VERIFICATION.json`.
+
 ## Ground-level preference and tool preparation — 13 November 2026
 
 Current chat **Define app and web requirements**, `01a1d30c-eb2c-7901-b75e-8ac42a538615`, reviewed through Sơn's request for ground-level if data/time allow, above-site fallback, an editable team proposal, the usual sync and missing-tool preparation without early app work. Listed ten recent chats; no new relevant decision beyond the already reviewed planning/music checkpoints below. No assignment/Sheet change or full archived-history audit. Baseline `3f6fdf9dbe35f40d97c1d9ac306c6172fd7e0b35` has the complete GitHub/cloud/six-Drive receipt in sibling `app-requirements-2026-11-13/`; all six baseline files were freshly downloaded and their manifest/source/export bytes checked.
