@@ -1,36 +1,32 @@
 # Current handoff
 
 Updated: 13 November 2026, Asia/Ho_Chi_Minh.
-Source editing complete; no reserved editor. Rights/music-test chat: `01a1d0e9-0c4c-7e80-b766-7eac127e6daa`. Final transport verification belongs in the receipt below.
+Source editing complete; no reserved editor. Requirements chat: `01a1d30c-eb2c-7901-b75e-8ac42a538615`. Final transport evidence belongs in the receipt below.
 
 ## Read first
 
 README → COMPETITION_RUNBOOK → KE_HOACH_NHOM → FRONTEND_HANDOFF → DATA_PREPARATION. Read TOOL_SELECTION_CHECKLIST/PLUGIN_ROUTING and PREPARATION_COVERAGE. Mac runtimes do not transfer through Git.
 
-Six registered members; Lunar confirmed. Moon Plan B awaits group approval. Prioritize date/site comparisons and Sun/Earth horizon positions over automatic Plan B/globe. BTC data arrives during competition; contents unknown. Assess compatible supplements before reducing core. No science results validated; extensions retain their gates.
+Six registered members; Lunar confirmed. Moon Plan B awaits group approval. **New editable proposal:** KE_HOACH_NHOM §1.1–1.2 contains five Must-haves and five Should-haves. Core: two comparisons, Sun/Earth timeline, explainable results, provenance and a usable/reopenable English experience. Automatic Plan B, useful realistic 3D, guided example, printing and supported science layers follow the core. The team may revise/add/remove/reprioritize; these are not all NASA mandates or confirmed team decisions. BTC contents remain unknown; assess compatible supplements before reducing core. No science results validated. SpaceEngine is research only, not adopted software/assets.
 
 ## Start and English submission
 
-User reaffirmed **00:00 November 14 Hanoi** after reading the November 12 SEPA guide. Do not replace midnight permission with the guide's 09:00 scheduled opening/portal time. Local cutoff **11:00 November 15**, global **23:59**; feature freeze 09:00/final local target 10:30 are recommendations.
+User reaffirmed **00:00 November 14 Hanoi**. Keep that permission distinct from the 09:00 scheduled opening/portal time. Local cutoff **11:00 November 15**, global **23:59**; freeze 09:00/final local target 10:30 are recommendations.
 
-**English from the first product version**, including UI/chart/error/accessibility text, slide/demo, reports and team-authored GitHub README, reproduction, methods/limits, sources and AI disclosure. Preserve third-party originals/licenses. Internal preparation remains Vietnamese.
+**English from the first product version:** UI/charts/errors/accessibility, slides/demo/reports, README/reproduction/methods/limits/sources/AI. Preserve third-party originals/licenses; internal preparation may remain Vietnamese.
 
-**User decision, November 12:** one separate shared product repo for frontend/backend/data scripts/tests/docs. Name `moon-plan-b` is proposed; URL/owner/base branch/write access remain unknown. At event kickoff from 00:00 November 14, establish that checkout and carry the current rules into English AGENTS/HANDOFF before implementation. Preserve event/science/rights/review/security/tool rules; link preparation commit and verify host tools. Record product URL/owner/branch in both handoffs. No private evidence/practice files or automatic midnight job. Preparation-sync authorization remains scoped to preparation.
+One separate shared product repo for frontend/backend/data/scripts/tests/docs. Name `moon-plan-b` is proposed; URL/owner/base branch/access unknown. At event kickoff, establish checkout and English AGENTS/HANDOFF with current event/science/rights/review/security/tool rules; link preparation commit, verify host tools, record ownership in both handoffs. Exclude private evidence/practice. Preparation-sync authorization stays scoped to preparation.
 
-Runbook/plan §10: eight fields, ≤7 slides OR ≤30-second video, separate Final Project, NASA/partner dataset, references/AI, anonymous links, Team Owner. Submit early November 15 and Submit again after edits. Judging: 15 minutes including Q&A; slot/portal access/under-18 media conditions remain unverified.
+Runbook/plan §10: eight fields, ≤7 slides OR ≤30-second video, separate Final Project, named NASA/partner dataset, references/AI, anonymous links, Team Owner. Submit early November 15 and again after edits. Judging: 15 minutes including Q&A; slot/portal access/under-18 media conditions unverified.
 
-## Rights instruction — November 13
+## Rights and people
 
-No copyrighted images/music/code without permission for actual use. Carry `docs/media-rights-2026-11-13.md` into English product instructions/credits. User selected permitted images/relevant licensed code and explicitly confirmed ACE-Step. No final soundtrack, whole-team approval or quality winner. Recommend silent default, optional music after core, no initial SFX; prepare compatible variations offline, never run AI in the app. Current warning pressure blocked new inference; shift-3 tuning remains untested. A 64-second unrelated cafe preview repeats existing material with crossfades; signal checks passed, perceived smoothness unverified. Prior ACE peak remains 17.77 GB; no larger models or ElevenLabs purchase. Guide: `/Users/nns/.codex/workflows/music-tools/LOCAL_USE.md`. Submission cues remain event-time work; retain output/provenance/rights review.
+Follow `docs/media-rights-2026-11-13.md`: exact-use permission for images/music/code and English credits. ACE-Step selected for unrelated local testing, not a cleared final soundtrack. Optional music after core, silent default, no initial SFX; warning memory pressure blocked new inference. Existing 64-second cafe loop repeats material; perceived smoothness unverified. No larger model or ElevenLabs purchase.
 
-## People and technical boundaries
-
-Sơn owns frontend choice: prepared React/TypeScript/Vite/npm/CSS. Coordinate contracts with Chung. Role acceptance and the Sheet QA conflict remain in FRONTEND_HANDOFF; verify before assigning. Team Owner rights are unproven; private organizer evidence stays outside Git.
-
-Security/runtime limits remain in SECURITY_PREPARATION/FRONTEND_HANDOFF, including the minimatch exception. Architecture/theory remain proposals; drafts unsent.
+Sơn owns frontend choice; React/TypeScript/Vite/npm/CSS prepared. Coordinate contracts with Chung. Role acceptance/Sheet QA conflict, Team Owner access and security/runtime limits remain unresolved in their owning files. Architecture/theory remain proposals.
 
 ## Delivery
 
-Baseline **3e9ba0b31c36bbbf2dee6b21b9a93c0b917832f1**: previous receipt verified GitHub/cloud and six Drive files. Markdown-only follow-up; unchanged plan retains reviewed 15-page Word/PDF hashes. New-release sync is pending at this source checkpoint; final commit/cloud/Drive evidence belongs in sibling `nasa-preparation-deliverables/music-loop-2026-11-13/FINAL_VERIFICATION.json`. Account details/provider links/audio remain outside Git; .DS_Store preserved.
+Last verified GitHub/cloud release: **289ac02303d73118264751bacef5a79b83e9a1ef**, receipt `nasa-preparation-deliverables/music-loop-2026-11-13/FINAL_VERIFICATION.json`. New Markdown proposal requires regenerated Word/PDF and six-file shared-copy sync. At this source checkpoint, new release transport is pending; final commit, cloud/hash comparison and Drive readbacks belong in sibling `nasa-preparation-deliverables/app-requirements-2026-11-13/FINAL_VERIFICATION.json`. Preserve `.DS_Store`.
 
-Next action under two minutes: listen to the local 64-second cafe loop, especially joins at 16, 32 and 48 seconds.
+Next action under two minutes: read the proposed priorities in KE_HOACH_NHOM §1.1–1.2 and mark one item to revise for team discussion.

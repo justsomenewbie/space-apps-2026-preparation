@@ -1,10 +1,10 @@
 # Kế hoạch Moon Plan B cho nhóm Lunar
 
-Phương án Sơn đưa nhóm duyệt ngày 12 tháng 11 năm 2026
+Phương án Sơn đưa nhóm duyệt ngày 12 tháng 11 năm 2026, bổ sung ưu tiên ngày 13 tháng 11
 
 **Chọn Moon Plan B: web app giúp người học so sánh địa điểm và ngày đáp, trực quan vị trí Mặt Trời và Trái Đất so với chân trời.** Tình huống xuyên suốt là lịch bị lùi: giữ điểm thì điều kiện đổi ra sao, đổi sang điểm khác trong cùng ngày thì khác gì, và có phương án nào đạt tiêu chí trong tập đã khảo sát.
 
-Bản này ấn định hướng sản phẩm, quy trình chọn dữ liệu, cách kiểm, phân công và lịch thực hiện để nhóm duyệt cùng một phương án. **Dữ liệu BTC cung cấp là đầu vào chính; nguồn ngoài chỉ bổ sung phần cần thiết.** Địa điểm, ngày và cấu hình tính được xác định sau khi kiểm dữ liệu thực nhận theo mục 3. Các lựa chọn thiết kế là khuyến nghị của bản kế hoạch; việc từng thành viên nhận nhiệm vụ được ghi khi nhóm thông qua. Đây không phải biên bản nhóm đã biểu quyết.
+Bản này đề xuất hướng sản phẩm, quy trình chọn dữ liệu, cách kiểm, phân công và lịch thực hiện để nhóm duyệt cùng một phương án. **Dữ liệu BTC cung cấp là đầu vào chính; nguồn ngoài chỉ bổ sung phần cần thiết.** Địa điểm, ngày và cấu hình tính được xác định sau khi kiểm dữ liệu thực nhận theo mục 3. Các lựa chọn thiết kế là khuyến nghị của bản kế hoạch; việc từng thành viên nhận nhiệm vụ được ghi khi nhóm thông qua. Đây không phải biên bản nhóm đã biểu quyết. **Danh sách Must-have và Should-have ở mục 1 có thể sửa, đổi ưu tiên hoặc bổ sung theo ý kiến nhóm, dữ liệu và thời gian; không phải danh sách đóng.**
 
 **Bắt đầu triển khai từ 00:00 ngày 14/11/2026. Nộp Hà Nội trước 11:00 ngày 15/11; mục tiêu của nhóm là 10:30.** Giờ làm việc dưới đây dùng giờ Hà Nội. Thời gian bên trong sản phẩm dùng UTC và luôn có nhãn. Trước giờ bắt đầu chỉ đọc nguồn, học lý thuyết và chuẩn bị công cụ.
 
@@ -28,6 +28,32 @@ Người dùng chính là sinh viên, người học STEM và người xem lần
 **Điều kiện mở rộng:** sau khi nhận dữ liệu BTC, Trang và Chung đánh giá phần so sánh có thể bổ sung, ghi tiêu chí, dữ liệu/mô hình, giả định, giới hạn, người phụ trách và cách Minh kiểm lại. Nhóm chỉ đưa vào bản thi khi đủ bằng chứng và thời gian, không làm chậm luồng lõi hoặc vượt mốc khóa tính năng. Nếu chưa đủ thì ghi rõ chưa hỗ trợ; không loại trước vì chưa biết dữ liệu, cũng không nhận là “an toàn” hay “tối ưu” vượt phạm vi đã kiểm.
 
 [SYNEXIS](https://synexiss.site/explorer) đã công bố góc Sun/Earth, cửa sổ thời gian và so sánh kịch bản. [CLPS Browser](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/main/README.md) cũng mô tả so sánh và timeline. Vì vậy, nhóm trình bày tác vụ, độ rõ ràng và bằng chứng kiểm thử của mình; không tuyên bố đầu tiên, chính xác hơn hoặc dễ dùng hơn khi chưa có phép thử. Các trang này mới được đọc ở mức nội dung công bố, chưa được kiểm chứng chất lượng tính toán.
+
+### 1.1 Must-have cho bản đầu hoàn chỉnh
+
+**Đề xuất Sơn yêu cầu ghi vào kế hoạch ngày 13/11, chưa phải quyết định chung của nhóm.** Must-have là mức ưu tiên sản phẩm được đề xuất; không có nghĩa NASA bắt buộc từng tính năng trong bảng. Các yêu cầu cuộc thi thực tế ở mục 10 vẫn áp dụng khi nhóm đổi phạm vi. Mục tiêu là một web app responsive mở bằng link trên điện thoại và máy tính, giúp trả lời: lịch đáp đổi thì điều kiện thay đổi thế nào, và phương án khác có điểm gì phù hợp hơn theo tiêu chí đang xét.
+
+| Ưu tiên lõi | Người dùng nhận được gì | Ví dụ nghiệm thu |
+|---|---|---|
+| Hai chế độ so sánh rõ ràng | Cùng điểm khác ngày; khác điểm cùng khoảng UTC. Lựa chọn lấy từ dữ liệu đã kiểm | Đổi ngày giữ điểm và thời lượng; đổi điểm giữ UTC, thời lượng, định nghĩa và tiêu chí |
+| Timeline Sun/Earth tương tác | Xem vị trí hai thiên thể so với chân trời, biểu đồ dễ đọc và hai phương án đồng bộ | Đổi thời điểm cập nhật cả hình, biểu đồ và nhãn; tổng số giờ không thay cho trực quan vị trí |
+| Kết quả giải thích được | Thời lượng phù hợp định nghĩa nguồn, khoảng giao liên tục dài nhất và chênh lệch giữa hai phương án | Người xem chỉ ra điều gì tăng, giảm hoặc chưa đủ dữ liệu để kết luận; không gán hình học thành điện, liên lạc hay an toàn bảo đảm |
+| Bằng chứng cạnh kết quả | Nguồn, phiên bản, đơn vị, UTC, mô hình, miền phủ và giới hạn | Phân biệt không có khoảng đạt với thiếu dữ liệu hoặc sát ngưỡng; truy được vai trò dữ liệu BTC và nguồn bổ sung |
+| Trải nghiệm dùng và mở lại được | UI tiếng Anh, điện thoại/máy tính, bàn phím, trạng thái tải/lỗi và link khôi phục so sánh | Link lưu chế độ, lựa chọn, thời lượng, tiêu chí và phiên bản; lỗi phiên bản/đầu vào được giải thích; vẫn xem kết quả khi 3D lỗi |
+
+### 1.2 Should-have sau khi lõi hoạt động đúng
+
+| Ưu tiên tiếp theo | Giá trị đề xuất | Điều kiện đưa vào bản thi |
+|---|---|---|
+| Tự tìm Plan B | Ngày sớm nhất đạt tiêu chí công khai trong tập đã đánh giá, kèm lý do | Lõi so sánh đã qua kiểm; xử lý đúng thiếu dữ liệu, sát ngưỡng và không có phương án; không hứa ngày tối ưu ngoài miền khảo sát |
+| 3D chân thực có ích | Định hướng từ Mặt Trăng tới điểm chọn và giúp hiểu hướng nhìn, giữ cảm giác cao cấp | Hoàn thiện sau lõi; phân biệt cảnh minh họa với phép tính và địa hình đã kiểm; có chế độ nhẹ, dừng/giảm chuyển động |
+| Một tình huống hướng dẫn | Nút thử lịch bị lùi giúp người mới đi qua một phép so có thật và đã kiểm | Không dùng số liệu dựng làm kết quả; thử với người chưa làm tính năng, theo mục 9 |
+| Bản so sánh in một trang | Giữ câu hỏi, lựa chọn, kết quả, nguồn và giới hạn để chia sẻ | Dùng in trình duyệt trước; không cần dịch vụ xuất PDF riêng |
+| Lớp khoa học bổ sung có căn cứ | Xét che khuất địa hình, chiếu sáng hoặc mức phù hợp theo tiêu chí rõ ràng | Chỉ thêm khi dữ liệu/mô hình, quyền dùng, người phụ trách, cách kiểm và thời gian đáp ứng cổng mở rộng ở mục 1; không loại trước hoặc hứa trước khi nhận dữ liệu |
+
+Luồng gợi ý: mở ví dụ đã kiểm → chọn so ngày hoặc so điểm → đổi thời gian → đọc chênh lệch → chia sẻ. Điều khiển gọn, kết quả nổi bật, giải thích kỹ thuật mở khi cần. Nhạc tùy chọn và tắt mặc định; nhạc/SFX không là điều kiện đạt lõi. JSON có phiên bản cấp cho frontend vẫn là phương án ban đầu; chỉ thêm tài khoản, cơ sở dữ liệu, API trực tiếp hoặc chatbot khi có nhu cầu cụ thể. Đây là định hướng, chưa tạo UI hay khóa stack mới.
+
+**Cách cập nhật đề xuất:** nhóm có thể sửa, thêm, bỏ hoặc chuyển mức ưu tiên. Khi đổi, ghi lý do, tác động dữ liệu/giao diện, đầu ra, người nhận và cách kiểm vào mục liên quan; kiểm lại thời gian và điều kiện nộp. Phân biệt đề xuất mới, quyết định nhóm đã nhận và kết quả đã kiểm. Việc Sơn yêu cầu lưu danh sách không xác nhận toàn nhóm đã đồng ý hoặc dữ liệu đã đủ.
 
 ## 2 Một luồng sử dụng hoàn chỉnh
 

@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Revisable Must-have and Should-have proposal — 13 November 2026
+
+Current chat **Define app and web requirements**, `01a1d30c-eb2c-7901-b75e-8ac42a538615`, reviewed through Sơn's request to add the lists as an editable team proposal and sync GitHub, cloud and Drive, plus the separate SpaceEngine question. Listed 12 recent chats; read the latest two planning turns through `01a1d08f-fa60-7ea0-972e-c8cc31d0acef` and the latest music turn `01a1d300-31ee-7b22-acdd-6de7a4fdddec`, matching their existing checkpoints. No new assignment/Sheet decision; no full archived-history audit. Baseline `289ac02303d73118264751bacef5a79b83e9a1ef` has the GitHub/cloud/six-Drive receipt in sibling `music-loop-2026-11-13/`; all six Drive baseline bytes were freshly downloaded and matched before this release.
+
+KE_HOACH_NHOM §1.1–1.2 owns five proposed Must-haves and five Should-haves, with examples and data/validation gates. The team may revise, add, remove or reprioritize them; saving the proposal is not team approval or proof of dataset support. FRONTEND_HANDOFF, runbook and AI context carry the same status. English, timing, source/rights and submission requirements remain. The SpaceEngine answer is research only, not adoption of software/assets or expansion of the agreed app scope.
+
+Routes and limits are in PLUGIN_ROUTING's matching section: current sources, UI UX Pro Max general checklist, Context Mode, read-only reviewers, Documents/bundled rendering and existing Git/cloud/Drive delivery. No app or scientific tests are claimed. Word/PDF are regenerated because the human plan changed, with full-page and source/link review. Source checkpoint records the new sync as pending; actual released commit, cloud hashes and six-file Drive readback belong in sibling `app-requirements-2026-11-13/FINAL_VERIFICATION.json`.
+
 ## ACE confirmation, loop study and sound scope — 13 November 2026
 
 Current music chat `01a1d0e9-0c4c-7e80-b766-7eac127e6daa`, checkpoint through the user's explicit ACE-Step confirmation and request for improvement, better versions, continuous varied music and advice on SFX. Listed 12 recent chats; no newly relevant project decision outside this ongoing chat/cloud result was identified. No new assignment/Sheet or full archived-history review. Baseline `3e9ba0b31c36bbbf2dee6b21b9a93c0b917832f1` has the verified GitHub/cloud/six-Drive receipt in sibling `music-selection-2026-11-13/`.
