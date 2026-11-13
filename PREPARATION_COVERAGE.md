@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Music choice and public redistribution — 13 November 2026
+
+Current music chat `01a1d0e9-0c4c-7e80-b766-7eac127e6daa`, checkpoint through the user's app/demo/public-GitHub cost question, delegated choice and explicit no-purchase constraint. Continued the reviewed session; no new assignment/Sheet decision or broader archived-history audit. Baseline `f589ca05f6d097d59cb3a631b9bba87673b25086` has the completed GitHub/cloud/six-Drive receipt in sibling `elevenlabs-test-2026-11-13/`.
+
+Root selected existing ACE-Step turbo for permission fit, not an unperformed sound-quality comparison or whole-team vote. No final track, new generation, model download, purchase or provider contact. Current official ElevenLabs pricing/terms, GitHub terms and ACE model cards/source were checked; Exa retrieved official 2026 Space Apps terms after direct HTTP 502. The reusable submission package is not cleared under standard ElevenLabs plans; student-team eligibility remains unresolved. Exact costs, inference boundaries and final-output gates belong in `docs/media-rights-2026-11-13.md`.
+
+Routes: existing ElevenLabs Music workflow, official web research/Exa fallback, Hugging Face model-card check and read-only legal/model reviewers; native bounded source/diff reads, independent review and redacted Gitleaks for Markdown delivery. No new CUA session, dependency/model run, renderer, scientific computation or app implementation. Existing preparation sync applies; unchanged plan retains Word/PDF with source/export hash verification. Source checkpoint records sync pending; final evidence belongs in sibling `music-selection-2026-11-13/FINAL_VERIFICATION.json`.
+
 ## ElevenLabs comparison — 13 November 2026
 
 Current music chat `01a1d0e9-0c4c-7e80-b766-7eac127e6daa`, checkpoint through the user's explicit “Yes—use 300 free credits” approval and verified generation. Continued the already-reviewed music session; no new assignment/Sheet decision or broader archived-history review. Baseline `741c8f19c7070e25c714c42202bf6df8e95df9bf` has the complete GitHub/cloud/six-Drive receipt in sibling `music-memory-2026-11-13/`.

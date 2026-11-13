@@ -12,7 +12,7 @@ Căn cứ: `NASAChallenge202611.pptx` ở chat “Review NASA project and instal
 
 ## 1. Năm nhóm dữ liệu cần chuẩn bị
 
-**Quyền ảnh/nhạc/mã — chỉ dẫn Sơn 13/11:** chỉ dùng khi có quyền phù hợp mục đích thực tế, giữ nguồn/license/ghi công; credit hoặc repo công khai chưa đủ. Xem [bản rà NCS, AI music, NASA imagery và code](docs/media-rights-2026-11-13.md). Sơn chọn ảnh NASA/cơ quan vũ trụ/nguồn công khai có phép và phần code licensed phù hợp khi bắt đầu, không buộc dùng mọi ứng viên. Tách quyền code/model/input/output và quyền nhúng app/demo/phát khi chấm/phân phối repo. Cho phép kiểm ACE-Step bằng mẫu không liên quan trên Mac trước giờ thi; không coi bài thử hoặc model cục bộ là asset nộp thi. Chưa chọn track cuối hoặc mua ElevenLabs.
+**Quyền ảnh/nhạc/mã — chỉ dẫn Sơn 13/11:** chỉ dùng khi có quyền phù hợp mục đích thực tế, giữ nguồn/license/ghi công; credit hoặc repo công khai chưa đủ. Xem [bản rà NCS, AI music, NASA imagery và code](docs/media-rights-2026-11-13.md). Sơn chọn ảnh NASA/cơ quan vũ trụ/nguồn công khai có phép và phần code licensed phù hợp khi bắt đầu, không buộc dùng mọi ứng viên. Tách quyền code/model/input/output và quyền nhúng app/demo/phát khi chấm/phân phối repo. Cho phép kiểm ACE-Step bằng mẫu không liên quan trên Mac trước giờ thi; không coi bài thử hoặc model cục bộ là asset nộp thi. Theo yêu cầu Sơn giao quyết định, Codex chọn hướng ACE-Step turbo hiện có; chưa chọn/duyệt track cuối hoặc xác nhận cả nhóm. Không mua ElevenLabs; quyền phân phối trọn bộ bài thi còn chưa rõ theo bản rà.
 
 | Nhóm | Nguồn và cách lấy khi được triển khai | Dùng cho việc gì; giới hạn cần giữ |
 | --- | --- | --- |

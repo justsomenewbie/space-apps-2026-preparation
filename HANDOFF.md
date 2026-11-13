@@ -21,7 +21,7 @@ Runbook/plan §10: eight fields, ≤7 slides OR ≤30-second video, separate Fin
 
 ## Rights instruction — November 13
 
-No copyrighted images/music/code without permission for actual use. Carry `docs/media-rights-2026-11-13.md` into English product instructions/credits. User selected permitted images and relevant licensed code; backend helpers are optional for frontend. Optimized ACE passed the same 20-second test: byte-identical WAV, peak footprint 30.28→17.77 GB (−41.30%); pressure still warned. Guide: `/Users/nns/.codex/workflows/music-tools/LOCAL_USE.md`. User approved one 300-free-credit ElevenLabs browser test: Music v2 produced a 20-second clip with the same text prompt; exact deduction verified. No payment, subscription or download. Listening preference, vocal content and public/team redistribution rights remain unverified; no submission soundtrack selected.
+No copyrighted images/music/code without permission for actual use. Carry `docs/media-rights-2026-11-13.md` into English product instructions/credits. User selected permitted images/relevant licensed code and delegated the music choice. Codex selected existing ACE-Step turbo for optional app/demo/public-repo audio; no final track or whole-team approval. Review actual output/provenance/competition compatibility. No ElevenLabs purchase: standard-plan clearance for the complete reusable package is unresolved. Prior tests remain unrelated: ACE byte-identical after memory reduction to 17.77 GB, still warning pressure; ElevenLabs used exactly 300 approved free credits. No listening-quality winner established. Guide: `/Users/nns/.codex/workflows/music-tools/LOCAL_USE.md`. Generate only at event time during a work pause; close runtime afterward.
 
 ## People and technical boundaries
 
@@ -31,6 +31,6 @@ Security/runtime limits remain in SECURITY_PREPARATION/FRONTEND_HANDOFF, includi
 
 ## Delivery
 
-Baseline **741c8f19c7070e25c714c42202bf6df8e95df9bf**: previous receipt verified GitHub/cloud and six Drive files. Markdown-only follow-up; unchanged plan retains reviewed 15-page Word/PDF hashes. New-release sync is pending at this source checkpoint; final commit/cloud/Drive evidence belongs in sibling `nasa-preparation-deliverables/elevenlabs-test-2026-11-13/FINAL_VERIFICATION.json`. Account details/provider links remain outside Git; .DS_Store preserved.
+Baseline **f589ca05f6d097d59cb3a631b9bba87673b25086**: previous receipt verified GitHub/cloud and six Drive files. Markdown-only follow-up; unchanged plan retains reviewed 15-page Word/PDF hashes. New-release sync is pending at this source checkpoint; final commit/cloud/Drive evidence belongs in sibling `nasa-preparation-deliverables/music-selection-2026-11-13/FINAL_VERIFICATION.json`. Account details/provider links remain outside Git; .DS_Store preserved.
 
-Next action under two minutes: compare the two 20-second cafe-jazz samples before considering paid music.
+Next action under two minutes: read the selected music route and output-review gate in the rights note; no purchase needed.
