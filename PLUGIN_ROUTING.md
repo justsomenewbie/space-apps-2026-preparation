@@ -1,5 +1,13 @@
 # NASA plugin and skill routing
 
+## Official resources, selected direction and plan — 13 November
+
+Research/continuity | Codex chat inventory/read, web/Exa, direct public HTTP, Drive local rules, Context Mode, active Ponytail and independent source/consistency reviewers | used | direct full NASA challenge/Resources, current FAQ and Submission/Judging Guides supersede crawler failures/stale Exa FAQ. Source evidence and bounds are in docs/official-challenge-check-2026-11-13.md. No scientific queries or dataset downloads. CodeGraph has no index; bounded exact reads handle edits. Existing resource-list chat remains read-only; no new assignment/Sheet review.
+
+Documentation/QA | existing Diagram Design and Documents workflows with bundled runtimes | used | revised architecture HTML/PNG/Mermaid/theory and owning plans, retaining style; regenerate Word/PDF because KE_HOACH_NHOM changed, compare text/links and inspect all pages. No new runtime/skill admission, product UI, 3D/media generation or launch target. Broader literature/provider/visual stacks have no unresolved artifact here; no duplicate installation.
+
+Security/delivery | full diff/link checks, redacted Gitleaks, existing Git/cloud/Drive | selected | preparation-only source changes, no executable/dependency changes needing another full app scan. Preserve existing IDs/parents/permissions; verify all source/ZIP/export bytes and final six-file readbacks. Receipt outside released sources: sibling official-challenge-review-2026-11-13/FINAL_VERIFICATION.json. Selected sources and preparation exports do not prove scientific suitability, eligibility or product readiness.
+
 ## Source-label correction — 13 November
 
 Continuity/documentation | current Git/files, Codex chat list/read, existing Drive metadata/downloads, Context Mode on PREPARATION and active Ponytail | used | source evidence, suitability and team selection kept separate; dated research retained without claiming a fresh scientific/API audit. CodeGraph has no index; exact small reads and patches handle edits. One editor and a read-only reviewer preserve newer decisions. No need for another planning stack or new skill admission.

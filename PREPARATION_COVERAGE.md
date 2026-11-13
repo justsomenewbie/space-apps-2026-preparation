@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Official resources and direction — 13 November 2026
+
+Current architecture chat `01a1ce65-2dad-7231-91a0-42a4373ea4b6` reviewed through Sơn’s request that resources are open, update now, decide direction/plan and sync all. The new decision selects Moon Plan B and Horizons-led Sun/Earth batch data; it replaces the previous BTC-first/wait assumption. Both comparisons/timeline precede conditional ground-level/above-site work. Actual source validation, role acceptance and portal permissions remain separate.
+
+Listed 20 recent chats; read the new resource-list chat `01a1d405-7554-79c1-b35f-64e9f476cfd9`, turn `01a1d405-7b37-7cd1-a3aa-27afc8739fb4`, through its read-only resource-handoff commentary. It agrees with the new source roles and makes no repo edits. Other prior checkpoints remain dated; no new full archive, Zalo, Sheet/assignment or account-portal review. No mentor/group message sent.
+
+Direct NASA HTTP reads confirmed full challenge/Resources, current FAQ, submission and judging guides; SEPA/current local rules checked separately. Sources/limits: docs/official-challenge-check-2026-11-13.md. SI-origin and judging-scale application remain unresolved, under-18 submission-media rule explicit. No scientific request, lunar data, product implementation or new installation. Source/architecture/AI context/plan/instructions updated; human-plan exports require regeneration and every-page review. Baseline d7a81d3596f4a67bd593c02c3956a885578e380b had prior complete receipt. This checkpoint leaves new transport pending; current GitHub/cloud hashes, six Drive readbacks and artifact/security results belong in sibling official-challenge-review-2026-11-13/FINAL_VERIFICATION.json.
+
 ## Source-label correction — 13 November 2026
 
 Architecture chat `01a1ce65-2dad-7231-91a0-42a4373ea4b6` is the sole editor for this documentation correction; reviewer is read-only. Listed 30 recent chats and read the latest Diorama turn `01a1d3af-4d37-7b73-a750-41c40c5c3785`, both latest app-requirements turns through `01a1d32a-e914-7cb1-8ac4-d4f343a21c22`, and the coordinating chat's correction checkpoint. No other active editor was listed for this checkout. Existing music/rights and older planning decisions remain in their owning files; no assignment change, new Sheet read or full archived/Zalo review. Context Mode retrieved dated PREPARATION evidence; exact owning source text was read before edits.

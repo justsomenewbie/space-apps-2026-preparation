@@ -1,38 +1,31 @@
 # Current handoff
 
-Updated: 13 November 2026, Asia/Ho_Chi_Minh.
-Source-label edits complete; no reserved editor. Review chat: `01a1ce65-2dad-7231-91a0-42a4373ea4b6`. Transport evidence belongs in the receipt below.
+Updated: 13 November 2026, Asia/Ho_Chi_Minh. Sole editor for this release: architecture chat `01a1ce65-2dad-7231-91a0-42a4373ea4b6`; independent reviewers and resource-list chat are read-only. Release ownership after verified transport.
 
 ## Read first
 
-README → COMPETITION_RUNBOOK → KE_HOACH_NHOM → FRONTEND_HANDOFF → DATA_PREPARATION. Read TOOL_SELECTION_CHECKLIST/PLUGIN_ROUTING and PREPARATION_COVERAGE. Mac runtimes do not transfer through Git.
+README → COMPETITION_RUNBOOK → KE_HOACH_NHOM → FRONTEND_HANDOFF → DATA_PREPARATION; also TOOL_SELECTION_CHECKLIST/PLUGIN_ROUTING and PREPARATION_COVERAGE. Mac runtimes do not transfer through Git.
 
-Six registered members; Lunar confirmed. Moon Plan B awaits group approval. **Editable team proposal:** plan §1.1–1.3 owns Must-haves/Should-haves. Core comparisons, Sun/Earth timeline, explainable results, provenance and usable English delivery precede optional features. Sơn prefers smooth Moon-to-site **ground-level** views if data/time allow, with **above-site fallback**. Source/rights/frame/detail/device checks and core/demo/rehearsal/submission gates apply. The team may revise/add/remove/reprioritize. SpaceEngine is interaction inspiration only. BTC contents remain unknown; assess compatible supplements before reducing core. No science results validated.
+## Current direction and source evidence
 
-**Mac tool preparation verified:** isolated Rasterio/GDAL and PyProj/PROJ, eight pins, nine independently repeated synthetic checks, pip/OSV checks. DATA_PREPARATION owns versions, paths and limits. Real lunar datasets/native-library coverage/browser/phones remain untested. No app or lunar processing; no cloud installation.
+Six members; Lunar registered. **Sơn delegated the direction/plan on November 13:** retain Moon Plan B; **Horizons supplies main Sun/Earth ephemerides**, sourced site coordinates, batch Python → versioned JSON → React/TypeScript/Vite static web. QuickMap/Moon Trek support lookup/cross-check; CSA supplies context. Do not wait for an unconfirmed separate organizer pack. This supersedes November 12 BTC-first assumptions, not the requirement to review additional official releases.
 
-**Tool labs:** independently checked scoped Diorama, agent-desktop, Scrapling, Auto Ontology, Modern Web Guidance and GeoLibre examples. `docs/tool-candidates-2026-11-13.md` owns exact counts/guides/provenance/limits, failures and reviewed-only candidates. Consider future usefulness separately. Labs stay outside both repos; no lunar implementation.
+Both site/date comparisons and Sun/Earth timeline come first. Plan §1 owns editable priorities; ground-level views are conditional after the core, with above-site fallback. SpaceEngine is interaction inspiration only. Source/rights/frame/detail/device checks and demo/rehearsal/submission gates apply. No scientific request, dataset, application or device performance validated. Role acceptance and data contract remain unresolved; selected direction is not evidence of unanimous team approval.
 
-**Source labels corrected:** DATA_PREPARATION and architecture HTML/PNG/Mermaid/theory distinguish sources read, actual data suitability validated and team selection. Unknown BTC/external candidates stay conditional; both core comparisons and historical API exclusion match the editable proposal. No new source/science validation.
+`docs/official-challenge-check-2026-11-13.md` records direct HTTP reads of full challenge/Resources, current FAQ and NASA guides. Publication metadata does not identify changed passages. Preserve raw-source evidence outside the repo.
 
-## Start and English submission
+## Start, submission and rights
 
-User reaffirmed **00:00 November 14 Hanoi**. Keep that permission distinct from the 09:00 scheduled opening/portal time. Local cutoff **11:00 November 15**, global **23:59**; freeze 09:00/final local target 10:30 are recommendations.
+Start **00:00 November 14 Hanoi**; 09:00 is scheduled portal opening. Local cutoff **11:00 November 15**, global **23:59**. Recommended gates: source/contract 09:30, real flow 10:30, comparison pack 12:00, release 20:30 on November 14; freeze 09:00/final local target 10:30 on November 15.
 
-**English from the first product version:** UI/charts/errors/accessibility, slides/demo/reports, README/reproduction/methods/limits/sources/AI. Preserve third-party originals/licenses; internal preparation may remain Vietnamese.
+Product UI, documentation, reports and submission materials must be English from their first version. Use one separate shared product repo; URL/owner/branch/access remain unknown. At kickoff carry applicable English AGENTS/HANDOFF, link the exact preparation commit and verify host tools. Exclude private evidence/practice. Preparation sync permissions do not authorize product publication.
 
-One separate shared product repo for frontend/backend/data/scripts/tests/docs. Name `moon-plan-b` is proposed; URL/owner/base branch/access unknown. At event kickoff, establish checkout and English AGENTS/HANDOFF with current event/science/rights/review/security/tool rules; link preparation commit, verify host tools, record ownership in both handoffs. Exclude private evidence/practice. Preparation-sync authorization stays scoped to preparation.
+NASA Global Award requires a NASA resource actually used. Disclose SI contributions, visible generated-image/video marks and descriptive-text/metadata attribution for generated audio/code/data; no NASA branding in generated content. **SI solution-idea restriction remains unresolved for the AI-assisted proposal history; do not conceal it or assert eligibility.** NASA prohibits under-18 media/likeness in demo/final. NASA 1–5 versus SEPA 1–10 remains unresolved. Team Owner is planned submitter; verify account permissions. Save Progress is not Submit for Judging; retain confirmation and resubmit after edits.
 
-Runbook/plan §10: eight fields, ≤7 slides OR ≤30-second video, separate Final Project, named NASA/partner dataset, references/AI, anonymous links, Team Owner. Submit early November 15 and again after edits. Judging: 15 minutes including Q&A; slot/portal access/under-18 media conditions unverified.
-
-## Rights and people
-
-Follow `docs/media-rights-2026-11-13.md`: exact-use permission and English credits. ACE-Step is selected for unrelated local testing, not a cleared soundtrack. Optional music after core, silent default, no initial SFX; warning memory pressure blocked new inference. No larger model or paid purchase.
-
-Sơn owns frontend choice; React/TypeScript/Vite/npm/CSS prepared. Coordinate contracts with Chung. Role acceptance/Sheet QA conflict, Team Owner access and security/runtime limits remain unresolved in their owning files. Architecture/theory remain proposals.
+Exact-use licences and credits remain mandatory. Prepared security, raster/CRS and synthetic tool labs have scoped evidence in owning files; no Lunar validation or automatic cloud installation.
 
 ## Delivery
 
-Verified prior GitHub/cloud release: **9dd1ef97e03877a5a818abb789ed7315be71cdcc**, sibling `nasa-preparation-deliverables/web-gis-labs-2026-11-13/FINAL_VERIFICATION.json`. Source-label correction awaits transport at this checkpoint. Unchanged plan/AI/18-page Word/PDF need retained-hash checks. Final SHA, cloud/source hashes and six Drive readbacks belong in sibling `nasa-preparation-deliverables/source-label-correction-2026-11-13/FINAL_VERIFICATION.json`. Preserve `.DS_Store`.
+Prior verified GitHub/cloud release: `d7a81d3596f4a67bd593c02c3956a885578e380b`. This source checkpoint leaves transport pending. Final commit, cloud hashes, regenerated plan/export verification and all six Drive readbacks belong in sibling `nasa-preparation-deliverables/official-challenge-review-2026-11-13/FINAL_VERIFICATION.json`. Preserve `.DS_Store`.
 
-Next action under two minutes: read the three source-status definitions in DATA_PREPARATION; retain the midnight boundary for product work.
+Next action under two minutes: read your proposed assignment in plan §7 and confirm or amend it.

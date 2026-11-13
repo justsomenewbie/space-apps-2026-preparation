@@ -1,10 +1,10 @@
 # Kế hoạch Moon Plan B cho nhóm Lunar
 
-Phương án Sơn đưa nhóm duyệt ngày 12 tháng 11 năm 2026, bổ sung ưu tiên ngày 13 tháng 11
+Hướng triển khai chốt theo ủy quyền của Sơn ngày 13 tháng 11 năm 2026 sau khi Resources mở
 
 **Chọn Moon Plan B: web app giúp người học so sánh địa điểm và ngày đáp, trực quan vị trí Mặt Trời và Trái Đất so với chân trời.** Tình huống xuyên suốt là lịch bị lùi: giữ điểm thì điều kiện đổi ra sao, đổi sang điểm khác trong cùng ngày thì khác gì, và có phương án nào đạt tiêu chí trong tập đã khảo sát.
 
-Bản này đề xuất hướng sản phẩm, quy trình chọn dữ liệu, cách kiểm, phân công và lịch thực hiện để nhóm duyệt cùng một phương án. **Dữ liệu BTC cung cấp là đầu vào chính; nguồn ngoài chỉ bổ sung phần cần thiết.** Địa điểm, ngày và cấu hình tính được xác định sau khi kiểm dữ liệu thực nhận theo mục 3. Các lựa chọn thiết kế là khuyến nghị của bản kế hoạch; việc từng thành viên nhận nhiệm vụ được ghi khi nhóm thông qua. Đây không phải biên bản nhóm đã biểu quyết. **Danh sách Must-have và Should-have ở mục 1 có thể sửa, đổi ưu tiên hoặc bổ sung theo ý kiến nhóm, dữ liệu và thời gian; không phải danh sách đóng.**
+Sơn giao chốt hướng và kế hoạch sau khi tài nguyên chính thức mở: **giữ Moon Plan B; chọn Horizons làm nguồn Sun/Earth chính, xử lý theo lô rồi phát JSON cho web tĩnh.** QuickMap/Moon Trek dùng tra cứu/đối chiếu, CSA Moon Exploration làm bối cảnh; terrain là phần sau lõi. Không chờ một gói BTC riêng chưa được xác nhận. Địa điểm, ngày và cấu hình chỉ chốt sau kiểm dữ liệu thật ở mục 3. Đây là hướng triển khai theo ủy quyền của Sơn, chưa là biên bản cả nhóm biểu quyết hoặc bằng chứng dữ liệu đã đạt. Vai trò cần người nhận xác nhận; Must-have/Should-have vẫn sửa được theo bằng chứng và thời gian.
 
 **Bắt đầu triển khai từ 00:00 ngày 14/11/2026. Nộp Hà Nội trước 11:00 ngày 15/11; mục tiêu của nhóm là 10:30.** Giờ làm việc dưới đây dùng giờ Hà Nội. Thời gian bên trong sản phẩm dùng UTC và luôn có nhãn. Trước giờ bắt đầu chỉ đọc nguồn, học lý thuyết và chuẩn bị công cụ.
 
@@ -14,31 +14,31 @@ Bản này đề xuất hướng sản phẩm, quy trình chọn dữ liệu, c�
 
 Người dùng chính là sinh viên, người học STEM và người xem lần đầu tìm hiểu kế hoạch hoạt động trên Mặt Trăng. Mục tiêu là trong một phiên khoảng hai phút, họ chọn điểm tham chiếu, thử lùi ngày, đọc được phần thay đổi và giải thích vì sao một phương án đạt hoặc không đạt tiêu chí bài tập. Giáo viên có thể dùng cùng một tình huống để thảo luận. Chuyên gia có thể xem nguồn và giả định; phiên bản thi không phục vụ điều hành nhiệm vụ thật.
 
-[Đề Lunar của NASA](https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/) đặt so địa điểm/ngày và trực quan Sun/Earth so với chân trời làm trọng tâm. Nguyên văn Sơn chép từ trang chính ngày 12/11 nêu rõ tình huống đổi ngày hoặc địa điểm khi tiến độ thay đổi; danh sách tính năng và cân nhắc kỹ thuật là gợi ý, có thể dùng dữ liệu tính sẵn. Nội dung khớp [bản sao HackAthlone](https://hackathlone.com/challenges/lunar-landing-site-navigator); bản chính NASA vẫn quyết định yêu cầu. Đây là đối chiếu văn bản được cung cấp, không phải lần truy cập toàn văn trực tiếp thành công.
+[Đề Lunar của NASA](https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/) đặt so địa điểm/ngày và trực quan Sun/Earth so với chân trời làm trọng tâm. Nguyên văn Sơn chép từ trang chính ngày 12/11 nêu rõ tình huống đổi ngày hoặc địa điểm khi tiến độ thay đổi; danh sách tính năng và cân nhắc kỹ thuật là gợi ý, có thể dùng dữ liệu tính sẵn. Nội dung khớp [bản sao HackAthlone](https://hackathlone.com/challenges/lunar-landing-site-navigator); bản chính NASA vẫn quyết định yêu cầu. Ngày 13/11 đã đọc trực tiếp toàn văn Details/Resources từ máy chủ NASA; bảng nguồn mới và điều kiện SI nằm ở mục 11.
 
-**Lõi demo gồm hai phép so và phần giải thích trực quan:** giữ địa điểm/thời lượng để đổi ngày; giữ ngày giờ UTC/thời lượng/định nghĩa/tiêu chí để đổi địa điểm; xem vị trí Sun/Earth so với chân trời và các khoảng tương ứng. Hoàn thành lõi này trước tự tìm Plan B và globe trang trí. Tự tìm ngày tiếp theo dùng tiêu chí công khai trong tập đã khảo sát; kết quả được lưu cùng nguồn và giới hạn. Chưa biết dữ liệu BTC không làm thay đổi mục tiêu này; cấu hình cụ thể theo quy trình ở mục 3.
+**Lõi demo gồm hai phép so và phần giải thích trực quan:** giữ địa điểm/thời lượng để đổi ngày; giữ ngày giờ UTC/thời lượng/định nghĩa/tiêu chí để đổi địa điểm; xem vị trí Sun/Earth so với chân trời và các khoảng tương ứng. Hoàn thành lõi này trước tự tìm Plan B và globe trang trí. Tự tìm ngày tiếp theo dùng tiêu chí công khai trong tập đã khảo sát; kết quả được lưu cùng nguồn và giới hạn. Horizons là nguồn Sun/Earth được chọn cho kế hoạch; việc kiểm dữ liệu không làm thay đổi mục tiêu này; cấu hình cụ thể theo quy trình ở mục 3.
 
 | Hướng cân nhắc | Quyết định của kế hoạch | Lý do |
 |---|---|---|
 | Bản đồ Mặt Trăng nhiều lớp và globe 3D | Dùng globe nhẹ làm phần dẫn đường | Moon Trek và QuickMap đã có nhiều công cụ khảo sát; chỉ thêm globe không tạo giá trị đủ rõ |
-| Xếp hạng nơi đáp an toàn hoặc tối ưu năng lượng | Chưa đưa vào lõi; xét bổ sung sau khi kiểm dữ liệu BTC | Chưa biết bộ BTC có gì; chỉ so mức phù hợp theo tiêu chí có đủ dữ liệu, mô hình và cách kiểm |
+| Xếp hạng nơi đáp an toàn hoặc tối ưu năng lượng | Chưa đưa vào lõi; xét bổ sung sau khi kiểm dữ liệu/mô hình phù hợp | Chỉ so mức phù hợp theo tiêu chí có đủ dữ liệu, mô hình và cách kiểm |
 | So điểm và so ngày khi lịch bị lùi | Chọn làm lõi cùng trực quan Sun/Earth | Hai phép so tách rõ tác động của địa điểm và ngày, có đầu ra kiểm lại được |
-| Mô phỏng địa hình và bóng đổ hoàn chỉnh | Không mặc định tự dựng; có thể dùng sản phẩm BTC đã kiểm | Cần xác nhận hệ tọa độ, mốc cao độ, định nghĩa che khuất và phạm vi áp dụng |
+| Mô phỏng địa hình và bóng đổ hoàn chỉnh | Không mặc định tự dựng; có thể dùng sản phẩm địa hình có nguồn đã kiểm | Cần xác nhận hệ tọa độ, mốc cao độ, định nghĩa che khuất và phạm vi áp dụng |
 
-**Điều kiện mở rộng:** sau khi nhận dữ liệu BTC, Trang và Chung đánh giá phần so sánh có thể bổ sung, ghi tiêu chí, dữ liệu/mô hình, giả định, giới hạn, người phụ trách và cách Minh kiểm lại. Nhóm chỉ đưa vào bản thi khi đủ bằng chứng và thời gian, không làm chậm luồng lõi hoặc vượt mốc khóa tính năng. Nếu chưa đủ thì ghi rõ chưa hỗ trợ; không loại trước vì chưa biết dữ liệu, cũng không nhận là “an toàn” hay “tối ưu” vượt phạm vi đã kiểm.
+**Điều kiện mở rộng:** sau khi kiểm dữ liệu từ nguồn đã chọn, Trang và Chung đánh giá phần so sánh có thể bổ sung, ghi tiêu chí, dữ liệu/mô hình, giả định, giới hạn, người phụ trách và cách Minh kiểm lại. Nhóm chỉ đưa vào bản thi khi đủ bằng chứng và thời gian, không làm chậm luồng lõi hoặc vượt mốc khóa tính năng. Nếu chưa đủ thì ghi rõ chưa hỗ trợ; không loại trước vì chưa biết dữ liệu, cũng không nhận là “an toàn” hay “tối ưu” vượt phạm vi đã kiểm.
 
 [SYNEXIS](https://synexiss.site/explorer) đã công bố góc Sun/Earth, cửa sổ thời gian và so sánh kịch bản. [CLPS Browser](https://github.com/EmanuelAbasto/CLPS-Lunar-Mission-Browser/blob/main/README.md) cũng mô tả so sánh và timeline. Vì vậy, nhóm trình bày tác vụ, độ rõ ràng và bằng chứng kiểm thử của mình; không tuyên bố đầu tiên, chính xác hơn hoặc dễ dùng hơn khi chưa có phép thử. Các trang này mới được đọc ở mức nội dung công bố, chưa được kiểm chứng chất lượng tính toán.
 
 ### 1.1 Must-have cho bản đầu hoàn chỉnh
 
-**Đề xuất Sơn yêu cầu ghi vào kế hoạch ngày 13/11, chưa phải quyết định chung của nhóm.** Must-have là mức ưu tiên sản phẩm được đề xuất; không có nghĩa NASA bắt buộc từng tính năng trong bảng. Các yêu cầu cuộc thi thực tế ở mục 10 vẫn áp dụng khi nhóm đổi phạm vi. Mục tiêu là một web app responsive mở bằng link trên điện thoại và máy tính, giúp trả lời: lịch đáp đổi thì điều kiện thay đổi thế nào, và phương án khác có điểm gì phù hợp hơn theo tiêu chí đang xét.
+**Mức ưu tiên chốt theo ủy quyền Sơn ngày 13/11, vẫn để nhóm điều chỉnh và xác nhận nhận việc.** Must-have là mức ưu tiên của kế hoạch; không có nghĩa NASA bắt buộc từng tính năng trong bảng. Các yêu cầu cuộc thi thực tế ở mục 10 vẫn áp dụng khi nhóm đổi phạm vi. Mục tiêu là một web app responsive mở bằng link trên điện thoại và máy tính, giúp trả lời: lịch đáp đổi thì điều kiện thay đổi thế nào, và phương án khác có điểm gì phù hợp hơn theo tiêu chí đang xét.
 
 | Ưu tiên lõi | Người dùng nhận được gì | Ví dụ nghiệm thu |
 |---|---|---|
 | Hai chế độ so sánh rõ ràng | Cùng điểm khác ngày; khác điểm cùng khoảng UTC. Lựa chọn lấy từ dữ liệu đã kiểm | Đổi ngày giữ điểm và thời lượng; đổi điểm giữ UTC, thời lượng, định nghĩa và tiêu chí |
 | Timeline Sun/Earth tương tác | Xem vị trí hai thiên thể so với chân trời, biểu đồ dễ đọc và hai phương án đồng bộ | Đổi thời điểm cập nhật cả hình, biểu đồ và nhãn; tổng số giờ không thay cho trực quan vị trí |
 | Kết quả giải thích được | Thời lượng phù hợp định nghĩa nguồn, khoảng giao liên tục dài nhất và chênh lệch giữa hai phương án | Người xem chỉ ra điều gì tăng, giảm hoặc chưa đủ dữ liệu để kết luận; không gán hình học thành điện, liên lạc hay an toàn bảo đảm |
-| Bằng chứng cạnh kết quả | Nguồn, phiên bản, đơn vị, UTC, mô hình, miền phủ và giới hạn | Phân biệt không có khoảng đạt với thiếu dữ liệu hoặc sát ngưỡng; truy được vai trò dữ liệu BTC và nguồn bổ sung |
+| Bằng chứng cạnh kết quả | Nguồn, phiên bản, đơn vị, UTC, mô hình, miền phủ và giới hạn | Phân biệt không có khoảng đạt với thiếu dữ liệu hoặc sát ngưỡng; truy được vai trò Horizons, nguồn vị trí và phần bổ sung |
 | Trải nghiệm dùng và mở lại được | UI tiếng Anh, điện thoại/máy tính, bàn phím, trạng thái tải/lỗi và link khôi phục so sánh | Link lưu chế độ, lựa chọn, thời lượng, tiêu chí và phiên bản; lỗi phiên bản/đầu vào được giải thích; vẫn xem kết quả khi 3D lỗi |
 
 ### 1.2 Should-have sau khi lõi hoạt động đúng
@@ -68,7 +68,7 @@ Trước 00:00 ngày 14/11 chỉ chuẩn bị môi trường xử lý raster/h�
 
 ## 2 Một luồng sử dụng hoàn chỉnh
 
-1. **Mở tình huống.** Chọn điểm và ngày bắt đầu từ danh sách đã kiểm; xem Sun/Earth so với chân trời, nguồn BTC/phần bổ sung và thời lượng khảo sát. Đây là tình huống để học, không phải khuyến nghị lịch nhiệm vụ NASA.
+1. **Mở tình huống.** Chọn điểm và ngày bắt đầu từ danh sách đã kiểm; xem Sun/Earth so với chân trời, nguồn chính/phần bổ sung và thời lượng khảo sát. Đây là tình huống để học, không phải khuyến nghị lịch nhiệm vụ NASA.
 2. **Giữ điểm, đổi ngày.** So lịch gốc với lịch bị lùi, cùng địa điểm, thời lượng, định nghĩa và tiêu chí. Biểu đồ dùng trục giờ từ lúc bắt đầu và ghi ngày UTC thật ở mỗi bên; các chỉ số chỉ ra khoảng nào thêm hoặc mất.
 3. **Giữ ngày, đổi điểm.** So hai địa điểm với cùng ngày giờ UTC tuyệt đối, thời lượng, định nghĩa và tiêu chí. Kéo timeline để thấy vị trí Sun/Earth và các khoảng tương ứng ở cả hai điểm; đọc thời lượng Sun, Earth và đoạn liên tục dài nhất cùng thỏa, với nhãn đúng mô hình ở mục 4. Không đổi cả điểm lẫn ngày rồi quy chênh lệch cho riêng địa điểm.
 4. **Tìm phương án tiếp theo.** Sau khi lõi so sánh chạy đúng, chọn H giờ để tìm ngày sớm nhất từ lịch hoãn trở đi tại điểm đang chọn, trong tập đã khảo sát. Nếu lịch hoãn đã đạt hoặc không có ngày đạt, báo đúng kết quả. Ngày Plan B riêng của hai điểm có thể khác nhau; luôn ghi ngày, không đặt chung cột như thể đó là phép so cùng ngày.
@@ -78,33 +78,33 @@ H là yêu cầu bài tập do người dùng chọn, không phải tiêu chuẩ
 
 ## 3 Dữ liệu chính và quy tắc chọn phạm vi
 
-**Dùng dữ liệu BTC cung cấp trong luồng xử lý chính.** Nguồn ngoài chỉ bổ sung đại lượng, metadata hoặc phép đối chiếu còn thiếu sau khi đã kiểm bộ chính. Mỗi kết quả phải truy được tệp/trường BTC đã tham gia tạo kết quả hoặc xác định đầu vào; chỉ đưa tên BTC vào phần credit không đủ. Hiện chưa có nội dung bộ dữ liệu thực nhận để xác nhận địa điểm, ngày, định dạng hay khả năng hỗ trợ phép so sánh.
+**Nguồn chính đã chọn cho kế hoạch: NASA/JPL Horizons**, một trong bốn liên kết Resources chính thức. Từ giờ được triển khai, lấy bảng Sun/Earth cho các vị trí/ngày có căn cứ, giữ request/header/raw/version/hash, kiểm rồi xử lý theo lô. Mỗi kết quả phải truy được nguồn và trường thực dùng. Chọn hướng không đồng nghĩa đã kiểm dữ liệu phù hợp; chưa có request khoa học nào chạy trong lượt chuẩn bị này.
 
-**Theo thông tin Sơn cung cấp ngày 12/11, đến lúc thi mới nhận dữ liệu BTC.** Hiện chốt mục tiêu sản phẩm và chuẩn bị danh mục nguồn; không chốt điểm/ngày hoặc giả định bộ BTC đủ mọi đại lượng. Khi nhận: kiểm bộ chính → xác định phần thiếu → chọn nguồn ngoài được phép và tương thích → kiểm bộ kết hợp → chốt miền dùng chung. Nếu BTC thiếu góc Sun/Earth, Trang/Chung đánh giá nguồn bổ sung như Horizons cho đầu vào có căn cứ; không tự bỏ biểu đồ chỉ vì thiếu trường trong bộ chính. Nếu cả nguồn chính và phần bổ sung hợp lệ vẫn không đủ, ghi rõ phần lõi chưa đạt, không dựng số liệu để lấp thiếu.
+**Quyết định ngày 13 thay giả định phải chờ gói BTC riêng ngày 12.** Resources hiện là QuickMap, Moon Trek, Horizons và CSA Moon Exploration; toàn văn đề đã đọc không bắt buộc một gói riêng. Nếu BTC có thêm bộ hoặc hướng dẫn mới, Trang kiểm nguồn/quyền/định nghĩa và Chung đánh giá tích hợp; không bỏ qua thông báo mới hoặc âm thầm đổi định nghĩa. Nếu Horizons không đáp ứng phép kiểm, xét nguồn tính sẵn NASA tương thích trước khi giảm phạm vi; không dựng số để lấp thiếu.
 
-Đây là yêu cầu lập kế hoạch Sơn xác nhận ngày 12/11. [Thể lệ Hà Nội](https://drive.google.com/file/d/1t_VmkD3v4rESUOwzjytbguesqA4OoIBe/view), IV.4, yêu cầu ít nhất một nguồn dữ liệu mở hoặc tài nguyên khoa học của NASA/đối tác; Phụ lục 2 quy định điều kiện tài nguyên ngoài. Không diễn giải điều khoản này thành bằng chứng đã có một bộ BTC cụ thể. Nguồn bổ sung phải đáp ứng quyền dùng, phân phối và trích dẫn.
+Theo [thể lệ Hà Nội](https://drive.google.com/file/d/1t_VmkD3v4rESUOwzjytbguesqA4OoIBe/view), IV.4, cần ít nhất một nguồn mở/tài nguyên khoa học NASA hoặc đối tác. [Hướng dẫn NASA vừa đọc trực tiếp ngày 13](https://www.spaceappschallenge.org/resources/project-submission-guide/), mục NASA Data, cụ thể hơn: muốn đủ điều kiện Global Award phải dùng ít nhất một dữ liệu/tài nguyên NASA; đối tác được khuyến khích. Không diễn giải thành yêu cầu một gói BTC riêng; mọi phần ngoài vẫn cần quyền dùng/phân phối và credit.
 
-Hướng dẫn nộp SEPA ngày 12/11 yêu cầu tên và link ít nhất một dataset NASA hoặc Space Agency Partner ở trường NASA Data / Partner Data. Trang/Chung truy rõ nguồn NASA/đối tác trong bộ BTC hoặc phần bổ sung thực dùng; chỉ ghi “dữ liệu BTC” chưa đủ để hoàn thành trường này. Không thêm tên nguồn chưa tham gia sản phẩm.
+Trang/Chung ghi tên/link NASA, phiên bản và vai trò thật trong sản phẩm; Horizons không được chỉ xuất hiện ở credit. QuickMap/Moon Trek không thay raw/metadata của sản phẩm gốc. Nguồn địa hình/asset cụ thể vẫn phải kiểm quyền, frame, mốc cao độ và miền phủ; chưa chọn dataset terrain chỉ vì liên kết đã mở.
 
-**Trang và Chung hoàn thành phiếu dữ liệu trước 09:30 ngày 14**, nếu BTC đã phát hành bộ đầu vào. Phiếu ghi nơi nhận/phiên bản/hash, cấu trúc, ý nghĩa đại lượng, đơn vị, hệ tọa độ và mốc cao độ, thang thời gian, phạm vi địa điểm/ngày, độ phân giải, giá trị thiếu và quyền dùng. Ghi rõ dữ liệu nào là quan trắc, dữ liệu mô hình hoặc sản phẩm tổng hợp; không suy loại này thành loại khác. Nếu bộ dữ liệu chưa được cấp, ghi trạng thái đó và áp dụng cổng cắt phạm vi ở mục 9.
+**Trang và Chung hoàn thành phiếu dữ liệu trước 09:30 ngày 14.** Phiếu ghi nguồn/version/hash, request/header, ý nghĩa đại lượng, đơn vị, hệ tọa độ/mốc cao độ, thời gian, miền điểm/ngày, bước mẫu, NoData và quyền dùng. Horizons là dữ liệu tính từ mô hình, không phải đo trực tiếp. Ca đầu kiểm một vị trí có nguồn với cả Sun/Earth; chỉ mở rộng sau khi ba mốc mẫu và header đạt. Không cần chờ gói riêng; nguồn lỗi hoặc không tương thích thì áp dụng mục 9.
 
 | Quyết định sau khi kiểm dữ liệu | Quy tắc thực hiện | Đầu ra ghi trong bản kê dữ liệu |
 |---|---|---|
-| Điểm so sánh | Mục tiêu hai điểm có căn cứ trong bộ BTC; dùng nguồn ngoài bổ sung đại lượng còn thiếu, kiểm miền chung, không ấn định tên/tọa độ trước | ID, tọa độ, frame, nguồn và vai trò dữ liệu BTC ở từng điểm |
+| Điểm so sánh | Mục tiêu hai điểm có nguồn tọa độ/cao độ và observer Horizons tương thích; kiểm miền chung, không ấn định tên/tọa độ chưa kiểm | ID, tọa độ, frame, mốc cao độ, nguồn vị trí và request tương ứng |
 | Ngày và thời lượng | Chọn một miền hữu hạn có phủ đầy đủ; lịch gốc, lịch hoãn và ứng viên tiếp theo phải dùng cùng thời lượng | Danh sách ngày hợp lệ, ngày mặc định, thời lượng và miền phủ |
 | Độ phân giải và mô hình | Giữ nghĩa dữ liệu gốc; chọn phương pháp phù hợp với loại dữ liệu, không làm dày mẫu rồi nhận là chính xác hơn | Bước nguồn, bước xử lý, định nghĩa chân trời/tâm hoặc mép thiên thể, phép chuyển đổi và giới hạn |
 | Tiêu chí H | Chọn tập hữu hạn theo thời lượng và độ phân giải đã kiểm; đánh giá mọi ứng viên với cùng tập H | Danh sách H, giá trị mặc định và cách xử lý sát ngưỡng |
-| Nguồn bổ sung | Chỉ thêm khi có khoảng thiếu được mô tả và kiểm tương thích; không âm thầm ghi đè hoặc thay bộ BTC | Tệp/trường bổ sung, lý do dùng, nguồn/license, phép kiểm và các khác biệt |
+| Nguồn bổ sung | Chỉ thêm cho khoảng thiếu cụ thể sau kiểm quyền/tương thích; giữ nguyên raw và định nghĩa từng nguồn | Tệp/trường, lý do dùng, nguồn/license, phép kiểm và các khác biệt |
 
 Cửa sổ 72 giờ, H = 3/6/12 giờ, lưới 15 phút và bảng hai điểm × ba ngày chỉ là ví dụ cấu hình sau khi nhận dữ liệu, không phải thông số khóa trước hoặc quy định BTC. Không cố định tháng khảo sát, số dòng, Odysseus/Athena hoặc cao độ 0 km. Bảng so điểm phải dùng cùng ngày ở mỗi cột; ngày Plan B riêng ghi tách rõ. Bản kê của bộ kết hợp đã kiểm là nguồn cấu hình duy nhất. Chỉ giảm phạm vi vì thiếu dữ liệu sau khi đã xét nguồn bổ sung hợp lệ; ghi rõ phần lõi chưa đáp ứng. Các ngày demo không mặc nhiên là toàn bộ miền tìm kiếm.
 
-[JPL Horizons](https://ssd.jpl.nasa.gov/horizons/manual.html) là nguồn bổ sung có thể dùng cho góc Sun/Earth nếu bộ BTC thiếu đại lượng đó và cho phép lập observer tương thích. Khi dùng, kiểm request/header, target, frame, UTC, kinh/vĩ độ, đơn vị và mốc cao độ. Không tự gán quy ước Horizons cho dữ liệu BTC. Các nguồn [NASA LRO Odysseus](https://www.nasa.gov/missions/lro/nasas-lro-images-intuitive-machines-odysseus-lander/) và [NASA PDS Athena](https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn%3Anasa%3Apds%3Acontext%3Ainstrument_host%3Aspacecraft.clps_to_prime1_athena&version=1.0) chỉ là tài liệu vị trí đã đọc, không chọn sẵn làm hai điểm demo. Không dùng cao độ khác mốc, thêm chữ số giả hoặc nhận định vị chính xác mét khi nguồn không chứng minh.
+[JPL Horizons](https://ssd.jpl.nasa.gov/horizons/manual.html) cần kiểm target/observer, frame, UTC, kinh/vĩ độ, đơn vị và mốc cao độ trên phản hồi thật. [JPL API policy](https://ssd-api.jpl.nasa.gov/doc/index.php), đọc lại 13/11, yêu cầu request tuần tự, tái dùng kết quả, backoff, User-Agent hợp lệ và kiểm version; không nhúng API vào web. Kế hoạch chỉ lấy trước bằng backend theo lô rồi phát kết quả tĩnh, không proxy/browser gọi JPL. [NASA LRO Odysseus](https://www.nasa.gov/missions/lro/nasas-lro-images-intuitive-machines-odysseus-lander/) và [NASA PDS Athena](https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn%3Anasa%3Apds%3Acontext%3Ainstrument_host%3Aspacecraft.clps_to_prime1_athena&version=1.0) là nguồn vị trí đã đọc, chưa chọn hai điểm demo. Không tự gán cao độ 0 hoặc nhận chính xác mét khi nguồn không chứng minh.
 
 ## 4 Phương pháp tính và giới hạn kết luận
 
 **Phương pháp tham chiếu đề xuất là chân trời lý tưởng tại vị trí đã kiểm.** Chỉ áp dụng sau khi Trang/Chung xác nhận dữ liệu là góc cao của tâm Mặt Trời/Trái Đất so với chân trời tương ứng, hoặc có phép chuyển đổi hợp lệ để tạo đại lượng đó. Khi ấy xét góc cao > 0°; đúng 0° là biên; giao hai điều kiện tạo khoảng cùng thỏa hình học. Không áp ngưỡng này trực tiếp vào raster trung bình, phần trăm chiếu sáng hoặc cờ che khuất có định nghĩa khác. Nếu dùng sản phẩm đã xét địa hình, giữ đúng định nghĩa của nó và kiểm riêng; không trộn với chân trời lý tưởng rồi gọi cùng một chỉ số.
 
-Bảng dưới áp dụng riêng cho mô hình góc cao tâm thiên thể so với chân trời lý tưởng. Nếu bộ BTC cung cấp khoảng nhìn thấy theo định nghĩa khác, chỉ dùng sau khi kiểm phương pháp của nguồn, đổi nhãn tương ứng và giữ cùng định nghĩa cho mọi phương án; không đổi tên khoảng theo mép đĩa/địa hình thành khoảng tâm > 0°.
+Bảng dưới áp dụng riêng cho mô hình góc cao tâm thiên thể so với chân trời lý tưởng. Nếu nguồn thay thế cung cấp khoảng nhìn thấy theo định nghĩa khác, chỉ dùng sau khi kiểm phương pháp của nguồn, đổi nhãn tương ứng và giữ cùng định nghĩa cho mọi phương án; không đổi tên khoảng theo mép đĩa/địa hình thành khoảng tâm > 0°.
 
 | Chỉ số hiển thị | Cách xác định trong cùng thời lượng đã chọn | Ý nghĩa đúng |
 |---|---|---|
@@ -115,7 +115,7 @@ Bảng dưới áp dụng riêng cho mô hình góc cao tâm thiên thể so v�
 
 Chung triển khai xử lý sau giờ được phép theo năm bước:
 
-1. Lưu nguyên tệp BTC/metadata và request/phản hồi bổ sung nếu có; kiểm nguồn, kiểu dữ liệu, target/observer, thời gian, đơn vị, miền phủ và phiên bản. Từ chối phản hồi lỗi dù HTTP trả thành công; ghi mọi phép chuyển đổi.
+1. Lưu nguyên request/phản hồi Horizons, header/metadata và nguồn bổ sung nếu có; kiểm nguồn, kiểu dữ liệu, target/observer, thời gian, đơn vị, miền phủ và phiên bản. Từ chối phản hồi lỗi dù HTTP trả thành công; ghi mọi phép chuyển đổi.
 2. Chuẩn hóa hai chuỗi về cùng mốc thời gian tăng dần, không trùng. Kiểm đủ mẫu và giá trị hữu hạn; dữ liệu thiếu giữ trạng thái thiếu, không đổi thành 0 và không nối qua khoảng trống.
 3. Với chuỗi góc đã kiểm tương thích, tạo khoảng trên chân trời từ bước nguồn đã ghi; nội suy tuyến tính khi hai đầu đổi dấu chỉ là ước tính. Lưu hai mẫu kẹp sự kiện và kiểm giả định nội suy. Dùng cửa sổ nửa mở từ lúc bắt đầu đến trước lúc kết thúc; giữ mẫu ở đầu phải để nội suy nhưng không đếm thêm thời lượng. Với sản phẩm dạng khoảng có sẵn, kiểm định nghĩa/biên của nguồn trước khi dùng.
 4. Tính ba chỉ số và chênh lệch, rồi xét các ngày hợp lệ theo thứ tự thời gian. Giữ nguyên điểm khi tìm ngày dự phòng; so điểm khác là thao tác riêng. Chỉ gọi “sớm nhất trong tập đã khảo sát” khi các ứng viên trước đó đủ dữ liệu và đã được đánh giá cùng quy tắc.
@@ -125,19 +125,19 @@ Các lần đổi dấu chỉ xác định sự kiện trong ngoặc thời gian
 
 Nếu một khoảng đang dương bị cắt ở cuối cửa sổ, ghi “khoảng bị cắt tại cuối cửa sổ; chưa xác định lúc kết thúc”; chỉ ghi tiếp diễn khi dữ liệu sau đó xác nhận. Sự kiện đúng tại đầu mút được ghi là sự kiện, không phải khoảng tiếp diễn. Nếu không thấy lần lặn trong toàn miền khảo sát, ghi đúng giới hạn miền; không suy ra nhìn thấy mãi mãi. Nếu thiếu dữ liệu trước một ứng viên, không khẳng định đó là phương án sớm nhất. Trường hợp không có phương án đạt phải phân biệt rõ với dữ liệu chưa đủ để đánh giá.
 
-**Giới hạn luôn hiện ngay cạnh kết quả:** chân trời lý tưởng chưa xét núi/hố che khuất, đĩa thiên thể và nhật thực. Nếu dữ liệu BTC đã xét một hiệu ứng, chỉ ghi có xét khi metadata và kiểm tra xác nhận. Phần lõi hiện chưa tính cấu hình pin/tải/pin lưu trữ, antenna/trạm mặt đất/link budget, độ dốc và an toàn hạ cánh; phần bổ sung phải qua điều kiện mở rộng ở mục 1. Địa hình có thể đổi kết luận so sánh; không suy “địa điểm tốt nhất” từ riêng các chỉ số hình học. [NASA SVS](https://svs.gsfc.nasa.gov/4930/) minh họa vai trò địa hình; [NASA về nguồn điện](https://www.nasa.gov/smallsat-institute/sst-soa/power-subsystems/) và [liên lạc](https://www.nasa.gov/smallsat-institute/sst-soa/soa-communications/) cho thấy cần thêm thông số thiết bị để kết luận vận hành.
+**Giới hạn luôn hiện ngay cạnh kết quả:** chân trời lý tưởng chưa xét núi/hố che khuất, đĩa thiên thể và nhật thực. Nếu nguồn bổ sung đã xét một hiệu ứng, chỉ ghi có xét khi metadata và kiểm tra xác nhận. Phần lõi hiện chưa tính cấu hình pin/tải/pin lưu trữ, antenna/trạm mặt đất/link budget, độ dốc và an toàn hạ cánh; phần bổ sung phải qua điều kiện mở rộng ở mục 1. Địa hình có thể đổi kết luận so sánh; không suy “địa điểm tốt nhất” từ riêng các chỉ số hình học. [NASA SVS](https://svs.gsfc.nasa.gov/4930/) minh họa vai trò địa hình; [NASA về nguồn điện](https://www.nasa.gov/smallsat-institute/sst-soa/power-subsystems/) và [liên lạc](https://www.nasa.gov/smallsat-institute/sst-soa/soa-communications/) cho thấy cần thêm thông số thiết bị để kết luận vận hành.
 
 ## 5 Kiến trúc và cách giao việc kỹ thuật
 
 **Chọn web app React + TypeScript + Vite cho frontend; Python xử lý theo lô; JSON có phiên bản làm đầu vào; hosting tĩnh Cloudflare cho bản chia sẻ.** Python chạy khi tạo bản dữ liệu, không phải một API phải giữ hoạt động trong lúc demo. Không thêm đăng nhập, database, chatbot, mô hình học máy hoặc backend trả phí vào bản thi.
 
-Luồng dữ liệu: **bộ BTC → kiểm metadata/phạm vi → bổ sung nguồn ngoài khi có khoảng thiếu được xác định → Python xử lý và kiểm → JSON có phiên bản, nguồn/hash → web so sánh và in báo cáo**. Lưu rõ phần BTC và phần bổ sung, không đổi tên dữ liệu ngoài thành dữ liệu BTC. Nếu dùng JPL, chỉ gọi từ tiến trình chuẩn bị dữ liệu; [chính sách JPL](https://ssd-api.jpl.nasa.gov/doc/index.php) yêu cầu request tuần tự, cache, xử lý lỗi/rate limit, User-Agent phù hợp và không nhúng API trực tiếp vào website.
+Luồng dữ liệu: **Horizons + vị trí có nguồn → kiểm metadata/phạm vi → Python xử lý và kiểm → JSON có phiên bản, nguồn/hash → web so sánh và in báo cáo**. Ghi đúng vai trò từng nguồn, không đổi tên nguồn hoặc biến fixture thành dữ liệu khoa học. Nếu dùng JPL, chỉ gọi từ tiến trình chuẩn bị dữ liệu; [chính sách JPL](https://ssd-api.jpl.nasa.gov/doc/index.php) yêu cầu request tuần tự, cache, xử lý lỗi/rate limit, User-Agent phù hợp và không nhúng API trực tiếp vào website.
 
 Chung giữ nguồn dữ liệu thô, script xử lý và kết quả kiểm trong repo sản phẩm theo quyền phân phối của nguồn; dữ liệu lớn dùng liên kết/ID/hash và cách lấy lại. Sơn đọc bản kê đã kiểm để tạo danh sách điểm, ngày, thời lượng và H; không hard-code lựa chọn cũ, tự đổi đơn vị hoặc tính khoa học theo cách khác. Pipeline tạo nhất quán chỉ số và kết luận cho toàn bộ tập H đã phát hành; frontend không nhận giá trị ngoài tập đã kiểm. Trình duyệt chỉ chọn, so và trình bày; kéo timeline dùng đúng dữ liệu kịch bản.
 
 | Nhóm dữ liệu bàn giao | Nội dung bắt buộc | Quy tắc chung |
 |---|---|---|
-| Phiên bản và nguồn | ID bộ BTC, tệp/trường tham gia xử lý, nguồn bổ sung/lý do dùng, schema/phương pháp, URL, ngày lấy, hash raw | Truy được từng kết quả về đầu vào BTC và phần bổ sung; lưu đúng ID đang hiển thị |
+| Phiên bản và nguồn | ID bộ phát hành, request/header/raw Horizons, nguồn vị trí, tệp/trường tham gia xử lý, nguồn bổ sung/lý do dùng, schema/phương pháp, URL, ngày lấy, hash raw | Truy được từng kết quả về nguồn thực dùng và phép chuyển đổi; lưu đúng ID đang hiển thị |
 | Điểm quan sát | Danh sách đã kiểm, ID/tên, tọa độ, mốc cao độ, frame, nguồn và phép chuyển đổi | Không mặc định điểm/cao độ; không lẫn m/km hoặc kinh Tây/Đông |
 | Chuỗi thời gian | Thang thời gian gốc, phép đổi sang UTC có Z, đại lượng/đơn vị Sun/Earth, độ phân giải và kiểu nguồn | Cùng định nghĩa và timestamp; số hữu hạn hoặc trạng thái thiếu rõ |
 | Kịch bản và kết quả | Miền phủ, ngày hợp lệ, thời lượng chung, các khoảng, chỉ số, ngoặc sự kiện, tập H/trạng thái | Toàn cửa sổ phải nằm trong miền đã kiểm; không tính thiếu thành 0 |
@@ -157,7 +157,7 @@ Tối đa hai luồng code đồng thời: dữ liệu/tích hợp của Chung v
 
 Sơn/Thảo viết toàn bộ UI bài thi bằng **tiếng Anh từ đầu**: nhãn, biểu đồ, đơn vị/thời gian, thông báo loading/empty/error, mô tả cho công cụ hỗ trợ đọc, nguồn/giới hạn và bản in. Các câu tiếng Việt trong kế hoạch mô tả ý nghĩa cần giữ, không phải nội dung để chép nguyên vào app. Lâm chuẩn bị slide/trang nộp bằng tiếng Anh; khi thuyết trình trực tiếp có thể nói Việt hoặc Anh. Video nói Việt phải có phụ đề Anh.
 
-Màn hình chính có hai chế độ rõ: so ngày tại một điểm và so điểm trong cùng ngày giờ UTC, dùng hai thẻ và timeline đồng bộ. Desktop đặt cạnh nhau; mobile xếp dọc, giữ nhãn điểm/ngày/đơn vị dễ đọc. **Ưu tiên biểu đồ góc cao Sun/Earth theo thời gian, kèm hướng nhìn/phương vị khi dữ liệu đã kiểm hỗ trợ**, để giải thích vị trí so với chân trời và các cửa sổ. Nguồn có thể là bộ BTC kết hợp phần ngoài bổ sung; không suy góc từ phần trăm chiếu sáng hoặc cờ nhìn thấy. Màu vàng cho Sun, xanh cho Earth, thêm nhãn/kiểu nét. Mốc 0° chỉ dùng cho mô hình tương ứng; dữ liệu xét địa hình giữ định nghĩa riêng. Chỉ có số giờ hoặc bảng khoảng chưa đạt yêu cầu trực quan vị trí của lõi.
+Màn hình chính có hai chế độ rõ: so ngày tại một điểm và so điểm trong cùng ngày giờ UTC, dùng hai thẻ và timeline đồng bộ. Desktop đặt cạnh nhau; mobile xếp dọc, giữ nhãn điểm/ngày/đơn vị dễ đọc. **Ưu tiên biểu đồ góc cao Sun/Earth theo thời gian, kèm hướng nhìn/phương vị khi dữ liệu đã kiểm hỗ trợ**, để giải thích vị trí so với chân trời và các cửa sổ. Nguồn chính là bảng Sun/Earth từ Horizons sau kiểm; phần bổ sung phải tương thích; không suy góc từ phần trăm chiếu sáng hoặc cờ nhìn thấy. Màu vàng cho Sun, xanh cho Earth, thêm nhãn/kiểu nét. Mốc 0° chỉ dùng cho mô hình tương ứng; dữ liệu xét địa hình giữ định nghĩa riêng. Chỉ có số giờ hoặc bảng khoảng chưa đạt yêu cầu trực quan vị trí của lõi.
 
 Globe 3D nhẹ lấy marker từ danh sách tọa độ đã kiểm, dùng để định hướng vị trí; góc nhìn chân trời chỉ minh họa khi bản dữ liệu có góc tương thích. Chữ “minh họa” đặt tại hình; không biến màu texture thành bản đồ chiếu sáng theo ngày. Không dựng địa hình giả hoặc bóng 3D rồi dùng làm bằng chứng tính toán. Ảnh NASA chỉ dùng sau khi Trang kiểm credit/điều kiện từng tài nguyên; tránh logo ngụ ý NASA bảo trợ và nhạc có quyền riêng.
 
@@ -171,13 +171,13 @@ Bảng này cụ thể hóa các vai trò đã có trên Sheet thành phương �
 
 | Người | Đầu ra và mốc bàn giao | Người kiểm lại |
 |---|---|---|
-| Chung | Cùng Trang kiểm bộ BTC và chốt bản kê/hợp đồng trước 09:30 ngày 14; một luồng có dữ liệu BTC thật trước 10:30; pack hỗ trợ hai phép so và trực quan Sun/Earth trước 12:00; release 20:30 | Trang kiểm nghĩa dữ liệu; Minh chạy lại; Sơn giữ build dự phòng |
+| Chung | Cùng Trang kiểm Horizons/nguồn vị trí và chốt bản kê/hợp đồng trước 09:30 ngày 14; một luồng dữ liệu thật trước 10:30; pack hỗ trợ hai phép so và trực quan Sun/Earth trước 12:00; release 20:30 | Trang kiểm nghĩa dữ liệu; Minh chạy lại; Sơn giữ build dự phòng |
 | Sơn và Thảo | Sơn làm hai chế độ so và biểu đồ Sun/Earth; Thảo làm nhãn, nguồn, mobile/keyboard và trang in. Globe sau lõi. Demo lõi 15:00, bản ổn định 17:00 ngày 14 | Minh thử luồng; Trang đối chiếu số hiển thị |
-| Trang | Phiếu kiểm dữ liệu BTC, khoảng thiếu và lý do bổ sung trước 09:30; bảng mẫu kiểm độc lập trước 12:00; nguồn NASA/đối tác, license và AI bằng tiếng Anh trước 20:00 ngày 14 | Chung đối chiếu tệp/metadata; Minh kiểm tái hiện |
+| Trang | Phiếu kiểm Horizons/nguồn vị trí, khoảng thiếu và lý do bổ sung trước 09:30; bảng mẫu kiểm độc lập trước 12:00; nguồn NASA thực dùng, nguồn đối tác/ngoài, license và SI bằng tiếng Anh trước 20:00 ngày 14 | Chung đối chiếu tệp/metadata; Minh kiểm tái hiện |
 | Minh | Kiểm hai phép so, trực quan, ca biên/lỗi dữ liệu và bản chung trước 16:00 ngày 14; ba lượt thử người dùng và biên bản lỗi trước 20:00; kiểm cuối sáng 15 | Chung/Sơn sửa đúng phạm vi; Minh chạy lại |
 | Lâm | Kịch bản trình bày 5–7 phút trước 16:00 ngày 14; hồ sơ và tối đa 7 slide tiếng Anh trước 20:00; cùng Team Owner nộp bản đầu sớm sáng 15, bản cuối mục tiêu 10:30; Sơn hỗ trợ dự phòng | Thảo rà tiếng Anh/lời thoại; Trang rà khoa học; Team Owner kiểm quyền nộp |
 
-Các mốc dữ liệu giả định BTC đã cấp đầu vào để nhóm kiểm; nếu chưa có thì Trang ghi tình trạng đó và áp dụng mục 9, không tự thay bằng bộ ngoài. Ngày 13, Lâm/Sơn xác định Team Owner và quyền đã mở; từ 09:00–09:30 ngày 14 kiểm cổng thực tế và ghi vào phiếu release. Team Owner là người bấm Submit theo hướng dẫn; phân công Lâm không tự chứng minh Lâm giữ quyền đó. Sơn chuẩn bị file/checklist dự phòng trong quyền được cấp, không chia sẻ mật khẩu. Sáng 15 nộp một bản đầu trung thực kể cả chưa hoàn thiện, rồi cập nhật trước hạn; không nhận tính năng chưa chạy là đã hoàn thành.
+Các mốc dữ liệu dùng nguồn Horizons đã chọn, không phụ thuộc một gói BTC riêng. Ngày 13, Lâm/Sơn xác định Team Owner; từ 09:00–09:30 ngày 14 kiểm cổng và quyền thật. Team Owner là người nộp dự kiến theo SEPA; guide NASA cho thành viên sửa trang và có khóa sửa gỡ được, nên một người sửa mỗi lúc. Lâm/Sơn giữ nhiệm vụ chuẩn bị dự phòng, không chia sẻ mật khẩu. Sáng 15 nộp bản đầu trung thực rồi cập nhật trước hạn; không nhận tính năng chưa chạy là hoàn thành.
 
 ## 8 Lịch thực hiện theo đầu ra
 
@@ -187,9 +187,9 @@ Các mốc dữ liệu giả định BTC đã cấp đầu vào để nhóm ki�
 
 | Giờ Hà Nội | Việc cần xong | Cách kiểm |
 |---|---|---|
-| 00:00–01:30 rồi nghỉ đến 06:00 | Chung/Sơn mở repo sản phẩm riêng nếu làm ca sớm, chuyển và kiểm chỉ dẫn tiếng Anh trước task đầu; Trang kiểm bộ BTC nếu đã phát hành. Fixture giả chỉ dùng thử kỹ thuật, không làm số liệu demo. Ca sớm là phần đệm | Ghi URL/owner/branch, checkpoint và nhãn fixture; không mở rộng scope hoặc thức xuyên đêm |
+| 00:00–01:30 rồi nghỉ đến 06:00 | Chung/Sơn mở repo sản phẩm riêng nếu làm ca sớm, chuyển và kiểm chỉ dẫn tiếng Anh trước task đầu; Trang kiểm ca Horizons đầu tiên khi bắt đầu. Fixture giả chỉ dùng thử kỹ thuật, không làm số liệu demo. Ca sớm là phần đệm | Ghi URL/owner/branch, checkpoint và nhãn fixture; không mở rộng scope hoặc thức xuyên đêm |
 | 07:00–09:00 | Check-in 07:00–08:15 và khai mạc 08:15–09:00; giữ máy/bản dự phòng | Không lên lịch mốc code bắt buộc trong nghi thức |
-| 09:00–12:00 | Kiểm bộ BTC/chốt bản kê 09:30; một luồng dữ liệu thật 10:30; pack cho so điểm/ngày và trực quan Sun/Earth trước 12:00 | Trang đọc raw/metadata; Minh truy kết quả về BTC và mở bản chung |
+| 09:00–12:00 | Kiểm nguồn Horizons/chốt bản kê 09:30; một luồng dữ liệu thật 10:30; pack cho so điểm/ngày và trực quan Sun/Earth trước 12:00 | Trang đọc raw/metadata; Minh truy kết quả về nguồn thật và mở bản chung |
 | 13:00–17:00 | Nghỉ ăn 12:00–13:00; hoàn thành hai phép so và trực quan Sun/Earth 15:00; tự tìm Plan B sau lõi, kiểm khoa học/UX 16:00, bản demo ổn định và báo cáo tiến độ 17:00 | Các ca chấp nhận mục 9 chạy trên bản tích hợp |
 | 17:00–22:00 | Theo thủ tục BTC; rời địa điểm theo khung khóa 17:30–18:00. Ăn/nghỉ; 19:00–20:30 sửa lỗi và hoàn thành hồ sơ, 20:30–21:00 diễn tập, 21:00–22:00 dự phòng; nghỉ đêm | Làm tối ở địa điểm/online nhóm đã bố trí; không mặc định được ở lại trường |
 
@@ -209,19 +209,19 @@ Mốc 00:00 dựa trên lời Cẩm Chi do Sơn cung cấp, được Sơn tái x
 
 | Nhóm kiểm | Điều kiện để bàn giao | Bằng chứng giữ lại |
 |---|---|---|
-| Nguồn và số liệu | Truy được kết quả về tệp/trường BTC có vai trò thực; nguồn bổ sung có lý do/giấy phép và tương thích. Tọa độ, đại lượng, thời gian, đơn vị, frame và hash khớp; với chuỗi góc kiểm ba mốc cho mỗi điểm/target, gồm gần chân trời nếu có | Phiếu dữ liệu, raw/metadata, bản kê và bảng kiểm theo loại nguồn. So cùng một nguồn qua web/API chỉ kiểm tích hợp, không phải mô hình độc lập |
+| Nguồn và số liệu | Truy được kết quả về request/raw/header/trường Horizons hoặc nguồn hợp lệ thực dùng; nguồn bổ sung có lý do/giấy phép và tương thích. Tọa độ, đại lượng, thời gian, đơn vị, frame và hash khớp; với chuỗi góc kiểm ba mốc cho mỗi điểm/target, gồm gần chân trời nếu có | Phiếu dữ liệu, raw/metadata, bản kê và bảng kiểm theo loại nguồn. So cùng một nguồn qua web/API chỉ kiểm tích hợp, không phải mô hình độc lập |
 | Lõi so sánh và trực quan | Chạy cùng điểm/khác ngày và cùng UTC/khác điểm; giữ thời lượng, định nghĩa, H; biểu đồ hoặc hình vị trí Sun/Earth khớp dữ liệu và các khoảng. Không dùng riêng tổng số giờ để thay vị trí | Hai ca tái hiện có nguồn, nhãn thời gian và trạng thái thiếu/sát ngưỡng; thiếu một chiều hoặc trực quan thì ghi lõi chưa đạt |
 | Logic khoảng và Plan B | Kiểm all-above, all-below, đổi dấu, đúng 0°, phương vị 359°→1°, chạm hai đầu, thiếu/trùng/lệch timestamp; dữ liệu ngày gốc không trở thành ngày dự phòng quá khứ; không có kết quả/sát ngưỡng phải báo đúng | Các test tổng hợp ghi rõ dữ liệu giả để kiểm thuật toán, tách khỏi dataset demo; Trang/Minh kiểm tay ít nhất một phép giao khoảng |
 | Độ nhạy số | Kiểm biên và ứng viên sát mọi H đã phát hành; so dữ liệu mịn hơn khi nguồn hỗ trợ. Không đủ phân xử thì giữ trạng thái không kết luận, không lấy nội suy thay bằng chứng | Bảng độ phân giải/ngoặc sự kiện/sai khác; giữ giới hạn nguồn, không suy thành độ chính xác địa hình |
 | Trải nghiệm và truy cập | Desktop/mobile, bàn phím, giảm chuyển động, WebGL lỗi, link sai, dữ liệu không tải; ba người chưa làm phần đó thử tìm thay đổi và nêu một giới hạn trong 2 phút | Thời gian, lỗi hiểu và mức trợ giúp thực; mục tiêu 3/3 hoàn thành, thất bại thì sửa nhãn/luồng |
-| Release và hồ sơ | Build/lint/test đạt, không secret, audit dependency; UI/README/hồ sơ/link tài liệu tiếng Anh; demo ≤7 slide gồm bìa hoặc ≤30 giây; nguồn NASA/đối tác, license/AI đủ; mở link ẩn danh | Commit, dataset ID/hash, checklist ngôn ngữ/định dạng, bản local dự phòng và trạng thái submitted sau lần sửa cuối |
+| Release và hồ sơ | Build/lint/test đạt, không secret, audit dependency; UI/README/hồ sơ/link tài liệu tiếng Anh; demo ≤7 slide gồm bìa hoặc ≤30 giây; ít nhất một nguồn NASA thực dùng, license và dấu/metadata SI đủ; mở link ẩn danh | Commit, dataset ID/hash, checklist ngôn ngữ/định dạng, bản local dự phòng và trạng thái submitted sau lần sửa cuối |
 
 **Các cổng cắt phạm vi đã chọn:**
 
-1. Đến 10:30 ngày 14 chưa có luồng dùng dữ liệu BTC thật chạy đúng: dừng globe/animation trang trí, tập trung nguồn, hai phép so và trực quan vị trí. Nếu chưa nhận bộ BTC, Lâm xác nhận nơi/thời điểm phát hành; fixture vẫn chỉ dùng thử kỹ thuật, không đánh dấu đạt cổng dữ liệu.
-2. Đến 12:00 pack đầy đủ chưa qua kiểm: thu nhỏ số lựa chọn về miền chung đã kiểm, ưu tiên giữ hai phép so và trực quan Sun/Earth. Xét nguồn ngoài bổ sung trước khi bỏ một chiều vì thiếu dữ liệu BTC. Không khóa hai điểm × ba ngày; thiếu chiều so hoặc vị trí thì công khai lõi chưa đạt đầy đủ, không tự điền số liệu ngoài miền.
+1. Đến 10:30 ngày 14 chưa có luồng dữ liệu Horizons thật chạy đúng: dừng globe/animation trang trí, tập trung nguồn, hai phép so và trực quan. Kiểm lỗi truy vấn/metadata/observer; xét dữ liệu NASA tính sẵn tương thích nếu nguồn chính không đáp ứng. Fixture chỉ thử kỹ thuật, không đạt cổng dữ liệu.
+2. Đến 12:00 pack chưa qua kiểm: thu miền lựa chọn về phần dùng chung đã kiểm, ưu tiên hai phép so và trực quan Sun/Earth. Xét nguồn bổ sung hợp lệ trước khi bỏ chiều so; không khóa hai điểm × ba ngày hoặc điền số ngoài miền. Thiếu phần nào phải ghi lõi chưa đạt phần đó.
 3. Đến 15:00 lõi chưa ổn: dừng tự tìm Plan B và globe để hoàn thành hai phép so cùng trực quan. Nếu lõi đã đạt nhưng bộ tìm chưa ổn, giữ so sánh các kịch bản đã kiểm và để người dùng chọn theo tiêu chí; mô tả đúng khả năng, không hứa tự tìm phương án.
-4. Đến 17:00 dữ liệu hoặc phép tính cốt lõi vẫn không qua kiểm: ngừng thêm tính năng, sửa hoặc loại kết quả lỗi. Dùng bản BTC/raw đã lấy hợp lệ và kiểm được khi nguồn mất truy cập. Nếu không có dữ liệu BTC phù hợp, chưa đạt nghiệm thu dữ liệu; báo giới hạn và điều chỉnh phạm vi theo hướng dẫn BTC, không thay toàn bộ bằng nguồn ngoài rồi nhận đã đáp ứng kế hoạch. Không dùng fixture làm số liệu khoa học.
+4. Đến 17:00 dữ liệu hoặc phép tính cốt lõi vẫn không qua kiểm: dừng tính năng mới, sửa hoặc loại kết quả lỗi. Khi mất nguồn, chỉ dùng raw/bản lưu đã lấy hợp lệ và kiểm được. Nếu không còn dữ liệu khoa học phù hợp thì báo chưa đạt, không dùng fixture hoặc đổi nhãn để qua nghiệm thu.
 5. Sau 09:00 ngày 15 chỉ sửa lỗi ảnh hưởng sử dụng/nộp; không thêm terrain, tính công suất, link budget, người dùng/tài khoản hoặc dịch vụ mới. Bản local/video dự phòng phải gắn đúng release.
 
 ## 10 Kịch bản trình bày và hồ sơ nộp
@@ -232,7 +232,7 @@ Theo [hướng dẫn SEPA ngày 12/11](https://sepa.org.vn/en/nasa-space-apps-ha
 |---|---|
 | 0:00–1:00 | Giới thiệu đội/đề và tình huống học tập bị lùi ngày; nêu người dùng và vấn đề |
 | 1:00–3:00 | Demo cùng điểm/khác ngày rồi cùng UTC/khác điểm; dùng hình Sun/Earth giải thích chênh lệch. Tự tìm Plan B theo H chỉ trình bày sau khi lõi đã chạy đúng |
-| 3:00–4:30 | Chỉ dataset NASA/đối tác, tệp/trường BTC và phần bổ sung; giải thích mô hình, giới hạn và cách tái hiện |
+| 3:00–4:30 | Chỉ dataset NASA/đối tác, request/raw/metadata và phần bổ sung; giải thích mô hình, giới hạn và cách tái hiện |
 | 4:30–6:00 | Mở bản so sánh lưu được; báo đúng kết quả thử người dùng, tác động và bước tiếp; phần còn lại dành hỏi đáp |
 
 Trang/Chung chọn mặc định sau khi kiểm dữ liệu: theo thứ tự ID/ngày tăng dần, chọn các ca đã kiểm gồm điểm A ở ngày gốc và ngày hoãn, điểm B ở cùng ngày hoãn, với cùng thời lượng, ghi trong bản kê. Nếu cần minh họa chuyển tiếp chân trời, dùng trường hợp đầu tiên theo thứ tự ngày thỏa điều kiện đó và ghi lý do; không coi là bằng chứng mọi ngày đều cải thiện. Không ấn định địa điểm/ngày trước khi nhận dữ liệu. Nếu kết quả không đổi đáng kể, trình bày đúng điều đó.
@@ -244,41 +244,47 @@ Trang/Chung chọn mặc định sau khi kiểm dữ liệu: theo thứ tự ID/
 | Ô hồ sơ | Nội dung team chuẩn bị bằng tiếng Anh |
 |---|---|
 | Project Name | Tên ngắn của sản phẩm |
-| High-Level Summary | Đã làm gì, giải quyết phần nào của đề và vì sao hữu ích |
-| Project Demo | Link bộ slide tối đa 7 trang hoặc video tối đa 30 giây |
-| Final Project | Link riêng tới sản phẩm thực hoặc repo có thể tái hiện |
-| Project Details | Cách hoạt động, công nghệ, lợi ích và mục tiêu |
-| Use of AI | Từng công cụ thực dùng như ChatGPT/Codex/Gemini và công việc đã hỗ trợ; không ghi No AI used |
-| NASA Data / Partner Data | Tên/link ít nhất một dataset NASA hoặc Space Agency Partner thực dùng |
-| References | Toàn bộ thư viện, ảnh, nhạc, bài viết, AI và tài nguyên bên ngoài; giữ credit/license |
+| High-Level Project Summary | Đã làm gì, giải quyết phần nào của đề và vì sao hữu ích |
+| Link to Project Demo | Link bộ slide tối đa 7 trang hoặc video tối đa 30 giây |
+| Link to Final Project | Link riêng tới sản phẩm thực hoặc repo có thể tái hiện |
+| Detailed Project Description | Cách hoạt động, công nghệ, lợi ích và mục tiêu |
+| Use of Super Intelligence (SI) | Từng công cụ thực dùng, cả hỗ trợ ý tưởng/phân tích, code, dữ liệu và media; giữ lịch sử thật, không ghi không dùng AI |
+| NASA Data | Tên/link và vai trò ít nhất một dữ liệu/tài nguyên NASA thật sự dùng để đáp ứng điều kiện Global Award |
+| Space Agency Partner Data and Other References | Nguồn đối tác và toàn bộ thư viện, ảnh, nhạc, bài viết, SI/tài nguyên ngoài; giữ credit/license |
+
+**Quy tắc SI mới đọc 13/11:** ảnh/video sinh cần watermark nhìn thấy; audio/code/data cần ghi nhận trong mô tả và metadata; nội dung sinh không dùng nhận diện NASA. Guide còn nói không nên dùng SI để nghĩ ra ý tưởng giải đề. Moon Plan B đã có AI hỗ trợ đề xuất/phân tích: ghi đúng lịch sử, không tự xác nhận phù hợp; Lâm/Sơn cần làm rõ trước xác nhận tính nguyên gốc/nộp. Lượt chuẩn bị này không liên hệ BTC. [Nguồn NASA](https://www.spaceappschallenge.org/resources/project-submission-guide/).
 
 ### Nộp và kiểm bản đã nộp
 
-Team Owner đăng nhập NASA, mở trang đội → Project → Edit, điền hồ sơ, đánh dấu hai xác nhận đã đọc hướng dẫn và đồng ý điều khoản cuộc thi, cùng xác nhận công trình của đội có ghi mọi tài nguyên ngoài, rồi bấm **Submit**. Kiểm trang đội hiển thị đã submitted; email/Zalo không phải kênh nhận bài. Kiểm đủ sáu người ở Members và đăng ký Hanoi, cùng đề đã chọn trong 14 đề chính thức; không đăng ký lại khi chưa có sai lệch. Sau đóng cổng không thêm thành viên.
+Người nộp dự kiến là Team Owner theo SEPA, sau khi kiểm quyền thật trên cổng. Mở trang đội → Project → Edit, điền hồ sơ, đánh dấu hai xác nhận đã đọc hướng dẫn và đồng ý điều khoản cuộc thi, cùng xác nhận công trình của đội có ghi mọi tài nguyên ngoài, rồi bấm **Submit for Judging**. Kiểm trang đội hiển thị đã submitted; email/Zalo không phải kênh nhận bài. Kiểm đủ sáu người ở Members và đăng ký Hanoi, cùng đề đã chọn trong 14 đề chính thức; không đăng ký lại khi chưa có sai lệch. Sau đóng cổng không thêm thành viên.
 
-Sáng 15 nộp bản đầu sớm kể cả còn thiếu tính năng, mô tả trung thực trạng thái; mỗi lần sửa phải **bấm Submit lại**, hoàn tất trước 11:00. Mục tiêu bản cuối là 10:30. Mở mọi link bằng cửa sổ ẩn danh: app/GitHub/Drive/YouTube phải cho người có link đọc không cần đăng nhập. Lưu commit, dataset ID/hash, URL và biên nhận/trạng thái sau lần sửa cuối. SEPA cho phép cải thiện tới hạn global 23:59; giữ snapshot bản chấm Hà Nội, không mặc định sửa sau 11:00 được tính vào chấm địa phương.
+Sáng 15 nộp bản đầu sớm kể cả còn thiếu tính năng, mô tả trung thực trạng thái; mỗi lần sửa phải **bấm Submit for Judging lại**, hoàn tất trước 11:00. Mục tiêu bản cuối là 10:30. Mở mọi link bằng cửa sổ ẩn danh: app/GitHub/Drive/YouTube phải cho người có link đọc không cần đăng nhập. Lưu commit, dataset ID/hash, URL và biên nhận/trạng thái sau lần sửa cuối. SEPA cho phép cải thiện tới hạn global 23:59; giữ snapshot bản chấm Hà Nội, không mặc định sửa sau 11:00 được tính vào chấm địa phương.
 
 ### Tiêu chí chấm và điều kiện nguồn
 
-Năm tiêu chí, mỗi tiêu chí 1–10 điểm: **Impact, Creativity, Validity, Relevance, Presentation**. Lâm/Trang chuẩn bị bằng chứng về người được giúp, đóng góp riêng, cơ sở khoa học/khả thi, mức bám đề và vai trò dữ liệu NASA, cùng câu chuyện/demo rõ; không tự chấm điểm hoặc nhận kết quả chưa kiểm.
+Năm tiêu chí: **Impact, Creativity, Validity, Relevance, Presentation**. [NASA Judging Guide](https://www.spaceappschallenge.org/resources/judging-awards-guide/) hiện ghi 1–5 ở mọi cấp; SEPA ghi 1–10. Thang Hà Nội thực áp dụng còn chưa hòa giải. Lâm/Trang chuẩn bị bằng chứng về tác động, đóng góp riêng, khoa học/khả thi, mức bám đề và vai trò NASA, cùng demo rõ; không tự chấm hoặc quy đổi điểm.
 
-Lõi sản phẩm làm trong hai ngày hackathon. Ghi nguồn/AI đầy đủ, kiểm quyền ảnh/nhạc/code, không đưa ngày sinh, địa chỉ nhà, số điện thoại hoặc ảnh nhận diện người dưới 18 chưa có đồng ý của phụ huynh vào sản phẩm. Điều kiện ảnh có đồng ý phụ huynh của SEPA không tự giải quyết quy định global chặt hơn về tên/giọng/hình nhận diện người dưới 18 đã ghi trong PREPARATION; kiểm trước khi đưa vào bài. Theo SEPA, dự án nộp là nguồn mở và mặc định Apache 2.0 nếu đội không chọn; Chung kiểm điều khoản cổng và tính tương thích của các license trước phát hành, không tự đổi license bên thứ ba. README tiếng Anh ghi cách dựng lại từ raw/hash, tách fixture test khỏi dữ liệu khoa học. Không sao chép Atlas/NavLunar khi quyền chưa rõ. GitHub/Drive chuẩn bị không thay release bài thi được làm sau giờ bắt đầu.
+Lõi sản phẩm làm trong hai ngày hackathon. Ghi nguồn/AI đầy đủ, kiểm quyền ảnh/nhạc/code, không đưa ngày sinh, địa chỉ nhà hoặc số điện thoại vào sản phẩm. Theo guide NASA, Project Demo và Final Project không được chứa ảnh, video, âm thanh hoặc hình thức thể hiện nhận diện người dưới 18. Guide không nêu ngoại lệ đồng ý phụ huynh; không dùng điều khoản đồng ý trong văn bản SEPA làm ngoại lệ cho bài nộp này. Theo SEPA, dự án nộp là nguồn mở và mặc định Apache 2.0 nếu đội không chọn; Chung kiểm điều khoản cổng và tính tương thích của các license trước phát hành, không tự đổi license bên thứ ba. README tiếng Anh ghi cách dựng lại từ raw/hash, tách fixture test khỏi dữ liệu khoa học. Không sao chép Atlas/NavLunar khi quyền chưa rõ. GitHub/Drive chuẩn bị không thay release bài thi được làm sau giờ bắt đầu.
 
 SEPA thông báo chứng nhận điện tử cho người nộp đúng hạn, giải địa phương ngày 15 và lựa chọn Global Nominees; đây là thông tin điều kiện, không phải nhóm đã nộp hoặc đã nhận giải.
 
-## 11 Nguồn kiểm tra và quyết định để nhóm duyệt
+## 11 Nguồn kiểm tra và quyết định hiện tại
+
+**Cập nhật trực tiếp 13/11:** đã đọc đầy đủ trang Lunar và Resources, FAQ, Submission/Judging Guide. Resources có QuickMap, Moon Trek, Horizons và CSA; không thấy yêu cầu một gói riêng. Sơn giao chốt hướng: Horizons là nguồn chính cho kế hoạch, không phải dữ liệu đã kiểm. Guide NASA thêm điều kiện nguồn NASA và dấu/metadata SI ở mục 10; điểm SI khởi tạo ý tưởng và thang điểm vẫn cần làm rõ. [Bảng kiểm nguồn và phần chưa biết](https://github.com/justsomenewbie/space-apps-2026-preparation/blob/main/docs/official-challenge-check-2026-11-13.md).
+
+**Lịch sử trước lần kiểm 13/11, không còn mô tả khả năng truy cập hiện tại:**
 
 Ngày 12/11 đã đối chiếu đề NASA qua nội dung được lập chỉ mục, bản sao HackAthlone, tài liệu JPL, nguồn vị trí NASA, sản phẩm đối chiếu, bảng phân công và thể lệ địa phương. Bản sửa theo chỉ dẫn Sơn giữ dữ liệu BTC chính, nguồn ngoài bổ sung và không khóa địa điểm/ngày; chưa kiểm nội dung bộ BTC. Đã đọc nguyên văn đề do Sơn chép từ trang NASA; văn bản xác nhận tình huống đổi ngày/địa điểm, trực quan Sun/Earth và tính gợi ý của danh sách tính năng, không chứng minh cấu trúc dữ liệu sắp nhận. Hướng dẫn SEPA ngày 12/11 được đọc toàn văn qua Exa và truy cập HTTP trực tiếp thành công. Link hướng dẫn NASA trong bài gặp lỗi SSL khi lấy qua Exa; chưa kiểm form đăng nhập hoặc quyền Team Owner. Các giới hạn nộp ở mục 10 được dẫn theo SEPA; Lâm kiểm bản chính/thông báo mới khi có. Không coi kế hoạch là kết quả mô phỏng hoặc nhu cầu người dùng đã chứng minh.
 
 | Nhóm nguồn | Dùng vào việc gì |
 |---|---|
-| Dữ liệu BTC qua kênh phát hành chính thức; [thể lệ Hà Nội](https://drive.google.com/file/d/1t_VmkD3v4rESUOwzjytbguesqA4OoIBe/view) | Đầu vào chính theo chỉ dẫn Sơn; Trang ghi link/ID/version khi nhận. Thể lệ không chứng minh cấu trúc một bộ chưa được cung cấp |
+| [Resources đề Lunar](https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/) và [thể lệ Hà Nội](https://drive.google.com/file/d/1t_VmkD3v4rESUOwzjytbguesqA4OoIBe/view) | Bốn đầu mối đã mở; chọn Horizons cho Sun/Earth, QuickMap/Moon Trek tra cứu/đối chiếu, CSA bối cảnh. Không chờ một gói riêng chưa được xác nhận |
 | [Đề NASA](https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/) và [HackAthlone](https://hackathlone.com/challenges/lunar-landing-site-navigator) | Đối chiếu mục tiêu địa điểm/ngày/thiên thể; bản NASA quyết định yêu cầu |
-| [Horizons manual](https://ssd.jpl.nasa.gov/horizons/manual.html), [API](https://ssd-api.jpl.nasa.gov/doc/horizons.html), [API policy](https://ssd-api.jpl.nasa.gov/doc/index.php); nguồn vị trí NASA ở mục 3 và [LOLA PGDA](https://pgda.gsfc.nasa.gov/products/78) | Tài liệu/nguồn bổ sung theo khoảng thiếu đã xác định; kiểm tương thích trước khi dùng, không thay bộ chính |
+| [Horizons manual](https://ssd.jpl.nasa.gov/horizons/manual.html), [API](https://ssd-api.jpl.nasa.gov/doc/horizons.html), [API policy](https://ssd-api.jpl.nasa.gov/doc/index.php); nguồn vị trí NASA ở mục 3 và [LOLA PGDA](https://pgda.gsfc.nasa.gov/products/78) | Horizons là nguồn chính được chọn cho kế hoạch; vị trí và terrain kiểm riêng. Chưa có dataset đã xử lý hoặc chứng minh tương thích |
 | [Timeline Hà Nội](https://drive.google.com/file/d/1m07k0x7akRQqZ7YQS71hJs_ITXxgOK7e/view), [FAQ](https://www.spaceappschallenge.org/resources/participant-faqs/), [Terms](https://www.spaceappschallenge.org/legal/) | Lịch, điều kiện nộp, ghi nguồn và khai báo AI; kiểm lại thông báo mới |
 | [Hướng dẫn nộp SEPA ngày 12/11](https://sepa.org.vn/en/nasa-space-apps-hanoi-2026-submission-guide.htm) | Ô hồ sơ, tiếng Anh, demo 7 slide hoặc 30 giây, Team Owner/Submit, 15 phút chấm và năm tiêu chí; người dùng giữ mốc 00:00 |
 | [Kiến trúc đã soạn](https://github.com/justsomenewbie/space-apps-2026-preparation/blob/main/docs/architecture-proposal/ARCHITECTURE_PROPOSAL.md) và [cơ sở lý thuyết](https://github.com/justsomenewbie/space-apps-2026-preparation/blob/main/docs/architecture-proposal/THEORY_PRIMER.md) | Giải thích nền; các lựa chọn cụ thể của phiên bản Moon Plan B nằm trong kế hoạch này |
 
-**Nhóm duyệt cùng một gói:** Moon Plan B, dữ liệu BTC làm chính, nguồn ngoài bổ sung có căn cứ, lõi gồm so điểm, so ngày và trực quan Sun/Earth trong miền của bộ chính kết hợp nguồn bổ sung đã kiểm; ưu tiên lõi trước tự tìm Plan B/globe, xử lý theo lô, tiêu chí bài tập minh bạch, web React/Vite, phân công mục 7 và lịch mục 8. Địa điểm/ngày/cấu hình được quyết theo phiếu kiểm dữ liệu, không khóa trước. Tiêu chuẩn hoàn thành là phép so sánh truy được nguồn, giải thích được và mở lại được; có demo ngày đầu và hồ sơ nộp trước hạn Hà Nội.
+**Hướng chốt theo ủy quyền Sơn ngày 13/11:** Moon Plan B, Horizons làm nguồn Sun/Earth chính, vị trí có nguồn và bổ sung có căn cứ; lõi gồm so điểm, so ngày và trực quan Sun/Earth trong miền dữ liệu đã kiểm; ưu tiên lõi trước tự tìm Plan B/globe, xử lý theo lô, tiêu chí bài tập minh bạch, web React/Vite, phân công mục 7 và lịch mục 8. Địa điểm/ngày/cấu hình được quyết theo phiếu kiểm dữ liệu, không khóa trước. Tiêu chuẩn hoàn thành là phép so sánh truy được nguồn, giải thích được và mở lại được; có demo ngày đầu và hồ sơ nộp trước hạn Hà Nội.
 
 Bước tiếp trong 2 phút: mỗi thành viên đọc dòng nhiệm vụ của mình ở mục 7 và phản hồi nhận việc hoặc nêu đúng một điều chỉnh cụ thể.

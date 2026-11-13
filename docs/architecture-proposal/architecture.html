@@ -26,11 +26,11 @@
 <body>
 <main>
   <h1>Kiến trúc web app để nhóm trao đổi</h1>
-  <p><strong>Bản đề xuất · nhãn nguồn sửa 13/11/2026 · Chưa triển khai.</strong> Bộ BTC chưa nhận, chưa biết nội dung. Nguồn ngoài là ứng viên bổ sung; chỉ chọn sau kiểm dữ liệu thực tế và quyền dùng. Điểm, ngày và cấu hình sẽ theo bản kê được kiểm sau khi nhận dữ liệu. API là tham khảo lịch sử, ngoài bản thi đang đề xuất.</p>
+  <p><strong>Hướng chốt theo ủy quyền Sơn · 13/11/2026 · Chưa triển khai.</strong> Horizons là nguồn Sun/Earth chính đã chọn cho kế hoạch; chưa lấy/kiểm dữ liệu thật. Điểm, ngày và cấu hình theo bản kê sau kiểm. QuickMap/Moon Trek tra cứu; terrain có điều kiện. Không chờ gói BTC riêng chưa xác nhận; API là tham khảo lịch sử, ngoài bản thi.</p>
   <div class="diagram-container" tabindex="0" role="region" aria-label="Sơ đồ kiến trúc, có thể cuộn ngang trên màn hình nhỏ">
     <svg viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="architecture-title architecture-desc">
       <title id="architecture-title">Kiến trúc web app đề xuất</title>
-      <desc id="architecture-desc">Luồng đề xuất chưa triển khai. Bộ BTC chưa nhận và chưa biết nội dung; nguồn ngoài là ứng viên. Sau khi kiểm dữ liệu thực tế và chốt nguồn dùng, xử lý và kiểm theo lô rồi mới phát hành lên hosting cho frontend. Nhánh API nằm ngoài bản thi đang đề xuất.</desc>
+      <desc id="architecture-desc">Luồng đã chọn cho kế hoạch, chưa triển khai. Horizons là nguồn Sun/Earth chính, nguồn vị trí kiểm riêng; chưa lấy/kiểm dữ liệu thực tế. Sau kiểm, xử lý theo lô rồi phát JSON có phiên bản lên hosting cho frontend. Nhánh API nằm ngoài bản thi.</desc>
       <defs>
         <marker id="arch-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#4f5d75"/></marker>
         <marker id="arch-start" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto"><polygon points="8 0,0 3,8 6" fill="#4f5d75"/></marker>
@@ -59,15 +59,15 @@
 
       <rect x="40" y="160" width="320" height="160" rx="6" fill="#ececec" stroke="#4f5d75"/>
       <text x="64" y="196" class="tag">ĐẦU VÀO CHÍNH</text>
-      <text x="64" y="232" class="name">Dữ liệu BTC</text>
-      <text x="64" y="264" class="detail">Chưa nhận: cần kiểm tệp / metadata</text>
-      <text x="64" y="288" class="detail">Nguồn ngoài: ứng viên bổ sung</text>
+      <text x="64" y="232" class="name">JPL Horizons</text>
+      <text x="64" y="264" class="detail">Đã chọn hướng; dữ liệu chưa kiểm</text>
+      <text x="64" y="288" class="detail">Vị trí / terrain: kiểm nguồn riêng</text>
 
       <rect x="40" y="420" width="320" height="160" rx="6" fill="#ffffff" stroke="#2d3142"/>
       <text x="64" y="456" class="tag">BACKEND THEO LÔ</text>
       <text x="64" y="492" class="name">Chuẩn hóa → tính → kiểm</text>
       <text x="64" y="524" class="detail">Đơn vị · tọa độ · thời gian · lỗi</text>
-      <text x="64" y="548" class="detail">BTC và bổ sung ghi riêng</text>
+      <text x="64" y="548" class="detail">Ghi vai trò và metadata từng nguồn</text>
 
       <rect x="480" y="160" width="320" height="160" rx="6" fill="#f8e9e3" stroke="#bf4520" stroke-width="2"/>
       <text x="504" y="196" class="tag">HOSTING</text>
@@ -93,9 +93,9 @@
       <text x="944" y="524" class="detail">Chọn địa điểm và thời gian hỗ trợ</text>
       <text x="944" y="548" class="detail">Máy tính / điện thoại cần kiểm thật</text>
 
-      <text x="40" y="628" class="detail">Đề xuất: xử lý theo lô; chỉ phát kết quả sau kiểm. Nguồn dùng, điểm và ngày chờ kiểm dữ liệu thực nhận.</text>
+      <text x="40" y="628" class="detail">Hướng đã chọn: xử lý theo lô, chỉ phát kết quả sau kiểm. Điểm và ngày cần kiểm với dữ liệu thật.</text>
       <text x="40" y="656" class="detail">Nhánh API nét đứt là tham khảo lịch sử. Browser không gọi trực tiếp Horizons.</text>
-      <text x="40" y="684" class="detail">Đã đọc nguồn ≠ đã kiểm dữ liệu phù hợp ≠ nhóm đã chọn dùng. Web cần build/deploy; người xem mở link.</text>
+      <text x="40" y="684" class="detail">Chọn hướng ≠ dữ liệu đã kiểm ≠ cả nhóm nhận việc. Web cần build/deploy; người xem mở link.</text>
       <line x1="40" y1="724" x2="1240" y2="724" stroke="#bfc0c0"/>
       <line x1="40" y1="756" x2="88" y2="756" class="arrow"/>
       <text x="104" y="760" class="tag">LUỒNG TỐI THIỂU ĐỀ XUẤT</text>
@@ -106,7 +106,7 @@
   </div>
   <p><strong>Luồng người dùng đề xuất:</strong> mở link → chọn tình huống hỗ trợ → tải kết quả đúng phiên bản → xem bảng/biểu đồ → mở nguồn và giới hạn. Khi thiếu dữ liệu hoặc lỗi mạng, báo rõ và cho thử lại; không biến dữ liệu thiếu thành 0. 3D không quyết định kết quả khoa học; góc nhìn sát mặt đất có điều kiện và dự phòng trên điểm theo kế hoạch hiện hành.</p>
   <p><a href="ARCHITECTURE_PROPOSAL.md">Đọc thuyết minh, cơ sở lý thuyết và kế hoạch Moon Plan B</a>. Tài liệu kèm theo có liên kết nguồn JPL SSD API, Horizons và LOLA PGDA 78. Sơ đồ tự hiển thị mà không tải font hoặc tài nguyên mạng.</p>
-  <p>Giả định trình bày: sơ đồ tĩnh, nền sáng, font hệ thống sẵn có; không phải bộ nhận diện hoặc giao diện sản phẩm. Nội dung là đề xuất chuẩn bị; tin nhắn nhóm/mentor chưa gửi. Chưa có dataset BTC, mô hình hoặc deployment được kiểm.</p>
+  <p>Giả định trình bày: sơ đồ tĩnh, nền sáng, font hệ thống sẵn có; không phải bộ nhận diện hoặc giao diện sản phẩm. Nội dung là kế hoạch chuẩn bị theo ủy quyền Sơn; tin nhắn nhóm/mentor chưa gửi. Chưa có dataset, mô hình hoặc deployment được kiểm.</p>
 </main>
 </body>
 </html>
