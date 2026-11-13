@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Five repositories and 3D plugin readiness — 13 November 2026
+
+Current chat `01a1d4d5-6dc8-7e40-8869-f8637d0fe541` reviewed five user links and requested useful 3D plugins. Listed 15 recent chats; read the latest role-kit/checkpoint turn `01a1d4ba-0bc5-76d2-ae45-8513db420572` through its final reply and checked baseline receipt `cc0ded88e1e7ccc667c584182ff657b9cd9417d0`. Other relevant project histories are covered by existing dated checkpoints; no full archive, Sheet/assignment, portal or organizer review occurred.
+
+Root is sole repository editor, source/diff reviewers read-only. Findings and actual host/plugin checks: [review](docs/3d-tool-review-2026-11-13.md). No new repository/tool install, provider connection, product implementation or dataset. User-facing “+” choices remain unreviewed because search/UI access is unavailable. Local cached metadata is not activation evidence. The current tool map selects source review, visual-tools/Ponytail, Context Mode, Blender native reads and CUA cleanup, with documented alternatives/gaps.
+
+Human plan and AI context are unchanged; retained Word/PDF require hash/readback verification rather than regeneration. This checkpoint leaves transport pending; final release SHA, independent review, Git/cloud/source hashes and six Drive readbacks belong in sibling `nasa-preparation-deliverables/3d-tool-review-2026-11-13/FINAL_VERIFICATION.json`. No background sync or cross-host installation is implied.
+
 ## Task-start checkpoints and stale-status reconciliation — 13 November 2026
 
 Same role-preparation chat `01a1d459-0d40-7c33-9f6b-e415dbfc851d`; user pasted a repository-gap audit against `295f4ed`, then explicitly answered “Sửa repo và đồng bộ”. Root remains sole editor; independent reviewer read-only. Reconciled FRONTEND_HANDOFF flow/reference-method/contract pointer/known schedule/static-Cloudflare wording with KE_HOACH_NHOM, and HOSTING_PLAN current scope versus its retained November 12 research. Added role-based CHECKPOINTS and extended the existing shared handoff with recipient/reviewer acceptance, deadline and exact input version. No new personal assignment, product schema or live status board.

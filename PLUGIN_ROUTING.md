@@ -1,5 +1,11 @@
 # NASA plugin and skill routing
 
+## Five repositories and 3D plugins — 13 November
+
+[Current review](docs/3d-tool-review-2026-11-13.md) separates current/future value of Estella, MOTH, 3DCodeVerse, open-slide and GNOME Boxes. No new installation is needed for the present web-3D capability; 3DCodeVerse remains a selective QA-trial candidate. Existing visual-tools routing stays primary. Fresh native Blender connection/scene reads passed; other renderer evidence remains dated. Marketplace search/fal returned unavailable and Codex UI access is blocked; “+” options are not exhaustively reviewed. Cached files are not activation proof.
+
+Used primary sources/independent reviewers, Context Mode, existing visual-tools/Ponytail, Blender MCP and CUA cleanup. Delivery selects full diff/link checks, redacted secrets, existing-lock advisory checks and authorized Git/cloud/Drive sync. No CodeGraph index, new skill admission or product code/data/media/launch target; other functional/30-pack/visual routes add no required check. Future usefulness and material gaps are retained in the review.
+
 ## Official resources, selected direction and plan — 13 November
 
 Research/continuity | Codex chat inventory/read, web/Exa, direct public HTTP, Drive local rules, Context Mode, active Ponytail and independent source/consistency reviewers | used | direct full NASA challenge/Resources, current FAQ and Submission/Judging Guides supersede crawler failures/stale Exa FAQ. Source evidence and bounds are in docs/official-challenge-check-2026-11-13.md. No scientific queries or dataset downloads. CodeGraph has no index; bounded exact reads handle edits. Existing resource-list chat remains read-only; no new assignment/Sheet review.
