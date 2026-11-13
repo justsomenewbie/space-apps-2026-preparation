@@ -1,5 +1,11 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Three tool trials and GitTrending — 13 November 2026
+
+Current chat **Review Diorama GitHub Repo**, `01a1d33d-3c05-70e2-9559-3990d375198f`, active turn `01a1d38e-e34c-7182-b6b0-2313ab4e23a7`, reviewed through Sơn's request to prepare/test useful agent-desktop, Scrapling and Auto Ontology parts on unrelated examples, consider future projects, preserve the lunar-app boundary and check GitTrending. Listed eight recent chats and read the latest planning turn `01a1d32a-e914-7cb1-8ac4-d4f343a21c22`; it matches the existing conditional ground-level/above-site checkpoint. Prior music/history review remains dated; no new assignment/Sheet or complete archived-history audit.
+
+Baseline release `937ff25a22cfde7b4bbf74cb19b04db1e28de25b` has the complete prior receipt in sibling `diorama-lab-2026-11-13/FINAL_VERIFICATION.json`. Root independently reran all three bounded labs; the candidate note owns capabilities, failures and limits. GitTrending and two linked repositories were read; neither additional candidate was installed/run. Local runtimes, synthetic inputs and raw outputs stay outside both repositories. No lunar app/data, model service, paid call, new permission or changed Moon direction. Human plan/AI/Word/PDF remain unchanged. Source checkpoint leaves transport pending; released SHA, cloud/source hashes and six Drive readbacks belong in sibling `tool-labs-2026-11-13/FINAL_VERIFICATION.json`.
+
 ## Unrelated Diorama tests and future usefulness — 13 November 2026
 
 Current chat **Review Diorama GitHub Repo**, `01a1d33d-3c05-70e2-9559-3990d375198f`, reviewed through Sơn's request to prepare/test useful controls and QA on an unrelated demo, preserve the realistic Moon direction/no-early-app rule, remember future-project usefulness, and review Auto Ontology, agent-desktop and Scrapling links. Listed ten recent chats; the planning/music checkpoints reviewed earlier in this same session remain current; no new relevant turns outside this ongoing chat/cloud sync were identified. No new Sheet/assignment or archived-history audit.

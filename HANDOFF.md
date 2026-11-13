@@ -11,7 +11,7 @@ Six registered members; Lunar confirmed. Moon Plan B awaits group approval. **Ed
 
 **Mac tool preparation verified:** isolated Rasterio/GDAL and PyProj/PROJ, eight pins, nine independently repeated synthetic checks, pip/OSV checks. DATA_PREPARATION owns versions, paths and limits. Real lunar datasets/native-library coverage/browser/phones remain untested. No app or lunar processing; no cloud installation.
 
-**Diorama follow-up:** selected camera/orbit and guarded screenshot/frame QA prepared on an unrelated block/sphere demo outside both repositories. Root and independent checks cover 11 interaction + 10 QA groups; source/visual evidence and limits in `docs/tool-candidates-2026-11-13.md`. No lunar app/assets/data or full skill adoption. Physical phones/Safari/endurance untested. Preserve realistic Moon direction. Consider future usefulness separately: Auto Ontology, existing agent-desktop and Scrapling remain source-reviewed candidates; none run/updated here.
+**Tool labs:** Diorama camera/QA passed 11 interaction + 10 QA groups. Root repeated agent-desktop 1.2.0 Calculator (eight checks), Scrapling parser/native HTTP (14), and Auto Ontology context helpers (12). TextEdit launch failed; full ontology/model services and Scrapling browsers/crawlers remain untested. `docs/tool-candidates-2026-11-13.md` owns guides, provenance and limits. Samples are not automatically redacted. GitTrending yielded reviewed-only Modern Web Guidance/GeoLibre leads. Consider future usefulness separately; retain realistic Moon direction. Labs stay outside both repos; no lunar implementation.
 
 ## Start and English submission
 
@@ -31,6 +31,6 @@ Sơn owns frontend choice; React/TypeScript/Vite/npm/CSS prepared. Coordinate co
 
 ## Delivery
 
-Last verified GitHub/cloud release: **ec3a530970b6e043d87fc1c908ad969f86943b4f**, sibling receipt `nasa-preparation-deliverables/diorama-review-2026-11-13/FINAL_VERIFICATION.json`. Lab/candidate/preference notes await transport at source checkpoint; unchanged plan/AI/18-page Word/PDF require retained-hash checks. Released SHA, cloud/source hashes and six Drive readbacks belong in sibling `nasa-preparation-deliverables/diorama-lab-2026-11-13/FINAL_VERIFICATION.json`. Local runtime is not in Git/cloud. Preserve `.DS_Store`.
+Verified GitHub/cloud release: **937ff25a22cfde7b4bbf74cb19b04db1e28de25b**, sibling `nasa-preparation-deliverables/diorama-lab-2026-11-13/FINAL_VERIFICATION.json`. New notes await transport; unchanged plan/AI/18-page Word/PDF need retained-hash checks. Final SHA, cloud/source hashes and six Drive readbacks belong in sibling `nasa-preparation-deliverables/tool-labs-2026-11-13/FINAL_VERIFICATION.json`. Mac runtimes do not transfer. Preserve `.DS_Store`.
 
-Next action under two minutes: open the unrelated lab screenshot or its LOCAL_USE guide; retain the midnight boundary for product work.
+Next action under two minutes: open the relevant local lab guide; retain the midnight boundary for product work.
