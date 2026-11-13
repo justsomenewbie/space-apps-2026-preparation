@@ -1,5 +1,13 @@
 # NASA plugin and skill routing
 
+## Modern Web Guidance, GeoLibre and further discovery — 13 November
+
+Research/continuity | GitHub/web, existing handoff/catalog, recent chat inventory and current-turn read | used | pinned package/source/licence evidence, primary MDN/W3C check for IME handling, and two additional GitTrending candidates. Existing planning/music checkpoints remain current; no assignment change. Bounded reads/local summaries suffice; no CodeGraph index. MarkItDown/text-to-cad remain reviewed-only; existing orchestration tools/API research cover other listings without another stack.
+
+Runtime/UI/QA | active Ponytail, frontend-testing-debugging and visual-tools selection | used | published Modern Web Guidance CLI plus a synthetic native-dialog guestbook (21 independently repeated groups); existing hosted GeoLibre renderer plus three invented Earth points and project round-trip (14 groups). Browser plugin absent; existing Playwright/Chromium reused with native sandbox checked. Screenshots inspected. No competing 3D/media renderer, provider, launch audit or full scientific computation is needed. Existing Moon style, stack ownership, data decisions and event timing stay intact.
+
+Security/delivery | Agent SkillGuard including identical `.mjs`/`.js` scan copies, manual boundaries, public package/bundled-notice advisory checks, redacted Gitleaks, independent review and existing Git/cloud/Drive | used | exact scope and non-coverage in [tool note](docs/tool-candidates-2026-11-13.md). Modern bundle secret scan retained two public-algorithm false positives; no blanket suppression. GeoLibre's guarded session intentionally reports blocked analytics/service-worker diagnostics. Local optional catalog routes are saved; no cross-host installation, hooks or product dependency. Plan/AI/Word/PDF remain byte-identical and require retained-hash checks. Final receipt: sibling `web-gis-labs-2026-11-13/FINAL_VERIFICATION.json`.
+
 ## Three unrelated tool labs and GitTrending — 13 November
 
 User authorized selected agent-desktop, Scrapling and Auto Ontology parts on unrelated examples, retaining future-project value and the no-early-app boundary. Research | GitHub/web, active Ponytail, Context Mode for the long guidance README, existing chat list/read | used | primary source pins and bounded exact-source checks; Context Mode's session query found no hits, worktree query succeeded. CodeGraph is absent. GitTrending is a discovery source, with Modern Web Guidance/GeoLibre retained as reviewed-only leads; no extra install or subscription.

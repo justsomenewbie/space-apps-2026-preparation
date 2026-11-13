@@ -1,5 +1,11 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Modern Web Guidance, GeoLibre and additional discovery — 13 November 2026
+
+Current chat **Review Diorama GitHub Repo**, `01a1d33d-3c05-70e2-9559-3990d375198f`, active turn `01a1d3af-4d37-7b73-a750-41c40c5c3785`, reviewed through Sơn's request to prepare/test useful Modern Web Guidance and GeoLibre parts on unrelated examples, consider future projects, preserve all project context/realistic Moon direction, and search more of GitTrending. Eight recent chats were listed; planning/music timestamps match the already-read checkpoints. No new external project decision, Sheet/assignment change or full archived-history review.
+
+Baseline `c1d2ad5d72ce7e97e0daf80194ecb7760e680b51` has the complete sibling `tool-labs-2026-11-13/FINAL_VERIFICATION.json`. A fresh 32-file baseline protects unrelated project sources; only four preparation notes change here. Root independently repeated 21 Modern Web Guidance and 14 GeoLibre groups and inspected screenshots; exact limits/adaptations are in the candidate note. MarkItDown/text-to-cad are additional primary-source-reviewed candidates, not installed/tested. All new practice/runtime/data/evidence remains outside both repositories. Human plan, AI context and reviewed 18-page Word/PDF remain unchanged. Source checkpoint leaves transport pending; final commit/cloud hashes/six Drive readbacks belong in sibling `web-gis-labs-2026-11-13/FINAL_VERIFICATION.json`.
+
 ## Three tool trials and GitTrending — 13 November 2026
 
 Current chat **Review Diorama GitHub Repo**, `01a1d33d-3c05-70e2-9559-3990d375198f`, active turn `01a1d38e-e34c-7182-b6b0-2313ab4e23a7`, reviewed through Sơn's request to prepare/test useful agent-desktop, Scrapling and Auto Ontology parts on unrelated examples, consider future projects, preserve the lunar-app boundary and check GitTrending. Listed eight recent chats and read the latest planning turn `01a1d32a-e914-7cb1-8ac4-d4f343a21c22`; it matches the existing conditional ground-level/above-site checkpoint. Prior music/history review remains dated; no new assignment/Sheet or complete archived-history audit.
