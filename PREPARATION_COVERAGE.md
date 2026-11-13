@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## ElevenLabs comparison — 13 November 2026
+
+Current music chat `01a1d0e9-0c4c-7e80-b766-7eac127e6daa`, checkpoint through the user's explicit “Yes—use 300 free credits” approval and verified generation. Continued the already-reviewed music session; no new assignment/Sheet decision or broader archived-history review. Baseline `741c8f19c7070e25c714c42202bf6df8e95df9bf` has the complete GitHub/cloud/six-Drive receipt in sibling `music-memory-2026-11-13/`.
+
+Root prepared the original cafe-jazz prompt and exact 20-second duration. A connector estimate was non-generating; browser account access and the actual one-variant price were checked before approval. The Free-plan browser generated one Music v2 clip and the observed deduction was exactly 300 free credits. No purchase/subscription/export/publication, no locally rerun model, and no claim of quality preference or vocal-content verification. Private account identifiers, balance and provider project links stay outside public preparation sources. Full test boundaries belong in `docs/media-rights-2026-11-13.md`.
+
+Routes: ElevenLabs Music skill/connector schema and estimate, official-source legal/pricing research, Chrome through CUA for account/price/generation verification, read-only reviewers, and existing FFprobe/hash checks for the ACE sample. No new dependency, renderer, production asset, or scientific computation. Native UI controls required user-assisted fullscreen recovery; automatic playback was not confirmed. Markdown-only handoff, independent review and redacted secret scan precede the existing Git/cloud/Drive sync; retained Word/PDF need hash verification only. Final transport evidence belongs in sibling `elevenlabs-test-2026-11-13/FINAL_VERIFICATION.json`.
+
 ## ACE-Step memory follow-up — 13 November 2026
 
 Current music chat `01a1d0e9-0c4c-7e80-b766-7eac127e6daa`, checkpoint through the user's request to reduce ACE memory without reducing quality and consider ElevenLabs after listening. Listed 20 recent chats; current music work and the previously verified cloud-sync turn are relevant. Tracker automation was not treated as music-runtime evidence; no full archived-history review or assignment change. Baseline `2ca0cce338836d69f4a077ae184623efee3c4f54` has the previous complete GitHub/cloud/six-Drive receipt in sibling `music-test-2026-11-13/`.
