@@ -46,7 +46,7 @@ Người dùng chính là sinh viên, người học STEM và người xem lần
 | Ưu tiên tiếp theo | Giá trị đề xuất | Điều kiện đưa vào bản thi |
 |---|---|---|
 | Tự tìm Plan B | Ngày sớm nhất đạt tiêu chí công khai trong tập đã đánh giá, kèm lý do | Lõi so sánh đã qua kiểm; xử lý đúng thiếu dữ liệu, sát ngưỡng và không có phương án; không hứa ngày tối ưu ngoài miền khảo sát |
-| 3D chân thực có ích | Định hướng từ Mặt Trăng tới điểm chọn và giúp hiểu hướng nhìn, giữ cảm giác cao cấp | Hoàn thiện sau lõi; phân biệt cảnh minh họa với phép tính và địa hình đã kiểm; có chế độ nhẹ, dừng/giảm chuyển động |
+| 3D chân thực có ích | Zoom mượt từ Mặt Trăng tới điểm chọn; ưu tiên góc nhìn sát mặt đất nếu dữ liệu và thời gian cho phép | Mục 1.3 giữ góc nhìn trên điểm làm dự phòng; hoàn thiện sau lõi, phân biệt minh họa với địa hình/phép tính đã kiểm; có chế độ nhẹ và dừng/giảm chuyển động |
 | Một tình huống hướng dẫn | Nút thử lịch bị lùi giúp người mới đi qua một phép so có thật và đã kiểm | Không dùng số liệu dựng làm kết quả; thử với người chưa làm tính năng, theo mục 9 |
 | Bản so sánh in một trang | Giữ câu hỏi, lựa chọn, kết quả, nguồn và giới hạn để chia sẻ | Dùng in trình duyệt trước; không cần dịch vụ xuất PDF riêng |
 | Lớp khoa học bổ sung có căn cứ | Xét che khuất địa hình, chiếu sáng hoặc mức phù hợp theo tiêu chí rõ ràng | Chỉ thêm khi dữ liệu/mô hình, quyền dùng, người phụ trách, cách kiểm và thời gian đáp ứng cổng mở rộng ở mục 1; không loại trước hoặc hứa trước khi nhận dữ liệu |
@@ -54,6 +54,17 @@ Người dùng chính là sinh viên, người học STEM và người xem lần
 Luồng gợi ý: mở ví dụ đã kiểm → chọn so ngày hoặc so điểm → đổi thời gian → đọc chênh lệch → chia sẻ. Điều khiển gọn, kết quả nổi bật, giải thích kỹ thuật mở khi cần. Nhạc tùy chọn và tắt mặc định; nhạc/SFX không là điều kiện đạt lõi. JSON có phiên bản cấp cho frontend vẫn là phương án ban đầu; chỉ thêm tài khoản, cơ sở dữ liệu, API trực tiếp hoặc chatbot khi có nhu cầu cụ thể. Đây là định hướng, chưa tạo UI hay khóa stack mới.
 
 **Cách cập nhật đề xuất:** nhóm có thể sửa, thêm, bỏ hoặc chuyển mức ưu tiên. Khi đổi, ghi lý do, tác động dữ liệu/giao diện, đầu ra, người nhận và cách kiểm vào mục liên quan; kiểm lại thời gian và điều kiện nộp. Phân biệt đề xuất mới, quyết định nhóm đã nhận và kết quả đã kiểm. Việc Sơn yêu cầu lưu danh sách không xác nhận toàn nhóm đã đồng ý hoặc dữ liệu đã đủ.
+
+### 1.3 Đề xuất góc nhìn sát mặt đất và phương án dự phòng
+
+**Sơn đề nghị ngày 13/11:** hướng tới cảm giác khám phá và zoom mượt của [SpaceEngine](https://spaceengine.org/), ưu tiên đi từ toàn cảnh Mặt Trăng xuống góc nhìn sát mặt đất tại điểm chọn khi dữ liệu và thời gian cho phép. **Góc nhìn từ trên điểm đáp là phương án dự phòng rõ ràng.** Đây là đề xuất mở cho nhóm sửa/bổ sung, thuộc Should-have; không nâng thành điều kiện đạt lõi, không xác nhận cả nhóm đã duyệt hoặc chọn dùng engine/asset của SpaceEngine.
+
+1. **Chỉ mở góc sát mặt đất khi dữ liệu phù hợp.** Kiểm miền phủ điểm chọn, quyền dùng, frame/phép chiếu, đơn vị, mốc cao độ, độ phân giải thực, giá trị thiếu và cách khớp địa hình với texture/marker. [NASA CGI Moon Kit](https://svs.gsfc.nasa.gov/4720) là ứng viên cho toàn cảnh; [LOLA vùng cực nam](https://pgda.gsfc.nasa.gov/products/78) là ứng viên địa hình cục bộ. Không chốt site hoặc tải/xử lý asset bài thi trước giờ cho phép. Không thêm đá/bụi giả rồi trình bày là chi tiết đo được; grid mịn không tự chứng minh chi tiết bề mặt tương ứng.
+2. **Giữ trải nghiệm liên tục và có lối quay lại.** Sau giờ triển khai, có thể phối hợp cảnh toàn cầu với một vùng địa hình nhỏ đã kiểm. Zoom vào/ra giữ đúng điểm, cho dừng/đổi lựa chọn, tôn trọng giảm chuyển động. Nếu dữ liệu quá thô, thiếu, tải lỗi hoặc thiết bị không đáp ứng, dừng ở góc nhìn trên điểm; nếu 3D không chạy thì vẫn dùng được bảng/biểu đồ so sánh. Không hứa khám phá tự do toàn bề mặt hoặc hiệu năng chưa đo.
+3. **Giữ giới hạn khoa học ngay trên hình.** Ghi nguồn và mức chi tiết; đánh dấu cảnh/ánh sáng minh họa và phần bị giản lược. Hình ảnh chân thực không xác nhận bóng đổ khoa học, điện, liên lạc hoặc an toàn đáp. Chỉ đồng bộ hướng Sun/Earth khi dữ liệu và hệ tọa độ đã kiểm hỗ trợ; các chỉ số vẫn theo mục 4.
+4. **Quyết định theo cổng dữ liệu và thời gian.** Sau khi lõi đạt kiểm, nhóm xác nhận dữ liệu, người nhận và phần thời gian còn lại trước khi làm mức sát mặt đất. Giữ các mốc 15:00 kiểm lõi, 17:00 demo ổn định, diễn tập/hồ sơ và khóa tính năng ở mục 8–9. Nếu không đủ thời gian kiểm nguồn, tích hợp, zoom lặp lại, lỗi tải và điện thoại đại diện, dùng phương án trên điểm; không lấy thời gian nộp/kiểm khoa học để cố đạt hình ảnh.
+
+Trước 00:00 ngày 14/11 chỉ chuẩn bị môi trường xử lý raster/hệ tọa độ và kiểm bằng dữ liệu giả không liên quan. Runtime, fixture và bằng chứng giữ ngoài repo chuẩn bị/sản phẩm; không tạo app, scene/mesh/texture hay dataset Mặt Trăng trong bước chuẩn bị công cụ. Tình trạng và cách dùng ở DATA_PREPARATION/FRONTEND_HANDOFF; máy khác cần kiểm/cài riêng.
 
 ## 2 Một luồng sử dụng hoàn chỉnh
 
