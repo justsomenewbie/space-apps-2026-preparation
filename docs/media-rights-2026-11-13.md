@@ -21,7 +21,7 @@ Reviewed 13 November 2026, Hanoi. Preparation only: nothing from this shortlist 
 
 Do not feed NCS recordings into AI generation: its [content policy](https://ncs.io/usage-policy/2/types-of-content) restricts AI music-model training/other generative AI content. For any generator, use original text inputs, avoid copied lyrics, reference tracks, recognizable melodies and impersonation; inspect the actual output and disclose AI assistance. A claim about licensed training data remains a developer claim, not an independent audit.
 
-## Local ACE-Step result — verified 13 November
+## Initial local ACE-Step result — verified 13 November
 
 **The unrelated 20-second test passed on this Mac.** No competition asset or paid provider was used. This single run establishes short-clip feasibility, not full-song performance or musical quality.
 
@@ -36,6 +36,23 @@ Do not feed NCS recordings into AI generation: its [content policy](https://ncs.
 The transfer initially stalled on expired signed URLs. A first repair failed its complete hash; no failed file was loaded. A measured correction on separate copies recovered both affected weights, followed by full verification; originals/failed copies remain preserved. The loader subsequently synchronized model Python code from the pinned source; the post-load check records those overlays separately from the original snapshot. Do not treat a sparse partial's apparent file size as a valid resume offset.
 
 Agent SkillGuard flagged the upstream curl-pipe-shell installer; it was not run. The existing uv installed the frozen environment. OSV found dependency advisories; focused Codex Security triage covered this original-input, no-LM, verified-model, network-denied batch only. It did not clear web UI/hosting, training or arbitrary inputs. Keep this runtime local and use the recorded batch boundaries until those other uses receive their own review.
+
+## Memory follow-up — same audio, lower footprint
+
+**User constraint:** reduce local memory use without reducing quality; keeping the Mac responsive during frontend work matters more than generation speed. The accepted local batch profile keeps the same weights, precision, eight steps, seed 42, original prompt, duration and VAE conversion. It changes loading order and releases models after their last use. It uses no quantization, smaller model or reduced step count.
+
+| Observed run | Peak process footprint (decimal GB) | System pressure / audio result |
+| --- | --- | --- |
+| Original batch | 30.28 | System-pressure baseline not sampled; original verified WAV. |
+| Cache-only attempt | At least 21.50 sampled; incomplete run | Stopped before generation after critical pressure; no audio admitted. |
+| Direct MPS loading, early MLX conversion, duplicate decoder released | 19.69 | Warning pressure; WAV byte-identical to original. |
+| Single-batch profile, also retiring text/conditioning models before diffusion | **17.77 — 41.30% below original** | Warning pressure; **WAV byte-identical to original**, decoded PCM difference zero. Preferred local batch profile. |
+
+The final run took 14.41 seconds to initialize and 6.05 seconds to generate/save; different cache/host conditions prevent a controlled speed claim. Independent full WAV/MP3 decoding passed. Native process footprint and system pressure/swap were sampled every five seconds, with a baseline and post-exit recovery; exit-time peak cross-checked the sample. Do not sum overlapping MPS/MLX/RSS counters. The final run's peak system swap-used increase was 5.85 GB over its immediate baseline, including other apps; pressure returned to normal after exit. **This does not establish smooth simultaneous frontend work.** Generate during a pause or consider hosted inference for that requirement.
+
+The version-scoped wrapper and fixtures are in `/Users/nns/.codex/workflows/music-tools/`; see `LOCAL_USE.md` and `evidence/memory-2026-11-13/`. Upstream source/dependencies remain unchanged. The wrapper loads directly onto MPS, temporarily removes a performance preallocation, initializes MLX earlier, and releases unused PyTorch model weights. It retains allocation safeguards, network-denied inference and CPU niceness 10; niceness does not limit GPU/RAM use. PyTorch fallback and a second batch fail explicitly. This is for the reviewed single text2music batch, not web UI, LoRA, scoring, reference-audio or LM-assisted use. The cache-only stop rule was strengthened from consecutive critical samples to the first sampled critical state. Failed attempts and original files are preserved.
+
+**ElevenLabs assessment:** hosted inference would avoid this local model load, but no matched listening test establishes better sound. The [official music page](https://elevenlabs.io/music) offers a public Jazz/UK Garage preview, “Midnight in Shoreditch,” with vocals; it is a listening reference, not a comparable instrumental or a cleared project asset. Read-only connector discovery/schema confirms 20-second instrumental capability, but exposes no exact account balance or generation-price quote. No paid generation, purchase or subscription was made. Exact account/export/team rights still require checking before using generated music in the submission.
 
 ## Images and code
 
@@ -58,4 +75,4 @@ For code, keep using the bounded, pinned candidates in DATA_PREPARATION §3 and 
 3. Check both the asset permission and the Space Apps submission terms. Paying for a stock licence or obtaining playback/synchronization permission does not automatically allow open redistribution, relicensing, or the rights required by the competition. The official legal page returned HTTP 502 on this review; retain the dated rule evidence in DATA_PREPARATION and recheck before admitting a restricted asset.
 4. Preserve third-party licence/NOTICE files and put credits where the specific terms require them. Test the final public links and audio behaviour only after producing the actual event-time deliverables. Unresolved permission means leave that item out or replace it with a verified alternative.
 
-Next action under two minutes: listen to the 20-second local preview; decide whether its sound is useful before considering payment.
+Next action under two minutes: listen to the official ElevenLabs preview as a first impression; the optimized ACE test sounds exactly like the original because its WAV bytes match.

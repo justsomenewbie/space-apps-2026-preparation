@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## ACE-Step memory follow-up — 13 November 2026
+
+Current music chat `01a1d0e9-0c4c-7e80-b766-7eac127e6daa`, checkpoint through the user's request to reduce ACE memory without reducing quality and consider ElevenLabs after listening. Listed 20 recent chats; current music work and the previously verified cloud-sync turn are relevant. Tracker automation was not treated as music-runtime evidence; no full archived-history review or assignment change. Baseline `2ca0cce338836d69f4a077ae184623efee3c4f54` has the previous complete GitHub/cloud/six-Drive receipt in sibling `music-test-2026-11-13/`.
+
+Root edited the isolated Mac runtime; reviewers were read-only. Cache-only loading reached critical pressure and was stopped before generation. Direct loading/early conversion and then single-batch retirement passed identical-WAV checks. The final profile reduced native peak footprint 41.30%, but warning pressure remains: no claim of uninterrupted frontend work. Full results and rights limits belong in `docs/media-rights-2026-11-13.md`; local runtime/models/audio/telemetry stay outside Git/Drive.
+
+Routes: existing Ponytail/source review, native Mac telemetry, network-denied tests, visual-tools/FFmpeg, independent exact-audio/lifecycle review, and ElevenLabs Music read-only discovery/schema/official previews. Context Mode handled the project routing checklist; its external runtime path restriction was retained and native bounded reads used. No dependency changes, new provider, paid generation or renderer. Prior dependency advisories remain; this is not web-UI/hosting clearance. Redacted secret scan and final diff/link review precede release. Source handoff remains under 500 words; unchanged plan retains reviewed Word/PDF. New release SHA and destination readbacks belong in sibling `music-memory-2026-11-13/FINAL_VERIFICATION.json`, not a recursive source update.
+
 ## Quyết định asset và thử nhạc cục bộ — 13 November 2026
 
 Cùng chat `01a1d0e9-0c4c-7e80-b766-7eac127e6daa`, checkpoint đến yêu cầu Sơn chọn ảnh NASA/cơ quan vũ trụ/nguồn công khai có phép, code licensed khi bắt đầu; hỏi phần frontend; cho phép thử ACE-Step trên Mac bằng mẫu không liên quan, cân nhắc ElevenLabs trả phí nếu đáng tiền. Không coi lời sẵn sàng trả tiền là lệnh mua subscription. Frontend không bắt buộc dùng helper backend hoặc mọi repo đã tìm; license/credit của thứ thật sự dùng vẫn bắt buộc. Phạm vi thi và mốc English/00:00 không đổi.

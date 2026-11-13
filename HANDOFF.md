@@ -21,7 +21,7 @@ Runbook/plan §10: eight fields, ≤7 slides OR ≤30-second video, separate Fin
 
 ## Rights instruction — November 13
 
-No copyrighted images/music/code without permission for actual use. Carry `docs/media-rights-2026-11-13.md` into English product instructions/credits. User selected legally reusable NASA/agency/public images and relevant licensed code for event time; check each item. Backend helpers are optional for frontend. ACE-Step passed an unrelated 20-second test on this M4 Pro/24 GiB Mac: 62 seconds initialization, 60 seconds generation/save, verified stereo WAV/MP3. Memory-heavy; longer songs/quality/originality untested. No submission soundtrack or paid plan selected. ElevenLabs discovery works; account/export/team rights remain unverified.
+No copyrighted images/music/code without permission for actual use. Carry `docs/media-rights-2026-11-13.md` into English product instructions/credits. User selected permitted NASA/agency/public images and relevant licensed code; backend helpers are optional for frontend. User requested lower ACE memory without quality loss. Preferred local single-batch wrapper passed the same 20-second test: WAV byte-identical, peak footprint 30.28→17.77 GB (−41.30%). System pressure still warned; simultaneous frontend responsiveness is unverified. Runtime guide: `/Users/nns/.codex/workflows/music-tools/LOCAL_USE.md`. No submission soundtrack or paid plan selected; ElevenLabs quality/account/export/team rights remain unverified.
 
 ## People and technical boundaries
 
@@ -31,6 +31,6 @@ Security/runtime limits remain in SECURITY_PREPARATION/FRONTEND_HANDOFF, includi
 
 ## Delivery
 
-Baseline **937941556cec96779e55adcefd5d9bf849c8e16e**: GitHub/cloud and six Drive files matched; all six freshly byte-matched this turn. Markdown-only changes; unchanged plan retains reviewed 15-page Word/PDF hashes. New-release sync is pending at this source checkpoint; final commit/cloud/Drive evidence belongs in sibling `nasa-preparation-deliverables/music-test-2026-11-13/FINAL_VERIFICATION.json`. Models/audio remain in local music-tools; .DS_Store preserved.
+Baseline **2ca0cce338836d69f4a077ae184623efee3c4f54**: previous receipt verified GitHub/cloud and six Drive files. Markdown-only follow-up; unchanged plan retains reviewed 15-page Word/PDF hashes. New-release sync is pending at this source checkpoint; final commit/cloud/Drive evidence belongs in sibling `nasa-preparation-deliverables/music-memory-2026-11-13/FINAL_VERIFICATION.json`. Models/audio remain in local music-tools; .DS_Store preserved.
 
-Next action under two minutes: listen to the local 20-second cafe-test preview before considering paid music.
+Next action under two minutes: listen to the official ElevenLabs preview linked in the media note before considering paid music.
