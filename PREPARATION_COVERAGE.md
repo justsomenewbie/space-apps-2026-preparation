@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Important-link directory in the shared Sheet — 13 November 2026
+
+Role-preparation chat `01a1d459-0d40-7c33-9f6b-e415dbfc851d`; user supplied a teammate's request to review the main Drive or consolidate useful links in a Sheet, then asked about a screenshot mentioning 2.9 GB data/Colab. Root is sole repository/Sheet editor; reviewer read-only. Added only `3 - Link quan trọng!A1:D37` (sheetId `261113003`) to the existing team spreadsheet: 32 links in five groups, six role names without personal assignments, short usage notes, filter and frozen headers. Live readback matches all authored cells. Existing `1 - Đăng ký!A1:H15` and `2 - Bảng việc!A1:H20` values/formulas match their pre-edit snapshots; their contents were not rewritten. Data source/type and actual need for Colab remain unknown.
+
+Listed 12 recent chats; read the latest completed 3D-tool screenshot/candidate turn `01a1d519-18d4-7673-af7c-29df6a6c824e`. It does not change the selected product stack or establish plugin installation. Inspected release receipt `91237a58fb20356b90372d487666e2de30c73fee`: GitHub/cloud verified, editor released ownership, Drive pending because tools were unavailable in that chat. Current Drive connector works; baseline six-file readback still matches `cc0ded88`. This release carries the missing 3D review forward along with the new navigation links.
+
+Selected Google Drive/Sheets native editing, local Markdown checks, independent source/diff review and Gitleaks. Browser opening timed out; use the exported Sheet for fallback layout review and distinguish it from a native browser check. No new dependency, code/data pipeline, large dataset download, paid service, account permission or organizer message. Scientific, design, media-generation and deployment workflows are unnecessary for this directory; existing source guides remain the deeper catalogs. Word/PDF source unchanged, so retain exports and verify hashes. Final layout, link checks, Git/cloud hashes, permissions and six Drive readbacks: sibling `nasa-preparation-deliverables/important-links-2026-11-13/FINAL_VERIFICATION.json`; transport pending at this source checkpoint.
+
 ## Five repositories and 3D plugin readiness — 13 November 2026
 
 Current chat `01a1d4d5-6dc8-7e40-8869-f8637d0fe541` reviewed five user links and requested useful 3D plugins. Listed 15 recent chats; read the latest role-kit/checkpoint turn `01a1d4ba-0bc5-76d2-ae45-8513db420572` through its final reply and checked baseline receipt `cc0ded88e1e7ccc667c584182ff657b9cd9417d0`. Other relevant project histories are covered by existing dated checkpoints; no full archive, Sheet/assignment, portal or organizer review occurred.

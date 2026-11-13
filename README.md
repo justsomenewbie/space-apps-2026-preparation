@@ -6,7 +6,7 @@
 
 1. **Mở gói chuẩn bị theo vai trò:** [6 vai trò và cách bàn giao](docs/roles/README.md), không gắn tên người. Mỗi gói có bài đọc, việc chuẩn bị hôm nay, task đầu trong giờ thi, đầu ra và cách kiểm. [Kế hoạch Moon Plan B](KE_HOACH_NHOM.md), [PDF](https://drive.google.com/file/d/1HzjerYUiOHpLy5ATm43F903shj9uugzI/view), [Word](https://drive.google.com/file/d/1fviH_Rwg0PTh_-Sk_IYUUA_6vfTmRgvO/view) giữ phạm vi/lịch chung.
 2. **Cho AI biết bối cảnh:** tải [BOI_CANH_AI.md](BOI_CANH_AI.md) hoặc [bản Drive](https://drive.google.com/file/d/19SMq037jiJ9OnIXdfJWUOdafD3EIALDr/view), rồi giao đúng một việc đã nhận. Một chat mới không tự biết các chat trước.
-3. **Xem việc hiện hành:** [Bảng việc nhóm](https://docs.google.com/spreadsheets/d/1zqhG7NVRH-TdO6fr6e0n74d6S2r1--ji2UuySlJGZeA). Tên đã điền không chứng minh người đó đã nhận việc; C10/G7 còn khác người QA.
+3. **Tìm link và xem việc hiện hành:** [tab 3 — Link quan trọng](https://docs.google.com/spreadsheets/d/1zqhG7NVRH-TdO6fr6e0n74d6S2r1--ji2UuySlJGZeA/edit#gid=261113003) gom 32 link theo năm nhóm: mở trước, sáu vai trò, cách làm, yêu cầu chính thức và nguồn khoa học. Mỗi dòng giải thích dùng khi nào; tab 1/2 giữ đăng ký và bảng việc. Tên đã điền không chứng minh người đó đã nhận việc; C10/G7 còn khác người QA.
 4. **Chọn bài đọc đúng phần:** [nguồn và giấy phép](DATA_PREPARATION.md), [phiếu frontend và bàn giao dữ liệu](FRONTEND_HANDOFF.md), [phối hợp trong giờ thi](COMPETITION_RUNBOOK.md), [công cụ/skill](PLUGIN_ROUTING.md) và [checklist tự chọn đầy đủ công cụ](TOOL_SELECTION_CHECKLIST.md).
 5. **Luyện ngoài bài thi nếu cần:** [counter async nhỏ](practice-tally/README.md), dùng Python/browser có sẵn; hoặc [dependency framework đã khóa và checker](practice-stack-lock/README.md) để tái tạo bài thử stock riêng. Đây không phải phần mềm Lunar.
 
@@ -30,14 +30,14 @@ Email BTC đọc ngày 12/11 đã xác nhận đúng đội sáu người/Lunar,
 
 **Đính chính 11/11:** được làm toàn bộ dự án từ **00:00 ngày 14/11, giờ Hà Nội**, theo trao đổi người dùng cung cấp và xác nhận; hết giới hạn chỉ chuẩn bị từ mốc đó. [Timeline mới, trang 2](https://drive.google.com/file/d/1m07k0x7akRQqZ7YQS71hJs_ITXxgOK7e/view) xác nhận hạn Hà Nội **11:00 ngày 15/11**; 09:00 ngày 14 là mở cổng nộp. Mục tiêu 10:30 là khuyến nghị. Nguồn chi tiết: COMPETITION_RUNBOOK và BOI_CANH_AI mục 2/8.
 
-**Bước tiếp dưới hai phút:** mở [gói vai trò](docs/roles/README.md) muốn nhận và ghi đầu ra đầu tiên mình có thể bàn giao.
+**Bước tiếp dưới hai phút:** mở [tab Link quan trọng](https://docs.google.com/spreadsheets/d/1zqhG7NVRH-TdO6fr6e0n74d6S2r1--ji2UuySlJGZeA/edit#gid=261113003), lọc nhóm cần dùng và lưu link của tab.
 
 **Hướng dẫn NASA/SEPA đã đọc trực tiếp 13/11:** [bảng nguồn và khác biệt](docs/official-challenge-check-2026-11-13.md), checklist tại runbook/kế hoạch §10. Giữ 00:00 ngày 14; sản phẩm, hồ sơ và mọi tài liệu team dẫn khi nộp bằng tiếng Anh từ đầu. Demo ≤7 slide hoặc ≤30 giây; Global Award cần nguồn NASA thực dùng. SI có yêu cầu watermark/metadata và điều khoản nguồn gốc ý tưởng chưa rõ cho lịch sử AI-assisted; không tự xác nhận đủ điều kiện. NASA cấm media nhận diện người dưới 18 trong demo/final. Team Owner là người nộp dự kiến, quyền thật cần kiểm; Save Progress chưa phải nộp, dùng Submit for Judging và nộp lại sau sửa trước 11:00.
 
 
 ## Bộ chuẩn bị cập nhật ngày 13 tháng 11
 
-Mã bộ: **PREP-2026-11-13-TASK-CHECKPOINTS**. Đọc [HANDOFF](HANDOFF.md) và [AGENTS](AGENTS.md) để tiếp tục; [FRONTEND_HANDOFF](FRONTEND_HANDOFF.md) có stack do Sơn chọn, định hướng mobile/3D/audio và giới hạn bài thử; [HOSTING_PLAN](HOSTING_PLAN.md) có phương án chạy độc lập Mac; [PLUGIN_GUIDE_REVIEW](PLUGIN_GUIDE_REVIEW.md) và [PLUGIN_ROUTING](PLUGIN_ROUTING.md) có cách chọn công cụ. Kế hoạch mới là đặc tả đề xuất để duyệt; quyền và việc nhận vai được ghi khi thực hiện.
+Mã bộ: **PREP-2026-11-13-IMPORTANT-LINKS**. Đọc [HANDOFF](HANDOFF.md) và [AGENTS](AGENTS.md) để tiếp tục; [FRONTEND_HANDOFF](FRONTEND_HANDOFF.md) có stack do Sơn chọn, định hướng mobile/3D/audio và giới hạn bài thử; [HOSTING_PLAN](HOSTING_PLAN.md) có phương án chạy độc lập Mac; [PLUGIN_GUIDE_REVIEW](PLUGIN_GUIDE_REVIEW.md) và [PLUGIN_ROUTING](PLUGIN_ROUTING.md) có cách chọn công cụ. Kế hoạch mới là đặc tả đề xuất để duyệt; quyền và việc nhận vai được ghi khi thực hiện.
 
 **Quyết định repo ngày 12/11:** Sơn chọn một repo riêng, chung cho sản phẩm thực; repo này giữ tài liệu chuẩn bị. Khi bắt đầu từ 00:00 ngày 14/11, mang chỉ dẫn hiện hành sang AGENTS/HANDOFF của repo sản phẩm và dùng tiếng Anh từ bản đầu. Chưa tạo repo mới; tên/URL/owner/branch còn cần ghi khi khởi động. Xem runbook và kế hoạch mục 5 cho các bước chuyển giao; không tự sao chép quyền, runtime Mac hoặc tài liệu riêng.
 

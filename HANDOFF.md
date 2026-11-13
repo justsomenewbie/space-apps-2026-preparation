@@ -1,6 +1,6 @@
 # Current handoff
 
-Updated: 13 November 2026, Asia/Ho_Chi_Minh. Sole editor for this release: 3D-tool review chat `01a1d4d5-6dc8-7e40-8869-f8637d0fe541`; reviewers read-only. Release ownership after verified transport.
+Updated: 13 November 2026, Asia/Ho_Chi_Minh. Sole editor: role-preparation chat `01a1d459-0d40-7c33-9f6b-e415dbfc851d`; reviewers read-only. Release ownership after verified transport.
 
 ## Start here
 
@@ -8,9 +8,9 @@ README → docs/roles/README → relevant role kit; then COMPETITION_RUNBOOK, KE
 
 ## Current outcome and direction
 
-Five repositories/3D plugins reviewed: docs/3d-tool-review-2026-11-13.md. Existing Blender native connection/scene reads freshly passed; no new install required for present web 3D. 3DCodeVerse remains a selective QA candidate. Marketplace search and Codex UI access unavailable; visible “+” names requested. Keep existing stack and future-tool options distinct.
+Shared Sheet now has tab 3 — Link quan trọng (gid 261113003): 32 links, five groups, six role names, usage notes and filter. README/Drive index link directly to it. Existing registration/task cells were preserved; QA C10/G7 still differ. Dataset mentioned as 2.9 GB has no supplied source/type; Colab need is unverified. Product/app/demo URLs remain unknown.
 
-User requested six role kits, explicitly without personal assignments. docs/roles contains integration, sources/science, backend/data, frontend/UX, QA/validation and demo/submission: reading routes, preparation today, event tasks, outputs, checks and shared handoffs. Task-start follow-up adds docs/roles/CHECKPOINTS: accepted owner/recipient/reviewer, deadline, exact input version and unresolved decision evidence. Frontend/hosting stale status now distinguishes selected flow, conditional method and static Cloudflare from unvalidated implementation. Existing plan owns scope/schedule/proposed assignments. Live Sheet read November 13: registration preferences empty; QA C10/G7 still differ. No Sheet edit or role acceptance inferred. Teammate-device readiness remains unverified.
+Six role kits and CHECKPOINTS define reading, tasks, outputs, accepted recipient/reviewer, deadline and exact input version. No role acceptance or teammate-device readiness inferred. Five-repository/3D review remains in docs/3d-tool-review-2026-11-13.md; later screenshot recommendations are candidates, not installed tools. Current task only organizes links.
 
 Sơn's November 13 delegation selects Moon Plan B: Horizons main Sun/Earth source, sourced locations, offline Python → versioned JSON → static React/TypeScript/Vite. QuickMap/Moon Trek support lookup/cross-check; CSA provides context. Do not wait for an unconfirmed organizer pack. Both site/date comparisons and timeline precede automatic Plan B and conditional ground-level views; above-site fallback. Plan §1/9 owns priorities and data/device/time gates. No dataset, scientific request or app validated; contract and actual configurations remain open.
 
@@ -24,6 +24,6 @@ NASA Global Award needs a NASA resource actually used. Preserve exact-use rights
 
 ## Delivery
 
-Prior verified GitHub/cloud release: `cc0ded88e1e7ccc667c584182ff657b9cd9417d0`. Review transport pending at source checkpoint; Drive connector currently unavailable. Final commit/cloud hashes/six Drive readbacks: sibling `nasa-preparation-deliverables/3d-tool-review-2026-11-13/FINAL_VERIFICATION.json`. Human-plan source unchanged; retain Word/PDF with hash verification. Preserve `.DS_Store`.
+Prior verified GitHub/cloud: `91237a58fb20356b90372d487666e2de30c73fee`; Drive baseline: `cc0ded88e1e7ccc667c584182ff657b9cd9417d0`. This release includes the pending 3D review. Transport pending at source checkpoint; exact final commit/cloud hashes, Sheet/link/layout checks and six Drive readbacks: sibling `nasa-preparation-deliverables/important-links-2026-11-13/FINAL_VERIFICATION.json`. Human-plan source unchanged; retain Word/PDF with hash verification. Preserve `.DS_Store`. Browser opening timed out; exported layout review is a fallback.
 
-Next action under two minutes: compare visible “+” plugin names with the 3D-tool review.
+Next action under two minutes: open Sheet tab 3 and save its link.
