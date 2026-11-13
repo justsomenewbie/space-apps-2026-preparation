@@ -11,7 +11,7 @@
 1. Điền người nhận/reviewer/giờ làm vào bảng điều phối sau khi họ đồng ý. Tách QA khoa học, QA trải nghiệm và người tổng hợp lỗi; không tự suy từ tên đã điền.
 2. Kiểm người nhận mở được repo/Drive bằng tài khoản của họ; quyền đọc không đồng nghĩa quyền push. Ghi máy dự phòng, cách chuyển bản và người giữ bản chung.
 3. Nếu cần, chạy [bài tally không liên quan](../../practice-tally/README.md) trên máy sẽ dùng, rồi nhờ người khác mở lại. Ghi lệnh và lỗi thật, không chép “pass trên Mac” thành “pass cả nhóm”.
-4. Chuẩn bị danh sách quyết định kickoff: URL/owner/branch của một repo sản phẩm chung, quyền ghi, người giữ contract và phạm vi file. Chỉ tạo repo sản phẩm khi bắt đầu công việc được phép.
+4. Chuẩn bị danh sách quyết định kickoff: URL/owner/branch của một repo sản phẩm chung, quyền ghi, người giữ contract và phạm vi file. Repo public moon-plan-b đã được Sơn cho phép thiết lập, owner justsomenewbie/main; kiểm đúng URL, base commit, quyền ghi đã nhận và ownership trước khi bắt đầu implementation.
 5. Xác nhận giờ gặp, nguồn điện/mạng, phương án làm tối và nghỉ. Runbook ghi địa điểm đóng trong khung 17:30–18:00 ngày 14; giờ làm từ nửa đêm không chứng minh được ở lại trường qua đêm.
 
 ## Task đầu khi triển khai

@@ -1,5 +1,7 @@
 # Kiến trúc web app — bản đề xuất để nhóm trao đổi
 
+**Sơ đồ lịch sử trước cập nhật Next.js/Tailwind cuối ngày 13/11.** HTML/PNG và các nhãn Vite/static/API bên dưới mô tả phương án cũ, không phải hợp đồng hiện hành. Dùng [FRONTEND_HANDOFF](../../FRONTEND_HANDOFF.md) và [kế hoạch §5](../../KE_HOACH_NHOM.md) cho hướng mới: Next.js + Tailwind, backend/server của Chung theo lời Sơn, chưa có API/deploy được kiểm. Không suy browser gọi trực tiếp Horizons. Chưa vẽ lại kết nối khi contract chưa có.
+
 **Hướng chốt theo ủy quyền Sơn ngày 13/11:** [Moon Plan B](../../KE_HOACH_NHOM.md) mục 2–6 chọn NASA/JPL Horizons làm nguồn Sun/Earth chính, vị trí có nguồn, Python theo lô → JSON có phiên bản → React/TypeScript/Vite tĩnh. QuickMap/Moon Trek tra cứu/đối chiếu; CSA bối cảnh. Không chờ gói BTC riêng chưa xác nhận. Lõi là so cùng điểm/khác ngày, khác điểm/cùng UTC và timeline Sun/Earth so với chân trời; ưu tiên trước tìm Plan B tự động và ground-level có điều kiện/above-site dự phòng. Nhánh API nét đứt là lịch sử, ngoài bản thi. Điểm/ngày/cấu hình phải qua kiểm dữ liệu thật sau 00:00 ngày 14.
 
 Cập nhật 13/11/2026, giờ Hà Nội. **Đã chọn hướng theo ủy quyền Sơn; chưa triển khai hoặc kiểm dữ liệu thật, chưa có xác nhận toàn nhóm nhận việc.** Chọn nguồn cho kế hoạch không chứng minh độ phù hợp. Các bước kiểm trong sơ đồ là việc phải làm trước phát hành, không phải kết quả đã có.

@@ -1,6 +1,6 @@
 # Backend và xử lý dữ liệu
 
-**Đầu ra của vai:** pipeline tái tạo được bộ JSON có phiên bản từ dữ liệu gốc đã kiểm. “Backend” trong kế hoạch là Python chạy theo lô trước phát hành; web tĩnh đọc JSON. [Về 6 vai trò](README.md)
+**Đầu ra của vai:** pipeline tái tạo được bộ JSON có phiên bản từ dữ liệu gốc đã kiểm. Giữ xử lý tái hiện được và JSON có phiên bản. Sơn báo Chung làm backend bằng Claude và chuẩn bị server; runtime/API/deploy chưa kiểm. Bàn giao thêm URL/response/cách chạy khi có; không suy backend đã sẵn sàng. [Về 6 vai trò](README.md)
 
 ## Đọc trước
 

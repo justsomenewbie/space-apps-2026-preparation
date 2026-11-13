@@ -2,6 +2,8 @@
 
 **Chỉ chuẩn bị trước thi.** Nhóm gồm Chung, Trang, Lâm, Minh, Sơn, Thảo; đề đã đăng ký là Lunar Landing Site Navigator. Repo này chứa tài liệu, nguồn và bài luyện không liên quan; chưa có ứng dụng, UI hoặc dataset bài nộp. Cập nhật 13/11/2026, giờ Hà Nội.
 
+**Repo sản phẩm riêng:** [moon-plan-b](https://github.com/justsomenewbie/moon-plan-b) — public, owner `justsomenewbie`, nhánh `main`. Đã tạo theo yêu cầu; chỉ thiết lập và chỉ dẫn tiếng Anh, chưa có sản phẩm để chạy. Quyền Write cần lời mời được nhận; mọi người có thể đề xuất sửa qua fork/pull request. [Kiểm năm công cụ và quy tắc tự chọn](docs/tool-verification-2026-11-13.md).
+
 ## Bắt đầu trong hai phút
 
 1. **Mở gói chuẩn bị theo vai trò:** [6 vai trò và cách bàn giao](docs/roles/README.md), không gắn tên người. Mỗi gói có bài đọc, việc chuẩn bị hôm nay, task đầu trong giờ thi, đầu ra và cách kiểm. [Kế hoạch Moon Plan B](KE_HOACH_NHOM.md), [PDF](https://drive.google.com/file/d/1HzjerYUiOHpLy5ATm43F903shj9uugzI/view), [Word](https://drive.google.com/file/d/1fviH_Rwg0PTh_-Sk_IYUUA_6vfTmRgvO/view) giữ phạm vi/lịch chung.
@@ -24,7 +26,7 @@ Git là bản có lịch sử cho tài liệu chuẩn bị; Sheet giữ phân c�
 
 ## Hướng chốt theo ủy quyền Sơn — 13/11
 
-[Moon Plan B](KE_HOACH_NHOM.md) chọn **NASA/JPL Horizons làm nguồn Sun/Earth chính**, Python theo lô → JSON → React/TypeScript/Vite tĩnh. QuickMap/Moon Trek tra cứu/đối chiếu, CSA bối cảnh; không chờ gói BTC riêng chưa xác nhận. Lõi là so cùng điểm khác ngày, khác điểm cùng UTC và timeline Sun/Earth; trước tìm Plan B/3D. Ground-level có điều kiện sau lõi, above-site là dự phòng. Điểm/ngày/cấu hình quyết sau kiểm dữ liệu thật. Kế hoạch giữ đầu ra từng người, lịch 14–15/11 và nghiệm thu. Hướng đã được Sơn giao chốt; chưa là toàn nhóm nhận việc hay dữ liệu đã kiểm. Sheet giữ trạng thái thực tế; tin nhắn nhóm/mentor chưa gửi.
+[Moon Plan B](KE_HOACH_NHOM.md) chọn **NASA/JPL Horizons làm nguồn Sun/Earth chính**, xử lý tái hiện được → kết quả có phiên bản → Next.js + Tailwind (yêu cầu Chung qua Sơn); backend/server đang được báo là chuẩn bị, API và host frontend chưa kiểm. QuickMap/Moon Trek tra cứu/đối chiếu, CSA bối cảnh; không chờ gói BTC riêng chưa xác nhận. Lõi là so cùng điểm khác ngày, khác điểm cùng UTC và timeline Sun/Earth; trước tìm Plan B/3D. Ground-level có điều kiện sau lõi, above-site là dự phòng. Điểm/ngày/cấu hình quyết sau kiểm dữ liệu thật. Kế hoạch giữ đầu ra từng người, lịch 14–15/11 và nghiệm thu. Hướng đã được Sơn giao chốt; chưa là toàn nhóm nhận việc hay dữ liệu đã kiểm. Sheet giữ trạng thái thực tế; tin nhắn nhóm/mentor chưa gửi.
 
 Email BTC đọc ngày 12/11 đã xác nhận đúng đội sáu người/Lunar, có mã đội, thi trực tiếp và lối vào cổng Lý Thường Kiệt tại THCS Trưng Vương. Mã đội và thư riêng không được đưa lên repo.
 

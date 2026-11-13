@@ -1,5 +1,13 @@
 # NASA plugin and skill routing
 
+**Latest frontend routing:** Next.js + Tailwind per Chung’s request relayed by Sơn late November 13. Use existing React/Next/Tailwind guidance and actual product checks; Vite practice below is historical. Chung’s Claude/backend/server work is reported, with no verified API/deploy. Frontend hosting is unresolved.
+
+## Five-tool verification and whole-toolkit audit — 13 November
+
+Use the [five-tool dispatch and verified limits](docs/tool-verification-2026-11-13.md) automatically: Contour3D for constrained Blender work/geometry QA; Equation.io for interactive equations; Spline for visual web scenes when connected; Meshy for separately authorized generated props; WebCAD for engineering solids. Prefer existing sufficient tools and check the no-credit gate. Current result: Contour cube/guard checks and Equation public-MCP parser/link checks passed; hosted Equation/Meshy unavailable, Spline absent and WebCAD removed during discovery. No generation or paid/export allowance used.
+
+All 12 functional areas, seven core visual routes and 30 catalog packs remain mapped; all 469 indexed paths and 27 local guides exist. Presence is not runtime validation. Existing local visual-tools instructions also carry these optional triggers for future Mac projects; cloud must rediscover access. Used Agent SkillGuard, visual-tools/Contour helpers, official research/public Equation MCP, Context Mode, read-only reviewers, Git/Gitleaks and existing preparation delivery. Product repository provisioning is separately authorized by the current user; no early product code/UI/data/assets or deployment. No full launch audit or rerun of unrelated providers is appropriate for this task.
+
 ## Five repositories and 3D plugins — 13 November
 
 [Current review](docs/3d-tool-review-2026-11-13.md) separates current/future value of Estella, MOTH, 3DCodeVerse, open-slide and GNOME Boxes. No new installation is needed for the present web-3D capability; 3DCodeVerse remains a selective QA-trial candidate. Existing visual-tools routing stays primary. Fresh native Blender connection/scene reads passed; other renderer evidence remains dated. Marketplace search/fal returned unavailable and Codex UI access is blocked; “+” options are not exhaustively reviewed. Cached files are not activation proof.

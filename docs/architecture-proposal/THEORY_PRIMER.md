@@ -1,5 +1,7 @@
 # Cơ sở lý thuyết cho kiến trúc Lunar web app
 
+**Cập nhật phối hợp cuối ngày 13/11:** frontend hiện theo Next.js + Tailwind. Sơn báo Chung làm backend bằng Claude và chuẩn bị server, chưa có API/deploy được kiểm. Những mô tả web tĩnh/API ngoài phạm vi bên dưới thuộc phương án lý thuyết trước cập nhật; dùng FRONTEND_HANDOFF và kế hoạch §5 cho hợp đồng hiện hành. Cơ sở vật lý và yêu cầu nguồn/đơn vị vẫn cần kiểm độc lập trên dữ liệu thật.
+
 **Áp dụng theo hướng chốt ngày 13/11:** [kế hoạch Moon Plan B](../../KE_HOACH_NHOM.md) mục 3–4 chọn Horizons làm nguồn Sun/Earth chính; vị trí/ngày/cấu hình quyết sau kiểm raw/header và nguồn tọa độ. Primer giải thích kiến thức nền NASA/JPL; không tự gán frame, UTC hoặc mô hình Horizons cho nguồn bổ sung chưa kiểm. Quy tắc chân trời tham chiếu chỉ dùng với đại lượng tương thích. Đây là kế hoạch kiểm, chưa phải dataset đã xử lý hoặc mô hình đã xác thực.
 
 Ngày đọc nguồn: 12/11/2026, giờ Hà Nội. **Tài liệu học và thảo luận; chưa phải mô hình đã triển khai hoặc kiểm định.** Thời gian đọc dự kiến: 8 phút. Đọc cùng [sơ đồ kiến trúc](ARCHITECTURE_PROPOSAL.md) và [phiếu nguồn dữ liệu](../../DATA_PREPARATION.md).

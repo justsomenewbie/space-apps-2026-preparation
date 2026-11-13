@@ -2,7 +2,7 @@
 
 **Trước khi làm một task, cần biết đầu ra mình nhận làm, người nhận/kiểm đã đồng ý, hạn bàn giao và đúng phiên bản đầu vào.** Dùng [mẫu bàn giao chung](README.md#mẫu-bàn-giao-chung); mỗi ô chưa có bằng chứng giữ là “chưa xác nhận”. Trang này là checklist theo vai, không phải bảng phân công mới hoặc trạng thái live thay Sheet.
 
-Cập nhật 13/11/2026 sau bản rà repo `295f4ed`. Hướng Moon Plan B, hai phép so/timeline, Horizons, Python theo lô, JSON và Cloudflare tĩnh đã có trong [kế hoạch §2–5](../../KE_HOACH_NHOM.md). Hướng được chọn, con người nhận việc và kết quả đã kiểm là ba việc riêng. Những thông số 72 giờ, bước 15 phút, H = 3/6/12 giờ là ví dụ, không phải mặc định được duyệt.
+Cập nhật 13/11/2026 sau bản rà repo `295f4ed`. Hướng Moon Plan B, hai phép so/timeline, Horizons, dữ liệu tái hiện được, JSON có phiên bản và Next.js + Tailwind đã có trong [kế hoạch §2–5](../../KE_HOACH_NHOM.md). Hướng được chọn, con người nhận việc và kết quả đã kiểm là ba việc riêng. Những thông số 72 giờ, bước 15 phút, H = 3/6/12 giờ là ví dụ, không phải mặc định được duyệt.
 
 ## 1. Nhóm có thể xác nhận hôm nay
 
@@ -20,7 +20,7 @@ Sheet đọc lại ngày 13/11 vẫn có nguyện vọng B/C trống và QA C10/
 
 ## 2. Chốt trong giờ thi, theo thứ tự phụ thuộc
 
-Từ **00:00 ngày 14/11, giờ Hà Nội**, khi nhóm bắt đầu công việc được giao. Trước đó giữ ở mức đọc/chuẩn bị; chưa tạo repo sản phẩm, schema thực thi, code, dữ liệu xử lý hoặc demo cuối. Mốc trong bảng là mục tiêu của [kế hoạch §8–9](../../KE_HOACH_NHOM.md), không phải hạn bắt buộc của BTC.
+Từ **00:00 ngày 14/11, giờ Hà Nội**, khi nhóm bắt đầu công việc được giao. Trước đó giữ ở mức đọc/chuẩn bị; repo public đã được Sơn cho phép thiết lập riêng, chỉ với tài liệu vận hành; chưa schema thực thi, code, dữ liệu xử lý hoặc demo cuối. Mốc trong bảng là mục tiêu của [kế hoạch §8–9](../../KE_HOACH_NHOM.md), không phải hạn bắt buộc của BTC.
 
 | Câu hỏi cần trả lời | Vai cung cấp và mốc mục tiêu | Bằng chứng nhận đầu vào |
 |---|---|---|
@@ -36,7 +36,7 @@ Nếu đầu vào chưa đạt, task phụ thuộc giữ “bị chặn” và g
 
 | Cần xác minh | Vai theo dõi / thời điểm | Bằng chứng và phần bị ảnh hưởng |
 |---|---|---|
-| Cloudflare account/project, quyền deploy/rollback, hostname và chi phí | Integration, trước triển khai | Account owner kiểm quyền thực và quy trình phục hồi. Cloudflare tĩnh đã chọn; R2 chỉ xét khi asset cần. Chưa có phê duyệt chi mới; giá nghiên cứu không phải quyền mua gói/domain. Thiếu quyền thì giữ bản local, chưa đánh dấu public release |
+| Host/mode Next.js, server/backend thực của Chung, quyền deploy/rollback, hostname và chi phí | Integration, trước triển khai | Account owner kiểm quyền thực và quy trình phục hồi. Frontend Next.js có thể chạy Node hoặc static export nếu phù hợp; chưa chốt host. Server/backend Chung đang chuẩn bị là thông tin Sơn báo, chưa kiểm mua/deploy/API. Chưa có phê duyệt chi mới; giá nghiên cứu không phải quyền mua gói/domain. Thiếu quyền thì giữ bản local, chưa đánh dấu public release |
 | Team Owner và quyền nộp | Demo + Team Owner, mục tiêu kiểm cổng 09:00–09:30 ngày 14 | Kiểm trên tài khoản thật, một editor mỗi lúc; lưu bằng chứng riêng đã che thông tin. Người viết slide/người được đề xuất nộp chưa chắc là Team Owner |
 | SI hỗ trợ ý tưởng áp dụng thế nào cho lịch sử thật của nhóm? | Demo + Team Owner, trước tuyên bố nguồn gốc/đủ điều kiện | [Điều khoản và lịch sử đã ghi](../official-challenge-check-2026-11-13.md); giữ mô tả trung thực và câu trả lời có nguồn khi được làm rõ. Chưa có kết luận đủ hay không đủ điều kiện; không xóa lịch sử AI |
 | Slot đội và thang điểm Hà Nội 1–5 hay 1–10? | Demo, trước diễn tập/lượt chấm | Thông báo đúng đội/ngày và hướng dẫn áp dụng; giữ năm tiêu chí chung trong lúc chờ, không tự chấm điểm giả |

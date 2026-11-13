@@ -4,7 +4,7 @@
 
 ## Đọc trước
 
-[FRONTEND_HANDOFF](../../FRONTEND_HANDOFF.md) cho stack và kiểm UI; [kế hoạch §1–2/5–6/9](../../KE_HOACH_NHOM.md) cho lõi/luồng/ưu tiên; [quyền asset](../media-rights-2026-11-13.md) khi dùng ảnh, font, component hoặc audio. React/TypeScript/Vite đã được chọn cho kế hoạch; chưa có app Lunar được kiểm.
+[FRONTEND_HANDOFF](../../FRONTEND_HANDOFF.md) cho stack và kiểm UI; [kế hoạch §1–2/5–6/9](../../KE_HOACH_NHOM.md) cho lõi/luồng/ưu tiên; [quyền asset](../media-rights-2026-11-13.md) khi dùng ảnh, font, component hoặc audio. Hướng hiện hành là Next.js + Tailwind theo yêu cầu Chung được Sơn truyền đạt; kiểm Vite cũ không xác minh Next.js. Chưa có app Lunar được kiểm.
 
 ## Chuẩn bị hôm nay
 
