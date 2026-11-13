@@ -11,7 +11,7 @@ Theo yêu cầu Sơn, đã bổ sung môi trường riêng cho [đề xuất sá
 
 **Đặc tả Moon Plan B sửa ngày 12/11:** [kế hoạch mục 3–4](KE_HOACH_NHOM.md) lấy dữ liệu BTC làm đầu vào chính theo chỉ dẫn Sơn; nguồn NASA/JPL/PDS dưới đây là ứng viên bổ sung, không thay thế mặc định. Theo Sơn, đến lúc thi mới có bộ BTC; chưa biết nội dung nên không khóa điểm, ngày, cao độ, loại đại lượng hoặc độ phân giải. Trang + Chung kiểm cấu trúc, metadata, miền phủ, quyền dùng và vai trò nguồn; xét nguồn ngoài tương thích cho phần thiếu trước khi giảm lõi. Chọn miền phủ chung đã kiểm cho so cùng điểm/khác ngày, khác điểm/cùng UTC và trực quan vị trí Mặt Trời/Trái Đất so với chân trời; ghi lựa chọn vào bản kê rồi xử lý sau giờ cho phép. Nếu nguồn kết hợp vẫn thiếu đại lượng cần thiết thì ghi rõ giới hạn, không suy góc từ cờ trạng thái hoặc số trung bình. Quy tắc góc cao > 0° chỉ áp dụng cho đại lượng tương thích. Không tự xây terrain trong bản tối thiểu; nếu nguồn BTC đã xét địa hình thì giữ đúng định nghĩa của nguồn. [PDS Athena 1.0](https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn%3Anasa%3Apds%3Acontext%3Ainstrument_host%3Aspacecraft.clps_to_prime1_athena&version=1.0) là ví dụ vị trí đã đọc, không phải điểm demo được chọn.
 
-Cập nhật 12/11/2026, giờ Hà Nội. **Đã kiểm luật 2026 và chọn nguồn/phần tái sử dụng ở mục 3. Chưa tạo dataset hay mã bài nộp.** Đây là đề xuất kỹ thuật theo yêu cầu của Sơn; chưa thay quyết định stack/phạm vi của nhóm.
+Cập nhật nhãn nguồn 13/11/2026, giờ Hà Nội; bằng chứng đọc nguồn giữ ngày gốc. **Đã đọc luật 2026, tài liệu nguồn và rà ứng viên tái sử dụng ở mục 3. Chưa kiểm độ phù hợp của dữ liệu thực tế với bộ BTC hoặc xác nhận nhóm chọn các ứng viên này. Chưa tạo dataset hay mã bài nộp.** Đây là đề xuất kỹ thuật theo yêu cầu của Sơn; chưa thay quyết định stack/phạm vi của nhóm.
 
 Căn cứ: `NASAChallenge202611.pptx` ở chat “Review NASA project and install frontend…”, nhất là slide 9–11, 25–26; cùng mục 5–8 của `BOI_CANH_AI.md` bản 10/11. Đã đối chiếu file gốc và đọc lại ảnh năm slide liên quan. Slide khuyên dùng ephemerides, DEM, địa điểm có nguồn và kết quả tái lập; chữ “bắt buộc” trong slide chưa được xác nhận là luật thi. [Thông báo Space Apps 2026](https://www.spaceappschallenge.org/blog/explore-the-next-frontier-at-the-2026-nasa-space-apps-challenge/) xác nhận dùng dữ liệu mở NASA/đối tác. Trang đề gốc và trang Hà Nội vẫn lỗi trong lần kiểm tra này; giữ giới hạn chuẩn bị của RUNBOOK.
 
@@ -35,7 +35,9 @@ Căn cứ: `NASAChallenge202611.pptx` ở chat “Review NASA project and instal
 
 **Giới hạn dung lượng:** PGDA 90 liệt kê DEM 20 m vùng 80–90°S là `2.6G`, bản độ dốc `3.6G`, DEM 80 m là `181M`; đây là số trên trang, chưa đo tải thật. COG cho phép hướng tới đọc vùng nhỏ bằng công cụ phù hợp, nhưng đường tải từng vùng chưa được thử. Không tải cả cực nam chỉ để chuẩn bị. [Danh mục PGDA 90](https://pgda.gsfc.nasa.gov/products/90)
 
-**Chốt nguồn:** chọn Horizons cho ephemerides; PDS/LOLA cho địa hình khi phạm vi cần; nguồn NASA/LROC cho vị trí; Moon Trek để tìm metadata/đối chiếu. PGDA 69 chỉ dùng làm bối cảnh dài hạn. Chưa cần Astroquery hay thư viện mới để xuất vài bảng nhỏ.
+**Ứng viên bổ sung sau khi nhận dữ liệu BTC:** Horizons cho ephemerides; PDS/LOLA cho địa hình nếu cần; NASA/LROC cho vị trí; Moon Trek để tìm metadata/đối chiếu. PGDA 69 là ứng viên cho bối cảnh dài hạn, không thay chuỗi thời gian ngày chọn. Đây là danh sách đã đọc tài liệu, chưa phải nguồn đã được nhóm chốt hoặc chứng minh ghép được với bộ BTC. Chỉ chọn sau khi kiểm phần thiếu, quyền dùng, miền phủ, đại lượng, frame, mốc cao độ, đơn vị và thời gian trên dữ liệu thực tế. Chưa cần thêm Astroquery chỉ để chuẩn bị.
+
+**Ghi riêng ba trạng thái:** (1) đã tìm thấy/đọc tài liệu nguồn; (2) đã kiểm dữ liệu thực tế phù hợp với tác vụ, kèm phiên bản và phạm vi kiểm; (3) nhóm đã chọn dùng, có quyết định ghi nhận. Một trạng thái không tự suy ra hai trạng thái còn lại. Các nguồn ngoài ở đây hiện là ứng viên đã được rà tài liệu; bộ BTC vẫn chưa biết nội dung.
 
 **SPICE để dự phòng:** [NAIF Generic Kernels](https://naif.jpl.nasa.gov/naif/data_generic.html) cung cấp SPK, PCK, LSK và FK; cần người hiểu cách phối hợp phiên bản/hệ trục. [NAIF Rules](https://naif.jpl.nasa.gov/naif/rules.html) cho tải/dùng kernel, cho phân phối lại kernel không sửa; kernel sửa có yêu cầu metadata/ghi công riêng. Mirror nguyên SPICE Toolkit cần chấp thuận bằng văn bản, còn đóng gói module trong công cụ SPICE tự xây có quy định cho phép riêng. Không gọi chung SPICE là MIT/public domain. Chưa chọn bộ kernel, cài SpiceyPy hoặc tải toolkit.
 
@@ -97,9 +99,9 @@ Hai LICENSE được đọc qua GitHub connector. Liên kết cố định: [CLP
 
 ## 5. Trạng thái để tiếp tục
 
-| Hạng mục | Trạng thái 11/11 |
+| Hạng mục | Bằng chứng 11/11; làm rõ nhãn nguồn 13/11 |
 | --- | --- |
-| Nguồn dữ liệu, đường lấy, giới hạn và quyền dùng | Chọn Horizons/PDS-LOLA/NASA-LROC; Moon Trek tra cứu, SPICE dự phòng. Đã đọc thêm NAIF Rules/NASA media guidance; chưa thử toàn bộ đường tải hoặc chọn asset. |
+| Nguồn dữ liệu, đường lấy, giới hạn và quyền dùng | Đã rà ứng viên Horizons/PDS-LOLA/NASA-LROC, Moon Trek tra cứu và SPICE dự phòng; chưa phải quyết định dùng của nhóm. Đã đọc NAIF Rules/NASA media guidance; chưa kiểm tương thích với bộ BTC, thử toàn bộ đường tải hoặc chọn asset. |
 | Slide và file bối cảnh AI | Slide giữ nguyên. Theo yêu cầu tiếp theo ngày 11/11, đã cập nhật BOI_CANH_AI.md trên Drive với nguồn/license/lựa chọn; folder 02 và file mở ai có link xem, giữ năm quyền sửa riêng. Đã thử không đăng nhập và so khớp bytes. |
 | Dataset khoa học / xử lý / pipeline | Chưa có; không tải DEM, kernel hay bộ dữ liệu repo; không tạo dữ liệu nộp trước giờ cho phép. |
 | Code tái sử dụng / app bên ngoài | Luật 2026 và lựa chọn mục 3 đã kiểm. Chọn helper CLPS làm ứng viên, cách ghi nguồn PolarWindow; chưa sao chép, chạy hay xác minh khoa học. |

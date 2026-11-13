@@ -1,7 +1,7 @@
 # Current handoff
 
 Updated: 13 November 2026, Asia/Ho_Chi_Minh.
-Source editing complete; no reserved editor. Latest review chat: `01a1d33d-3c05-70e2-9559-3990d375198f`. Final transport evidence belongs in the receipt below.
+Source-label edits complete; no reserved editor. Review chat: `01a1ce65-2dad-7231-91a0-42a4373ea4b6`. Transport evidence belongs in the receipt below.
 
 ## Read first
 
@@ -11,7 +11,9 @@ Six registered members; Lunar confirmed. Moon Plan B awaits group approval. **Ed
 
 **Mac tool preparation verified:** isolated Rasterio/GDAL and PyProj/PROJ, eight pins, nine independently repeated synthetic checks, pip/OSV checks. DATA_PREPARATION owns versions, paths and limits. Real lunar datasets/native-library coverage/browser/phones remain untested. No app or lunar processing; no cloud installation.
 
-**Tool labs:** independently checked Diorama (11 interaction + 10 QA), agent-desktop Calculator (8), Scrapling parser/HTTP (14), Auto Ontology context helpers (12), Modern Web Guidance CLI/guestbook (21), and GeoLibre web import/filter/project round-trip (14). `docs/tool-candidates-2026-11-13.md` owns guides/provenance/limits. TextEdit failed; full ontology, browser crawling, real IMEs and GIS science remain untested. Samples are not automatically redacted. GitTrending added reviewed-only MarkItDown/text-to-cad candidates. Consider future usefulness separately; preserve realistic Moon direction and project decisions. Labs stay outside both repos; no lunar implementation.
+**Tool labs:** independently checked scoped Diorama, agent-desktop, Scrapling, Auto Ontology, Modern Web Guidance and GeoLibre examples. `docs/tool-candidates-2026-11-13.md` owns exact counts/guides/provenance/limits, failures and reviewed-only candidates. Consider future usefulness separately. Labs stay outside both repos; no lunar implementation.
+
+**Source labels corrected:** DATA_PREPARATION and architecture HTML/PNG/Mermaid/theory distinguish sources read, actual data suitability validated and team selection. Unknown BTC/external candidates stay conditional; both core comparisons and historical API exclusion match the editable proposal. No new source/science validation.
 
 ## Start and English submission
 
@@ -31,6 +33,6 @@ Sơn owns frontend choice; React/TypeScript/Vite/npm/CSS prepared. Coordinate co
 
 ## Delivery
 
-Verified GitHub/cloud release: **c1d2ad5d72ce7e97e0daf80194ecb7760e680b51**, sibling `nasa-preparation-deliverables/tool-labs-2026-11-13/FINAL_VERIFICATION.json`. New notes await transport; unchanged plan/AI/18-page Word/PDF need retained-hash checks. Final SHA, cloud/source hashes and six Drive readbacks belong in sibling `nasa-preparation-deliverables/web-gis-labs-2026-11-13/FINAL_VERIFICATION.json`. Mac runtimes do not transfer. Preserve `.DS_Store`.
+Verified prior GitHub/cloud release: **9dd1ef97e03877a5a818abb789ed7315be71cdcc**, sibling `nasa-preparation-deliverables/web-gis-labs-2026-11-13/FINAL_VERIFICATION.json`. Source-label correction awaits transport at this checkpoint. Unchanged plan/AI/18-page Word/PDF need retained-hash checks. Final SHA, cloud/source hashes and six Drive readbacks belong in sibling `nasa-preparation-deliverables/source-label-correction-2026-11-13/FINAL_VERIFICATION.json`. Preserve `.DS_Store`.
 
-Next action under two minutes: open the relevant local lab guide; retain the midnight boundary for product work.
+Next action under two minutes: read the three source-status definitions in DATA_PREPARATION; retain the midnight boundary for product work.

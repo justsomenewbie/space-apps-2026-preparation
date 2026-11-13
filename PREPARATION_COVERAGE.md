@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## Source-label correction — 13 November 2026
+
+Architecture chat `01a1ce65-2dad-7231-91a0-42a4373ea4b6` is the sole editor for this documentation correction; reviewer is read-only. Listed 30 recent chats and read the latest Diorama turn `01a1d3af-4d37-7b73-a750-41c40c5c3785`, both latest app-requirements turns through `01a1d32a-e914-7cb1-8ac4-d4f343a21c22`, and the coordinating chat's correction checkpoint. No other active editor was listed for this checkout. Existing music/rights and older planning decisions remain in their owning files; no assignment change, new Sheet read or full archived/Zalo review. Context Mode retrieved dated PREPARATION evidence; exact owning source text was read before edits.
+
+Baseline `9dd1ef97e03877a5a818abb789ed7315be71cdcc` matches GitHub and the prior `web-gis-labs-2026-11-13/FINAL_VERIFICATION.json`. Fresh downloads of all six Drive files match the baseline manifest, including all 32 ZIP/source hashes and the unchanged 18-page Word/PDF. DATA_PREPARATION and architecture HTML/PNG/Mermaid/prose now distinguish source documentation reviewed, actual data suitability validated, and team selection. BTC contents remain unknown; outside sources are conditional candidates. Old optional-comparison/API wording is reconciled with the current editable proposal; KE_HOACH_NHOM and ground-level/above-site gates are unchanged. No source revalidation, lunar data processing, app or asset generation is claimed.
+
+Diagram self-check/geometry and visual PNG inspection, independent full-diff review, local links, redacted secret and existing-lock advisory checks precede release. AI context already qualifies its source choices as candidates; it and the human-plan exports are retained, with hash/readback checks rather than regeneration. Source checkpoint leaves this release's transport pending; final Git/cloud/source hashes and six Drive readbacks belong in sibling `nasa-preparation-deliverables/source-label-correction-2026-11-13/FINAL_VERIFICATION.json`.
+
 ## Modern Web Guidance, GeoLibre and additional discovery — 13 November 2026
 
 Current chat **Review Diorama GitHub Repo**, `01a1d33d-3c05-70e2-9559-3990d375198f`, active turn `01a1d3af-4d37-7b73-a750-41c40c5c3785`, reviewed through Sơn's request to prepare/test useful Modern Web Guidance and GeoLibre parts on unrelated examples, consider future projects, preserve all project context/realistic Moon direction, and search more of GitTrending. Eight recent chats were listed; planning/music timestamps match the already-read checkpoints. No new external project decision, Sheet/assignment change or full archived-history review.

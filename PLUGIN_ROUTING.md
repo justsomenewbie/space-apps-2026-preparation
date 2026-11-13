@@ -1,5 +1,11 @@
 # NASA plugin and skill routing
 
+## Source-label correction — 13 November
+
+Continuity/documentation | current Git/files, Codex chat list/read, existing Drive metadata/downloads, Context Mode on PREPARATION and active Ponytail | used | source evidence, suitability and team selection kept separate; dated research retained without claiming a fresh scientific/API audit. CodeGraph has no index; exact small reads and patches handle edits. One editor and a read-only reviewer preserve newer decisions. No need for another planning stack or new skill admission.
+
+Diagram/QA | existing Diagram Design LOCAL_USE, architecture/export references and offline Node/Chromium exporter | used | revised existing HTML/node/accessibility labels and PNG, self-check/geometry plus visual inspection. Existing style retained; no product UI/art, animation, 3D scene or new runtime. Other design/media/science/launch tools have no artifact in this bounded correction. Security/delivery | full diff/local links, Gitleaks with redaction, OSV and npm on the unchanged public practice lock, existing Git/cloud/Drive | selected | no executable behavior/dependency change requiring another full code audit; no deploy/DAST target. Plan, AI context and Word/PDF are unchanged, so document rendering is unnecessary; retained hashes and all six readbacks still apply. Actual final results/limits: sibling `source-label-correction-2026-11-13/FINAL_VERIFICATION.json`.
+
 ## Modern Web Guidance, GeoLibre and further discovery — 13 November
 
 Research/continuity | GitHub/web, existing handoff/catalog, recent chat inventory and current-turn read | used | pinned package/source/licence evidence, primary MDN/W3C check for IME handling, and two additional GitTrending candidates. Existing planning/music checkpoints remain current; no assignment change. Bounded reads/local summaries suffice; no CodeGraph index. MarkItDown/text-to-cad remain reviewed-only; existing orchestration tools/API research cover other listings without another stack.

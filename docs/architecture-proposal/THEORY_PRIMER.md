@@ -10,7 +10,7 @@ Mục tiêu là giải thích được dữ liệu có nghĩa gì, kết luận 
 
 Trong mô hình client/server, trình duyệt gửi yêu cầu và nhận phản hồi từ server. Hosting tĩnh có thể gửi các tệp đã chuẩn bị; server động có thể tạo phản hồi khi nhận yêu cầu. Vì vậy, một web app có tương tác không bắt buộc phải tính lại mọi thứ trên server mỗi lần bấm. [MDN, Client-server overview — Static sites và Dynamic sites](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview).
 
-**Đề xuất của bản kiến trúc:** nếu nhóm chỉ hỗ trợ một tập lựa chọn hữu hạn, phần xử lý theo lô có thể tạo kết quả có phiên bản để frontend đọc. Nếu cần đầu vào mới, nhóm mới cân nhắc API. Đây là lựa chọn kỹ thuật còn chờ thống nhất. Giao diện chạy đúng chỉ chứng minh khả năng hiển thị/giao tiếp; muốn chứng minh số liệu đúng phải kiểm nguồn, định nghĩa và phép xử lý riêng.
+**Đề xuất hiện tại:** phần xử lý theo lô tạo kết quả có phiên bản cho một tập lựa chọn hữu hạn để frontend đọc; API là phương án lịch sử ngoài bản thi đang đề xuất. Đây là đề xuất kỹ thuật còn chờ nhóm thống nhất. Đã đọc tài liệu nguồn không có nghĩa đã kiểm dữ liệu phù hợp hoặc nhóm đã chọn dùng. Giao diện chạy đúng chỉ chứng minh khả năng hiển thị/giao tiếp; muốn chứng minh số liệu đúng phải kiểm nguồn, định nghĩa và phép xử lý riêng.
 
 Ví dụ giả định: một biểu đồ vẽ thành công dữ liệu gắn nhầm đơn vị vẫn là một biểu đồ sai về ý nghĩa. Vì thế, đơn vị và nguồn cần đi cùng kết quả từ lúc xử lý đến lúc hiển thị.
 

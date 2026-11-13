@@ -2,7 +2,7 @@
 
 **Bản sửa theo dữ liệu ngày 12/11:** [Moon Plan B](../../KE_HOACH_NHOM.md) mục 2–6 dùng bộ BTC làm nguồn chính, nguồn ngoài bổ sung có căn cứ; Python theo lô → JSON có phiên bản → React/Vite tĩnh. Theo Sơn, bộ BTC đến lúc thi mới có; điểm/ngày/cấu hình được chọn theo miền phủ đã kiểm của bộ thực nhận và nguồn bổ sung. Lõi là so cùng điểm/khác ngày, khác điểm/cùng UTC và vị trí Mặt Trời/Trái Đất so với chân trời; ưu tiên trước tìm Plan B tự động và globe trang trí. Nhánh API nét đứt không thuộc bản giao hiện tại. Mô hình tham chiếu có điều kiện dữ liệu, chưa được triển khai/kiểm định. Sơ đồ luồng dữ liệu vẫn phù hợp; các đoạn thảo luận cũ dưới đây là lịch sử, kế hoạch mới là hướng thực hiện.
 
-Ngày 12/11/2026, giờ Hà Nội. **Đề xuất chuẩn bị, chưa được cả nhóm chốt và chưa triển khai.**
+Ngày 12/11/2026; làm rõ nhãn nguồn ngày 13/11, giờ Hà Nội. **Đề xuất chuẩn bị, chưa được cả nhóm chốt và chưa triển khai.** Đã đọc tài liệu nguồn không đồng nghĩa đã kiểm dữ liệu thực tế, chứng minh tương thích hoặc được nhóm chọn sử dụng. Bộ BTC chưa biết nội dung; nguồn ngoài vẫn là ứng viên bổ sung có điều kiện. Các bước kiểm trong sơ đồ là việc phải làm trước phát hành, không phải kết quả đã có.
 
 **Phạm vi trao đổi mentor:** đã có sơ đồ thành phần, tương tác, luồng dữ liệu và mục 4 giải thích lý thuyết. Các tin nhắn dự thảo trong chat chia sẻ chưa gửi theo xác nhận của Sơn; không ghi nhận mentor/nhóm đã duyệt. Kế hoạch hiện tại mô tả mô hình tham chiếu có điều kiện, chưa có kết quả kiểm định.
 
@@ -14,7 +14,7 @@ Làm **web app responsive mở bằng đường link** trên trình duyệt máy
 
 **Giả định ban đầu để vẽ — lịch sử:** sơ đồ từng để mở lựa chọn so một điểm ở hai thời điểm hoặc hai điểm trong cùng khoảng thời gian. Kế hoạch hiện tại đã đưa cả hai kiểu so sánh vào lõi dự kiến; địa điểm, thời gian và cấu hình cụ thể vẫn phụ thuộc dữ liệu thực nhận cùng nguồn bổ sung đã kiểm.
 
-Tách hai việc: **backend xử lý khoa học theo lô** tạo kết quả có phiên bản; **frontend** đọc và giải thích kết quả. Với tập lựa chọn hữu hạn, có thể phục vụ kết quả dạng tệp từ hosting, chưa cần API chạy thường trực. Nếu nhóm cần tính theo đầu vào mới, thêm một API hosted dùng dữ liệu/thư viện đã được kiểm. Cách tách này là khuyến nghị kỹ thuật, không phải yêu cầu của NASA.
+Tách hai việc: **backend xử lý khoa học theo lô** tạo kết quả có phiên bản; **frontend** đọc và giải thích kết quả. Với tập lựa chọn hữu hạn, đề xuất hiện tại phục vụ kết quả dạng tệp từ hosting, không có API chạy thường trực. Nhánh API giữ lại để giải thích phương án lịch sử cho đầu vào mới; ngoài bản thi đang đề xuất và chỉ có thể dùng sau kiểm dữ liệu/thư viện/quyền sử dụng. Cách tách này là khuyến nghị kỹ thuật, không phải yêu cầu của NASA.
 
 ## 2. Sơ đồ thành phần
 
@@ -22,19 +22,19 @@ Mở [sơ đồ trực quan](architecture.html). Đường liền là luồng t�
 
 ```mermaid
 flowchart LR
-    S["Dữ liệu BTC là chính<br/>kiểm metadata và miền phủ"] --> P["Backend xử lý theo lô<br/>chuẩn hóa → tính → kiểm"]
-    X["Nguồn ngoài bổ sung<br/>có lý do và kiểm tương thích"] --> P
+    S["Dữ liệu BTC là chính — chưa nhận<br/>cần kiểm metadata và miền phủ"] --> P["Backend xử lý theo lô — đề xuất<br/>chuẩn hóa → tính → kiểm"]
+    X["Nguồn ngoài: ứng viên bổ sung<br/>chỉ chọn sau kiểm tương thích / quyền"] --> P
     P --> H["Hosting<br/>frontend + kết quả có phiên bản"]
     H --> F["Frontend trong trình duyệt<br/>React · TypeScript · Vite"]
     U["Người dùng<br/>máy tính / điện thoại"] --> F
-    P -. "bản dữ liệu đã kiểm" .-> A["API — ngoài bản thi<br/>tham khảo cho đầu vào mới"]
+    P -. "chỉ sau kiểm dữ liệu" .-> A["API — ngoài bản thi<br/>tham khảo cho đầu vào mới"]
     F -. "đầu vào" .-> A
     A -. "kết quả + metadata hoặc lỗi" .-> F
 ```
 
 | Thành phần | Trách nhiệm và đầu ra |
 | --- | --- |
-| Nguồn | Bộ BTC là chính, có tệp/trường tham gia xử lý hoặc xác định đầu vào. Nguồn ngoài như Horizons/LOLA chỉ bổ sung khoảng thiếu có lý do và kiểm tương thích. Giữ URL, phiên bản, metadata và hash; chưa khóa địa điểm/ngày. |
+| Nguồn | Bộ BTC là đầu vào chính dự kiến; chưa nhận nên chưa xác định tệp/trường tham gia xử lý. Horizons/LOLA và nguồn ngoài khác là ứng viên bổ sung phần thiếu sau kiểm tương thích và quyền dùng. Giữ URL, phiên bản, metadata, hash, bằng chứng kiểm và quyết định chọn; chưa khóa địa điểm/ngày. |
 | Backend xử lý theo lô | Lấy tập nhỏ theo điều khoản nguồn; thống nhất tọa độ, thời gian, đơn vị; thực hiện phép tính đã chọn; kiểm mẫu và dữ liệu thiếu. Xuất kết quả + metadata + báo cáo kiểm. Chỉ thực hiện sau giờ được phép bắt đầu. |
 | Hosting | Phục vụ bản build, kết quả và tài nguyên có quyền sử dụng qua HTTPS; phiên bản frontend và dữ liệu phải tương thích. Cloudflare là ứng viên từ HOSTING_PLAN, chưa chốt nhà cung cấp/gói hoặc deploy. Mac không phải máy chủ public. |
 | Frontend | Cho chọn trong miền được hỗ trợ; tải đúng phiên bản; hiển thị bảng/biểu đồ, nguồn và giới hạn. 3D là lớp minh họa tùy tác vụ; vẫn đọc được kết quả khi 3D lỗi. |
@@ -46,8 +46,8 @@ JPL hiện yêu cầu một request mỗi lần, tái sử dụng kết quả kh
 
 1. **Mở link:** hosting gửi frontend; ứng dụng đọc danh mục địa điểm/thời gian/chỉ số được hỗ trợ và phiên bản dữ liệu.
 2. **Chọn tình huống:** người dùng chọn trong miền đã có dữ liệu; giao diện ghi rõ múi giờ. Chọn ngoài miền phải báo chưa hỗ trợ, không tự suy ra kết quả.
-3. **Lấy kết quả:** frontend tải gói tương ứng; nếu nhánh API được chọn thì gửi đầu vào đã thống nhất và backend kiểm lại. Khi đổi lựa chọn, bỏ response cũ; hiển thị đang tải/lỗi/thử lại.
-4. **Đọc kết quả:** bảng/biểu đồ và nguồn xuất hiện cùng đơn vị, thời gian, giả định, cảnh báo dữ liệu thiếu. Chỉ mở so sánh A/B nếu nhóm chọn luồng đó; không tự gán điểm “an toàn”.
+3. **Lấy kết quả:** frontend tải gói tương ứng theo đề xuất xử lý theo lô; API không thuộc luồng bản thi đang đề xuất. Khi đổi lựa chọn, bỏ response cũ; hiển thị đang tải/lỗi/thử lại.
+4. **Đọc kết quả:** bảng/biểu đồ và nguồn xuất hiện cùng đơn vị, thời gian, giả định, cảnh báo dữ liệu thiếu. Cả hai kiểu so sánh thuộc lõi đề xuất, theo miền dữ liệu và cổng kiểm của kế hoạch; không tự gán điểm “an toàn”.
 5. **Kiểm chứng:** người xem mở nguồn và phương pháp. Nhóm truy lại được phiên bản dữ liệu và phép xử lý đã sinh ra kết quả; lỗi mạng không được biến thành giá trị 0 hoặc kết quả cũ không ghi nhãn.
 
 **Hợp đồng bàn giao cần chốt trước khi tách việc** — đây là yêu cầu thông tin, chưa ấn định endpoint hay schema:
@@ -74,11 +74,11 @@ Nguồn NASA/JPL/LOLA/NAIF/MDN được dẫn tại từng khẳng định và �
 
 ## 5. Bốn quyết định để nhóm chốt
 
-1. **Một đầu ra demo:** người dùng chọn gì và cần nhận lại kết luận nào? Chọn một luồng trước, không mặc định phải có cả hai kiểu so sánh.
-2. **Miền dữ liệu:** những địa điểm, khoảng thời gian và chỉ số nào được hỗ trợ, ai kiểm nguồn/phép tính?
-3. **Cách chạy:** tệp kết quả có phiên bản có đủ không; chỉ cần API nếu câu trả lời là không. Ngân sách/nhà cung cấp bàn sau khi biết tải thực.
+1. **Phạm vi demo:** xác nhận hoặc sửa đề xuất lõi gồm cả hai kiểu so sánh; chốt tình huống và kết luận có thể chứng minh sau kiểm dữ liệu.
+2. **Miền dữ liệu:** những địa điểm, khoảng thời gian và chỉ số nào được hỗ trợ, ai kiểm nguồn/phép tính? Ghi riêng nguồn đã đọc, nguồn đã kiểm phù hợp và nguồn nhóm chọn dùng.
+3. **Cách chạy:** xác nhận đề xuất tệp kết quả có phiên bản và chọn hosting theo tải/ngân sách thực. API giữ ngoài bản thi đang đề xuất.
 4. **Đường tích hợp:** repo/branch, người chốt hợp đồng và một ví dụ đầu vào → đầu ra có nguồn. Các phân công trên Sheet cần người nhận xác nhận; bản này không thay phân công.
 
-**Câu trình bày 30 giây:** “Nhóm em đề xuất web app mở bằng trình duyệt. Phần xử lý dữ liệu lấy nguồn có trích dẫn, chuẩn hóa và kiểm kết quả rồi phát hành theo phiên bản. Frontend cho chọn địa điểm/thời gian trong phạm vi hỗ trợ, xem kết quả và nguồn; 3D giúp minh họa. Nếu cần tính đầu vào mới, nhóm mới thêm API. Phạm vi và hợp đồng dữ liệu đang chờ thống nhất.”
+**Câu trình bày 30 giây:** “Nhóm em đề xuất web app mở bằng trình duyệt. Khi nhận dữ liệu BTC, nhóm sẽ kiểm phần dùng được và nguồn bổ sung cần thiết, xử lý theo lô rồi kiểm kết quả trước phát hành. Frontend cho so địa điểm/thời gian trong phạm vi hỗ trợ, xem kết quả và nguồn. Phạm vi, nguồn dùng và hợp đồng dữ liệu còn cần nhóm chốt.”
 
 Nguồn yêu cầu: đoạn trao đổi mentor 12/11 do người dùng cung cấp trong chat, chưa xác thực độc lập. Không công khai nguyên văn hội thoại riêng. Kiến trúc là suy luận/khuyến nghị của Codex dựa trên HANDOFF, FRONTEND_HANDOFF, DATA_PREPARATION và HOSTING_PLAN; chưa phải quyết định toàn nhóm. Dùng Diagram Design, Context Mode và reviewer độc lập cho tài liệu. Bản sơ đồ là tài liệu chuẩn bị, không phải UI/art của bài nộp. Chưa viết code sản phẩm, deploy hoặc gửi tin cho nhóm.
