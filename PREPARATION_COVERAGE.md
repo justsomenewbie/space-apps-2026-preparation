@@ -1,5 +1,13 @@
 # Phạm vi đồng bộ và kiểm truy cập
 
+## ACE confirmation, loop study and sound scope — 13 November 2026
+
+Current music chat `01a1d0e9-0c4c-7e80-b766-7eac127e6daa`, checkpoint through the user's explicit ACE-Step confirmation and request for improvement, better versions, continuous varied music and advice on SFX. Listed 12 recent chats; no newly relevant project decision outside this ongoing chat/cloud result was identified. No new assignment/Sheet or full archived-history review. Baseline `3e9ba0b31c36bbbf2dee6b21b9a93c0b917832f1` has the verified GitHub/cloud/six-Drive receipt in sibling `music-selection-2026-11-13/`.
+
+Mac warning pressure blocked model loading; no new inference, model download, update, provider call or purchase. Root used existing FFmpeg to make an unrelated 16-second cyclic segment and 64-second repeated preview from the saved cafe WAV. Independent duration/hash/PCM/join/full-decode checks passed; no listening judgment or newly generated variation. Existing turbo shift 3 is a supported future A/B, not a tested improvement. User confirmed the tool route; silent default, optional offline music after core and no initial SFX remain recommendations, not group approval or product implementation.
+
+Routes: existing Ponytail/local music guide and native pressure/source checks; official ACE/W3C/MDN research with read-only reviewers; visual-tools/FFmpeg for media editing and technical checks; Git/diff/link/Gitleaks review and existing Git/cloud/Drive delivery. No CodeGraph index in either relevant checkout; bounded native reads suffice. No new skill/dependency, renderer, frontend test or science computation. Audio/runtime evidence stays outside public sources. Plan unchanged: retain reviewed Word/PDF, verify hashes. Final destination evidence belongs in sibling `music-loop-2026-11-13/FINAL_VERIFICATION.json`.
+
 ## Music choice and public redistribution — 13 November 2026
 
 Current music chat `01a1d0e9-0c4c-7e80-b766-7eac127e6daa`, checkpoint through the user's app/demo/public-GitHub cost question, delegated choice and explicit no-purchase constraint. Continued the reviewed session; no new assignment/Sheet decision or broader archived-history audit. Baseline `f589ca05f6d097d59cb3a631b9bba87673b25086` has the completed GitHub/cloud/six-Drive receipt in sibling `elevenlabs-test-2026-11-13/`.

@@ -21,7 +21,7 @@ Runbook/plan §10: eight fields, ≤7 slides OR ≤30-second video, separate Fin
 
 ## Rights instruction — November 13
 
-No copyrighted images/music/code without permission for actual use. Carry `docs/media-rights-2026-11-13.md` into English product instructions/credits. User selected permitted images/relevant licensed code and delegated the music choice. Codex selected existing ACE-Step turbo for optional app/demo/public-repo audio; no final track or whole-team approval. Review actual output/provenance/competition compatibility. No ElevenLabs purchase: standard-plan clearance for the complete reusable package is unresolved. Prior tests remain unrelated: ACE byte-identical after memory reduction to 17.77 GB, still warning pressure; ElevenLabs used exactly 300 approved free credits. No listening-quality winner established. Guide: `/Users/nns/.codex/workflows/music-tools/LOCAL_USE.md`. Generate only at event time during a work pause; close runtime afterward.
+No copyrighted images/music/code without permission for actual use. Carry `docs/media-rights-2026-11-13.md` into English product instructions/credits. User selected permitted images/relevant licensed code and explicitly confirmed ACE-Step. No final soundtrack, whole-team approval or quality winner. Recommend silent default, optional music after core, no initial SFX; prepare compatible variations offline, never run AI in the app. Current warning pressure blocked new inference; shift-3 tuning remains untested. A 64-second unrelated cafe preview repeats existing material with crossfades; signal checks passed, perceived smoothness unverified. Prior ACE peak remains 17.77 GB; no larger models or ElevenLabs purchase. Guide: `/Users/nns/.codex/workflows/music-tools/LOCAL_USE.md`. Submission cues remain event-time work; retain output/provenance/rights review.
 
 ## People and technical boundaries
 
@@ -31,6 +31,6 @@ Security/runtime limits remain in SECURITY_PREPARATION/FRONTEND_HANDOFF, includi
 
 ## Delivery
 
-Baseline **f589ca05f6d097d59cb3a631b9bba87673b25086**: previous receipt verified GitHub/cloud and six Drive files. Markdown-only follow-up; unchanged plan retains reviewed 15-page Word/PDF hashes. New-release sync is pending at this source checkpoint; final commit/cloud/Drive evidence belongs in sibling `nasa-preparation-deliverables/music-selection-2026-11-13/FINAL_VERIFICATION.json`. Account details/provider links remain outside Git; .DS_Store preserved.
+Baseline **3e9ba0b31c36bbbf2dee6b21b9a93c0b917832f1**: previous receipt verified GitHub/cloud and six Drive files. Markdown-only follow-up; unchanged plan retains reviewed 15-page Word/PDF hashes. New-release sync is pending at this source checkpoint; final commit/cloud/Drive evidence belongs in sibling `nasa-preparation-deliverables/music-loop-2026-11-13/FINAL_VERIFICATION.json`. Account details/provider links/audio remain outside Git; .DS_Store preserved.
 
-Next action under two minutes: read the selected music route and output-review gate in the rights note; no purchase needed.
+Next action under two minutes: listen to the local 64-second cafe loop, especially joins at 16, 32 and 48 seconds.
