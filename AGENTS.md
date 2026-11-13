@@ -100,6 +100,8 @@ Use the existing checkout sequentially by default; both assistants read the same
 
 ## Plugin and skill routing
 
+**Future usefulness — user instruction, 13 November:** assess usefulness for the current task and for other/future projects separately. Do not dismiss a tool solely because it is not a current NASA fit. Retain concrete future use cases, overlap, prerequisites and verification limits; a promising candidate is not an installed or selected dependency. This does not authorize blanket installation, new permissions, spending, publication or early implementation. [Current prepared subset and candidates](docs/tool-candidates-2026-11-13.md).
+
 ### Complete automatic selection — user instruction, 12 November
 
 The user reviewed the full tool inventory and explicitly asked to use the tools automatically and not forget any. Follow [TOOL_SELECTION_CHECKLIST.md](TOOL_SELECTION_CHECKLIST.md) at session start and when task categories change: cover every applicable functional area, including its QA/security/delivery checks; invoke the selected workflow without waiting for a tool name. For alternatives, unrelated tools or unavailable capabilities record the selection/reason instead of silently omitting the area or running redundant services. Keep the compact coverage evidence with the task handoff. Existing scope, timing, permissions and standing preparation sync remain in force; this is durable task routing, not background execution or automatic cross-host installation.

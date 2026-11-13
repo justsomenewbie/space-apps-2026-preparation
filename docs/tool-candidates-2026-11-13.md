@@ -1,0 +1,33 @@
+# Tool preparation and future candidates — 13 November 2026
+
+**User instruction:** consider usefulness for other and future projects separately from the current NASA task. A poor current fit is not a general rejection. Retain concrete use cases and limitations; evaluate overlap with existing tools before installing. This preference grants no unrelated publication, paid service, permission change or early product implementation.
+
+## Diorama: tested unrelated subset
+
+At Sơn's request, selected [Diorama camera/orbit and QA source](https://github.com/sloemo01/diorama/tree/c790df5007be54cccb6c083f7743fae120c89cf4/templates) was prepared outside both preparation and product repositories. Mac guide: `/Users/nns/.codex/workflows/diorama-camera-qa/LOCAL_USE.md`. Seven text files, 43,944 bytes; MIT notice retained. No whole skill, example media, new dependency stack or lunar asset. Existing Three.js/Playwright/Chromium/FFmpeg were reused.
+
+The unrelated blue-block/orange-sphere demo tests orbit/reset, click-versus-drag, zoom, keyboard selection, resize, reduced motion, disposal and repeatable frames. Root passed 11 interaction groups and 10 QA success/failure/guard groups; independent rerun evidence is retained outside the released sources. Deliberate console/frozen/teleport errors fail, as do malformed inputs and overwrite attempts. Screenshots were inspected. Frame metrics remain heuristics, not scientific validation.
+
+Selected local QA adaptations retain Chromium's native renderer sandbox, remove unsafe SwiftShader opt-in, restrict HTTP page requests to the owned loopback origin, close browsers on failure, remove expression evaluation, validate settings/output names, reject unsupported orthographic cameras and fail on contact-sheet errors. HTTP routing is not an OS/network sandbox. SkillGuard's recognized sources and `.mjs`-as-`.js` scan had zero active/suppressed findings; manual review was also necessary. Physical phones, this subset in Safari, screen-reader speech and sustained performance remain untested.
+
+**Recommendation:** retain these optional helpers for 3D inspection, product viewers, educational mechanisms and animation tests. Use ordinary existing controls if sufficient. Keep the realistic Moon direction and conditional ground-level proposal; no app work before the permitted start, no claim of team adoption or lunar validation.
+
+## Other links: source-reviewed candidates, not runtime-tested
+
+| Tool and pinned source | Concrete future value | Present choice and material limits |
+|---|---|---|
+| [NVIDIA Auto Ontology, `fc43a826`](https://github.com/NVIDIA/auto-ontology/tree/fc43a82600e18b19d159c52023f54f5572f537ac) | Shared reviewed definitions, table relationships and SQL queries across databases; possible research-lab experiments/sensors/results assistant. | Keep as a future multi-database candidate. Separate Next.js/Python/PostgreSQL platform and inference services; not a lunar renderer/calculation library. Hosted inference can receive metadata/sample values; optional predictions upload tables. Credential storage/network boundaries need review. No install, provider call or data upload. Apache-2.0 repository code. |
+| [Vercel agent-desktop, `947b051`](https://github.com/vercel-labs/agent-desktop/tree/947b051fb7a03a797ad12b9bb942d4ffc6f91735) | CLI/MCP control of native apps, repeated desktop QA and environments without CUA. | Existing Mac package metadata says 1.2.0; executable/helper exist but were not run. Upstream release 1.3.0 observed. Prefer current connectors/CUA when adequate; no duplicate install/update. Accessibility/capture permissions and trace privacy need actual-task review; optional VM/CDP deferred. Apache-2.0. |
+| [Scrapling, `bb223f2`](https://github.com/D4Vinci/Scrapling/tree/bb223f2f5fc8f743772751a5ce283ef7851ca6be) | Repeatable Python HTML parsing, permitted structured collection, source indexes and documentation extraction. | Consider parser/basic HTTP first for a concrete task. Current connectors cover this review. Default-Python package/CLI not found; other isolated environments not exhaustively searched. Browser/MCP defaults require review; no install, scraping or permission change. BSD-3-Clause. |
+
+These future examples are recommendations, not existing user projects or measured savings. Existing files, documented features, execution and verified usefulness are distinct. No one tool is selected merely because it is available.
+
+## Primary evidence for adoption limits
+
+- Auto Ontology: [connections and plaintext/Vault behavior](https://github.com/NVIDIA/auto-ontology/blob/fc43a82600e18b19d159c52023f54f5572f537ac/docs/connections.md), [embedding text and sampled values](https://github.com/NVIDIA/auto-ontology/blob/fc43a82600e18b19d159c52023f54f5572f537ac/auto_ontology/utils/embedding_rows.py), [published service ports](https://github.com/NVIDIA/auto-ontology/blob/fc43a82600e18b19d159c52023f54f5572f537ac/docker-compose.yml). Hosted inference does not imply a local NVIDIA GPU; Mac/resource/cost compatibility was not tested.
+- agent-desktop: [macOS requirements](https://github.com/vercel-labs/agent-desktop/blob/947b051fb7a03a797ad12b9bb942d4ffc6f91735/apps/docs/content/docs/platforms/macos.mdx), [MCP reach](https://github.com/vercel-labs/agent-desktop/blob/947b051fb7a03a797ad12b9bb942d4ffc6f91735/apps/docs/content/docs/guides/mcp.mdx), [trace privacy](https://github.com/vercel-labs/agent-desktop/blob/947b051fb7a03a797ad12b9bb942d4ffc6f91735/apps/docs/content/docs/guides/traces.mdx). Existing installation is shared; do not overwrite it without inspecting ownership.
+- Scrapling: [package requirements](https://github.com/D4Vinci/Scrapling/blob/bb223f2f5fc8f743772751a5ce283ef7851ca6be/pyproject.toml), [spider defaults](https://github.com/D4Vinci/Scrapling/blob/bb223f2f5fc8f743772751a5ce283ef7851ca6be/scrapling/spiders/spider.py), [browser defaults](https://github.com/D4Vinci/Scrapling/blob/bb223f2f5fc8f743772751a5ce283ef7851ca6be/scrapling/engines/_browsers/_base.py). Robots obedience defaults off, zero delay, and stealth browser defaults include ignored HTTPS errors and extra permissions. Do not inherit those settings blindly. Adaptive extraction requires field validation.
+
+Detailed pinned source manifests, local tests and independent checks remain in sibling `nasa-preparation-deliverables/diorama-lab-2026-11-13/`; these are not the submitted product. Human plan/AI context/Word/PDF are unchanged. Final preparation transport evidence belongs in that directory's `FINAL_VERIFICATION.json`.
+
+Next action under two minutes: inspect the unrelated lab screenshot or choose one concrete future use case from the table.

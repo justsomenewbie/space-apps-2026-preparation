@@ -11,7 +11,7 @@ Six registered members; Lunar confirmed. Moon Plan B awaits group approval. **Ed
 
 **Mac tool preparation verified:** isolated Rasterio/GDAL and PyProj/PROJ, eight pins, nine independently repeated synthetic checks, pip/OSV checks. DATA_PREPARATION owns versions, paths and limits. Real lunar datasets/native-library coverage/browser/phones remain untested. No app or lunar processing; no cloud installation.
 
-**Diorama:** FRONTEND_HANDOFF pins the source review at `c790df5`. Selective orbit/reset and visual-QA reference recommended; whole pixel/toon workflow mismatches the realistic view. It supplies no lunar terrain or globe-to-ground navigation. No installation, execution, asset copying, performance or full security tests; not team adoption.
+**Diorama follow-up:** selected camera/orbit and guarded screenshot/frame QA prepared on an unrelated block/sphere demo outside both repositories. Root and independent checks cover 11 interaction + 10 QA groups; source/visual evidence and limits in `docs/tool-candidates-2026-11-13.md`. No lunar app/assets/data or full skill adoption. Physical phones/Safari/endurance untested. Preserve realistic Moon direction. Consider future usefulness separately: Auto Ontology, existing agent-desktop and Scrapling remain source-reviewed candidates; none run/updated here.
 
 ## Start and English submission
 
@@ -31,6 +31,6 @@ Sơn owns frontend choice; React/TypeScript/Vite/npm/CSS prepared. Coordinate co
 
 ## Delivery
 
-Last verified GitHub/cloud release: **e9076ff0ce987b6ab18d50410469db107fd8b1ce**, sibling receipt `nasa-preparation-deliverables/ground-level-proposal-2026-11-13/FINAL_VERIFICATION.json`. Four-file Diorama reference update awaits transport at this source checkpoint; unchanged plan/AI/18-page Word/PDF require retained-hash checks. Released SHA, cloud/source hashes and six Drive readbacks belong in sibling `nasa-preparation-deliverables/diorama-review-2026-11-13/FINAL_VERIFICATION.json`. Preserve `.DS_Store`.
+Last verified GitHub/cloud release: **ec3a530970b6e043d87fc1c908ad969f86943b4f**, sibling receipt `nasa-preparation-deliverables/diorama-review-2026-11-13/FINAL_VERIFICATION.json`. Lab/candidate/preference notes await transport at source checkpoint; unchanged plan/AI/18-page Word/PDF require retained-hash checks. Released SHA, cloud/source hashes and six Drive readbacks belong in sibling `nasa-preparation-deliverables/diorama-lab-2026-11-13/FINAL_VERIFICATION.json`. Local runtime is not in Git/cloud. Preserve `.DS_Store`.
 
-Next action under two minutes: open the Diorama orbit reference in FRONTEND_HANDOFF and consider its reset/inspection interaction for the proposed site view.
+Next action under two minutes: open the unrelated lab screenshot or its LOCAL_USE guide; retain the midnight boundary for product work.
